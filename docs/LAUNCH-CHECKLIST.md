@@ -69,17 +69,16 @@ Note: the old stray *Pending* entry for `hello@yodoku.app` under **Destination a
 
 Brevo's domain authentication also came through — verified externally: `brevo-code` TXT, DKIM (`brevo1/brevo2._domainkey` CNAMEs) and DMARC are all live.
 
-## 3. Supabase — user accounts / logins (~15 min)
+## 3. Supabase — user accounts / logins — ✅ DONE (agent-assisted, 4 Oct)
 
-1. https://supabase.com/dashboard/sign-up → create project, region **Frankfurt (EU)**.
-2. **Authentication → Sign In / Providers → Email** → enable **Magic Link**.
-3. **Authentication → Settings → SMTP** → custom SMTP → paste the **Brevo SMTP** values from §1.5
-   → then raise the email rate limit (default is low).
-4. **Authentication → URL Configuration → Redirect URLs** → add `https://www.yodoku.app/**`.
-5. **Settings → API** → copy three values: **Project URL**, **anon public key**, **service_role key**
-   (the last one is a real secret — it goes into Vercel in §7 only, never into chat).
-6. When the project exists, I give you a small SQL snippet to paste into the **SQL Editor**
-   (it creates the `entitlements` table the webhook writes to).
+**Done 4 Oct 2026 on project `ibsbdwttksfuwiyywqlu` ("Yodoku"):**
+- **Email provider + magic links**: enabled (Email Enabled by default).
+- **Custom SMTP**: ON — `smtp-relay.brevo.com`, port **587**, login `b9fde1001@smtp-brevo.com`, password = the Brevo **SMTP key "Yodoku Supabase"** (stored in the local secrets file). Sender: **Yodoku <hello@yodoku.app>**.
+- **URL config**: Site URL = `https://www.yodoku.app`; Redirect URLs = `https://www.yodoku.app/**`.
+- **`entitlements` table** created via SQL Editor (email PK, status, plan, ls_subscription_id, updated_at; RLS on, no public policies — service key only). Verified via REST: `GET /rest/v1/entitlements` → `[]` HTTP 200 with the secret key.
+- **Keys captured**: publishable key + secret key → stored in the local secrets file; both were added to **Vercel** (see §7). The secret key is stored in Vercel as a Config var (functionally identical to Secret; can be flipped anytime from the row menu).
+- **Live proof**: a real magic-link/confirm email was requested through the API and **arrived in Gmail via Brevo SMTP** (sender "Yodoku", 12:56 PM). The user `ver.iamyo94@gmail.com` exists in Auth → Users.
+- Known extras: the SMTP save UI shows a "Minimum interval per user: 60s" default (fine). One stale Gmail artifact: none.
 
 ## 4. Lemon Squeezy — web subscriptions (~30 min + 2–3 days for ID verification)
 
@@ -175,17 +174,22 @@ is added — **No** for the first release.
 Vercel → project **yodoku** → Settings → Environment Variables → add each for **Production**,
 then trigger a **Redeploy** (env changes only apply on the next build):
 
-| Name | Value from | Exposure |
+| Name | Status | Exposure |
 |---|---|---|
-| `VITE_NEWSLETTER_ENABLED` | `true` | public (shows the signup form) |
-| `BREVO_API_KEY` | §1.5 | secret |
-| `BREVO_LIST_ID` | §1.4 | secret |
-| `VITE_CHECKOUT_URL` | §4.4 Lemon Squeezy checkout URL | public |
-| `LS_WEBHOOK_SECRET` | §4.4 signing secret | secret |
-| `SUPABASE_URL` | §3.5 | server |
-| `SUPABASE_SERVICE_KEY` | §3.5 service_role key | **secret** |
-| `VITE_SUPABASE_URL` | §3.5 | public |
-| `VITE_SUPABASE_ANON_KEY` | §3.5 | public |
+| `VITE_NEWSLETTER_ENABLED` | ✅ set (4 Oct) | public (shows the signup form) |
+| `BREVO_API_KEY` | ✅ set (4 Oct) | secret |
+| `BREVO_LIST_ID` | ✅ set (4 Oct, value `3`) | secret |
+| `VITE_CHECKOUT_URL` | ⏳ pending §4 Lemon Squeezy | public |
+| `LS_WEBHOOK_SECRET` | ⏳ pending §4 | secret |
+| `SUPABASE_URL` | ✅ set (4 Oct) | server |
+| `SUPABASE_SERVICE_KEY` | ✅ set (4 Oct; saved as Config — flip to Secret any time) | server secret |
+| `VITE_SUPABASE_URL` | ✅ set (4 Oct) | public |
+| `VITE_SUPABASE_ANON_KEY` | ✅ set (4 Oct, publishable key) | public |
+
+Note: Vercel requires **`VITE_`-prefixed vars to be type Config** (it rejects Secret for public framework
+prefixes). Multi-variable `.env` text can be pasted straight into the Add-Environment-Variable modal's
+**Key** field. After any env change, **redeploy with "Use existing Build Cache" UNCHECKED**. Vercel
+project slug is `gamehub` (the repo is `yodoku`) — URL: `/yordan-s-projects-5f63c0d5/gamehub/settings/environment-variables`.
 
 (If you ever prefer Resend over Brevo: `RESEND_API_KEY` + `RESEND_AUDIENCE_ID` instead of the two
 BREVO_ ones.)
