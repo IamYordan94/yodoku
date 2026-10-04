@@ -109,6 +109,13 @@ Brevo's domain authentication also came through — verified externally: `brevo-
 
 ## 5. Google Play Console — the Android app ($25 · ~1 hour + verification + a 14-day test gate)
 
+**⚡ PROGRESS (4 Oct 2026, agent-assisted):**
+- Developer account **CREATED**: **Personal** account, developer name **Yordan Creatives**, account ID **`5115309915099098890`**, owner `ver.iamyo94@gmail.com`, address Amstelveen NL, website yodoku.app. **$25 registration PAID** (Revolut Mastercard ••5314).
+- Signup completed together: account type, identity documents (submitted), payments profile, public profile, "About you" (experience text + website yodoku.app + no other accounts), "Apps" (2–5 apps; earning: In-app purchases + Subscriptions; no special categories), Terms accepted.
+- **CURRENT STATE — WAITING ON GOOGLE:** identity documents in review ("To publish apps, finish setting up your developer account"). `Create app` is **locked** until this clears. Contact phone **+31628849735** entered; **phone verification (SMS/call) only unlocks AFTER the ID approval** — then it's a 1-minute user step.
+- **WHEN APPROVED (usually 1–2 business days):** user verifies phone → agent takes over: create app **Yodoku** (package `app.yodoku`), upload the signed AAB, fill listing (texts in §5a, screenshots + feature graphic in `docs/play-store/`), content rating (§5b), data safety (§5c), then set up the **closed test** → needs **12+ tester emails** from the user → **14 continuous days** → apply for production access.
+- Prep while waiting: collect the 12+ tester email addresses.
+
 1. https://play.google.com/console/signup → **Personal** account → pay **$25** (normal card — prepaid
    cards are refused) → upload government ID → verify email/phone → install the **Play Console app on
    your phone** and verify the device.
