@@ -10,6 +10,7 @@ import {
   isPlusActive,
 } from '../utils/monetization';
 import { requestMagicLink, getSessionEmail } from '../utils/account';
+import { isNativeApp } from '../utils/platform';
 
 const mono = "'JetBrains Mono', ui-monospace, monospace";
 
@@ -80,7 +81,7 @@ export default function PlusPage() {
     >
       You&rsquo;re on Yodoku+ ✓
     </div>
-  ) : checkoutConfigured() ? (
+  ) : checkoutConfigured() && !isNativeApp() ? (
     <a
       href={CHECKOUT_URL}
       style={{
@@ -100,6 +101,24 @@ export default function PlusPage() {
     >
       Get Yodoku+ →
     </a>
+  ) : isNativeApp() ? (
+    <div
+      style={{
+        display: 'inline-block',
+        width: '100%',
+        textAlign: 'center',
+        border: '2.5px solid #d9f24b',
+        borderRadius: '10px',
+        padding: '13px 16px',
+        fontWeight: 800,
+        fontSize: 15,
+        background: 'transparent',
+        color: '#d9f24b',
+        cursor: 'default',
+      }}
+    >
+      Yodoku+ for Android is coming to Google Play &mdash; until then, every daily game is free.
+    </div>
   ) : (
     <div
       style={{

@@ -217,6 +217,7 @@ export default function Home() {
         style={{
           background: 'var(--yodoku-dark)',
           borderBottom: '3px solid var(--yodoku-ink)',
+          paddingTop: 'calc(env(safe-area-inset-top, 0px) + 20px)',
         }}
       >
         <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>

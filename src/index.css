@@ -874,3 +874,11 @@ body {
   --sv-accent: #e7b10a;
   --sv-accent-soft: #fbe9b7;
 }
+
+
+/* ── Native app / edge-to-edge safe areas ────────────────────────────────
+   Android 15 enforces edge-to-edge: the app draws under the status bar and
+   gesture bar. env() insets are 0 in normal desktop browsers, so these rules
+   are no-ops on the web. Sticky headers carry their own background, so the
+   padding EXTENDS the bar's color through the status-bar area. */
+header.sticky { padding-top: env(safe-area-inset-top, 0px); }

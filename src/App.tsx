@@ -8,6 +8,7 @@ import Terms from './pages/Terms';
 import NotFound from './pages/NotFound';
 import ErrorBoundary from './components/ErrorBoundary';
 import LoadingSkeleton from './components/LoadingSkeleton';
+import { isNativeApp } from './utils/platform';
 
 // Lazy-loaded game pages for code splitting
 const LetterMixHome = lazy(() => import('./pages/LetterMixHome'));
@@ -76,12 +77,38 @@ function RouteTitle() {
   return null;
 }
 
+// In the native app, outbound links (e.g. WhatsApp share, external sites)
+// must leave the WebView and open in the system browser.
+function ExternalLinks() {
+  useEffect(() => {
+    if (!isNativeApp()) return;
+    const onClick = (e: MouseEvent) => {
+      const target = e.target as HTMLElement | null;
+      const anchor = target?.closest?.('a');
+      if (!anchor) return;
+      const href = anchor.getAttribute('href') || '';
+      if (!/^https?:\/\//i.test(href)) return;
+      try {
+        if (new URL(href).hostname.endsWith('yodoku.app')) return; // internal
+      } catch {
+        return;
+      }
+      e.preventDefault();
+      window.open(href, '_system');
+    };
+    document.addEventListener('click', onClick, true);
+    return () => document.removeEventListener('click', onClick, true);
+  }, []);
+  return null;
+}
+
 function App() {
   return (
     <ErrorBoundary>
     <BrowserRouter>
       <Analytics />
       <RouteTitle />
+      <ExternalLinks />
       <Suspense fallback={<LoadingSkeleton />}>
       <Routes>
         <Route path="/" element={<HomeLayout />}>
