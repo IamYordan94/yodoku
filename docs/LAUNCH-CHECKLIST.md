@@ -89,7 +89,9 @@ Brevo's domain authentication also came through — verified externally: `brevo-
 - Webhook id `139559` → `https://www.yodoku.app/api/lemonsqueezy-webhook`, events `subscription_created/updated/cancelled/resumed/expired`, signing secret set (⚠️ LS caps secrets at **40 chars**); secret stored in `~/AppData/Local/hermes/secrets/yodoku-lemonsqueezy.key` + Vercel as `LS_WEBHOOK_SECRET` (Secret, Production + Preview).
 - **Full-chain proof (real test purchase, 4 Oct 12:49):** test-mode checkout (user entered `4242…` test card) → LS fired `subscription_created` → endpoint verified HMAC → **Supabase `entitlements`: `ver.iamyo94@gmail.com / active / ls_subscription_id 2579971`**. Unsigned POSTs correctly rejected with 401. Signed request earlier: `{"ok":true,"persisted":true}`.
 - Vercel gotcha: dashboard "Redeploy" clicks can silently fail → use `vercel redeploy <deployment-url> --target production` (CLI on this machine is logged in as `veriamyo94-9489`).
-- To go live: switch store out of Test mode → create the **live** webhook (same URL) → swap `LS_WEBHOOK_SECRET` to the live signing secret → redeploy → flip `PAID_ENABLED`. Optional polish: rename variant "Default" → "Yodoku+ Yearly" (cosmetic; feeds the `plan` label).
+- To go live: switch store out of Test mode → create the **live** webhook (same URL) → swap `LS_WEBHOOK_SECRET` to the live signing secret → redeploy → flip `PAID_ENABLED`.
+- ✅ Variant renamed **"Default" → "Yodoku+ Yearly"** (4 Oct). Path in the dashboard: product → **Variants** → "**Add variant →**" (⚠️ that button actually opens the *variant editor* for the existing default variant; the variant is NOT listed as a row in the section) → edit **Variant name** → **Save and go back**. The LS API cannot do this (PATCH /v1/variants → 405; products/variants are read-only in the API).
+- LS **API key "Yodoku ops"** created (test-mode key; default expiry 2027-04-04) → stored as `LS_API_KEY` in the local LS secrets file.
 
 ## 4-old. (original steps, kept for reference)
 
