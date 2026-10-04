@@ -181,7 +181,7 @@ Free plan: **50,000 monthly active users**, 500 MB database, 5 GB egress, 1 GB f
 
 **Yordan does:** create the project (choose an EU region — e.g. Frankfurt — for GDPR/latency since you're in Bulgaria); enable Email → Magic Link; connect **custom SMTP** (paste host/port/user/password from Brevo); raise the email rate limit; copy keys.
 
-**The build needs:** `SUPABASE_URL`, `SUPABASE_ANON_KEY` (safe for the static front-end), `SUPABASE_SERVICE_ROLE_KEY` (**server-side only** — used by the webhook to grant/revoke Pro access), and the redirect URL whitelist for magic links (add `https://www.yodoku.app/**`).
+**The build needs:** `SUPABASE_URL`, `SUPABASE_ANON_KEY` (safe for the static front-end), `SUPABASE_SERVICE_KEY` (**server-side only** — used by the webhook to grant/revoke Pro access), and the redirect URL whitelist for magic links (add `https://www.yodoku.app/**`).
 
 ---
 
