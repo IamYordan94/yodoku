@@ -51,11 +51,15 @@ for you to paste it into with Notepad. The SMTP key goes into Supabase (§3). No
 
 **What I do after:** resume the 08:30 daily cron, send a real signup + a real test email end-to-end.
 
-## 2. hello@yodoku.app — receive and reply (~5 min)
+## 2. hello@yodoku.app — receive and reply — ✅ DONE
 
-Sending is handled by Brevo; you only need the **receive** side (replies, contact address).
-Free fix: **Cloudflare → yodoku.app → Email → Email Routing → Enable** → create address
-`hello@yodoku.app` → forward it to your personal inbox. Cloudflare adds the required MX records itself.
+**Done 4 Oct 2026 (agent-assisted, via the live Chrome session):**
+- Cloudflare **Email Routing enabled** for `yodoku.app` — MX records `route1/2/3.mx.cloudflare.net` + SPF TXT are live in DNS (verified externally).
+- Routing rule **`hello@yodoku.app → ver.iamyo94@gmail.com`** created and **Active** (verified in the Routing rules table).
+
+Note: the old stray *Pending* entry for `hello@yodoku.app` under **Destination addresses** is harmless junk (it was added as a destination by mistake). Delete it whenever from that tab's row menu (⋯ → Delete) — **do not** delete `ver.iamyo94@gmail.com` there, that’s the real, verified destination.
+
+Brevo's domain authentication also came through — verified externally: `brevo-code` TXT, DKIM (`brevo1/brevo2._domainkey` CNAMEs) and DMARC are all live.
 
 ## 3. Supabase — user accounts / logins (~15 min)
 
