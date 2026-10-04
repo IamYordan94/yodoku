@@ -13,7 +13,7 @@ Running time: **~2 hours of your time**, spread over a few days because of ID/ve
   Keystore + password README: `~/yodoku-release.keystore` — **back it up** (password manager is fine). Never lose it.
 - **Play Store assets ready**: 8 phone screenshots + feature graphic in `docs/play-store/`; listing text in §5a below.
 - **Yodoku+ plumbing built & tested**: checkout button, webhook receiver (`/api/lemonsqueezy-webhook`, signature-verified), entitlement scaffold — dormant until §3 + §4 exist.
-- **Newsletter built & tested**: signup form + `/api/subscribe` endpoint (13/13 tests), daily composer, paused 08:30 cron — dormant until §1 exists.
+- **Newsletter — LIVE end-to-end (4 Oct)**: signup form + `/api/subscribe` run through Brevo; first subscriber + first real campaign delivered; **daily 08:30 send is active**. (Details in §1.)
 
 ---
 
@@ -25,7 +25,15 @@ domain (no MX records), so `hello@yodoku.app` cannot receive mail yet.
 
 ---
 
-## 1. Brevo — newsletter + login emails (~15 min)
+## 1. Brevo — newsletter + login emails — ✅ DONE (agent-assisted, 4 Oct)
+
+**Done 4 Oct 2026 (via the live Chrome session), all on your existing Brevo account:**
+- Sender **Yodoku <hello@yodoku.app>** added and **Verified** — domain authentication made it instant, no confirm-email needed.
+- List **"Yodoku Daily"** created (in "Your First Folder") — **list ID 3**.
+- API key "Yodoku site" generated → stored in `C:\Users\veria\AppData\Local\hermes\secrets\yodoku-brevo.key` **and** added to **Vercel** as `BREVO_API_KEY` + `BREVO_LIST_ID=3` + `VITE_NEWSLETTER_ENABLED=true` (environment: Production), then redeployed without build cache.
+- Live proofs: `/api/subscribe` returns `{"ok":true,"provider":"brevo"}`; the test subscriber appears in list 3; **first real campaign was sent and delivered**; the daily 08:30 cron (`6456c75707b9`) is **resumed**.
+- Still optional from the list below: **SMTP key** (item 5 — only needed for Supabase login emails in §3) and **double opt-in** (item 6).
+- Note: the earlier "email is not valid" rejection was solved by hand-typing `hello@yodoku.app` into the form (paste can carry invisible characters).
 
 **One account for everything — decided 4 Oct 2026.** Your existing Brevo account stays as-is; Yodoku gets
 its own **API key**, its own **SMTP key** and its own **contact list** inside it. That is Brevo's own
@@ -49,7 +57,7 @@ Steps:
 for the daily sending bot — I will create `C:\Users\veria\AppData\Local\hermes\secrets\yodoku-brevo.key`
 for you to paste it into with Notepad. The SMTP key goes into Supabase (§3). Nothing else is needed.
 
-**What I do after:** resume the 08:30 daily cron, send a real signup + a real test email end-to-end.
+**What I do after:** ✅ done 4 Oct — cron resumed, real signup + real first email sent end-to-end.
 
 ## 2. hello@yodoku.app — receive and reply — ✅ DONE
 
