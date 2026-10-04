@@ -1,6 +1,6 @@
 {
-  "name": "WordCraft Hub",
-  "short_name": "WordCraft",
+  "name": "Yodoku",
+  "short_name": "Yodoku",
   "description": "Seven daily word and logic puzzles — free to play.",
   "start_url": "/",
   "display": "standalone",
@@ -8,12 +8,12 @@
   "theme_color": "#141414",
   "icons": [
     {
-      "src": "/images/wordcraft-hub-logo.png",
+      "src": "/images/yodoku-logo.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/images/wordcraft-hub-logo.png",
+      "src": "/images/yodoku-logo.png",
       "sizes": "512x512",
       "type": "image/png"
     }

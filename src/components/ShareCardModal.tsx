@@ -1,5 +1,5 @@
 // ShareCardModal.tsx — modal that previews + exports a canvas share card.
-// Sticker Pack styling via var(--hub-*) tokens.
+// Sticker Pack styling via var(--yodoku-*) tokens.
 
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -94,7 +94,7 @@ export default function ShareCardModal({ open, onClose, options, shareText }: Sh
             exit={{ scale: 0.9, y: 24 }}
             transition={{ type: 'spring', stiffness: 320, damping: 26 }}
             style={{
-              background: 'var(--hub-bg, #f6f3ec)',
+              background: 'var(--yodoku-bg, #f6f3ec)',
               border: '2.5px solid #141414',
               borderRadius: '12px',
               boxShadow: '8px 8px 0 #141414',
@@ -124,7 +124,7 @@ export default function ShareCardModal({ open, onClose, options, shareText }: Sh
                 onClick={onClose}
                 aria-label="Close"
                 style={{
-                  background: 'var(--hub-panel)',
+                  background: 'var(--yodoku-panel)',
                   border: '2px solid #141414',
                   borderRadius: '6px',
                   width: '30px',
@@ -155,7 +155,7 @@ export default function ShareCardModal({ open, onClose, options, shareText }: Sh
                 style={{
                   flex: 1,
                   background: '#141414',
-                  color: 'var(--hub-bg, #f6f3ec)',
+                  color: 'var(--yodoku-bg, #f6f3ec)',
                   border: '2.5px solid #141414',
                   borderRadius: '8px',
                   padding: '10px 12px',
@@ -171,7 +171,7 @@ export default function ShareCardModal({ open, onClose, options, shareText }: Sh
                 onClick={handleWhatsApp}
                 style={{
                   flex: 1,
-                  background: 'var(--hub-panel)',
+                  background: 'var(--yodoku-panel)',
                   color: '#141414',
                   border: '2.5px solid #141414',
                   borderRadius: '8px',
@@ -188,7 +188,7 @@ export default function ShareCardModal({ open, onClose, options, shareText }: Sh
                 onClick={handleCopy}
                 style={{
                   flex: 1,
-                  background: 'var(--hub-panel)',
+                  background: 'var(--yodoku-panel)',
                   color: '#141414',
                   border: '2.5px solid #141414',
                   borderRadius: '8px',

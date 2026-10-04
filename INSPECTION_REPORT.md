@@ -1,4 +1,4 @@
-# WordCraft Hub — Full Inspection Report
+# Yodoku — Full Inspection Report
 **Date:** 2026-03-12
 **Inspector:** Claude
 **Scope:** All source files, layouts, pages, utils, styles, config, and public assets
@@ -18,7 +18,7 @@ Issues are grouped into four severity levels: 🔴 Critical (blocks release), �
 ### 1. AdMob test IDs are hardcoded in production code (`ads.ts`)
 `isTesting: true` is set and Google's test Ad Unit IDs (`ca-app-pub-3940256099942544/...`) are hardcoded. The app will be **rejected by Google Play and the App Store** if submitted with test IDs. Replace with your real production Ad Unit IDs and set `isTesting: false` before release.
 
-### 2. Package name is `"wordcraft-temp"` (`package.json`)
+### 2. Package name is `"yodoku"` (`package.json`)
 The app name is a placeholder. This affects the app identifier on Android/iOS, Play Store, App Store listings, and native build outputs. Set a real name before building for release.
 
 ### 3. Favicon is Vite's default (`index.html`)

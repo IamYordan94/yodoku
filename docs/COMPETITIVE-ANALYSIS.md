@@ -1,7 +1,7 @@
 # Competitive Analysis + Monetization Plan
 
 **Created:** October 2026
-**For:** WordCraft Hub (yodoku.app) — 7 daily games, currently free, ad-supported (Monetag in-page push only)
+**For:** Yodoku (yodoku.app) — 7 daily games, currently free, ad-supported (Monetag in-page push only)
 **Companion docs:** `DISTRIBUTION-PLAN.md`, `MARKETING-ADS-PLAN.md`
 
 ---
@@ -59,7 +59,7 @@ Street-View location guessing. 80+ employees, Orkila Capital investor, **estimat
 
 ### 2c. Puzzmo — Zach Gage & Orta Therox → acquired by Hearst (Dec 2023)
 
-**A hub of ~7 daily games** (Cross|word, SpellTower, Really Bad Chess, Flipart, Wordbind, Cube Clear, Typeshift) — the "one hub, many dailies" model, the closest structural match to WordCraft Hub.
+**A hub of ~7 daily games** (Cross|word, SpellTower, Really Bad Chess, Flipart, Wordbind, Cube Clear, Typeshift) — the "one hub, many dailies" model, the closest structural match to Yodoku.
 
 - 100,000 puzzlers before launch; built by a famous game designer (brand matters).
 - **Money:** most games free; **"Puzzmo Plus" ~$40/year** unlocks: the archive of past puzzles, ad-free, 2-player access, exclusive games, stats, leaderboards, groups.
@@ -83,7 +83,7 @@ Street-View location guessing. 80+ employees, Orkila Capital investor, **estimat
 | **GeoGuessr** | 1 ecosystem | Company, 80+ staff | $4.99–10.99/mo | Modes + limits | None visible | 12 years, competitive scene, streamers | **High** (Street View licensing) |
 | **Puzzmo** | ~7 | Zach Gage → Hearst | $40/yr Plus | Archive + ad-free + social | Display ads (free tier) | Newspaper partners (Hearst, Postmedia) | Low |
 | **NYT Games** | 11 | NYT division | Bundle subscription | Archive | Some | NYT audience + cultural ubiquity | Low |
-| **WordCraft Hub (ours)** | **7** | Solo + agents | Free | **None yet** | 1 low-yield unit (in-page push) | **None yet** | **Lowest — static data, zero API cost per play** |
+| **Yodoku (ours)** | **7** | Solo + agents | Free | **None yet** | 1 low-yield unit (in-page push) | **None yet** | **Lowest — static data, zero API cost per play** |
 
 ### Where we already match the leaders
 - **7 games** — as many dailies as Puzzmo; more than GeoSports, MapTap, GeoGuessr combined.

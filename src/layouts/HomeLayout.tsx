@@ -1,8 +1,8 @@
 import { Outlet } from 'react-router-dom';
 
-export default function HubLayout() {
+export default function HomeLayout() {
   return (
-    <div className="hub-plate">
+    <div className="yodoku-plate">
       <Outlet />
     </div>
   );

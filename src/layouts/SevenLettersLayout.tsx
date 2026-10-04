@@ -32,7 +32,7 @@ export default function SevenLettersLayout() {
             onMouseEnter={e => (e.currentTarget.style.color = 'var(--sv-ink)')}
             onMouseLeave={e => (e.currentTarget.style.color = 'var(--sv-ink-soft)')}
           >
-            ← Hub
+            ← Home
           </Link>
           <span style={{ color: 'var(--sv-ink-soft)', opacity: 0.3 }}>|</span>
           <h1 className="text-base font-black tracking-wide flex items-center gap-2"

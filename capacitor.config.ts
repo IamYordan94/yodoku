@@ -1,8 +1,8 @@
 import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'com.wordcraft.hub',
-  appName: 'WordCraft Hub',
+  appId: 'app.yodoku',
+  appName: 'Yodoku',
   webDir: 'dist',
   server: {
     androidScheme: 'https'

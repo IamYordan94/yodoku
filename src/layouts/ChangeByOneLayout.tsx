@@ -22,7 +22,7 @@ export default function ChangeByOneLayout() {
           <Link to="/" className="text-sm font-semibold" style={{ color: 'rgba(255,255,255,0.55)' }}
             onMouseEnter={e => e.currentTarget.style.color = 'rgba(255,255,255,0.9)'}
             onMouseLeave={e => e.currentTarget.style.color = 'rgba(255,255,255,0.55)'}>
-            ← Hub
+            ← Home
           </Link>
           <span style={{ color: 'rgba(255,255,255,0.2)' }}>|</span>
           <h1 className="text-base font-black tracking-wide flex items-center gap-2"

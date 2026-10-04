@@ -123,7 +123,7 @@ Account verification has **three** parts ([Setup checklist](https://developer.pa
 ## 3. Newsletter — Brevo or Resend (decided 2026-10-03)
 
 ### 3a. The decision
-**Yordan's pick: Brevo or Resend** — the two he is already comfortable with. Both were re-verified on 3 Oct 2026 against their own pricing pages, and both can send an automated daily email from their **free** tier. Whichever account gets opened first becomes the sender; **the build supports both** — no code change either way, just which environment variables are set.
+**DECIDED 4 Oct 2026: the existing Brevo account.** One account for all products, with a dedicated **API key**, **SMTP key** and contact **list** for Yodoku — Brevo's own recommendation for multiple apps (sub-accounts/subreports are Enterprise-only and not needed). Brevo's quota page shows no domain cap on Free (300 sends/day, 100k contacts, 300 lists, max 3 accounts per company), so `yodoku.app` is simply added as an extra authenticated domain. Resend stays documented as the fallback; the build supports either.
 
 Why not the earlier candidates: **Beehiiv's free plan cannot send email via API** (the Send API is Pro/Enterprise only — verified) and **MailerLite is out** because Yordan prefers providers he already knows.
 
@@ -151,7 +151,7 @@ Why not the earlier candidates: **Beehiiv's free plan cannot send email via API*
 | **Daily cron** | Hermes job **`Yodoku daily newsletter`** (08:30) | ⏸ **paused** — resumes the moment a key is set |
 
 ### 3e. What switching it on takes (5 minutes, once the account exists)
-1. Open **Brevo** (or Resend) → verify the sending domain `yodoku.app` (add the SPF/DKIM DNS records they show you).
+1. In your **existing Brevo account**: *Senders, Domains & Dedicated IPs → Domains → Add a domain* → `yodoku.app` → add the SPF/DKIM/DMARC records it shows in **Cloudflare** → wait for *Authenticated*.
 2. Create the list/audience (e.g. "Yodoku Daily") → copy its ID.
 3. Create an API key.
 4. Set these in **Vercel → Settings → Environment Variables** (server-side):

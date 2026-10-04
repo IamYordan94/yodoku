@@ -9,8 +9,8 @@ export function todayISO(): string {
 }
 
 const PLAYED_KEYS: Record<string, string> = {
-  orderle: 'wordcraft_orderle_played',
-  fermi: 'wordcraft_fermi_played',
+  orderle: 'yodoku_orderle_played',
+  fermi: 'yodoku_fermi_played',
 };
 
 /** Call when a game is won (ORDERLE/FERMI keep no completion storage). */
@@ -39,7 +39,7 @@ export function getTodayProgress(): HubGame[] {
   const cboPlayed = !!cbo && cbo.puzzles.some((p) => p.status === 'won' || p.status === 'playing');
   let sevenPlayed = false;
   try {
-    const s = localStorage.getItem('wordcraft_seven_letters');
+    const s = localStorage.getItem('yodoku_seven_letters');
     if (s) {
       const d = JSON.parse(s) as Record<string, { foundWords?: string[] }>;
       sevenPlayed = !!(d[today]?.foundWords && d[today].foundWords!.length > 0);

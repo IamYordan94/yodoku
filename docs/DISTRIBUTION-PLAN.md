@@ -1,4 +1,4 @@
-# WordCraft Hub — Community & Distribution Plan
+# Yodoku — Community & Distribution Plan
 
 > The honest goal: **seed the first real players from existing puzzle/word-game/trivia communities, without spamming, without fake engagement, without bought traffic.** This is the slow, manual, unglamorous engine that turns the already-built share-grid viral loop (Section 3.2 of `MARKETING-ADS-PLAN.md`) into actual players.
 >
@@ -91,7 +91,7 @@ There is no single canonical "the puzzle Discord" — this is a small-community 
 5. **Offer a mini puzzle-drop, not a link-drop.** "Today's FERMI: I'm thinking of a number between 1 and 1000 — first three guesses?" turns the game into something the *chat* plays together. This is the single best Discord move: **make the game a group activity in their server**, and the link follows naturally.
 6. **Never DM strangers with a link.** Cold DMing your site = report/ban and it poisons the well for everyone.
 
-**Later (Days 60+):** once there's any audience, consider a small **WordCraft Hub Discord** of our own — but only when there are ~20+ people asking for it. Don't build an empty server first.
+**Later (Days 60+):** once there's any audience, consider a small **Yodoku Discord** of our own — but only when there are ~20+ people asking for it. Don't build an empty server first.
 
 ---
 
@@ -110,7 +110,7 @@ Create a **Pinterest business account** (free) and these boards, one per game + 
 
 | Board name | Pins |
 |---|---|
-| `WordCraft Hub — Play Today` | One pin daily that rotates which game is featured; links to the hub. |
+| `Yodoku — Play Today` | One pin daily that rotates which game is featured; links to the hub. |
 | `ORDERLE — Daily Sequence Puzzle` | Daily ORDERLE grid + "today's puzzle" pin. |
 | `FERMI — Guess the Number` | FERMI "pause and guess" pins (a number range + the reveal). |
 | `Word Pool — Daily Category Game` | Today's category + a "can you name 5?" pin. |
@@ -144,10 +144,10 @@ Create a **Pinterest business account** (free) and these boards, one per game + 
 | **Product Hunt** | Launch-day spotlight | **Only when polished** (Days 60–90) | One shot. Don't waste it on a buggy build. Needs a real launch kit (maker comment, screenshots, a video, a "why"), and a small group of friends/players ready to engage on day 1. A weak launch gets buried; a good one is worth hundreds of visits + lasting backlink. |
 | **Indie DB** (`indiedb.com`) | Indie game directory | Now (Days 0–30) | Free listing with screenshots/description. Low traffic but permanent, and it's an honest "we exist" signal + backlink. |
 | **itch.io** | Indie hosting/discovery | Optional | Host a free web build (export `dist/` as an HTML game). Itch has a real "daily/puzzle" browsing audience. Adds distribution but also a second place to update — optional, not required. |
-| **AlternativeTo** | "alternatives to X" | Now | List WordCraft Hub as an alternative to **Wordle**. People actively search "Wordle alternatives" — this is a direct, honest fit. |
+| **AlternativeTo** | "alternatives to X" | Now | List Yodoku as an alternative to **Wordle**. People actively search "Wordle alternatives" — this is a direct, honest fit. |
 | **Puzzling Stack Exchange / Stack Exchange** | Q&A | Later / careful | Not a promo venue. Worth *answering* questions about puzzle games legitimately; a profile link earns passive clicks. Don't post an ad. |
 | **"Games like Wordle" listicles** | Press/blog | Days 30–60 | Email 10–20 blogs/YouTubers who cover Wordle alternatives with a 3-sentence pitch + a free demo link. Low hit rate, zero cost, occasionally a real spike. |
-| **Google Play (Capacitor)** | Mobile store | Later | The Android build (`com.wordcraft.hub`) is the eventual "daily puzzle" category play, but app-store discovery is a *separate* project — don't start it in this 90-day window. |
+| **Google Play (Capacitor)** | Mobile store | Later | The Android build (`app.yodoku`) is the eventual "daily puzzle" category play, but app-store discovery is a *separate* project — don't start it in this 90-day window. |
 
 **The honest frame:** directories are not a growth channel — they're a *backlink + legitimacy* channel. They cost minutes, not days. Do them, then move on to the channels that actually move players (Reddit, Discord, Pinterest, share-grid).
 
@@ -230,7 +230,7 @@ Run every post against this list. If any line is false, don't post.
 - [ ] 🔴 **Product Hunt launch** — only now, and only if the product is genuinely polished. Build the launch kit (screenshots, 30s video, maker comment, "why this exists"). Rally the Discord/Reddit folks we've built relationships with to be there day 1. *Skip if not ready — a weak launch is worse than no launch.*
 - [ ] 🟡 **Scale the winning post style** — if the share-grid post worked, make it daily; if the quiz-thread worked, make it the flagship.
 - [ ] 🟡 **Turn the 2–3 real Discord/Reddit regulars into early superfans** — ask them directly what would make them play all 6 daily ("what's missing?"). Their answers feed the roadmap *and* they become evangelists.
-- [ ] 🟢 **Decide on the WordCraft Hub Discord** — only if 20+ people have asked for one.
+- [ ] 🟢 **Decide on the Yodoku Discord** — only if 20+ people have asked for one.
 - [ ] 🟢 **Pinterest**: 2–3 pins/day if it's converting; write down the top 10 performing keywords and feed them into the site's meta descriptions (ties into the SEO pass in `MARKETING-ADS-PLAN.md`).
 - **Exit check:** a documented read on which 2 channels actually move numbers; PH launched (or a deliberate, logged decision to delay); a list of superfans and their top requests.
 

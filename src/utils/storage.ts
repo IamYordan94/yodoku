@@ -1,9 +1,9 @@
 // Web storage — all state lives in localStorage.
 
-const LM_COMPLETED = 'wordcraft_lettermix_completed';
-export const WP_PROGRESS = 'wordcraft_wordpool_progress';
-const WP_SESSION = 'wordcraft_wordpool_session';
-const HINT_TARGET = 'wordcraft_hint_target';
+const LM_COMPLETED = 'yodoku_lettermix_completed';
+export const WP_PROGRESS = 'yodoku_wordpool_progress';
+const WP_SESSION = 'yodoku_wordpool_session';
+const HINT_TARGET = 'yodoku_hint_target';
 
 export type HintTarget = { targetWord: string; hintLevel: number };
 export type LetterMixCompleted = Record<string, { words: string[] }>;
@@ -145,8 +145,8 @@ export async function clearHintTargetAsync(game: string, puzzleId: string): Prom
 
 // ── WordPool Daily ───────────────────────────────────────────────────────────
 
-const WP_DAILY = 'wordcraft_wordpool_daily';
-const WP_DAILY_SESSION = 'wordcraft_wordpool_daily_session';
+const WP_DAILY = 'yodoku_wordpool_daily';
+const WP_DAILY_SESSION = 'yodoku_wordpool_daily_session';
 
 export type WPDailyLevel = { words: string[]; hintsUsed: number };
 export type WPDailyEntry = {

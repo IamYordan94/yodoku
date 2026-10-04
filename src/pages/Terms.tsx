@@ -2,11 +2,11 @@ import { Link } from 'react-router-dom';
 
 export default function Terms() {
   return (
-    <div className="hub-plate min-h-screen">
+    <div className="yodoku-plate min-h-screen">
       {/* Nav */}
       <header
         className="px-5 flex items-center gap-3 sticky top-0 z-20"
-        style={{ background: 'var(--hub-dark)', borderBottom: '3px solid var(--hub-ink)', minHeight: '52px' }}
+        style={{ background: 'var(--yodoku-dark)', borderBottom: '3px solid var(--yodoku-ink)', minHeight: '52px' }}
       >
         <Link
           to="/"
@@ -26,18 +26,18 @@ export default function Terms() {
         </h1>
       </header>
 
-      <main className="max-w-[680px] mx-auto px-5 py-10" style={{ color: 'var(--hub-ink)' }}>
-        <p className="text-xs font-semibold mb-8" style={{ color: 'var(--hub-ink-soft)' }}>
+      <main className="max-w-[680px] mx-auto px-5 py-10" style={{ color: 'var(--yodoku-ink)' }}>
+        <p className="text-xs font-semibold mb-8" style={{ color: 'var(--yodoku-ink-soft)' }}>
           Last updated: March 2026
         </p>
 
         <Section title="Acceptance">
-          By using WordCraft Hub and its games, you agree to these terms. If you do not agree,
+          By using Yodoku and its games, you agree to these terms. If you do not agree,
           please do not use the site. These terms apply to all visitors.
         </Section>
 
-        <Section title="What WordCraft Hub is">
-          WordCraft Hub is a free, browser-based collection of word puzzle games. No account, subscription,
+        <Section title="What Yodoku is">
+          Yodoku is a free, browser-based collection of word puzzle games. No account, subscription,
           or payment is required to play any game. The games are provided for personal, non-commercial entertainment.
         </Section>
 
@@ -49,7 +49,7 @@ export default function Terms() {
 
         <Section title="Intellectual property">
           All game logic, puzzle designs, visual design, and other original content on this site belong to
-          WordCraft Hub. You may not copy, reproduce, scrape, redistribute, or build derivative products
+          Yodoku. You may not copy, reproduce, scrape, redistribute, or build derivative products
           from the puzzles or game content without written permission. The word dictionaries used in gameplay
           are derived from openly licensed sources.
         </Section>
@@ -67,7 +67,7 @@ export default function Terms() {
         </Section>
 
         <Section title="Limitation of liability">
-          To the fullest extent permitted by law, WordCraft Hub and its operators shall not be liable for
+          To the fullest extent permitted by law, Yodoku and its operators shall not be liable for
           any indirect, incidental, special, or consequential damages arising from your use of the service,
           including but not limited to loss of data, loss of game progress, or inability to access the service.
         </Section>
@@ -89,7 +89,7 @@ export default function Terms() {
 
         <Section title="Contact">
           Questions about these terms? Email{' '}
-          <a href="mailto:cashfortheteam@gmail.com" style={{ color: 'var(--hub-ink)', textDecoration: 'underline' }}>
+          <a href="mailto:cashfortheteam@gmail.com" style={{ color: 'var(--yodoku-ink)', textDecoration: 'underline' }}>
             cashfortheteam@gmail.com
           </a>
           .
@@ -104,11 +104,11 @@ function Section({ title, children }: { title: string; children: React.ReactNode
     <section className="mb-8">
       <h2
         className="text-sm font-black uppercase tracking-widest mb-3"
-        style={{ color: 'var(--hub-ink)', fontFamily: "'JetBrains Mono', monospace", borderBottom: '1px solid var(--hub-ink)', paddingBottom: '8px' }}
+        style={{ color: 'var(--yodoku-ink)', fontFamily: "'JetBrains Mono', monospace", borderBottom: '1px solid var(--yodoku-ink)', paddingBottom: '8px' }}
       >
         {title}
       </h2>
-      <p className="text-sm leading-relaxed m-0" style={{ color: 'var(--hub-ink)' }}>
+      <p className="text-sm leading-relaxed m-0" style={{ color: 'var(--yodoku-ink)' }}>
         {children}
       </p>
     </section>

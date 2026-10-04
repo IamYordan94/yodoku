@@ -51,19 +51,19 @@ export default function NewsletterSignup() {
     <section className="mt-8">
       <div
         style={{
-          background: 'var(--hub-panel)',
-          border: '2.5px solid var(--hub-ink)',
+          background: 'var(--yodoku-panel)',
+          border: '2.5px solid var(--yodoku-ink)',
           borderRadius: '12px',
-          boxShadow: '5px 5px 0 var(--hub-ink)',
+          boxShadow: '5px 5px 0 var(--yodoku-ink)',
           padding: '16px 18px',
         }}
       >
         <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '6px' }}>
           <span
             style={{
-              background: 'var(--hub-lime)',
-              color: 'var(--hub-dark)',
-              border: '2px solid var(--hub-ink)',
+              background: 'var(--yodoku-lime)',
+              color: 'var(--yodoku-dark)',
+              border: '2px solid var(--yodoku-ink)',
               borderRadius: '4px',
               padding: '2px 8px',
               fontSize: '10px',
@@ -75,19 +75,19 @@ export default function NewsletterSignup() {
           >
             the daily email
           </span>
-          <span className="text-[10px] font-bold" style={{ color: 'var(--hub-ink-soft)', fontFamily: mono }}>
+          <span className="text-[10px] font-bold" style={{ color: 'var(--yodoku-ink-soft)', fontFamily: mono }}>
             ONE EMAIL A MORNING
           </span>
         </div>
 
-        <p className="text-sm font-semibold m-0 mb-3" style={{ color: 'var(--hub-ink-soft)', lineHeight: 1.55 }}>
+        <p className="text-sm font-semibold m-0 mb-3" style={{ color: 'var(--yodoku-ink-soft)', lineHeight: 1.55 }}>
           Seven fresh puzzles in your inbox. No spam, unsubscribe in one click.
         </p>
 
         {state === 'done' ? (
           <p
             className="text-[13px] font-bold m-0"
-            style={{ color: 'var(--hub-ink)', fontFamily: mono }}
+            style={{ color: 'var(--yodoku-ink)', fontFamily: mono }}
             role="status"
           >
             ✓ {message}
@@ -108,9 +108,9 @@ export default function NewsletterSignup() {
               style={{
                 flex: '1 1 220px',
                 minWidth: 0,
-                background: 'var(--hub-bg)',
-                color: 'var(--hub-ink)',
-                border: '2.5px solid var(--hub-ink)',
+                background: 'var(--yodoku-bg)',
+                color: 'var(--yodoku-ink)',
+                border: '2.5px solid var(--yodoku-ink)',
                 borderRadius: '8px',
                 padding: '9px 12px',
                 fontSize: '14px',
@@ -133,9 +133,9 @@ export default function NewsletterSignup() {
               type="submit"
               disabled={state === 'sending'}
               style={{
-                background: 'var(--hub-ink)',
-                color: 'var(--hub-bg)',
-                border: '2.5px solid var(--hub-ink)',
+                background: 'var(--yodoku-ink)',
+                color: 'var(--yodoku-bg)',
+                border: '2.5px solid var(--yodoku-ink)',
                 borderRadius: '8px',
                 padding: '9px 18px',
                 fontWeight: 800,

@@ -11,7 +11,7 @@ import {
 import { getTodayIndex } from './SevenLettersHome';
 import ShareCardModal from '../components/ShareCardModal';
 
-const STORAGE_KEY = 'wordcraft_seven_letters';
+const STORAGE_KEY = 'yodoku_seven_letters';
 
 interface SavedSevenState {
   [date: string]: { foundWords: string[] };

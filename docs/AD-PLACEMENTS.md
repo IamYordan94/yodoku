@@ -1,4 +1,4 @@
-# WordCraft Hub — Concrete Ad Placements
+# Yodoku — Concrete Ad Placements
 
 A developer-implementable list. Every placement is a **display banner only** (no popunders, no interstitials, no rewarded-on-web). One reusable component, one Monetag loader script in `index.html`, one zone `<div>` per slot below.
 

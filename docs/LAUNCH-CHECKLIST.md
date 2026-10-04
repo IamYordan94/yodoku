@@ -27,36 +27,29 @@ domain (no MX records), so `hello@yodoku.app` cannot receive mail yet.
 
 ## 1. Brevo — newsletter + login emails (~15 min)
 
-**Same account as your other software, or a new one?**
-Brevo's "sub-accounts / sub-organizations" (separate dashboards, separate keys, one login) are
-**Enterprise-only** — not available on a normal plan. So on your existing account it is one shared
-pool: the 300 emails/day, one contact database, and two things that cross brands:
+**One account for everything — decided 4 Oct 2026.** Your existing Brevo account stays as-is; Yodoku gets
+its own **API key**, its own **SMTP key** and its own **contact list** inside it. That is Brevo's own
+recommendation for multiple apps, and per-app keys can be revoked independently. (Sub-accounts would need
+Enterprise; not needed.) One behaviour to just know: **unsubscribes are account-wide** — someone who
+unsubscribes from any of your products' campaigns stops receiving campaigns from all senders in the account.
 
-1. **Unsubscribes**: a marketing unsubscribe blocklists that contact from campaigns from **all senders
-   in the account** — someone who unsubscribes from a software email would stop receiving Yodoku emails
-   too (and the other way round).
-2. **Reputation**: a complaints/quality problem on one product puts the whole account at risk.
+Steps:
+1. **Add the domain**: *Senders, Domains & Dedicated IPs → Domains → Add a domain* → `yodoku.app`.
+   Copy the 4–5 DNS records (Brevo code, DKIM ×2, DMARC) into **Cloudflare** (Brevo can often connect to
+   your DNS provider and add them for you). Wait for **Authenticated**. Your account is already approved for
+   sending, so there is no new review.
+2. **New sender**: *Senders* → add **hello@yodoku.app** (the receive side is §2).
+3. **New list**: *Contacts → Lists* → create **"Yodoku Daily"** → copy the **list ID** (the number in its URL).
+4. **New API key**: *Settings → SMTP & API → API keys → Add a new key* → description "Yodoku site" → copy `xkeysib-…`.
+5. **New SMTP key**: same page, **SMTP** tab → *Add a new SMTP key* (description "Yodoku / Supabase") →
+   copy it together with the SMTP host and login — Supabase needs those in §3.
+6. Optional: **Settings → Double opt-in** — tell me if you want it and I wire the confirmation flow.
 
-**Recommendation: open a second, free Brevo account for Yodoku.** It keeps each product's quota,
-unsubscribes and risk separate, and it takes ~10 minutes. If you prefer one account anyway, everything
-still works — just add `yodoku.app` as a second domain and a separate list, and accept the two points above.
+**Where the keys go (never in chat):** the API key goes into **Vercel** env vars (§7), and into one local file
+for the daily sending bot — I will create `C:\Users\veria\AppData\Local\hermes\secrets\yodoku-brevo.key`
+for you to paste it into with Notepad. The SMTP key goes into Supabase (§3). Nothing else is needed.
 
-Steps (either way):
-1. (Separate account) Sign up at https://onboarding.brevo.com/account/register with a **different email**
-   than your other Brevo account. Complete any sending review they ask for (describe: *daily opt-in
-   newsletter for a puzzle game*).
-2. **Senders, Domains & Dedicated IPs → Domains → Add a domain**: `yodoku.app`.
-   Brevo shows 4–5 DNS records (Brevo code, DKIM ×2, DMARC). Add them in **Cloudflare** (Brevo can often
-   connect to the DNS provider for you; if Cloudflare is not offered, add them manually). Wait until the
-   domain shows **Authenticated**.
-3. **Senders** → add the sender **hello@yodoku.app** (the receive side is §2).
-4. **Contacts → Lists** → create list **"Yodoku Daily"** → copy the **list ID** (the number in the list's URL).
-5. **Settings → SMTP & API → API keys** → create a v3 key → copy it (`xkeysib-...`).
-   Also open the **SMTP tab** — you will need those credentials in §3 (Supabase).
-6. Optional: **Settings → Double opt-in** — recommended for GDPR comfort; tell me if you want it on and
-   I wire the confirmation flow. Without it, the form's copy is the consent and every email has one-click unsubscribe.
-
-**What I do after:** resume the 08:30 daily cron, send you a real test signup + test email.
+**What I do after:** resume the 08:30 daily cron, send a real signup + a real test email end-to-end.
 
 ## 2. hello@yodoku.app — receive and reply (~5 min)
 
@@ -96,8 +89,8 @@ Free fix: **Cloudflare → yodoku.app → Email → Email Routing → Enable** �
    cards are refused) → upload government ID → verify email/phone → install the **Play Console app on
    your phone** and verify the device.
 2. Create the **Google Payments merchant profile**: IBAN + Bulgarian tax details.
-3. **Create app**: name **WordCraft Hub**, English, type **App**, **Free**.
-   Package name (permanent, cannot ever change): **com.wordcraft.hub**.
+3. **Create app**: name **Yodoku**, English, type **App**, **Free**.
+   Package name (permanent, cannot ever change): **app.yodoku**.
 4. **Upload the AAB**: `android/app/build/outputs/bundle/release/app-release.aab`, accept **Play App
    Signing** (our keystore stays the *upload key*).
 5. **Store listing**: paste §5a text; upload the 8 screenshots + feature graphic from `docs/play-store/`.
@@ -115,7 +108,7 @@ by the "already subscribed? sign in" path, and Play subscriptions will run throu
 
 ### 5a. Listing copy (copy-paste)
 
-**App name:** WordCraft Hub
+**App name:** Yodoku
 
 **Short description (≤80 chars):**
 Seven daily word & logic games. One minute each. Free forever.
@@ -123,7 +116,7 @@ Seven daily word & logic games. One minute each. Free forever.
 **Full description:**
 Seven daily games. One minute each. Free forever.
 
-WordCraft Hub is a daily puzzle pack: seven small games, each playable in about a minute, one fresh
+Yodoku is a daily puzzle pack: seven small games, each playable in about a minute, one fresh
 puzzle per day — the same puzzle for everyone.
 
 - Clear the String — find the answer words hidden inside a scrambled string and clear every letter.

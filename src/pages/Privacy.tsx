@@ -2,11 +2,11 @@ import { Link } from 'react-router-dom';
 
 export default function Privacy() {
   return (
-    <div className="hub-plate min-h-screen">
+    <div className="yodoku-plate min-h-screen">
       {/* Nav */}
       <header
         className="px-5 flex items-center gap-3 sticky top-0 z-20"
-        style={{ background: 'var(--hub-dark)', borderBottom: '3px solid var(--hub-ink)', minHeight: '52px' }}
+        style={{ background: 'var(--yodoku-dark)', borderBottom: '3px solid var(--yodoku-ink)', minHeight: '52px' }}
       >
         <Link
           to="/"
@@ -26,13 +26,13 @@ export default function Privacy() {
         </h1>
       </header>
 
-      <main className="max-w-[680px] mx-auto px-5 py-10" style={{ color: 'var(--hub-ink)' }}>
-        <p className="text-xs font-semibold mb-8" style={{ color: 'var(--hub-ink-soft)' }}>
+      <main className="max-w-[680px] mx-auto px-5 py-10" style={{ color: 'var(--yodoku-ink)' }}>
+        <p className="text-xs font-semibold mb-8" style={{ color: 'var(--yodoku-ink-soft)' }}>
           Last updated: August 2026
         </p>
 
         <Section title="Overview">
-          WordCraft Hub is a free collection of daily word and trivia games. We have designed this site with your
+          Yodoku is a free collection of daily word and trivia games. We have designed this site with your
           privacy as a priority. We do not sell your data and we do not build profiles on you. The site is free to
           play and may be supported by advertising — see the Advertising section below.
         </Section>
@@ -41,27 +41,27 @@ export default function Privacy() {
           <strong>Nothing that leaves your device.</strong>
           <br /><br />
           Your game progress, solved puzzles, and settings are stored exclusively in your browser's{' '}
-          <code className="px-1 rounded text-xs" style={{ background: 'var(--hub-bg)', border: '1px solid var(--hub-ink)' }}>localStorage</code>.
+          <code className="px-1 rounded text-xs" style={{ background: 'var(--yodoku-bg)', border: '1px solid var(--yodoku-ink)' }}>localStorage</code>.
           This data never leaves your device and we have no access to it. (Game progress stays local; aggregate visit
           counts and ad delivery do involve third parties — see Third-party services and Advertising below.) If you clear your browser data or use a
           different device, your progress will not carry over — because it is stored only on your device.
         </Section>
 
         <Section title="Cookies">
-          We do not use cookies for the games themselves. We use browser <code className="px-1 rounded text-xs" style={{ background: 'var(--hub-bg)', border: '1px solid var(--hub-ink)' }}>localStorage</code> solely
+          We do not use cookies for the games themselves. We use browser <code className="px-1 rounded text-xs" style={{ background: 'var(--yodoku-bg)', border: '1px solid var(--yodoku-ink)' }}>localStorage</code> solely
           to remember your in-progress games and preferences — strictly necessary for the games to function and
           not requiring your consent under any privacy regulation (GDPR, ePrivacy, CCPA, or similar). Our advertising
           partner (see Advertising below) may set cookies or similar technologies to deliver and measure ads.
         </Section>
 
         <Section title="Third-party services">
-          We use <a href="https://vercel.com/analytics" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--hub-ink)', textDecoration: 'underline' }}>Vercel Analytics</a>{' '}
+          We use <a href="https://vercel.com/analytics" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--yodoku-ink)', textDecoration: 'underline' }}>Vercel Analytics</a>{' '}
           to count visits in aggregate. It is cookieless and does not identify individual visitors.
           We also load the{' '}
-          <a href="https://fonts.google.com" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--hub-ink)', textDecoration: 'underline' }}>Google Fonts</a>{' '}
+          <a href="https://fonts.google.com" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--yodoku-ink)', textDecoration: 'underline' }}>Google Fonts</a>{' '}
           CSS stylesheet (for the Inter and JetBrains Mono typefaces). Google Fonts may log your IP address and
           browser type as part of serving the font files, subject to{' '}
-          <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--hub-ink)', textDecoration: 'underline' }}>Google's privacy policy</a>. Ads are served by a third-party ad network — see Advertising below.
+          <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--yodoku-ink)', textDecoration: 'underline' }}>Google's privacy policy</a>. Ads are served by a third-party ad network — see Advertising below.
         </Section>
 
         <Section title="Advertising">
@@ -72,7 +72,7 @@ export default function Privacy() {
         </Section>
 
         <Section title="Children">
-          WordCraft Hub is a general-audience word game site. We do not knowingly collect any information from
+          Yodoku is a general-audience word game site. We do not knowingly collect any information from
           anyone, including children under the age of 13.
         </Section>
 
@@ -89,7 +89,7 @@ export default function Privacy() {
 
         <Section title="Contact">
           Questions? Email us at{' '}
-          <a href="mailto:cashfortheteam@gmail.com" style={{ color: 'var(--hub-ink)', textDecoration: 'underline' }}>
+          <a href="mailto:cashfortheteam@gmail.com" style={{ color: 'var(--yodoku-ink)', textDecoration: 'underline' }}>
             cashfortheteam@gmail.com
           </a>
           . We are a tiny independent project and will respond when we can.
@@ -104,11 +104,11 @@ function Section({ title, children }: { title: string; children: React.ReactNode
     <section className="mb-8">
       <h2
         className="text-sm font-black uppercase tracking-widest mb-3"
-        style={{ color: 'var(--hub-ink)', fontFamily: "'JetBrains Mono', monospace", borderBottom: '1px solid var(--hub-ink)', paddingBottom: '8px' }}
+        style={{ color: 'var(--yodoku-ink)', fontFamily: "'JetBrains Mono', monospace", borderBottom: '1px solid var(--yodoku-ink)', paddingBottom: '8px' }}
       >
         {title}
       </h2>
-      <p className="text-sm leading-relaxed m-0" style={{ color: 'var(--hub-ink)' }}>
+      <p className="text-sm leading-relaxed m-0" style={{ color: 'var(--yodoku-ink)' }}>
         {children}
       </p>
     </section>

@@ -1,7 +1,7 @@
 // Quiz Master — localStorage persistence (completion + streak)
 
-const QUIZ_DONE = 'wordcraft_quiz_done';
-const QUIZ_STREAK = 'wordcraft_quiz_streak';
+const QUIZ_DONE = 'yodoku_quiz_done';
+const QUIZ_STREAK = 'yodoku_quiz_streak';
 
 export interface QuizDone {
   date: string;

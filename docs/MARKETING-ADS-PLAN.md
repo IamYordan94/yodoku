@@ -1,4 +1,4 @@
-# WordCraft Hub — Marketing & Ads Plan
+# Yodoku — Marketing & Ads Plan
 
 > Grounded in the actual codebase at `YODOKUAPP/` (React 19 + TS + Vite, "Sticker Pack" neo-brutalist design). No hype, no invented numbers. Everything here is implementable by one developer.
 

@@ -41,10 +41,10 @@ function GameCard({
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay, duration: 0.22 }}
       style={{
-        background: 'var(--hub-panel)',
-        border: '2.5px solid var(--hub-ink)',
+        background: 'var(--yodoku-panel)',
+        border: '2.5px solid var(--yodoku-ink)',
         borderRadius: '12px',
-        boxShadow: '6px 6px 0 var(--hub-ink)',
+        boxShadow: '6px 6px 0 var(--yodoku-ink)',
         display: 'flex',
         flexDirection: 'column',
         overflow: 'hidden',
@@ -65,9 +65,9 @@ function GameCard({
           {!disabled && (
             <span style={{
               background: stickerColor,
-              color: 'var(--hub-ink)',
+              color: 'var(--yodoku-ink)',
               padding: '2px 8px',
-              border: '2px solid var(--hub-ink)',
+              border: '2px solid var(--yodoku-ink)',
               borderRadius: '4px',
               fontSize: '10px',
               fontWeight: 800,
@@ -80,10 +80,10 @@ function GameCard({
           )}
           {disabled && (
             <span style={{
-              background: 'var(--hub-gray)',
-              color: 'var(--hub-ink-soft)',
+              background: 'var(--yodoku-gray)',
+              color: 'var(--yodoku-ink-soft)',
               padding: '2px 8px',
-              border: '2px solid var(--hub-ink)',
+              border: '2px solid var(--yodoku-ink)',
               borderRadius: '4px',
               fontSize: '10px',
               fontWeight: 800,
@@ -95,7 +95,7 @@ function GameCard({
         </div>
 
         {/* Description */}
-        <p className="text-sm leading-[1.55] font-semibold m-0" style={{ color: 'var(--hub-ink-soft)' }}>
+        <p className="text-sm leading-[1.55] font-semibold m-0" style={{ color: 'var(--yodoku-ink-soft)' }}>
           {description}
         </p>
 
@@ -103,9 +103,9 @@ function GameCard({
         <div className="flex flex-wrap gap-[7px]">
           {tags.map((t, i) => (
             <span key={t} style={{
-              background: 'var(--hub-bg)',
-              color: 'var(--hub-ink-soft)',
-              border: '2px solid var(--hub-ink)',
+              background: 'var(--yodoku-bg)',
+              color: 'var(--yodoku-ink-soft)',
+              border: '2px solid var(--yodoku-ink)',
               borderRadius: '4px',
               padding: '2px 8px',
               fontSize: '10px',
@@ -126,7 +126,7 @@ function GameCard({
               style={{
                 background: accentColor,
                 color: '#fff',
-                border: '2.5px solid var(--hub-ink)',
+                border: '2.5px solid var(--yodoku-ink)',
                 borderRadius: '8px',
                 padding: '8px 16px',
                 fontWeight: 700,
@@ -140,9 +140,9 @@ function GameCard({
             <Link
               to={playTo}
               style={{
-                background: 'var(--hub-ink)',
-                color: 'var(--hub-bg)',
-                border: '2.5px solid var(--hub-ink)',
+                background: 'var(--yodoku-ink)',
+                color: 'var(--yodoku-bg)',
+                border: '2.5px solid var(--yodoku-ink)',
                 borderRadius: '8px',
                 padding: '8px 18px',
                 fontWeight: 700,
@@ -157,9 +157,9 @@ function GameCard({
           <Link
             to={aboutTo}
             style={{
-              background: 'var(--hub-panel)',
-              color: 'var(--hub-ink)',
-              border: '2.5px solid var(--hub-ink)',
+              background: 'var(--yodoku-panel)',
+              color: 'var(--yodoku-ink)',
+              border: '2.5px solid var(--yodoku-ink)',
               borderRadius: '8px',
               padding: '8px 14px',
               fontWeight: 700,
@@ -176,7 +176,7 @@ function GameCard({
   );
 }
 
-export default function Hub() {
+export default function Home() {
   const progress = useMemo(() => getTodayProgress(), []);
   const doneCount = progress.filter((g) => g.played).length;
 
@@ -185,7 +185,7 @@ export default function Hub() {
   useEffect(() => {
     let starter = false;
     try {
-      starter = localStorage.getItem('wordcraft_firstvisit_done') !== '1';
+      starter = localStorage.getItem('yodoku_firstvisit_done') !== '1';
     } catch {
       starter = true;
     }
@@ -193,7 +193,7 @@ export default function Hub() {
       setShowStarter(true);
     } else if (doneCount > 0) {
       try {
-        localStorage.setItem('wordcraft_firstvisit_done', '1');
+        localStorage.setItem('yodoku_firstvisit_done', '1');
       } catch {
         // ignore
       }
@@ -203,38 +203,38 @@ export default function Hub() {
   const dismissStarter = () => {
     setShowStarter(false);
     try {
-      localStorage.setItem('wordcraft_firstvisit_done', '1');
+      localStorage.setItem('yodoku_firstvisit_done', '1');
     } catch {
       // ignore
     }
   };
 
   return (
-    <div style={{ background: 'var(--hub-bg)', minHeight: '100vh', color: 'var(--hub-ink)' }}>
+    <div style={{ background: 'var(--yodoku-bg)', minHeight: '100vh', color: 'var(--yodoku-ink)' }}>
       {/* Masthead */}
       <header
         className="px-5 py-5 flex flex-col items-start gap-1"
         style={{
-          background: 'var(--hub-dark)',
-          borderBottom: '3px solid var(--hub-ink)',
+          background: 'var(--yodoku-dark)',
+          borderBottom: '3px solid var(--yodoku-ink)',
         }}
       >
         <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
           <h1
             className="text-[22px] md:text-[26px] font-black uppercase tracking-[0.14em] m-0"
             style={{
-              color: 'var(--hub-bg)',
+              color: 'var(--yodoku-bg)',
               fontFamily: "'JetBrains Mono', ui-monospace, monospace",
               letterSpacing: '0.14em',
             }}
           >
-            WordCraft Hub
+            Yodoku
           </h1>
           <span style={{
-            background: 'var(--hub-lime)',
-            color: 'var(--hub-dark)',
+            background: 'var(--yodoku-lime)',
+            color: 'var(--yodoku-dark)',
             padding: '2px 10px',
-            border: '2px solid var(--hub-bg)',
+            border: '2px solid var(--yodoku-bg)',
             borderRadius: '4px',
             fontSize: '10px',
             fontWeight: 800,
@@ -249,8 +249,8 @@ export default function Hub() {
             className="ml-auto"
             style={{
               background: 'linear-gradient(180deg,#2a2d38,#1E2028)',
-              color: 'var(--hub-lime)',
-              border: '2px solid var(--hub-lime)',
+              color: 'var(--yodoku-lime)',
+              border: '2px solid var(--yodoku-lime)',
               borderRadius: '999px',
               padding: '5px 13px',
               fontFamily: "'JetBrains Mono', monospace",
@@ -273,8 +273,8 @@ export default function Hub() {
 
       {/* Ticker bar */}
       <div style={{
-        background: 'var(--hub-ink)',
-        color: 'var(--hub-bg)',
+        background: 'var(--yodoku-ink)',
+        color: 'var(--yodoku-bg)',
         padding: '4px 0',
         fontWeight: 800,
         fontSize: '11px',
@@ -298,16 +298,16 @@ export default function Hub() {
             alignItems: 'center',
             gap: '8px',
             flexWrap: 'wrap',
-            background: 'var(--hub-panel)',
-            border: '2.5px solid var(--hub-ink)',
+            background: 'var(--yodoku-panel)',
+            border: '2.5px solid var(--yodoku-ink)',
             borderRadius: '12px',
-            boxShadow: '4px 4px 0 var(--hub-ink)',
+            boxShadow: '4px 4px 0 var(--yodoku-ink)',
             padding: '10px 12px',
           }}
         >
           <span
             className="text-[10px] font-black uppercase tracking-[0.14em]"
-            style={{ color: 'var(--hub-ink-soft)', fontFamily: "'JetBrains Mono', monospace", marginRight: '2px' }}
+            style={{ color: 'var(--yodoku-ink-soft)', fontFamily: "'JetBrains Mono', monospace", marginRight: '2px' }}
           >
             TODAY · {doneCount}/7 PLAYED
           </span>
@@ -321,9 +321,9 @@ export default function Hub() {
                 width: '26px',
                 height: '26px',
                 borderRadius: '8px',
-                border: '2.5px solid var(--hub-ink)',
-                background: g.played ? g.accent : 'var(--hub-bg)',
-                boxShadow: g.played ? '2px 2px 0 var(--hub-ink)' : 'none',
+                border: '2.5px solid var(--yodoku-ink)',
+                background: g.played ? g.accent : 'var(--yodoku-bg)',
+                boxShadow: g.played ? '2px 2px 0 var(--yodoku-ink)' : 'none',
                 opacity: g.played ? 1 : 0.55,
               }}
             >
@@ -341,22 +341,22 @@ export default function Hub() {
               display: 'inline-flex',
               alignItems: 'center',
               gap: '10px',
-              background: 'var(--hub-lime)',
-              border: '2.5px solid var(--hub-ink)',
+              background: 'var(--yodoku-lime)',
+              border: '2.5px solid var(--yodoku-ink)',
               borderRadius: '12px',
-              boxShadow: '5px 5px 0 var(--hub-ink)',
+              boxShadow: '5px 5px 0 var(--yodoku-ink)',
               padding: '10px 16px',
               transform: 'rotate(-1.5deg)',
               fontFamily: "'JetBrains Mono', monospace",
             }}
           >
-            <span style={{ fontWeight: 800, fontSize: '13px', color: 'var(--hub-dark)' }}>
-              NEW HERE? <Link to="/orderle" style={{ textDecoration: 'underline', color: 'var(--hub-dark)' }}>Start with today's ORDERLE →</Link>
+            <span style={{ fontWeight: 800, fontSize: '13px', color: 'var(--yodoku-dark)' }}>
+              NEW HERE? <Link to="/orderle" style={{ textDecoration: 'underline', color: 'var(--yodoku-dark)' }}>Start with today's ORDERLE →</Link>
             </span>
             <button
               onClick={dismissStarter}
               aria-label="Dismiss starter sticker"
-              style={{ background: 'transparent', border: 'none', cursor: 'pointer', fontWeight: 800, fontSize: '14px', color: 'var(--hub-dark)', padding: '0 2px' }}
+              style={{ background: 'transparent', border: 'none', cursor: 'pointer', fontWeight: 800, fontSize: '14px', color: 'var(--yodoku-dark)', padding: '0 2px' }}
             >
               ✕
             </button>
@@ -372,14 +372,14 @@ export default function Hub() {
         <div className="flex items-center gap-3 mb-5">
           <span
             className="text-[10px] font-black uppercase tracking-[0.16em]"
-            style={{ color: 'var(--hub-ink-soft)', fontFamily: "'JetBrains Mono', monospace" }}
+            style={{ color: 'var(--yodoku-ink-soft)', fontFamily: "'JetBrains Mono', monospace" }}
           >
             Games
           </span>
-          <div style={{ flex: 1, height: '2px', background: 'var(--hub-ink)', opacity: 0.15 }} />
+          <div style={{ flex: 1, height: '2px', background: 'var(--yodoku-ink)', opacity: 0.15 }} />
           <span
             className="text-[10px] font-bold uppercase tracking-[0.12em]"
-            style={{ color: 'var(--hub-ink-soft)', fontFamily: "'JetBrains Mono', monospace" }}
+            style={{ color: 'var(--yodoku-ink-soft)', fontFamily: "'JetBrains Mono', monospace" }}
           >
             {new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
           </span>
@@ -494,25 +494,25 @@ export default function Hub() {
 
         </div>
 
-        <AdSlot slot="hub-grid-footer" minHeight={120} />
+        <AdSlot slot="yodoku-grid-footer" minHeight={120} />
 
         <NewsletterSignup />
 
         {/* Footer */}
-        <footer className="mt-10 pt-6 flex flex-col items-center gap-2" style={{ borderTop: '2px solid var(--hub-ink)', opacity: 0.3 }}>
-          <p className="text-[11px] font-bold m-0" style={{ color: 'var(--hub-ink-soft)', letterSpacing: '0.04em' }}>
+        <footer className="mt-10 pt-6 flex flex-col items-center gap-2" style={{ borderTop: '2px solid var(--yodoku-ink)', opacity: 0.3 }}>
+          <p className="text-[11px] font-bold m-0" style={{ color: 'var(--yodoku-ink-soft)', letterSpacing: '0.04em' }}>
             All games are free to play.
           </p>
           <div className="flex items-center gap-4">
             <Link to="/privacy"
               className="text-[11px] font-bold"
-              style={{ color: 'var(--hub-ink-soft)', textDecoration: 'none' }}>
+              style={{ color: 'var(--yodoku-ink-soft)', textDecoration: 'none' }}>
               Privacy Policy
             </Link>
-            <span style={{ color: 'var(--hub-ink-soft)' }}>·</span>
+            <span style={{ color: 'var(--yodoku-ink-soft)' }}>·</span>
             <Link to="/terms"
               className="text-[11px] font-bold"
-              style={{ color: 'var(--hub-ink-soft)', textDecoration: 'none' }}>
+              style={{ color: 'var(--yodoku-ink-soft)', textDecoration: 'none' }}>
               Terms of Service
             </Link>
           </div>

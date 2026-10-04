@@ -1,10 +1,10 @@
-# WordCraft Hub - Development Brief
+# Yodoku - Development Brief
 
 ## Project Overview
 A web-based educational word game hub featuring two core puzzle games with a placeholder for future expansion to three games. The app targets both children and adults who prefer logical, letter-based challenges over fantasy games. The focus is on educational value while maintaining engagement.
 
 ## Hub and Game Names
-- **Hub Name**: WordCraft Hub (or alternatives: PuzzleWord Central, WordLogic Hub)
+- **Hub Name**: Yodoku (or alternatives: PuzzleWord Central, WordLogic Hub)
 - **Game 1**: LetterMix (String Cleanup with mixed letters)
 - **Game 2**: WordPool (Category Constraint Challenge)
 - **Game 3**: [Placeholder - to be defined later]
@@ -20,7 +20,7 @@ A web-based educational word game hub featuring two core puzzle games with a pla
 
 ### Main Hub (Landing Page)
 ```
-WORDCRAFT HUB
+yodoku HUB
 ┌─────────────────────────────────┐
 │  🧩 LETTERMIX                   │
 │  Find and remove words from     │

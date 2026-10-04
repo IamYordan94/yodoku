@@ -1,4 +1,4 @@
-# WordCraft Hub - Android App Setup Guide
+# Yodoku - Android App Setup Guide
 
 ## Overview
 
@@ -12,7 +12,7 @@ Your web app has been successfully converted to an Android app using Capacitor! 
 ## Architecture
 
 ```
-WordCraft Hub (React/Vite)
+Yodoku (React/Vite)
     ↓
 Capacitor Bridge
     ↓
@@ -129,7 +129,7 @@ Before releasing to Google Play:
 2. **Register Your App**:
    - Go to AdMob console → Apps → Add App
    - Select Android platform
-   - Enter app name: "WordCraft Hub"
+   - Enter app name: "Yodoku"
    - Get your real App ID
 
 3. **Create Ad Units**:
@@ -225,7 +225,7 @@ Before releasing:
 
 ```bash
 cd android
-keytool -genkey -v -keystore wordcraft-release-key.jks -keyalg RSA -keysize 2048 -validity 10000 -alias wordcraft
+keytool -genkey -v -keystore yodoku-release.keystore -keyalg RSA -keysize 2048 -validity 10000 -alias yodoku
 ```
 
 Save the passwords securely!
@@ -239,9 +239,9 @@ android {
     ...
     signingConfigs {
         release {
-            storeFile file('../wordcraft-release-key.jks')
+            storeFile file('../yodoku-release.keystore')
             storePassword 'YOUR_STORE_PASSWORD'
-            keyAlias 'wordcraft'
+            keyAlias 'yodoku'
             keyPassword 'YOUR_KEY_PASSWORD'
         }
     }
@@ -342,4 +342,4 @@ npx cap sync android
 
 ---
 
-**Congratulations!** Your WordCraft Hub web app is now a fully functional Android app with database persistence and ad-based monetization. 🎉
+**Congratulations!** Your Yodoku web app is now a fully functional Android app with database persistence and ad-based monetization. 🎉

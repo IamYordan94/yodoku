@@ -1,4 +1,4 @@
-# WordCraft Hub — SEO Plan
+# Yodoku — SEO Plan
 
 > Grounded in the actual `YODOKUAPP/` repo (React 19 + TypeScript + Vite 7 + React Router 7 `BrowserRouter`, client-rendered SPA on Vercel). No hype, no invented numbers. Every item here is implementable by one developer and points at a real file.
 >
@@ -26,9 +26,9 @@
 
 A brand-new domain in the daily-games space is **not going to outrank the New York Times Games, Wordle, Merriam-Webster, or the big Wordle-clone aggregators for head terms like "word games" or "daily word games" — this decade, realistically.** Those sites have ~20 years of domain authority, millions of backlinks, and enormous engagement signals. SEO is not a channel that closes that gap; it's a channel that works *around* it.
 
-What SEO *can* realistically do for WordCraft Hub:
+What SEO *can* realistically do for Yodoku:
 
-1. **Own its own brand queries.** Nobody else ranks for "ORDERLE", "FERMI game", "Clear the String game", "Change by One word game", or "WordCraft Hub". These are zero-competition queries that you will rank #1 for within days of being indexed — *if* the pages carry the name in the title, H1, URL, and JSON-LD. This is the fastest, most certain SEO win on the table and it's why per-route titles matter.
+1. **Own its own brand queries.** Nobody else ranks for "ORDERLE", "FERMI game", "Clear the String game", "Change by One word game", or "Yodoku". These are zero-competition queries that you will rank #1 for within days of being indexed — *if* the pages carry the name in the title, H1, URL, and JSON-LD. This is the fastest, most certain SEO win on the table and it's why per-route titles matter.
 2. **Win low-competition long-tail mechanics queries.** "sequence puzzle daily", "word ladder daily game", "estimation game", "how to play [game]" — these are low-volume (tens–hundreds of searches a month each) but winnable in months, not years.
 3. **Compete for mid-tail on content pages**, not on the home page. "games like wordle", "daily quiz", "word puzzle of the day" are competitive but a genuinely good content page can land page 2–3 in 6 months and creep up.
 4. **Feed the real growth loop.** SEO's biggest hidden value here is that ranking for branded queries and "today's [game] answer/hints" turns the share-grid loop (already built into every game's share text) into *organic, repeatable, daily* visits.
@@ -37,7 +37,7 @@ What SEO *can* realistically do for WordCraft Hub:
 
 | Phase | Timeframe | What actually happens |
 |---|---|---|
-| **Indexing** | Days 0–30 | Site is indexed. Brand queries ("orderle", "wordcraft hub") start showing up. Near-zero clicks — maybe single digits/day. This is normal; it is not a failure signal. |
+| **Indexing** | Days 0–30 | Site is indexed. Brand queries ("orderle", "yodoku hub") start showing up. Near-zero clicks — maybe single digits/day. This is normal; it is not a failure signal. |
 | **Brand wins** | Month 1–3 | #1 for all six game names + "how to play [game]" long-tails. A few hundred visits/month total. |
 | **Mid-tail creep** | Months 3–6 | Content pages for "games like wordle", "daily quiz", "word puzzle of the day" enter page 3–10 and slowly climb. Maybe 500–2,000 visits/month *if* content + a handful of real links happen. |
 | **Compounding** | Months 6–12 | 2,000–10,000 visits/month is achievable **only** if the content pass (§4) and link-building (§6) actually ship. Not guaranteed. |
@@ -123,7 +123,7 @@ import { usePageMeta } from '../hooks/usePageMeta';
 
 export default function OrderleAbout() {
   usePageMeta({
-    title: 'ORDERLE — Daily Sequence Puzzle | WordCraft Hub',
+    title: 'ORDERLE — Daily Sequence Puzzle | Yodoku',
     description:
       'How to play ORDERLE, the free daily sequence-deduction game. Tap two tiles to swap, ' +
       'read the cited reveal that explains why the order matters. New puzzle every day.',
@@ -137,27 +137,27 @@ Every page — all 6 game homes, every `/about`, `/calendar`, `/play`, `/previou
 
 ### Step 3 — the title/description table to implement
 
-Formula for every page: **`[Game] — [what it is] | WordCraft Hub`**, ≤ 60 chars for the title, ≤ 155 for the description, unique per route, with the game name first (it's the brand query).
+Formula for every page: **`[Game] — [what it is] | Yodoku`**, ≤ 60 chars for the title, ≤ 155 for the description, unique per route, with the game name first (it's the brand query).
 
 | Route | Title | Meta description (target terms in **bold**) |
 |---|---|---|
-| `/` | WordCraft Hub — 6 Free Daily Word Games | Play **6 free daily word games**: **word puzzles**, **sequence**, **word ladders**, **trivia** and more. New puzzles every day. |
-| `/lettermix` | Clear the String — Daily Word Puzzle | WordCraft Hub | A **daily word puzzle**: find the hidden words in a scrambled string and clear every letter. Free, new each day. |
-| `/lettermix/about` | How to Play Clear the String | WordCraft Hub | **How to play Clear the String** — rules, tips and strategy for the daily scrambled-string **word game**. |
-| `/changebyone` | Change by One — Daily Word Ladder Game | WordCraft Hub | A **daily word ladder game**: change one word into another, one letter at a time. Free **word ladder** puzzle every day. |
-| `/changebyone/about` | How to Play Change by One (Word Ladder) | WordCraft Hub | **How to play Change by One**, the daily **word ladder** game. Rules, examples and tips. |
-| `/wordpool` | Word Pool — Daily Category Word Game | WordCraft Hub | **Name every word in the category** in this free **daily category word game**. New constraints every day. |
-| `/wordpool/about` | How to Play Word Pool | WordCraft Hub | **How to play Word Pool** — the daily **category vocabulary game**. Rules, levels and tips. |
-| `/orderle` | ORDERLE — Daily Sequence Puzzle | WordCraft Hub | A **daily sequence puzzle**: arrange six items in the right order, then read why. Free **ordering puzzle game**. |
-| `/orderle/about` | How to Play ORDERLE (Daily Sequence Puzzle) | WordCraft Hub | **How to play ORDERLE**, the daily **sequence puzzle** with a cited reveal. Rules, swap mechanic and strategy. |
-| `/fermi` | FERMI — Daily Estimation Game | WordCraft Hub | A **daily estimation game**: guess the real-world number and calibrate your intuition. Free **number guessing game**. |
-| `/fermi/about` | How to Play FERMI (Estimation Game) | WordCraft Hub | **How to play FERMI**, the daily **estimation / quantity guessing game**. Rules and tips. |
-| `/quiz` | Quiz Master — Daily Quiz | Daily Trivia | WordCraft Hub | A free **daily quiz**: 10 questions across 7 categories. Play the **daily trivia quiz** and share your score. |
-| `/quiz/play` | Daily Quiz — Play Today's Questions | WordCraft Hub | Play **today's daily quiz** — 10 trivia questions across 7 categories. New questions every day. |
-| `/quiz/about` | How Quiz Master Works (Daily Trivia) | WordCraft Hub | **How the daily trivia quiz works** — scoring, categories, streaks and the daily question set. |
-| `/coming-soon` | Coming Soon | WordCraft Hub | *(noindex — utility page, see §5)* |
-| `/privacy` | Privacy Policy | WordCraft Hub | Privacy policy for WordCraft Hub. |
-| `/terms` | Terms of Service | WordCraft Hub | Terms of service for WordCraft Hub. |
+| `/` | Yodoku — 6 Free Daily Word Games | Play **6 free daily word games**: **word puzzles**, **sequence**, **word ladders**, **trivia** and more. New puzzles every day. |
+| `/lettermix` | Clear the String — Daily Word Puzzle | Yodoku | A **daily word puzzle**: find the hidden words in a scrambled string and clear every letter. Free, new each day. |
+| `/lettermix/about` | How to Play Clear the String | Yodoku | **How to play Clear the String** — rules, tips and strategy for the daily scrambled-string **word game**. |
+| `/changebyone` | Change by One — Daily Word Ladder Game | Yodoku | A **daily word ladder game**: change one word into another, one letter at a time. Free **word ladder** puzzle every day. |
+| `/changebyone/about` | How to Play Change by One (Word Ladder) | Yodoku | **How to play Change by One**, the daily **word ladder** game. Rules, examples and tips. |
+| `/wordpool` | Word Pool — Daily Category Word Game | Yodoku | **Name every word in the category** in this free **daily category word game**. New constraints every day. |
+| `/wordpool/about` | How to Play Word Pool | Yodoku | **How to play Word Pool** — the daily **category vocabulary game**. Rules, levels and tips. |
+| `/orderle` | ORDERLE — Daily Sequence Puzzle | Yodoku | A **daily sequence puzzle**: arrange six items in the right order, then read why. Free **ordering puzzle game**. |
+| `/orderle/about` | How to Play ORDERLE (Daily Sequence Puzzle) | Yodoku | **How to play ORDERLE**, the daily **sequence puzzle** with a cited reveal. Rules, swap mechanic and strategy. |
+| `/fermi` | FERMI — Daily Estimation Game | Yodoku | A **daily estimation game**: guess the real-world number and calibrate your intuition. Free **number guessing game**. |
+| `/fermi/about` | How to Play FERMI (Estimation Game) | Yodoku | **How to play FERMI**, the daily **estimation / quantity guessing game**. Rules and tips. |
+| `/quiz` | Quiz Master — Daily Quiz | Daily Trivia | Yodoku | A free **daily quiz**: 10 questions across 7 categories. Play the **daily trivia quiz** and share your score. |
+| `/quiz/play` | Daily Quiz — Play Today's Questions | Yodoku | Play **today's daily quiz** — 10 trivia questions across 7 categories. New questions every day. |
+| `/quiz/about` | How Quiz Master Works (Daily Trivia) | Yodoku | **How the daily trivia quiz works** — scoring, categories, streaks and the daily question set. |
+| `/coming-soon` | Coming Soon | Yodoku | *(noindex — utility page, see §5)* |
+| `/privacy` | Privacy Policy | Yodoku | Privacy policy for Yodoku. |
+| `/terms` | Terms of Service | Yodoku | Terms of service for Yodoku. |
 
 **`noIndex: true` should be set on:** `/coming-soon`, `/privacy`, `/terms`, `/wordpool/settings`, and any calendar/play param page you don't want indexed (see §5 for the full list). These are utility pages that dilute crawl budget and send weak signals.
 
@@ -177,11 +177,11 @@ This is static and belongs directly in `index.html` (it's about the whole site).
     {
       "@type": "Organization",
       "@id": "https://www.yodoku.app/#org",
-      "name": "WordCraft Hub",
+      "name": "Yodoku",
       "url": "https://www.yodoku.app/",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://www.yodoku.app/images/wordcraft-hub-logo.png",
+        "url": "https://www.yodoku.app/images/yodoku-logo.png",
         "width": 1024,
         "height": 1024
       }
@@ -190,7 +190,7 @@ This is static and belongs directly in `index.html` (it's about the whole site).
       "@type": "WebSite",
       "@id": "https://www.yodoku.app/#website",
       "url": "https://www.yodoku.app/",
-      "name": "WordCraft Hub",
+      "name": "Yodoku",
       "description": "Six free daily word, logic and trivia games — Clear the String, Change by One, Word Pool, ORDERLE, FERMI and Quiz Master. New puzzles every day.",
       "inLanguage": "en",
       "publisher": { "@id": "https://www.yodoku.app/#org" }
@@ -225,7 +225,7 @@ Then in the hook's `useEffect`, accept `jsonLd?: Record<string, unknown>` and ca
 
 ```tsx
 usePageMeta({
-  title: 'ORDERLE — Daily Sequence Puzzle | WordCraft Hub',
+  title: 'ORDERLE — Daily Sequence Puzzle | Yodoku',
   description: 'A daily sequence puzzle: arrange six items in the right order, then read why. Free ordering puzzle game.',
   path: '/orderle',
   jsonLd: {
@@ -305,12 +305,12 @@ Scale: **Easy** = rank in weeks, **Medium** = rank in months, **Hard** = rank in
 
 Rules that govern this whole section: **no PBNs, no buying links, no link exchanges with spam farms.** Everything here is manual, slow, and legitimate. The goal in the first 90 days is a *small number of real, relevant, editorial-style* links — 10–30 is a great year-one outcome, and even 5 good ones move a new domain.
 
-1. **Claim brand profiles and link back.** Reddit (`r/wordgames`, `r/puzzles`, `r/dailygames`, `r/trivia` — read each sub's self-promo rule first), X/Twitter bio, Discord (puzzle/word-game servers with a daily-score channel), Facebook word-game/trivia groups, Pinterest (verification already in `index.html`), GitHub (the repo `IamYordan94/gamehub` exists — make sure it has a README linking to the live site). These are mostly `nofollow` but they establish the entity and drive real traffic.
-2. **Directory / listing submissions (the ones that are actually indexed and free).** AlternativeTo (list as a Wordle/Wordle alternative), Product Hunt (a "WordCraft Hub — 6 daily puzzle games" launch), Slant, IndieGame directories, and web-app catalogs like Toolify. These are editorial and durable. Do them once, honestly, with real screenshots.
-3. **"Games like Wordle" roundup outreach.** Many blogs maintain "best word games" / "Wordle alternatives" lists. Email the author a 3-sentence pitch: *what WordCraft Hub is, one distinctive angle (six games in one place; ORDERLE's cited "why the order matters" reveal; FERMI's calibration angle), and a working link.* Expect a <5% reply rate; 20 emails → 1 link is a win.
+1. **Claim brand profiles and link back.** Reddit (`r/wordgames`, `r/puzzles`, `r/dailygames`, `r/trivia` — read each sub's self-promo rule first), X/Twitter bio, Discord (puzzle/word-game servers with a daily-score channel), Facebook word-game/trivia groups, Pinterest (verification already in `index.html`), GitHub (the repo `IamYordan94/yodoku` exists — make sure it has a README linking to the live site). These are mostly `nofollow` but they establish the entity and drive real traffic.
+2. **Directory / listing submissions (the ones that are actually indexed and free).** AlternativeTo (list as a Wordle/Wordle alternative), Product Hunt (a "Yodoku — 6 daily puzzle games" launch), Slant, IndieGame directories, and web-app catalogs like Toolify. These are editorial and durable. Do them once, honestly, with real screenshots.
+3. **"Games like Wordle" roundup outreach.** Many blogs maintain "best word games" / "Wordle alternatives" lists. Email the author a 3-sentence pitch: *what Yodoku is, one distinctive angle (six games in one place; ORDERLE's cited "why the order matters" reveal; FERMI's calibration angle), and a working link.* Expect a <5% reply rate; 20 emails → 1 link is a win.
 4. **Answer real questions where you're relevant.** r/puzzles "recommend a daily word game" threads, Quora "best free word games", Reddit "what do you play besides Wordle" — answer genuinely and include the link only where it's on-topic. Never drop bare links; always add value first.
 5. **Small press / newsletters.** Puzzle and indie-game newsletters (there are several covering "daily games") and local/small tech blogs are reachable with a one-page "about the game" note. Lower effort, occasionally a real dofollow link.
-6. **The share-grid loop feeds branded search, which feeds links.** Every share (marketing plan §3.2) puts `yodoku.app` in front of people; some will search "orderle" or "wordcraft hub" and some will link it. This is why §2's branded-title work matters — it converts the loop into links.
+6. **The share-grid loop feeds branded search, which feeds links.** Every share (marketing plan §3.2) puts `yodoku.app` in front of people; some will search "orderle" or "yodoku hub" and some will link it. This is why §2's branded-title work matters — it converts the loop into links.
 7. **Free tools / utility pages (long-term).** A genuinely useful "word ladder solver" or "today's [game] hints" page (idea #6/#8) is the kind of thing other sites link to naturally. This is the only "link magnet" in the plan and it's worth building eventually.
 
 **What we explicitly do NOT do:** buy links, join PBNs, private blog networks, spam blog comments, forum signature spam, mass directory blasts, or automated outreach. Those either don't work in 2026 or actively risk a manual penalty on a domain that can't afford one.

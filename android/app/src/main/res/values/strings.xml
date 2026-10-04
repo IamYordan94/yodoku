@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">WordCraft Hub</string>
-    <string name="title_activity_main">WordCraft Hub</string>
-    <string name="package_name">com.wordcraft.hub</string>
-    <string name="custom_url_scheme">com.wordcraft.hub</string>
+    <string name="app_name">Yodoku</string>
+    <string name="title_activity_main">Yodoku</string>
+    <string name="package_name">app.yodoku</string>
+    <string name="custom_url_scheme">app.yodoku</string>
 </resources>

@@ -1,4 +1,4 @@
-# WordCraft Hub
+# Yodoku
 
 A web-based educational word game hub featuring two daily puzzle games. Built with React, TypeScript, Vite, and Tailwind CSS.
 
@@ -116,6 +116,6 @@ This reads `public/data/words.json` and writes a new `public/data/lettermix-puzz
 
 | Key | Contents |
 |---|---|
-| `wordcraft_lettermix_completed` | Record of completed LetterMix puzzles + found words |
-| `wordcraft_wordpool_progress` | Highest unlocked level per WordPool category |
-| `wordcraft_wordpool_session` | In-progress found words per category+level (cleared on level completion) |
+| `yodoku_lettermix_completed` | Record of completed LetterMix puzzles + found words |
+| `yodoku_wordpool_progress` | Highest unlocked level per WordPool category |
+| `yodoku_wordpool_session` | In-progress found words per category+level (cleared on level completion) |

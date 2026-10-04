@@ -1,4 +1,4 @@
-package com.wordcraft.hub;
+package app.yodoku;
 
 import com.getcapacitor.BridgeActivity;
 

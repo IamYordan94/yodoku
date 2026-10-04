@@ -1,4 +1,4 @@
-# WordCraft Hub — Master Plan (PROPOSAL)
+# Yodoku — Master Plan (PROPOSAL)
 
 > **Status: PROPOSAL — nothing executed yet.** This document is the full proposed plan
 > discussed before any action is taken. Companion: `COMPETITIVE-ANALYSIS.md`.

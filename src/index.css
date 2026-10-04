@@ -11,8 +11,8 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
-  background-color: var(--hub-bg);
-  color: var(--hub-ink);
+  background-color: var(--yodoku-bg);
+  color: var(--yodoku-ink);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -22,10 +22,10 @@ body {
 }
 
 /* Full plate background */
-.hub-plate {
-  background: var(--hub-bg);
+.yodoku-plate {
+  background: var(--yodoku-bg);
   min-height: 100vh;
-  color: var(--hub-ink);
+  color: var(--yodoku-ink);
 }
 
 /* ─────────────────────────────────────────────────────
@@ -799,22 +799,22 @@ body {
 }
 
 /* ============================================================
-   STICKER PACK — Hub-level design tokens
+   STICKER PACK — Yodoku design tokens
    ============================================================ */
 :root {
-  --hub-bg: #f6f3ec;
-  --hub-panel: #ffffff;
-  --hub-ink: #141414;
-  --hub-ink-soft: #6f6a5e;
-  --hub-line: #141414;
-  --hub-green: #39c96b;
-  --hub-yellow: #ffc93c;
-  --hub-orange: #ff6b35;
-  --hub-red: #ff4d4d;
-  --hub-gray: #b9b3a6;
-  --hub-lime: #d9f24b;
-  --hub-sky: #5bc9ff;
-  --hub-dark: #1E2028;
+  --yodoku-bg: #f6f3ec;
+  --yodoku-panel: #ffffff;
+  --yodoku-ink: #141414;
+  --yodoku-ink-soft: #6f6a5e;
+  --yodoku-line: #141414;
+  --yodoku-green: #39c96b;
+  --yodoku-yellow: #ffc93c;
+  --yodoku-orange: #ff6b35;
+  --yodoku-red: #ff4d4d;
+  --yodoku-gray: #b9b3a6;
+  --yodoku-lime: #d9f24b;
+  --yodoku-sky: #5bc9ff;
+  --yodoku-dark: #1E2028;
 }
 
 /* ============================================================

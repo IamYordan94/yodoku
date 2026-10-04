@@ -32,7 +32,7 @@ export default function QuizLayout() {
             onMouseEnter={e => (e.currentTarget.style.color = 'var(--qz-ink)')}
             onMouseLeave={e => (e.currentTarget.style.color = 'var(--qz-ink-soft)')}
           >
-            ← Hub
+            ← Home
           </Link>
           <span style={{ color: 'var(--qz-ink-soft)', opacity: 0.3 }}>|</span>
           <h1 className="text-base font-black tracking-wide flex items-center gap-2"
@@ -96,7 +96,7 @@ export default function QuizLayout() {
                     onMouseEnter={e => { (e.currentTarget as HTMLElement).style.background = 'var(--qz-lime)'; }}
                     onMouseLeave={e => { (e.currentTarget as HTMLElement).style.background = 'transparent'; }}
                   >
-                    Back to Hub
+                    Back to Home
                   </Link>
                 </div>
               </motion.nav>

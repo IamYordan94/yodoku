@@ -25,7 +25,7 @@ export default function FermiLayout() {
             style={{ color: 'var(--fm-ink-soft)' }}
             onMouseEnter={e => (e.currentTarget.style.color = 'var(--fm-ink)')}
             onMouseLeave={e => (e.currentTarget.style.color = 'var(--fm-ink-soft)')}>
-            ← Hub
+            ← Home
           </Link>
           <span style={{ color: 'var(--fm-ink-soft)', opacity: 0.3 }}>|</span>
           <h1 className="text-base font-black tracking-wide flex items-center gap-2"

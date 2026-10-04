@@ -1,4 +1,4 @@
-# WordCraft Hub — Social Short-Video Plan
+# Yodoku — Social Short-Video Plan
 
 > Companion to `MARKETING-ADS-PLAN.md` §3.3. Written for one non-editor with a phone + a PC.
 > **The job of every video is traffic to `yodoku.app` — not channel ad money.** See §5 before recording anything.
@@ -127,7 +127,7 @@ Concrete, ready to record. **Where a script names specific letters/words/answers
 ### TikTok (create a *creator* account, not just a personal one)
 1. Install TikTok, sign up, switch to a **Business/Creator** account (free; gives you analytics + a clickable bio link).
 2. **Bio** (this is the whole funnel — a link-in-bio is your only clickable link): `🟩 Free daily word + quiz puzzles → yodoku.app`
-3. Username: short, game-adjacent, memorable — e.g. `@yodokupuzzles` or `@wordcrafthub`. Claim the same handle on every platform.
+3. Username: short, game-adjacent, memorable — e.g. `@yodokupuzzles` or `@yodokuapp`. Claim the same handle on every platform.
 4. Add the site link in bio. (A Linktree only matters once you have >1 link to send people to — skip it initially.)
 
 ### YouTube Shorts

@@ -1,8 +1,8 @@
 import { Suspense, lazy, useEffect } from 'react';
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import { Analytics } from '@vercel/analytics/react';
-import HubLayout from './layouts/HubLayout';
-import Hub from './pages/Hub';
+import HomeLayout from './layouts/HomeLayout';
+import Home from './pages/Home';
 import Privacy from './pages/Privacy';
 import Terms from './pages/Terms';
 import NotFound from './pages/NotFound';
@@ -54,15 +54,15 @@ const SevenLettersAbout = lazy(() => import('./pages/SevenLettersAbout'));
 const PlusPage = lazy(() => import('./pages/PlusPage'));
 
 const GAME_TITLES: Record<string, string> = {
-  '/': 'WordCraft Hub — Daily Word Games',
-  '/lettermix': 'Clear the String — WordCraft Hub',
-  '/wordpool': 'Word Pool — WordCraft Hub',
-  '/changebyone': 'Change by One — WordCraft Hub',
-  '/orderle': 'ORDERLE — WordCraft Hub',
-  '/fermi': 'FERMI — WordCraft Hub',
-  '/quiz': 'Quiz Master — WordCraft Hub',
-  '/seven': '7 Letters — WordCraft Hub',
-  '/plus': 'Yodoku+ — WordCraft Hub',
+  '/': 'Yodoku — Daily Word Games',
+  '/lettermix': 'Clear the String — Yodoku',
+  '/wordpool': 'Word Pool — Yodoku',
+  '/changebyone': 'Change by One — Yodoku',
+  '/orderle': 'ORDERLE — Yodoku',
+  '/fermi': 'FERMI — Yodoku',
+  '/quiz': 'Quiz Master — Yodoku',
+  '/seven': '7 Letters — Yodoku',
+  '/plus': 'Yodoku+ — Yodoku',
 };
 
 function RouteTitle() {
@@ -84,8 +84,8 @@ function App() {
       <RouteTitle />
       <Suspense fallback={<LoadingSkeleton />}>
       <Routes>
-        <Route path="/" element={<HubLayout />}>
-          <Route index element={<Hub />} />
+        <Route path="/" element={<HomeLayout />}>
+          <Route index element={<Home />} />
           <Route path="privacy" element={<Privacy />} />
           <Route path="terms" element={<Terms />} />
           <Route path="plus" element={<PlusPage />} />

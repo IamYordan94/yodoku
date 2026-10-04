@@ -5,8 +5,8 @@ interface BeforeInstallPromptEvent extends Event {
   userChoice: Promise<{ outcome: 'accepted' | 'dismissed' }>;
 }
 
-const KEY_DISMISSED = 'wordcraft_install_dismissed';
-const KEY_VISITS = 'wordcraft_visits';
+const KEY_DISMISSED = 'yodoku_install_dismissed';
+const KEY_VISITS = 'yodoku_visits';
 
 export default function InstallSticker() {
   const [show, setShow] = useState(false);
@@ -82,10 +82,10 @@ export default function InstallSticker() {
           alignItems: 'center',
           gap: '12px',
           flexWrap: 'wrap',
-          background: 'var(--hub-panel)',
-          border: '2.5px solid var(--hub-ink)',
+          background: 'var(--yodoku-panel)',
+          border: '2.5px solid var(--yodoku-ink)',
           borderRadius: '12px',
-          boxShadow: '6px 6px 0 var(--hub-ink)',
+          boxShadow: '6px 6px 0 var(--yodoku-ink)',
           padding: '12px 16px',
           transform: 'rotate(-1deg)',
           fontFamily: "'JetBrains Mono', monospace",
@@ -94,7 +94,7 @@ export default function InstallSticker() {
         <span
           style={{
             display: 'inline-block',
-            background: 'var(--hub-ink)',
+            background: 'var(--yodoku-ink)',
             color: '#f6f3ec',
             fontSize: '11px',
             fontWeight: 800,
@@ -106,21 +106,21 @@ export default function InstallSticker() {
         >
           📲
         </span>
-        <span style={{ fontWeight: 800, fontSize: '13px', color: 'var(--hub-ink)', flex: 1 }}>
-          Install WordCraft Hub — your 7 dailies, one tap from your home screen.
+        <span style={{ fontWeight: 800, fontSize: '13px', color: 'var(--yodoku-ink)', flex: 1 }}>
+          Install Yodoku — your 7 dailies, one tap from your home screen.
         </span>
         <button
           onClick={install}
           style={{
-            background: 'var(--hub-accent, #d9f24b)',
-            color: 'var(--hub-ink)',
-            border: '2.5px solid var(--hub-ink)',
+            background: 'var(--yodoku-accent, #d9f24b)',
+            color: 'var(--yodoku-ink)',
+            border: '2.5px solid var(--yodoku-ink)',
             borderRadius: '8px',
             padding: '6px 12px',
             fontWeight: 800,
             fontSize: '12px',
             cursor: 'pointer',
-            boxShadow: '3px 3px 0 var(--hub-ink)',
+            boxShadow: '3px 3px 0 var(--yodoku-ink)',
           }}
         >
           Install
@@ -134,7 +134,7 @@ export default function InstallSticker() {
             cursor: 'pointer',
             fontWeight: 800,
             fontSize: '14px',
-            color: 'var(--hub-ink-soft)',
+            color: 'var(--yodoku-ink-soft)',
             padding: '2px 4px',
           }}
         >

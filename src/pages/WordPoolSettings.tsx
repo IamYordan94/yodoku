@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import { getWordPoolDailyCompletedDates, WP_PROGRESS } from '../utils/storage';
 
-const WP_DAILY = 'wordcraft_wordpool_daily';
-const WP_DAILY_SESSION = 'wordcraft_wordpool_daily_session';
-const WP_SESSION = 'wordcraft_wordpool_session';
+const WP_DAILY = 'yodoku_wordpool_daily';
+const WP_DAILY_SESSION = 'yodoku_wordpool_daily_session';
+const WP_SESSION = 'yodoku_wordpool_session';
 
 export default function WordPoolSettings() {
   const [resetDone, setResetDone] = useState(false);
@@ -103,7 +103,7 @@ export default function WordPoolSettings() {
           WordPool challenges you to name words fitting a category with progressively narrower constraints.
           One new category every day. Progress is saved locally in your browser.
         </p>
-        <p className="text-xs" style={{ color: 'var(--wp-text-muted)' }}>Version 1.0 · WordCraft Hub</p>
+        <p className="text-xs" style={{ color: 'var(--wp-text-muted)' }}>Version 1.0 · Yodoku</p>
       </section>
     </div>
   );

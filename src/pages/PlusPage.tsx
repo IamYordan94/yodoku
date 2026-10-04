@@ -123,16 +123,16 @@ export default function PlusPage() {
   return (
     <div
       style={{
-        background: 'var(--hub-bg)',
+        background: 'var(--yodoku-bg)',
         minHeight: '100vh',
-        color: 'var(--hub-ink)',
+        color: 'var(--yodoku-ink)',
         padding: '26px 20px 64px',
       }}
     >
       <div style={{ maxWidth: 860, margin: '0 auto' }}>
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 22 }}>
           <span style={{ fontFamily: mono, fontWeight: 900, fontSize: 16, letterSpacing: '0.14em', textTransform: 'uppercase' }}>
-            WordCraft Hub
+            Yodoku
           </span>
           <Link to="/" style={{ fontWeight: 700, fontSize: 14, color: 'rgba(20,20,20,0.62)', textDecoration: 'none' }}>
             ← Back to the games
