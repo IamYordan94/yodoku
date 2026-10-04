@@ -80,7 +80,18 @@ Brevo's domain authentication also came through — verified externally: `brevo-
 - **Live proof**: a real magic-link/confirm email was requested through the API and **arrived in Gmail via Brevo SMTP** (sender "Yodoku", 12:56 PM). The user `ver.iamyo94@gmail.com` exists in Auth → Users.
 - Known extras: the SMTP save UI shows a "Minimum interval per user: 60s" default (fine). One stale Gmail artifact: none.
 
-## 4. Lemon Squeezy — web subscriptions (~30 min + 2–3 days for ID verification)
+## 4. Lemon Squeezy — web subscriptions — ✅ DONE (agent-assisted, 4 Oct)
+
+**Live in TEST mode with the full chain proven end-to-end:**
+- Store subdomain: `yodo.lemonsqueezy.com` (store "Yodo").
+- Product **"Yodoku+"** — subscription, **€19.99 / year** — published. Product ID `1411063`, variant UUID `61be7410-ab34-4c63-bfed-1a1ffb5030f7`.
+- Checkout URL: `https://yodo.lemonsqueezy.com/checkout/buy/61be7410-ab34-4c63-bfed-1a1ffb5030f7` → in Vercel as `VITE_CHECKOUT_URL` (Config, Production).
+- Webhook id `139559` → `https://www.yodoku.app/api/lemonsqueezy-webhook`, events `subscription_created/updated/cancelled/resumed/expired`, signing secret set (⚠️ LS caps secrets at **40 chars**); secret stored in `~/AppData/Local/hermes/secrets/yodoku-lemonsqueezy.key` + Vercel as `LS_WEBHOOK_SECRET` (Secret, Production + Preview).
+- **Full-chain proof (real test purchase, 4 Oct 12:49):** test-mode checkout (user entered `4242…` test card) → LS fired `subscription_created` → endpoint verified HMAC → **Supabase `entitlements`: `ver.iamyo94@gmail.com / active / ls_subscription_id 2579971`**. Unsigned POSTs correctly rejected with 401. Signed request earlier: `{"ok":true,"persisted":true}`.
+- Vercel gotcha: dashboard "Redeploy" clicks can silently fail → use `vercel redeploy <deployment-url> --target production` (CLI on this machine is logged in as `veriamyo94-9489`).
+- To go live: switch store out of Test mode → create the **live** webhook (same URL) → swap `LS_WEBHOOK_SECRET` to the live signing secret → redeploy → flip `PAID_ENABLED`. Optional polish: rename variant "Default" → "Yodoku+ Yearly" (cosmetic; feeds the `plan` label).
+
+## 4-old. (original steps, kept for reference)
 
 1. https://app.lemonsqueezy.com/register → **Activate your store** → questionnaire → **Verify identity**
    (photo of government ID) → wait 2–3 business days.
@@ -179,8 +190,8 @@ then trigger a **Redeploy** (env changes only apply on the next build):
 | `VITE_NEWSLETTER_ENABLED` | ✅ set (4 Oct) | public (shows the signup form) |
 | `BREVO_API_KEY` | ✅ set (4 Oct) | secret |
 | `BREVO_LIST_ID` | ✅ set (4 Oct, value `3`) | secret |
-| `VITE_CHECKOUT_URL` | ⏳ pending §4 Lemon Squeezy | public |
-| `LS_WEBHOOK_SECRET` | ⏳ pending §4 | secret |
+| `VITE_CHECKOUT_URL` | ✅ set (4 Oct) | public |
+| `LS_WEBHOOK_SECRET` | ✅ set (4 Oct; 40-char LS cap) | secret |
 | `SUPABASE_URL` | ✅ set (4 Oct) | server |
 | `SUPABASE_SERVICE_KEY` | ✅ set (4 Oct; saved as Config — flip to Secret any time) | server secret |
 | `VITE_SUPABASE_URL` | ✅ set (4 Oct) | public |
