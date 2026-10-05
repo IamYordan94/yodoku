@@ -1,5 +1,45 @@
 {
+  "$schema": "https://openapi.vercel.sh/vercel.json",
   "rewrites": [
+    { "source": "/lettermix", "destination": "/lettermix/index.html" },
+    { "source": "/lettermix/play", "destination": "/lettermix/play/index.html" },
+    { "source": "/lettermix/calendar", "destination": "/lettermix/calendar/index.html" },
+    { "source": "/lettermix/about", "destination": "/lettermix/about/index.html" },
+
+    { "source": "/wordpool", "destination": "/wordpool/index.html" },
+    { "source": "/wordpool/play", "destination": "/wordpool/play/index.html" },
+    { "source": "/wordpool/previous", "destination": "/wordpool/previous/index.html" },
+    { "source": "/wordpool/settings", "destination": "/wordpool/settings/index.html" },
+    { "source": "/wordpool/about", "destination": "/wordpool/about/index.html" },
+
+    { "source": "/changebyone", "destination": "/changebyone/index.html" },
+    { "source": "/changebyone/play", "destination": "/changebyone/play/index.html" },
+    { "source": "/changebyone/calendar", "destination": "/changebyone/calendar/index.html" },
+    { "source": "/changebyone/about", "destination": "/changebyone/about/index.html" },
+
+    { "source": "/orderle", "destination": "/orderle/index.html" },
+    { "source": "/orderle/play", "destination": "/orderle/play/index.html" },
+    { "source": "/orderle/calendar", "destination": "/orderle/calendar/index.html" },
+    { "source": "/orderle/about", "destination": "/orderle/about/index.html" },
+
+    { "source": "/fermi", "destination": "/fermi/index.html" },
+    { "source": "/fermi/play", "destination": "/fermi/play/index.html" },
+    { "source": "/fermi/calendar", "destination": "/fermi/calendar/index.html" },
+    { "source": "/fermi/about", "destination": "/fermi/about/index.html" },
+
+    { "source": "/quiz", "destination": "/quiz/index.html" },
+    { "source": "/quiz/play", "destination": "/quiz/play/index.html" },
+    { "source": "/quiz/about", "destination": "/quiz/about/index.html" },
+
+    { "source": "/seven", "destination": "/seven/index.html" },
+    { "source": "/seven/play", "destination": "/seven/play/index.html" },
+    { "source": "/seven/about", "destination": "/seven/about/index.html" },
+
+    { "source": "/plus", "destination": "/plus/index.html" },
+    { "source": "/privacy", "destination": "/privacy/index.html" },
+    { "source": "/terms", "destination": "/terms/index.html" },
+
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
+
