@@ -232,3 +232,22 @@ BREVO_ ones.)
 - Live verification: free web keeps the Monetag tag; `?native=1` / `?plus=1` withhold it; 0 JS errors.
 - Fresh signed AAB/APK built (12.6M / 12.8M, versionCode 1). Go-live sequence in `docs/GO-LIVE-RUNBOOK.md`.
 - **LS store activation pending their review** → payments switch waits on Lemon Squeezy email.
+
+## 10. SEO groundwork — LIVE (5 Oct)
+
+- Per-route prerendered pages: every public route now serves its own `<title>`, description,
+  canonical and OG tags in RAW HTML (verified live: /orderle, /seven/about, /quiz/play, /plus …).
+- `sitemap.xml` (31 URLs) + `robots.txt` live; WebSite structured data on home routes.
+- `npm run build` now runs the prerender step (`scripts/prerender-seo.mjs`); route additions need
+  the ROUTES table + `vercel.json` + `public/sitemap.xml` updated together.
+- API + ads + loader all verified untouched after deploy.
+
+## 11. Player-agent round 1 (5 Oct) — findings
+
+Three player personas played the live site at phone size. Consolidated wishlist themes:
+progress counters on Clear the String, friendlier rejection text, resume-in-progress,
+web push nudge, archive/countdown to next daily, quiz explanations, stronger Word Pool hints,
+combined daily share card, curated Change by One word pairs.
+Confirmed bugs to fix (bundle with the Spanish word-data work): CBO junk words (wran/ming — in
+`public/words-cbo.json`), Clear-the-String dictionary rejections + stuck counter, WP input buffer,
+Quiz explanations, FERMI keypad figures.
