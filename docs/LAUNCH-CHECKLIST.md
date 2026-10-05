@@ -222,3 +222,13 @@ BREVO_ ones.)
 - Lemon Squeezy test purchase → entitlement written; `/plus` "sign in" flow wired to Supabase.
 - Android: swap external checkout for Play-Billing path, rebuild + hand you the fresh AAB.
 - Flip Yodoku+ live for users — one-line change, only when you say go.
+
+## 9. Native shell pass — DONE & merged (5 Oct)
+
+- PR #1 (magic-link fix) + PR #2 (feat/native-shell-pass) merged to main; Vercel auto-deployed.
+- Features live in the app: ad-free app always; ad-free for Yodoku+ web subscribers; daily reminder
+  notification (local, opt-in); status bar theming; Android back-button UX (double-press exit);
+  native share sheet; haptic taps; phone-viewport fixes (390/360/320 — 96/96 checks pass).
+- Live verification: free web keeps the Monetag tag; `?native=1` / `?plus=1` withhold it; 0 JS errors.
+- Fresh signed AAB/APK built (12.6M / 12.8M, versionCode 1). Go-live sequence in `docs/GO-LIVE-RUNBOOK.md`.
+- **LS store activation pending their review** → payments switch waits on Lemon Squeezy email.
