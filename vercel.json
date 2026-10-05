@@ -29,10 +29,12 @@
 
     { "source": "/quiz", "destination": "/quiz/index.html" },
     { "source": "/quiz/play", "destination": "/quiz/play/index.html" },
+    { "source": "/quiz/archive", "destination": "/quiz/archive/index.html" },
     { "source": "/quiz/about", "destination": "/quiz/about/index.html" },
 
     { "source": "/seven", "destination": "/seven/index.html" },
     { "source": "/seven/play", "destination": "/seven/play/index.html" },
+    { "source": "/seven/archive", "destination": "/seven/archive/index.html" },
     { "source": "/seven/about", "destination": "/seven/about/index.html" },
 
     { "source": "/plus", "destination": "/plus/index.html" },

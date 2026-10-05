@@ -11,9 +11,21 @@ import {
 } from '../utils/orderleLogic';
 import { ORDERLE_BANK } from '../utils/puzzleGenerator';
 import { markPlayed, todayISO } from '../utils/dailyProgress';
+import { getTodayUTCStr } from '../utils/dailySeed';
+import { loadResume, saveResume } from '../utils/gameResume';
+import ResumeBanner from '../components/ResumeBanner';
 
 const LAUNCH_DATE = '2026-08-07';
 const DAY_MS = 86400000;
+
+type OrderleSaved = {
+  idx: number;
+  current: number[];
+  attempts: number;
+  history: OrderleState['history'];
+  won: boolean;
+  over: boolean;
+};
 
 function getTodayIndex(): number {
   const utcDay = (d: Date) => Date.UTC(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate());
@@ -32,6 +44,7 @@ export default function OrderlePage({ practice = false }: OrderlePageProps) {
   const [copied, setCopied] = useState(false);
   const [cardOpen, setCardOpen] = useState(false);
   const [puzzleIdx, setPuzzleIdx] = useState(0);
+  const [resumed, setResumed] = useState(false);
 
   useEffect(() => {
     if (state?.won) markPlayed('orderle', todayISO());
@@ -41,10 +54,35 @@ export default function OrderlePage({ practice = false }: OrderlePageProps) {
     const idx = practice ? Math.floor(Math.random() * ORDERLE_BANK.length) : getTodayIndex();
     const puzzle = ORDERLE_BANK[idx];
     const s = initOrderleState(puzzle, idx);
+    if (!practice) {
+      const saved = loadResume<OrderleSaved>('orderle', getTodayUTCStr());
+      if (saved && saved.idx === idx && Array.isArray(saved.current)) {
+        s.current = saved.current;
+        s.attempts = saved.attempts;
+        s.history = saved.history;
+        s.won = saved.won;
+        s.over = saved.over;
+        s.selected = -1;
+        if (!saved.over && saved.attempts > 0) setResumed(true);
+      }
+    }
     setPuzzleIdx(idx);
     setState(s);
     setLoading(false);
   }, [practice]);
+
+  // Persist in-progress state so leaving the site never resets the daily board.
+  useEffect(() => {
+    if (practice || !state || !state.puzzle) return;
+    saveResume<OrderleSaved>('orderle', getTodayUTCStr(), {
+      idx: puzzleIdx,
+      current: state.current,
+      attempts: state.attempts,
+      history: state.history,
+      won: state.won,
+      over: state.over,
+    });
+  }, [practice, state, puzzleIdx]);
 
   const handleTileClick = useCallback((i: number) => {
     if (!state || state.over) return;
@@ -125,6 +163,9 @@ export default function OrderlePage({ practice = false }: OrderlePageProps) {
 
   return (
     <div>
+      {/* Resume sticker */}
+      {resumed && <ResumeBanner date={`${state.attempts} swap${state.attempts === 1 ? '' : 's'} in`} accent="var(--ol-lime)" />}
+
       {/* Header */}
       <div className="flex items-center justify-between mb-4">
         <div className="flex items-center gap-2 flex-wrap">

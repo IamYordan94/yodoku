@@ -5,6 +5,8 @@ import AdSlot from '../components/AdSlot';
 import InstallSticker from '../components/InstallSticker';
 import NativeReminderCard from '../components/NativeReminderCard';
 import NewsletterSignup from '../components/NewsletterSignup';
+import NextDailyCountdown from '../components/NextDailyCountdown';
+import DailySummaryShare from '../components/DailySummaryShare';
 import { getTodayProgress } from '../utils/dailyProgress';
 
 type GameCardProps = {
@@ -292,6 +294,11 @@ export default function Home() {
         </span>
       </div>
 
+      {/* Countdown to the next daily reset — in the hub header area */}
+      <div className="px-4 md:px-6 max-w-[1040px] mx-auto mt-5">
+        <NextDailyCountdown mode="utc" />
+      </div>
+
       {/* Today progress strip */}
       <div className="px-4 md:px-6 max-w-[1040px] mx-auto mt-5">
         <div
@@ -333,6 +340,16 @@ export default function Home() {
             </Link>
           ))}
         </div>
+      </div>
+
+      {/* Combined daily summary + share (feature: one share for everything today) */}
+      <div className="px-4 md:px-6 max-w-[1040px] mx-auto mt-4">
+        <DailySummaryShare />
+      </div>
+
+      {/* Dismissible "get the daily puzzles by email" opt-in (daily 08:30 reminder) */}
+      <div className="px-4 md:px-6 max-w-[1040px] mx-auto mt-4">
+        <NewsletterSignup />
       </div>
 
       {/* Daily reminder (native app only) */}
@@ -500,8 +517,6 @@ export default function Home() {
         </div>
 
         <AdSlot slot="yodoku-grid-footer" minHeight={120} />
-
-        <NewsletterSignup />
 
         {/* Footer */}
         <footer className="mt-10 pt-6 flex flex-col items-center gap-2" style={{ borderTop: '2px solid var(--yodoku-ink)', opacity: 0.3 }}>

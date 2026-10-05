@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import PastPuzzlesLink from '../components/PastPuzzlesLink';
 import { CATEGORY_META, QUIZ_PER_DAY, getQuizNumber } from '../utils/quizLogic';
 import { getStreak } from '../utils/quizStorage';
 import { getTodayUTCStr } from '../utils/dailySeed';
@@ -84,6 +85,8 @@ export default function QuizHome() {
               }}>Play</Link>
             </div>
           </div>
+
+          <PastPuzzlesLink to="/quiz/archive" accent="var(--qz-yellow)" label="Play past quizzes" sublabel="Replay any recent day's quiz" />
 
           <div className="my-2" style={{ width: '140px', height: '2px', background: 'var(--qz-ink)', opacity: 0.15 }} />
 

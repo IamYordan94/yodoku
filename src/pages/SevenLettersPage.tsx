@@ -1,4 +1,5 @@
 import { useState, useEffect, useCallback, useMemo } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import {
   type SevenLettersBoard,
@@ -6,10 +7,13 @@ import {
   isPangram,
   tierFor,
   tierCutoffs,
+  wordsToNextTier,
+  TIER_LADDER,
   shareSevenText,
 } from '../utils/sevenLettersLogic';
 import { getTodayIndex } from './SevenLettersHome';
 import ShareCardModal from '../components/ShareCardModal';
+import ResumeBanner from '../components/ResumeBanner';
 
 const STORAGE_KEY = 'yodoku_seven_letters';
 
@@ -54,6 +58,10 @@ export default function SevenLettersPage({ practice = false }: SevenLettersPageP
   const [copied, setCopied] = useState(false);
   const [cardOpen, setCardOpen] = useState(false);
   const [boardIdx, setBoardIdx] = useState(0);
+  const [resumed, setResumed] = useState(false);
+  const [searchParams] = useSearchParams();
+  const boardParam = searchParams.get('board');
+  const [archive, setArchive] = useState(false);
 
   // Load board data
   useEffect(() => {
@@ -72,17 +80,28 @@ export default function SevenLettersPage({ practice = false }: SevenLettersPageP
     return () => { cancelled = true; };
   }, []);
 
-  // Pick today's (or a random practice) board and restore progress
+  // Pick today's (or a random practice / archive) board and restore progress
   useEffect(() => {
     if (!boards || boards.length === 0) return;
-    const idx = practice ? Math.floor(Math.random() * boards.length) : getTodayIndex() % boards.length;
+    const requested = boardParam !== null ? Number(boardParam) : NaN;
+    const isArchive = Number.isInteger(requested) && requested >= 0 && requested < boards.length;
+    const idx = isArchive
+      ? requested
+      : practice
+        ? Math.floor(Math.random() * boards.length)
+        : getTodayIndex() % boards.length;
+    setArchive(isArchive);
     const b = boards[idx];
     setBoard(b);
     setBoardIdx(idx);
-    if (!practice) {
-      setFoundWords(getSavedWords(getTodayDateStr()));
+    if (!practice && !isArchive) {
+      const savedWords = getSavedWords(getTodayDateStr());
+      setFoundWords(savedWords);
+      if (savedWords.length > 0) setResumed(true);
+    } else {
+      setFoundWords([]);
     }
-  }, [boards, practice]);
+  }, [boards, practice, boardParam]);
 
   function getTodayDateStr(): string {
     const d = new Date();
@@ -93,8 +112,9 @@ export default function SevenLettersPage({ practice = false }: SevenLettersPageP
     () => foundWords.reduce((sum, w) => sum + scoreWord(w, board!), 0),
     [foundWords, board]
   );
-  const cutoffs = board ? board.tiers : { good: 0, great: 0, genius: 0 };
+  const cutoffs = board ? tierCutoffs(board.maxScore) : { good: 0, solid: 0, great: 0, amazing: 0, genius: 0, queen: 0 };
   const tier = tierFor(score, cutoffs);
+  const toNext = board ? wordsToNextTier(score, board) : null;
 
   const handleSubmit = useCallback(() => {
     if (!board) return;
@@ -114,7 +134,7 @@ export default function SevenLettersPage({ practice = false }: SevenLettersPageP
     } else {
       const next = [...foundWords, w];
       setFoundWords(next);
-      if (!practice) saveWords(getTodayDateStr(), next);
+      if (!practice && !archive) saveWords(getTodayDateStr(), next);
       if (isPangram(w, board)) {
         setMessage({ text: `PANGRAM! ${w.toUpperCase()} +7 🎉`, kind: 'pangram' });
       } else {
@@ -123,7 +143,7 @@ export default function SevenLettersPage({ practice = false }: SevenLettersPageP
       }
     }
     setTimeout(() => setMessage(null), 2200);
-  }, [input, board, foundWords, practice]);
+  }, [input, board, foundWords, practice, archive]);
 
   const handleKeyDown = useCallback((e: React.KeyboardEvent<HTMLInputElement>) => {
     if (e.key === 'Enter') handleSubmit();
@@ -162,6 +182,7 @@ export default function SevenLettersPage({ practice = false }: SevenLettersPageP
 
   return (
     <div>
+      {resumed && <ResumeBanner date={`${foundWords.length} words found`} accent="var(--sv-accent)" />}
       {/* Header */}
       <div className="flex items-center justify-between mb-4">
         <h2 className="text-lg font-black m-0 flex items-center gap-2"
@@ -175,7 +196,7 @@ export default function SevenLettersPage({ practice = false }: SevenLettersPageP
               borderRadius: '4px',
               transform: 'rotate(-1deg)',
             }}>
-            {practice ? 'practice' : 'daily'}
+            {practice ? 'practice' : archive ? 'archive' : 'daily'}
           </span>
         </h2>
         <span className="text-xs font-bold"
@@ -280,15 +301,25 @@ export default function SevenLettersPage({ practice = false }: SevenLettersPageP
               width: `${Math.min(100, (score / board.maxScore) * 100)}%`,
               background: 'var(--sv-accent)',
             }} />
-          {[35, 60, 80].map((pct) => (
-            <div key={pct} className="absolute inset-y-0" style={{ left: `${pct}%`, width: '2px', background: 'var(--sv-ink)', opacity: 0.5 }} />
+          {TIER_LADDER.map((t) => (
+            <div key={t.key} className="absolute inset-y-0" style={{ left: `${t.pct * 100}%`, width: '2px', background: 'var(--sv-ink)', opacity: 0.5 }} />
           ))}
         </div>
-        <div className="flex justify-between mt-1 text-[10px] font-bold uppercase tracking-widest" style={{ color: 'var(--sv-ink-soft)' }}>
-          <span>Good {cutoffs.good}</span>
-          <span>Great {cutoffs.great}</span>
-          <span>Genius {cutoffs.genius}</span>
+        <div className="flex flex-wrap gap-x-3 gap-y-1 mt-1 text-[10px] font-bold uppercase tracking-widest" style={{ color: 'var(--sv-ink-soft)' }}>
+          {TIER_LADDER.map((t) => (
+            <span key={t.key} style={{ opacity: score >= cutoffs[t.key] ? 1 : 0.55 }}>
+              {t.label} {cutoffs[t.key]}
+            </span>
+          ))}
         </div>
+        {toNext ? (
+          <p className="text-xs font-bold m-0 mt-2" style={{ color: 'var(--sv-ink)' }}>
+            <span style={{ color: '#b3870a' }}>{toNext.words} word{toNext.words === 1 ? '' : 's'}</span> to <strong>{toNext.label}</strong>
+            <span style={{ color: 'var(--sv-ink-soft)' }}> · {toNext.points} pts away</span>
+          </p>
+        ) : (
+          <p className="text-xs font-black m-0 mt-2" style={{ color: '#b3870a' }}>🐝 Queen Bee — every word found!</p>
+        )}
       </div>
 
       {/* Found words */}
@@ -321,7 +352,7 @@ export default function SevenLettersPage({ practice = false }: SevenLettersPageP
       )}
 
       {/* Done state */}
-      {score >= cutoffs.genius && !practice && (
+      {score >= cutoffs.genius && !practice && !archive && (
         <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }}
           className="mb-4 p-5 relative"
           style={{
@@ -335,10 +366,10 @@ export default function SevenLettersPage({ practice = false }: SevenLettersPageP
             borderRadius: '6px', fontWeight: 900, fontSize: '12px',
             transform: 'rotate(2deg)', fontFamily: "'JetBrains Mono', monospace",
           }}>
-            GENIUS ✓
+            {tier.toUpperCase()} ✓
           </span>
           <p className="text-sm font-bold m-0 mb-3" style={{ color: 'var(--sv-ink)' }}>
-            You hit Genius with {foundWords.length} words and {score}/{board.maxScore} points.
+            You reached {tier} with {foundWords.length} words and {score}/{board.maxScore} points.
           </p>
           <button onClick={() => setShowAnswers(!showAnswers)}
             style={{

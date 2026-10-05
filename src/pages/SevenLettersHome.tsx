@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import PastPuzzlesLink from '../components/PastPuzzlesLink';
 
 const LAUNCH_DATE = '2026-08-23';
 const DAY_MS = 86400000;
@@ -93,6 +94,8 @@ export default function SevenLettersHome() {
             </div>
           </div>
 
+          <PastPuzzlesLink to="/seven/archive" accent="#E7B10A" label="Play past boards" sublabel="Replay any of the previous boards" />
+
           <div className="my-2" style={{ width: '140px', height: '2px', background: 'var(--sv-ink)', opacity: 0.15 }} />
 
           {/* Nav menu */}
@@ -151,7 +154,7 @@ export default function SevenLettersHome() {
               <li className="flex gap-3"><span className="font-black text-[13px] w-5" style={{ color: '#E7B10A' }}>1</span>You get 7 letters each day — one of them sits in the CENTER and must appear in every word you make.</li>
               <li className="flex gap-3"><span className="font-black text-[13px] w-5" style={{ color: '#E7B10A' }}>2</span>Words are <strong>at least 3 letters long</strong>, English only, and use no letter outside the seven.</li>
               <li className="flex gap-3"><span className="font-black text-[13px] w-5" style={{ color: '#E7B10A' }}>3</span><span style={{ padding: '1px 6px', background: '#E7B10A', border: '2px solid #141414', borderRadius: '3px', fontWeight: 800 }}>SCORING</span> 3-letter word = 1 pt · longer words = 1 pt per letter · a word using all 7 letters = <strong>+7 bonus</strong>.</li>
-              <li className="flex gap-3"><span className="font-black text-[13px] w-5" style={{ color: '#E7B10A' }}>4</span>Climb the tiers: <strong>Good</strong> at 35% of max score, <strong>Great</strong> at 60%, <strong>Genius</strong> at 80%.</li>
+              <li className="flex gap-3"><span className="font-black text-[13px] w-5" style={{ color: '#E7B10A' }}>4</span>Climb the tiers: <strong>Good</strong> 15%, <strong>Solid</strong> 30%, <strong>Great</strong> 45%, <strong>Amazing</strong> 60%, <strong>Genius</strong> 80%, <strong>Queen Bee</strong> 100% of the board's max score.</li>
               <li className="flex gap-3"><span className="font-black text-[13px] w-5" style={{ color: '#E7B10A' }}>5</span>A new board every day. Copy your share card when you're done.</li>
             </ol>
           </div>

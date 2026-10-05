@@ -117,9 +117,12 @@ function tryMakeBoard(seedNum) {
         words,
         maxScore,
         tiers: {
-          good: Math.ceil(maxScore * 0.35),
-          great: Math.ceil(maxScore * 0.6),
+          good: Math.ceil(maxScore * 0.15),
+          solid: Math.ceil(maxScore * 0.3),
+          great: Math.ceil(maxScore * 0.45),
+          amazing: Math.ceil(maxScore * 0.6),
           genius: Math.ceil(maxScore * 0.8),
+          queen: Math.ceil(maxScore * 1),
         },
       };
     }

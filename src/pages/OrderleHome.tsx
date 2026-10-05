@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import PastPuzzlesLink from '../components/PastPuzzlesLink';
 import { ORDERLE_BANK } from '../utils/puzzleGenerator';
 
 const LAUNCH_DATE = '2026-08-07';
@@ -91,6 +92,8 @@ export default function OrderleHome() {
               }}>Play</Link>
             </div>
           </div>
+
+          <PastPuzzlesLink to="/orderle/calendar" accent="var(--ol-lime)" />
 
           <div className="my-2" style={{ width: '140px', height: '2px', background: 'var(--ol-ink)', opacity: 0.15 }} />
 

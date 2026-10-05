@@ -15,6 +15,8 @@ export interface QuizQuestion {
   answer: number;
   difficulty: 1 | 2 | 3;
   hint?: string;
+  /** Optional teaching line shown when the answer is revealed (wrong answers). */
+  explanation?: string;
 }
 
 export interface QuizCategory {

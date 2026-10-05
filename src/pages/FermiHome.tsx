@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import PastPuzzlesLink from '../components/PastPuzzlesLink';
 import { FERMI_BANK } from '../utils/puzzleGenerator';
 
 const LAUNCH_DATE = '2026-08-07';
@@ -107,6 +108,8 @@ export default function FermiHome() {
               }}>{doneToday ? 'Review' : 'Play'}</Link>
             </div>
           </div>
+
+          <PastPuzzlesLink to="/fermi/calendar" accent="var(--fm-orange)" />
 
           <div className="my-2" style={{ width: '140px', height: '2px', background: 'var(--fm-ink)', opacity: 0.15 }} />
 

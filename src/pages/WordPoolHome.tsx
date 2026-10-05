@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import PastPuzzlesLink from '../components/PastPuzzlesLink';
 import { getTodayDateStr, getDailyPuzzleIndex } from '../utils/dailySeed';
 import { getWordPoolDailyEntry, isWordPoolDailyAllDone } from '../utils/storage';
 
@@ -127,6 +128,8 @@ export default function WordPoolHome() {
           </div>
 
           {/* Divider */}
+          <PastPuzzlesLink to="/wordpool/previous" accent="#9FC3DA" />
+
           <div className="my-2" style={{ width: '140px', height: '1px', background: 'var(--wp-border-dark)' }} aria-hidden="true" />
 
           {/* Nav menu */}

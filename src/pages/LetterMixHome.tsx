@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import PastPuzzlesLink from '../components/PastPuzzlesLink';
 import LetterMixBackgroundGrid from '../components/LetterMixBackgroundGrid';
 import AnimatedString from '../components/AnimatedString';
 import { getTodayDateStr } from '../utils/dailySeed';
@@ -69,6 +70,8 @@ export default function LetterMixHome() {
               }}>Play</Link>
             </div>
           </div>
+
+          <PastPuzzlesLink to="/lettermix/calendar" accent="#D63B3B" />
 
           <div style={{ width: '60px', height: '3px', background: 'var(--lm-border)', opacity: 0.2, margin: '8px 0' }} />
 

@@ -22,6 +22,15 @@ const CATS = [
   { id: 'animals', label: 'Animals', emoji: '🦁' },
 ];
 
+// Optional per-question explanations (id -> one-line fact). Applied here so the
+// merged bank keeps its explanations even after the sustainer appends new
+// questions; the mapping file is the source of truth and grows over time.
+const EXPLANATIONS_FILE = path.join(IN_DIR, 'explanations.json');
+const explanations = fs.existsSync(EXPLANATIONS_FILE)
+  ? JSON.parse(fs.readFileSync(EXPLANATIONS_FILE, 'utf8'))
+  : {};
+let attached = 0;
+
 const questions = [];
 const seen = new Set();
 
@@ -55,11 +64,18 @@ for (const cat of CATS) {
       process.exit(1);
     }
     seen.add(q.id);
-    questions.push({ ...q, category: cat.id });
+    const explanation = explanations[q.id];
+    if (typeof explanation === 'string' && explanation.trim()) attached++;
+    questions.push({
+      ...q,
+      category: cat.id,
+      ...(typeof explanation === 'string' && explanation.trim() ? { explanation } : {}),
+    });
   }
   console.log(`  ${cat.id}: ${arr.length} questions`);
 }
 
 const bank = { version: 1, categories: CATS, questions };
 fs.writeFileSync(OUT, JSON.stringify(bank, null, 2));
+console.log(`  explanations attached: ${attached}/${questions.length}`);
 console.log(`OK: ${questions.length} questions across ${CATS.length} categories -> ${path.relative(ROOT, OUT)}`);
