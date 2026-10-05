@@ -9,6 +9,8 @@ import NotFound from './pages/NotFound';
 import ErrorBoundary from './components/ErrorBoundary';
 import LoadingSkeleton from './components/LoadingSkeleton';
 import { isNativeApp } from './utils/platform';
+import { App as CapApp } from '@capacitor/app';
+import { handleAuthCallback } from './utils/account';
 
 // Lazy-loaded game pages for code splitting
 const LetterMixHome = lazy(() => import('./pages/LetterMixHome'));
@@ -102,6 +104,23 @@ function ExternalLinks() {
   return null;
 }
 
+// Completes magic-link sign-ins that come back into the native app via the
+// yodoku://auth/callback deep link (see AndroidManifest intent filter).
+function NativeDeepLinks() {
+  useEffect(() => {
+    if (!isNativeApp()) return;
+    const sub = CapApp.addListener('appUrlOpen', async ({ url }) => {
+      if (!url || !url.startsWith('yodoku://')) return;
+      const res = await handleAuthCallback(url);
+      if (res.ok) window.location.assign('/plus');
+    });
+    return () => {
+      sub.then((h) => h.remove()).catch(() => undefined);
+    };
+  }, []);
+  return null;
+}
+
 function App() {
   return (
     <ErrorBoundary>
@@ -109,6 +128,7 @@ function App() {
       <Analytics />
       <RouteTitle />
       <ExternalLinks />
+      <NativeDeepLinks />
       <Suspense fallback={<LoadingSkeleton />}>
       <Routes>
         <Route path="/" element={<HomeLayout />}>
