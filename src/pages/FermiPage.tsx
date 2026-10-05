@@ -174,6 +174,7 @@ export default function FermiPage() {
             disabled={state.over}
             style={{
               flex: 1,
+              minWidth: 0,
               background: 'var(--fm-panel)',
               border: '2.5px solid var(--fm-ink)',
               borderRadius: '8px',
@@ -188,6 +189,7 @@ export default function FermiPage() {
           />
           <button type="submit" data-haptic
             style={{
+              flexShrink: 0,
               background: 'var(--fm-ink)',
               color: 'var(--fm-bg)',
               border: '2.5px solid var(--fm-ink)',

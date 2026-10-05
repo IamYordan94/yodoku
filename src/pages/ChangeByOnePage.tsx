@@ -621,7 +621,7 @@ export default function ChangeByOnePage() {
           )}
 
           {/* Bottom controls */}
-          <div className="flex items-center justify-between pt-3" style={{ borderTop: '1px solid var(--cbo-border)' }}>
+          <div className="flex items-center justify-between flex-wrap gap-y-2 pt-3" style={{ borderTop: '1px solid var(--cbo-border)' }}>
             <div className="flex items-center gap-2">
               <span className="text-xs font-semibold" style={{ color: 'var(--cbo-text-muted)', fontFamily: "'JetBrains Mono', monospace" }}>Moves</span>
               <div className="flex gap-1">

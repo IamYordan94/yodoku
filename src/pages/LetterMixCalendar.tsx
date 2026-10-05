@@ -139,7 +139,7 @@ export default function LetterMixCalendar() {
   return (
     <div className="space-y-6">
       <PlusSheet open={lockOpen} onClose={() => setLockOpen(false)} context="Clear the String" />
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between flex-wrap gap-y-2">
         <h2 className="text-xl font-semibold" style={{ color: 'var(--lm-accent)' }}>Calendar</h2>
         <div className="flex items-center gap-2">
           <button
