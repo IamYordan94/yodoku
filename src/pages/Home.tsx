@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { useEffect, useMemo, useState } from 'react';
 import AdSlot from '../components/AdSlot';
 import InstallSticker from '../components/InstallSticker';
+import NativeReminderCard from '../components/NativeReminderCard';
 import NewsletterSignup from '../components/NewsletterSignup';
 import { getTodayProgress } from '../utils/dailyProgress';
 
@@ -333,6 +334,9 @@ export default function Home() {
           ))}
         </div>
       </div>
+
+      {/* Daily reminder (native app only) */}
+      <NativeReminderCard />
 
       {/* First-visit starter sticker */}
       {showStarter && (

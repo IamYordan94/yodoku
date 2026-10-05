@@ -1,3 +1,5 @@
+import { hapticTap } from '../utils/nativeShell';
+
 const ROWS: string[][] = [
   ['Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P'],
   ['A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L'],
@@ -44,7 +46,7 @@ export default function OnScreenKeyboard({
                   disabled={enterDisabled}
                   onPointerDown={(e) => {
                     e.preventDefault();
-                    if (!enterDisabled) onEnter();
+                    if (!enterDisabled) { hapticTap(); onEnter(); }
                   }}
                 >
                   {enterLabel}
@@ -59,6 +61,7 @@ export default function OnScreenKeyboard({
                   className={wideClass}
                   onPointerDown={(e) => {
                     e.preventDefault();
+                    hapticTap();
                     onBackspace();
                   }}
                 >
@@ -73,6 +76,7 @@ export default function OnScreenKeyboard({
                 className={baseClass}
                 onPointerDown={(e) => {
                   e.preventDefault();
+                  hapticTap();
                   onKey(key.toLowerCase());
                 }}
               >

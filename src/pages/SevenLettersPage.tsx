@@ -237,7 +237,7 @@ export default function SevenLettersPage({ practice = false }: SevenLettersPageP
             minWidth: 0,
           }}
         />
-        <button onClick={handleSubmit}
+        <button onClick={handleSubmit} data-haptic
           style={{
             background: 'var(--sv-ink)', color: 'var(--sv-bg)',
             border: '2.5px solid var(--sv-ink)', borderRadius: '8px',

@@ -145,7 +145,7 @@ export default function ChangeByOneCalendar() {
   return (
     <div className="space-y-6">
       <PlusSheet open={lockOpen} onClose={() => setLockOpen(false)} context="Change by One" />
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between flex-wrap gap-y-2">
         <h2
           className="text-xl font-semibold"
           style={{ color: 'var(--cbo-accent)', fontFamily: "'JetBrains Mono', monospace" }}

@@ -356,6 +356,7 @@ export default function QuizPage() {
               whileTap={answered ? undefined : { scale: 0.985 }}
               onClick={() => handlePick(i)}
               disabled={answered}
+              data-haptic
               style={{
                 background: bg,
                 border: `2.5px solid ${borderColor}`,
@@ -400,7 +401,7 @@ export default function QuizPage() {
       {/* Next / finish */}
       {answered && qIndex + 1 < quiz.length && (
         <div className="flex justify-end">
-          <button onClick={handleNext}
+          <button onClick={handleNext} data-haptic
             style={{
               background: 'var(--qz-ink)',
               color: 'var(--qz-bg)',
@@ -418,7 +419,7 @@ export default function QuizPage() {
       )}
       {answered && qIndex + 1 >= quiz.length && !over && (
         <div className="flex justify-end">
-          <button onClick={() => finish(answers)}
+          <button onClick={() => finish(answers)} data-haptic
             style={{
               background: 'var(--qz-accent)',
               color: '#fff',

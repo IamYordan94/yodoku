@@ -132,7 +132,7 @@ export default function WordPoolPreviousGames() {
   return (
     <div className="space-y-6">
       <PlusSheet open={lockOpen} onClose={() => setLockOpen(false)} context="Word Pool" />
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between flex-wrap gap-y-2">
         <h2 className="text-xl font-semibold" style={{ color: 'var(--wp-accent-blue-dark)' }}>
           Previous Puzzles
         </h2>

@@ -494,7 +494,7 @@ export default function LetterMixPage() {
                   style={{ background: 'var(--lm-surface)', border: '1px solid var(--lm-border)', borderBottom: '2px solid var(--lm-border-dark)', color: selectedWord ? 'var(--lm-text)' : 'var(--lm-text-faint)', fontFamily: "'JetBrains Mono', monospace", letterSpacing: '0.08em' }}>
                   {selectedWord.toUpperCase() || '_ _ _'}
                 </div>
-                <button onClick={handleSubmit}
+                <button onClick={handleSubmit} data-haptic
                   className="px-4 py-2 rounded text-sm font-black text-white"
                   style={{ background: 'var(--lm-accent)', border: '1px solid var(--lm-accent-dark)', borderBottom: '3px solid var(--lm-accent-side)', boxShadow: '0 3px 0 var(--lm-accent-side)', fontFamily: "'JetBrains Mono', monospace", letterSpacing: '0.04em' }}
                   onMouseDown={e => { (e.currentTarget as HTMLElement).style.transform = 'translateY(2px)'; (e.currentTarget as HTMLElement).style.boxShadow = '0 1px 0 var(--lm-accent-side)'; }}
@@ -502,7 +502,7 @@ export default function LetterMixPage() {
                   onMouseLeave={e => { (e.currentTarget as HTMLElement).style.transform = ''; (e.currentTarget as HTMLElement).style.boxShadow = '0 3px 0 var(--lm-accent-side)'; }}>
                   Submit
                 </button>
-                <button onClick={handleClear}
+                <button onClick={handleClear} data-haptic
                   className="px-4 py-2 rounded text-sm font-semibold"
                   style={{ background: 'var(--lm-key-face)', border: '1px solid var(--lm-border)', borderBottom: '3px solid var(--lm-border-dark)', boxShadow: '0 3px 0 var(--lm-key-side)', color: 'var(--lm-text-muted)' }}
                   onMouseDown={e => { (e.currentTarget as HTMLElement).style.transform = 'translateY(2px)'; (e.currentTarget as HTMLElement).style.boxShadow = '0 1px 0 var(--lm-key-side)'; }}

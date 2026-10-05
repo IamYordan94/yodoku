@@ -464,17 +464,17 @@ export default function WordPoolPage() {
             </div>
             <div className="flex gap-3 justify-center flex-wrap pt-1">
               {isDaily && level.level < category.levels.length && (
-                <button onClick={() => switchLevel(category.levels[level.level])} className="wp-btn-primary">
+                <button onClick={() => switchLevel(category.levels[level.level])} className="wp-btn-primary" data-haptic>
                   Next Level →
                 </button>
               )}
               {isDaily && level.level === category.levels.length && (
-                <button onClick={() => setIsDailyComplete(true)} className="wp-btn-primary">
+                <button onClick={() => setIsDailyComplete(true)} className="wp-btn-primary" data-haptic>
                   See Full Results
                 </button>
               )}
               {!isDaily && level.level < category.levels.length && (
-                <button onClick={() => { switchLevel(category.levels[level.level]); }} className="wp-btn-primary">
+                <button onClick={() => { switchLevel(category.levels[level.level]); }} className="wp-btn-primary" data-haptic>
                   Next Level →
                 </button>
               )}
@@ -496,7 +496,7 @@ export default function WordPoolPage() {
             <button onClick={() => {
               const cur = Math.min(getWordPoolDailyUnlockedLevel(puzzleDate), category.levels.length);
               switchLevel(category.levels[cur - 1]);
-            }} className="wp-btn-primary">Go to current level</button>
+            }} className="wp-btn-primary" data-haptic>Go to current level</button>
           </div>
         ) : (
           <>

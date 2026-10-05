@@ -5,6 +5,7 @@
 
 import { useEffect } from 'react';
 import { AD_CONFIG, adsEnabled } from '../utils/ads';
+import { shouldLoadAdTagNow } from '../utils/adFree';
 
 let tagInjected = false;
 
@@ -16,7 +17,8 @@ export default function AdSlot({
   minHeight?: number;
 }) {
   useEffect(() => {
-    if (!AD_CONFIG.monetagTagUrl || tagInjected) return;
+    // The ad-free gate: native app + Yodoku+ subscribers never get a tag.
+    if (!AD_CONFIG.monetagTagUrl || tagInjected || !shouldLoadAdTagNow()) return;
     const s = document.createElement('script');
     s.src = AD_CONFIG.monetagTagUrl;
     s.setAttribute('data-cfasync', 'false');
@@ -25,7 +27,7 @@ export default function AdSlot({
     tagInjected = true;
   }, []);
 
-  if (!adsEnabled) return null;
+  if (!adsEnabled || !shouldLoadAdTagNow()) return null;
 
   return (
     <div
