@@ -71,7 +71,7 @@ export function validateCboWord(
   const w = word.toLowerCase();
 
   if (!isValidWord(w)) {
-    return { isValid: false, error: 'Not a valid word. Try again.' };
+    return { isValid: false, error: 'Not a word you can use here — try another.' };
   }
   if (w.length !== previousWord.length) {
     return { isValid: false, error: 'Word must be the same length.' };

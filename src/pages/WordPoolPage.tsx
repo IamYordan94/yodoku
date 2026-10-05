@@ -214,8 +214,8 @@ export default function WordPoolPage() {
   const handleSubmit = useCallback(() => {
     const word = input.trim().toLowerCase();
     if (!word || !level || !category) return;
-    if (foundWords.includes(word)) { setMessage({ text: 'Already found', type: 'error' }); return; }
-    if (!level.words.includes(word)) { setMessage({ text: 'Not in this category', type: 'error' }); return; }
+    if (foundWords.includes(word)) { setMessage({ text: 'Already found', type: 'error' }); setInput(''); return; }
+    if (!level.words.includes(word)) { setMessage({ text: 'Not in this category', type: 'error' }); setInput(''); return; }
     const next = [...foundWords, word];
     setFoundWords(next);
     if (isDaily) saveWordPoolDailySessionWords(puzzleDate, level.level, next);

@@ -5,22 +5,18 @@ import { useWordDatabase } from '../hooks/useWordDatabase';
 import ShareCardModal from '../components/ShareCardModal';
 import { getTodayDateStr } from '../utils/dailySeed';
 import {
+  loadEnglishCommon,
+  isCommonEnglishWord,
+  getCommonEnglishWordsByLength,
+} from '../utils/englishWords';
+import { canFormFromLetters, isAcceptedGuess, hasFormableWord } from '../utils/lettermixLogic';
+import {
   setLetterMixCompleted,
   getLetterMixCompletedFor,
   getHintTargetAsync,
   setHintTargetAsync,
   clearHintTargetAsync,
 } from '../utils/storage';
-
-function canFormFromLetters(availableLetters: string, word: string): boolean {
-  const counts: Record<string, number> = {};
-  for (const ch of availableLetters) counts[ch] = (counts[ch] || 0) + 1;
-  for (const ch of word) {
-    if (!counts[ch]) return false;
-    counts[ch]--;
-  }
-  return true;
-}
 
 type Puzzle = { date: string; level: string; scrambledLetters: string; solutionWords: string[] };
 const LEVELS = ['easy', 'medium', 'hard'] as const;
@@ -172,7 +168,16 @@ export default function LetterMixPage() {
       ? (levelParam as (typeof LEVELS)[number])
       : 'easy';
 
-  const { isLoading: dbLoading, isValidWord } = useWordDatabase();
+  const { isLoading: dbLoading, isValidWord, getWordsByLength } = useWordDatabase();
+
+  const [commonLoading, setCommonLoading] = useState(true);
+  useEffect(() => {
+    let mounted = true;
+    loadEnglishCommon()
+      .catch(() => {})
+      .finally(() => { if (mounted) setCommonLoading(false); });
+    return () => { mounted = false; };
+  }, []);
 
   const [puzzle, setPuzzle] = useState<Puzzle | null>(null);
   const [cardOpen, setCardOpen] = useState(false);
@@ -218,7 +223,14 @@ export default function LetterMixPage() {
 
   const handleSubmit = () => {
     if (!selectedWord || selectedWord.length < 2) { setMessage({ text: 'Select at least 2 letters', type: 'error' }); return; }
-    if (!isValidWord(selectedWord)) { setMessage({ text: 'Not a valid English word', type: 'error' }); return; }
+    const accepted = puzzle
+      ? isAcceptedGuess(selectedWord, {
+          isValidDictionaryWord: isValidWord,
+          isCommonWord: isCommonEnglishWord,
+          solutionWords: puzzle.solutionWords,
+        })
+      : isValidWord(selectedWord) || isCommonEnglishWord(selectedWord);
+    if (!accepted) { setMessage({ text: 'Not a word we recognize — try another.', type: 'error' }); return; }
     if (foundWords.includes(selectedWord)) { setMessage({ text: 'Already found', type: 'error' }); return; }
     setFoundWords(prev => [...prev, selectedWord]);
     setLetters(prev => prev.filter((_, i) => !selectedIndices.includes(i)));
@@ -257,17 +269,21 @@ export default function LetterMixPage() {
     })();
   }, [puzzle, foundWords]);
 
+  // "Stuck" is only honest when NO remaining valid word can be formed from the
+  // leftover letters. The previous check probed a hard-coded list of 2-letter
+  // words, but the dictionary has no 2-letter entries, so that escape hatch was
+  // dead: the screen fired as soon as the remaining solution words were
+  // unformable — even while words were found/listed and bonus words were still
+  // playable. That was the counter inconsistency players saw.
   const isStuck = useMemo(() => {
     if (isWon || letters.length < 2) return false;
-    if (puzzle) {
-      for (const word of puzzle.solutionWords) {
-        if (!foundWords.includes(word) && canFormFromLetters(letters.join(''), word)) return false;
-      }
-    }
-    const common = ['an','at','be','by','do','go','he','if','in','is','it','me','my','no','of','on','or','so','to','up','us','we'];
-    for (const word of common) if (canFormFromLetters(letters.join(''), word) && isValidWord(word)) return false;
-    return true;
-  }, [letters, puzzle, foundWords, isWon, isValidWord]);
+    return !hasFormableWord(
+      letters.join(''),
+      foundWords,
+      puzzle?.solutionWords ?? [],
+      (len) => [...getWordsByLength(len), ...getCommonEnglishWordsByLength(len)]
+    );
+  }, [letters, puzzle, foundWords, isWon, getWordsByLength]);
 
   useEffect(() => { setResetHandler(() => handleReset); return () => setResetHandler(null); }, [setResetHandler, handleReset]);
 
@@ -321,7 +337,7 @@ export default function LetterMixPage() {
   };
 
   // ── Loading states ───────────────────────────────────────────────────────
-  if (dbLoading || !puzzleLoaded) {
+  if (dbLoading || !puzzleLoaded || commonLoading) {
     return (
       <div className="flex justify-center py-12">
         <div className="animate-pulse text-sm font-semibold" style={{ color: 'var(--lm-text-muted)' }}>Loading puzzle…</div>
@@ -403,6 +419,10 @@ export default function LetterMixPage() {
                   </span>
                 ))}
               </div>
+              <span className="text-xs font-black"
+                style={{ color: 'var(--lm-accent)', fontFamily: "'JetBrains Mono', monospace" }}>
+                Found {foundSolutionWords.length} of {puzzle.solutionWords.length}
+              </span>
             </div>
             <div className="text-xs font-semibold" style={{ color: 'var(--lm-text-faint)', fontFamily: "'JetBrains Mono', monospace" }}>
               {puzzle.solutionWords.length} words —{' '}
@@ -467,7 +487,8 @@ export default function LetterMixPage() {
               style={{ background: 'rgba(214,59,59,0.06)', border: '1px solid rgba(214,59,59,0.4)', borderBottom: '3px solid rgba(214,59,59,0.5)' }}>
               <p className="text-xl font-black" style={{ color: 'var(--lm-accent)' }}>Stuck!</p>
               <p className="text-sm font-semibold" style={{ color: 'var(--lm-text-muted)' }}>
-                Can&apos;t form any more words. Found {foundSolutionWords.length} of {puzzle.solutionWords.length} solution words.
+                Can&apos;t form any more words from the remaining letters. Found {foundSolutionWords.length} of {puzzle.solutionWords.length} hidden words
+                {foundWords.length > foundSolutionWords.length ? ` (${foundWords.length} words found in total)` : ''}.
               </p>
               <button onClick={handleReset} className="px-5 py-2 rounded text-sm font-black text-white"
                 style={{ background: 'var(--lm-accent)', border: '1px solid var(--lm-accent-dark)', borderBottom: '2px solid var(--lm-accent-side)' }}>

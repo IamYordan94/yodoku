@@ -9,7 +9,12 @@
     "prerender": "node scripts/prerender-seo.mjs",
     "serve:dist": "node scripts/serve-dist.mjs",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "node scripts/test-quiz-logic.mjs && node scripts/test-ad-guard.mjs && node scripts/test-lettermix-logic.mjs && node scripts/validate-cbo.mjs",
+    "test:cbo": "node scripts/validate-cbo.mjs",
+    "test:lettermix": "node scripts/test-lettermix-logic.mjs",
+    "cbo:words": "node scripts/build-cbo-words.mjs",
+    "cbo:pairs": "node scripts/gen-cbo-pairs.mjs"
   },
   "dependencies": {
     "@capacitor/android": "^8.5.2",
