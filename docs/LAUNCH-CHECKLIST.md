@@ -251,3 +251,18 @@ combined daily share card, curated Change by One word pairs.
 Confirmed bugs to fix (bundle with the Spanish word-data work): CBO junk words (wran/ming — in
 `public/words-cbo.json`), Clear-the-String dictionary rejections + stuck counter, WP input buffer,
 Quiz explanations, FERMI keypad figures.
+
+## 12. Bugs + player-wishlist features — DONE & live (5 Oct) + service-worker fix
+
+- All confirmed word-data bugs fixed: CBO rebuilt from a curated common-English list (today's pair
+  now BARS→GALS, validate-cbo gate wired into tests); CTS accepts common words + stuck-counter
+  root-caused + "Found X of Y" progress added; friendlier rejection texts; WP buffer clears;
+  FERMI range labelled.
+- All 8 approved features shipped: resume-in-progress (6 games + banner), daily-email reminder
+  module, countdown to next daily, archive links + /quiz/archive + /seven/archive, quiz
+  explanations (next 14 days, 130 questions backfilled), combined daily share card, 7 Letters
+  7-tier ladder + "words to next tier", Word Pool progressive letter-reveal hints.
+- SERVICE WORKER FIXED (found while verifying): the old sw.js kept every route except '/' (and
+  root .json data) stale for returning visitors — network-first now for navigations + all json,
+  cache v2. Live-verified: fresh content after SW upgrade; 0 JS errors.
+- Fresh signed APK v5 built + delivered to the owner.
