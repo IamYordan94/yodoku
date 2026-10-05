@@ -1,7 +1,38 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <script>(function(s){s.dataset.zone='11640179',s.src='https://nap5k.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
+    <!-- Monetag In-Page Push (zone 11640179) — DORMANT-SAFE ad-free gate.
+         Mirrors src/utils/adFree.ts (asserted by scripts/test-ad-guard.mjs).
+         The tag loads ONLY for web visitors without an active Yodoku+ state.
+         The native app (window.Capacitor / https://localhost origin) and
+         ?native=1 / ?plus=1 overrides never load it. Ordinary web traffic is
+         unchanged — the same tag, the same zone, at the same point in <head>. -->
+    <script>(function () {
+  var ZONE = '11640179';
+  var SRC = 'https://nap5k.com/tag.min.js';
+  function adFree() {
+    try {
+      var q = new URLSearchParams(location.search);
+      if (q.get('native') === '1') return true;                              // ?native=1 simulation
+      if (q.get('plus') === '1') return true;                                // ?plus=1 subscriber
+      if (localStorage.getItem('yodoku_plus_local') === '1') return true;    // stored Yodoku+
+    } catch (e) { /* no window APIs — treat as plain web */ }
+    var cap = window.Capacitor;
+    if (cap) {
+      if (typeof cap.isNativePlatform === 'function') {
+        if (cap.isNativePlatform()) return true;
+      } else if (typeof cap.platform === 'string' && cap.platform !== 'web') {
+        return true;
+      }
+    }
+    if (location.protocol === 'https:' && location.hostname === 'localhost' && location.port === '') return true; // native WebView origin
+    return false;
+  }
+  if (adFree()) return;
+  var s = document.createElement('script');
+  s.dataset.zone = ZONE, s.src = SRC;
+  ([document.documentElement, document.body].filter(Boolean).pop() || document.head).appendChild(s);
+})();</script>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/png" href="/images/yodoku-logo.png" />
     <link rel="manifest" href="/manifest.json" />
