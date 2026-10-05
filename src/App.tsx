@@ -8,6 +8,8 @@ import Terms from './pages/Terms';
 import NotFound from './pages/NotFound';
 import ErrorBoundary from './components/ErrorBoundary';
 import LoadingSkeleton from './components/LoadingSkeleton';
+import NativeShell from './components/NativeShell';
+import { ToastHost } from './components/Toast';
 import { isNativeApp } from './utils/platform';
 import { App as CapApp } from '@capacitor/app';
 import { handleAuthCallback } from './utils/account';
@@ -129,6 +131,8 @@ function App() {
       <RouteTitle />
       <ExternalLinks />
       <NativeDeepLinks />
+      <NativeShell />
+      <ToastHost />
       <Suspense fallback={<LoadingSkeleton />}>
       <Routes>
         <Route path="/" element={<HomeLayout />}>
