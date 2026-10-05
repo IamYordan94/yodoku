@@ -9,9 +9,10 @@ const config: CapacitorConfig = {
   },
   plugins: {
     SplashScreen: {
-      launchShowDuration: 2000,
-      backgroundColor: '#0f0f1a',
+      launchShowDuration: 400,
+      backgroundColor: '#141414',
       showSpinner: false,
+      launchFadeOutDuration: 250,
     },
   },
 };
