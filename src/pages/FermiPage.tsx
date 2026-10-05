@@ -186,7 +186,7 @@ export default function FermiPage() {
               fontFamily: "'JetBrains Mono', monospace",
             }}
           />
-          <button type="submit"
+          <button type="submit" data-haptic
             style={{
               background: 'var(--fm-ink)',
               color: 'var(--fm-bg)',
@@ -206,7 +206,7 @@ export default function FermiPage() {
       {!state.over && (
         <div className="grid grid-cols-3 gap-2 mb-4 max-w-[320px] mx-auto">
           {['7','8','9','4','5','6','1','2','3','0','.','⌫'].map((key) => (
-            <button key={key}
+            <button key={key} data-haptic
               onClick={() => {
                 if (key === '⌫') {
                   setInputVal(prev => prev.slice(0, -1));

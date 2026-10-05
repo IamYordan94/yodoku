@@ -5,6 +5,8 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { drawShareCard, type ShareCardOptions } from '../utils/shareCard';
 import { track } from '../utils/telemetry';
+import { isNativeApp } from '../utils/platform';
+import { hapticTap, shareNative } from '../utils/nativeShell';
 
 export interface ShareCardModalProps {
   open: boolean;
@@ -18,6 +20,7 @@ const SITE_URL = 'https://www.yodoku.app';
 export default function ShareCardModal({ open, onClose, options, shareText }: ShareCardModalProps) {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
   const [copied, setCopied] = useState(false);
+  const native = isNativeApp();
 
   // Draw the card whenever the modal opens or the options change.
   useEffect(() => {
@@ -30,6 +33,7 @@ export default function ShareCardModal({ open, onClose, options, shareText }: Sh
   const handleDownload = useCallback(() => {
     const canvas = canvasRef.current;
     if (!canvas) return;
+    hapticTap();
     track('share_download', { game: options.gameId });
     canvas.toBlob((blob) => {
       if (!blob) return;
@@ -42,19 +46,26 @@ export default function ShareCardModal({ open, onClose, options, shareText }: Sh
     }, 'image/png');
   }, [options.gameId]);
 
-  const handleWhatsApp = useCallback(() => {
-    // wa.me deep link — no API, no SDK. Opens WhatsApp with prefilled text.
+  const handleWhatsApp = useCallback(async () => {
+    hapticTap();
+    // Native app: the system share sheet. Web: the wa.me deep link (no SDK).
+    if (native) {
+      track('share_native', { game: options.gameId });
+      const res = await shareNative({ title: 'Yodoku', text: shareText, url: SITE_URL });
+      if (res.shared) return;
+    }
     track('share_whatsapp', { game: options.gameId });
     window.open(
       `https://wa.me/?text=${encodeURIComponent(`${shareText}\n${SITE_URL}`)}`,
       '_blank',
       'noopener'
     );
-  }, [shareText, options.gameId]);
+  }, [shareText, options.gameId, native]);
 
   const handleCopy = useCallback(async () => {
     const canvas = canvasRef.current;
     if (!canvas) return;
+    hapticTap();
     track('share_copy', { game: options.gameId });
     try {
       const blob = await new Promise<Blob | null>((res) => canvas.toBlob(res, 'image/png'));
@@ -182,7 +193,7 @@ export default function ShareCardModal({ open, onClose, options, shareText }: Sh
                   cursor: 'pointer',
                 }}
               >
-                WhatsApp
+                {native ? 'Share' : 'WhatsApp'}
               </button>
               <button
                 onClick={handleCopy}
