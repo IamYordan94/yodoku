@@ -8,6 +8,7 @@ import NewsletterSignup from '../components/NewsletterSignup';
 import NextDailyCountdown from '../components/NextDailyCountdown';
 import DailySummaryShare from '../components/DailySummaryShare';
 import { getTodayProgress } from '../utils/dailyProgress';
+import LanguageSwitcher from '../components/LanguageSwitcher';
 
 type GameCardProps = {
   delay?: number;
@@ -266,6 +267,7 @@ export default function Home() {
           >
             YODOKU+ ✦
           </Link>
+          <LanguageSwitcher />
         </div>
         <p
           className="text-sm font-semibold m-0"

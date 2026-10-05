@@ -29,8 +29,10 @@
     "@tailwindcss/vite": "^4.1.18",
     "@vercel/analytics": "^2.0.1",
     "framer-motion": "^12.34.0",
+    "i18next": "^26.4.2",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
+    "react-i18next": "^17.0.15",
     "react-router-dom": "^7.13.0",
     "tailwindcss": "^4.1.18"
   },
