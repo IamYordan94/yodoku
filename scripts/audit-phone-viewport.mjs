@@ -26,8 +26,8 @@ const ROUTES = [
   '/changebyone', '/changebyone/play', '/changebyone/calendar', '/changebyone/about',
   '/orderle', '/orderle/play', '/orderle/calendar', '/orderle/about',
   '/fermi', '/fermi/play', '/fermi/calendar', '/fermi/about',
-  '/quiz', '/quiz/play', '/quiz/about',
-  '/seven', '/seven/play', '/seven/about',
+  '/quiz', '/quiz/play', '/quiz/archive', '/quiz/about',
+  '/seven', '/seven/play', '/seven/archive', '/seven/about',
 ];
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));

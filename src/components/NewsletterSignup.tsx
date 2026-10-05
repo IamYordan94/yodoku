@@ -4,18 +4,40 @@ import { NEWSLETTER_ENABLED } from '../utils/monetization';
 
 type State = 'idle' | 'sending' | 'done' | 'error';
 
+const DISMISS_KEY = 'yodoku_newsletter_dismissed';
+
+function isDismissed(): boolean {
+  try {
+    return localStorage.getItem(DISMISS_KEY) === '1';
+  } catch {
+    return false;
+  }
+}
+
 /**
- * "The daily email" signup — sticker-styled, one field.
- * Renders ONLY when VITE_NEWSLETTER_ENABLED === 'true' (i.e. once Brevo or
- * Resend is connected), so the live site never shows a dead form.
+ * "Get the daily puzzles by email" opt-in module — sticker-styled, one field,
+ * dismissible. Wired to the SAME /api/subscribe newsletter signup the daily
+ * 08:30 campaign already uses, so opting in here is what builds the reminder list.
+ * Renders ONLY when VITE_NEWSLETTER_ENABLED === 'true' (i.e. once Brevo is
+ * connected), so the live site never shows a dead form.
  */
 export default function NewsletterSignup() {
   const [email, setEmail] = useState('');
   const [company, setCompany] = useState(''); // honeypot — humans never see it
   const [state, setState] = useState<State>('idle');
   const [message, setMessage] = useState('');
+  const [dismissed, setDismissed] = useState(() => isDismissed());
 
-  if (!NEWSLETTER_ENABLED) return null;
+  if (!NEWSLETTER_ENABLED || dismissed) return null;
+
+  const dismiss = () => {
+    setDismissed(true);
+    try {
+      localStorage.setItem(DISMISS_KEY, '1');
+    } catch {
+      // ignore
+    }
+  };
 
   async function submit(e: FormEvent) {
     e.preventDefault();
@@ -31,7 +53,7 @@ export default function NewsletterSignup() {
       const data = await res.json().catch(() => ({}) as { ok?: boolean; error?: string });
       if (res.ok && data.ok) {
         setState('done');
-        setMessage("You're on the list — first email tomorrow morning.");
+        setMessage("You're on the list — first reminder tomorrow at 08:30.");
       } else if (data.error === 'invalid-email') {
         setState('error');
         setMessage("That email doesn't look right — check it and try again.");
@@ -48,9 +70,10 @@ export default function NewsletterSignup() {
   const mono = "'JetBrains Mono', ui-monospace, monospace";
 
   return (
-    <section className="mt-8">
+    <section className="mt-0">
       <div
         style={{
+          position: 'relative',
           background: 'var(--yodoku-panel)',
           border: '2.5px solid var(--yodoku-ink)',
           borderRadius: '12px',
@@ -58,7 +81,25 @@ export default function NewsletterSignup() {
           padding: '16px 18px',
         }}
       >
-        <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '6px' }}>
+        <button
+          onClick={dismiss}
+          aria-label="Dismiss email signup"
+          style={{
+            position: 'absolute',
+            top: '8px',
+            right: '10px',
+            background: 'transparent',
+            border: 'none',
+            cursor: 'pointer',
+            fontWeight: 800,
+            fontSize: '14px',
+            color: 'var(--yodoku-ink-soft)',
+            padding: '2px 4px',
+          }}
+        >
+          ✕
+        </button>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '6px', flexWrap: 'wrap' }}>
           <span
             style={{
               background: 'var(--yodoku-lime)',
@@ -73,7 +114,7 @@ export default function NewsletterSignup() {
               fontFamily: mono,
             }}
           >
-            the daily email
+            get the daily puzzles by email
           </span>
           <span className="text-[10px] font-bold" style={{ color: 'var(--yodoku-ink-soft)', fontFamily: mono }}>
             ONE EMAIL A MORNING
@@ -81,7 +122,8 @@ export default function NewsletterSignup() {
         </div>
 
         <p className="text-sm font-semibold m-0 mb-3" style={{ color: 'var(--yodoku-ink-soft)', lineHeight: 1.55 }}>
-          Seven fresh puzzles in your inbox. No spam, unsubscribe in one click.
+          Never miss a day. We&apos;ll email your daily reminder at 08:30 every morning with all seven puzzles.
+          No spam, unsubscribe in one click.
         </p>
 
         {state === 'done' ? (
@@ -147,7 +189,7 @@ export default function NewsletterSignup() {
                 letterSpacing: '0.06em',
               }}
             >
-              {state === 'sending' ? 'Sending…' : 'Subscribe'}
+              {state === 'sending' ? 'Sending…' : 'Get the reminder'}
             </button>
           </form>
         )}

@@ -68,10 +68,12 @@ const ROUTES = [
   { path: '/quiz', title: 'Quiz Master — Yodoku', desc: 'Quiz Master is a free daily trivia quiz with questions across eleven categories. Play today\u2019s 10-question quiz on Yodoku.', home: true, changefreq: 'daily', priority: '0.9' },
   { path: '/quiz/play', title: 'Play Quiz Master — Yodoku', desc: 'Play today\u2019s Quiz Master — a free daily general-knowledge quiz on Yodoku. Ten fresh questions every day.', changefreq: 'daily', priority: '0.8' },
   { path: '/quiz/about', title: 'About Quiz Master — Yodoku', desc: 'Learn about Quiz Master, the daily trivia game on Yodoku, with questions from eleven categories. Free to play.', changefreq: 'monthly', priority: '0.5' },
+  { path: '/quiz/archive', title: 'Quiz Master Archive — Yodoku', desc: 'Replay past Quiz Master daily quizzes on Yodoku — the same ten questions for everyone, any recent date.', changefreq: 'daily', priority: '0.6' },
 
   { path: '/seven', title: '7 Letters — Yodoku', desc: '7 Letters is a free daily word game in the style of the classic spelling bee: make words from seven letters. Play today\u2019s puzzle on Yodoku.', home: true, changefreq: 'daily', priority: '0.9' },
   { path: '/seven/play', title: 'Play 7 Letters — Yodoku', desc: 'Play today\u2019s 7 Letters puzzle — a free daily word game on Yodoku. Build words from seven letters and find the pangram.', changefreq: 'daily', priority: '0.8' },
   { path: '/seven/about', title: 'About 7 Letters — Yodoku', desc: 'Learn how to play 7 Letters, the daily spelling-bee-style word game on Yodoku. Free to play, with a new set of letters every day.', changefreq: 'monthly', priority: '0.5' },
+  { path: '/seven/archive', title: '7 Letters Archive — Yodoku', desc: 'Replay past 7 Letters boards on Yodoku — seven letters, one centre, chase the pangram on any board.', changefreq: 'daily', priority: '0.6' },
 
   { path: '/plus', title: 'Yodoku+ — Yodoku', desc: 'Yodoku+ unlocks the full puzzle archive, an ad-free experience and more. Support Yodoku and play every past daily puzzle.', changefreq: 'monthly', priority: '0.6' },
   { path: '/privacy', title: 'Privacy Policy — Yodoku', desc: 'Read the Yodoku privacy policy — what data we collect, how cookies and advertising work, and your choices.', changefreq: 'yearly', priority: '0.3' },

@@ -1,6 +1,8 @@
 import { useState, useEffect, useCallback } from 'react';
 import ShareCardModal from '../components/ShareCardModal';
 import OnScreenKeyboard from '../components/OnScreenKeyboard';
+import ResumeBanner from '../components/ResumeBanner';
+import { wordpoolHintText } from '../utils/wordpoolHints';
 import { useParams } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { getTodayDateStr, getDailyPuzzleIndex } from '../utils/dailySeed';
@@ -154,6 +156,7 @@ export default function WordPoolPage() {
   const [isDailyComplete, setIsDailyComplete] = useState(false);
   const [dailyEntry, setDailyEntry] = useState<WPDailyEntry>({ levels: {}, unlockedLevel: 1 });
   const [completionSaved, setCompletionSaved] = useState(false);
+  const [resumed, setResumed] = useState(false);
 
   useEffect(() => {
     setInput(''); setMessage(null); setShared(false); setHint(null);
@@ -181,13 +184,17 @@ export default function WordPoolPage() {
           } else {
             const lvlNum = Math.min(entry.unlockedLevel, cat.levels.length);
             setLevel(cat.levels[lvlNum - 1]);
-            setFoundWords(getWordPoolDailySessionWords(puzzleDate, lvlNum));
+            const saved = getWordPoolDailySessionWords(puzzleDate, lvlNum);
+            setFoundWords(saved);
+            if (saved.length > 0) setResumed(true);
           }
         } else {
           const unlocked = getWordPoolUnlockedLevel(cat.id);
           const lvlNum = Math.min(unlocked, cat.levels.length);
           setLevel(cat.levels[lvlNum - 1]);
-          setFoundWords(getWordPoolSessionWords(cat.id, lvlNum));
+          const saved = getWordPoolSessionWords(cat.id, lvlNum);
+          setFoundWords(saved);
+          if (saved.length > 0) setResumed(true);
         }
       })
       .catch(() => {
@@ -284,12 +291,7 @@ export default function WordPoolPage() {
     await setHintTargetAsync('wordpool', puzzleId, targetWord, Math.min(hintLevel + 1, 4));
   };
 
-  const hintText = hint
-    ? hint.stage === 1 ? `Try a ${hint.word.length}-letter word.`
-    : hint.stage === 2 ? `Try a ${hint.word.length}-letter word starting with "${hint.word[0].toUpperCase()}".`
-    : hint.stage === 3 ? `Try a ${hint.word.length}-letter word starting with "${hint.word.slice(0, 2).toUpperCase()}".`
-    : `Try the word "${hint.word.toUpperCase()}".`
-    : null;
+  const hintText = wordpoolHintText(hint);
 
   const handleShare = () => {
     if (!category) return;
@@ -353,6 +355,7 @@ export default function WordPoolPage() {
 
   return (
     <div className="space-y-5">
+      {resumed && <ResumeBanner accent="#9FC3DA" />}
       <section>
         <div className="flex items-center justify-between mb-3 flex-wrap gap-2">
           <span className="text-xs font-bold uppercase tracking-widest"
@@ -551,7 +554,7 @@ export default function WordPoolPage() {
               Type words that belong to the current category constraint. Each level narrows the category — from broad to very specific.
             </p>
             <p className="text-sm m-0" style={{ color: 'var(--wp-text-muted)' }}>
-              Find all words in a level to unlock the next. Use <strong style={{ color: 'var(--wp-text)' }}>Hint</strong> for progressive clues.
+              Find all words in a level to unlock the next. Use <strong style={{ color: 'var(--wp-text)' }}>Hint</strong> to reveal letters of a word you&apos;re missing — each hint uncovers one more position.
             </p>
           </div>
         </section>

@@ -3,7 +3,9 @@ import { useParams, useNavigate, Link, useOutletContext } from 'react-router-dom
 import { motion, AnimatePresence } from 'framer-motion';
 import { useWordDatabase } from '../hooks/useWordDatabase';
 import ShareCardModal from '../components/ShareCardModal';
+import ResumeBanner from '../components/ResumeBanner';
 import { getTodayDateStr } from '../utils/dailySeed';
+import { saveResume, loadResume, clearResume } from '../utils/gameResume';
 import {
   setLetterMixCompleted,
   getLetterMixCompletedFor,
@@ -11,6 +13,8 @@ import {
   setHintTargetAsync,
   clearHintTargetAsync,
 } from '../utils/storage';
+
+type LetterMixSaved = { foundWords: string[]; letters: string[]; hintsUsed: number };
 
 function canFormFromLetters(availableLetters: string, word: string): boolean {
   const counts: Record<string, number> = {};
@@ -185,6 +189,7 @@ export default function LetterMixPage() {
   const [hintsUsed, setHintsUsed] = useState(0);
   const [shared, setShared] = useState(false);
   const [rulesOpen, setRulesOpen] = useState(false);
+  const [resumed, setResumed] = useState(false);
 
   useEffect(() => {
     setPuzzleLoaded(false);
@@ -194,6 +199,7 @@ export default function LetterMixPage() {
     setHint(null);
     setHintsUsed(0);
     setShared(false);
+    setResumed(false);
 
     fetch('/data/lettermix-puzzles.json')
       .then(r => { if (!r.ok) throw new Error(); return r.json(); })
@@ -202,7 +208,14 @@ export default function LetterMixPage() {
         if (!p && data.length > 0) p = data.find(q => q.level === level) ?? data[0];
         setPuzzle(p);
         const completed = p ? getLetterMixCompletedFor(p.date, p.level) : undefined;
+        const saved = p ? loadResume<LetterMixSaved>(`lettermix:${p.level}`, p.date) : null;
         if (completed && p) { setFoundWords(completed.words); setLetters([]); }
+        else if (saved && p && saved.foundWords.length > 0) {
+          setFoundWords(saved.foundWords);
+          setLetters(saved.letters ?? p.scrambledLetters.split(''));
+          setHintsUsed(saved.hintsUsed ?? 0);
+          setResumed(true);
+        }
         else setLetters(p?.scrambledLetters.split('') ?? []);
         setPuzzleLoaded(true);
       })
@@ -237,6 +250,8 @@ export default function LetterMixPage() {
       setHint(null);
       setHintsUsed(0);
       setShared(false);
+      setResumed(false);
+      clearResume(`lettermix:${puzzle.level}`, puzzle.date);
       clearHintTargetAsync('lettermix', `${puzzle.date}_${puzzle.level}`);
     }
   }, [puzzle]);
@@ -247,6 +262,14 @@ export default function LetterMixPage() {
   useEffect(() => {
     if (isWon && puzzle) setLetterMixCompleted(puzzle.date, puzzle.level, foundWords);
   }, [isWon, puzzle, foundWords]);
+
+  // Persist in-progress state (partial finds + remaining letters) so leaving the
+  // site never resets the string. Cleared once the puzzle is solved.
+  useEffect(() => {
+    if (!puzzle) return;
+    if (isWon) { clearResume(`lettermix:${puzzle.level}`, puzzle.date); return; }
+    saveResume<LetterMixSaved>(`lettermix:${puzzle.level}`, puzzle.date, { foundWords, letters, hintsUsed });
+  }, [puzzle, foundWords, letters, hintsUsed, isWon]);
 
   useEffect(() => {
     if (!puzzle || foundWords.length === 0) return;
@@ -342,6 +365,7 @@ export default function LetterMixPage() {
 
   return (
     <div className="space-y-5">
+      {resumed && <ResumeBanner accent="#D63B3B" />}
       {/* Rules modal */}
       <AnimatePresence>
         {rulesOpen && (

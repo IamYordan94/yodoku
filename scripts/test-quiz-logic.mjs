@@ -131,4 +131,35 @@ for (const q of buildDailyQuiz(bank, today)) {
   console.log(`   correct: ${q.options[q.answer]}`);
 }
 
+// ── explanations: schema + coverage for the next 14 scheduled days ──────────
+const explained = bank.questions.filter((q) => q.explanation !== undefined);
+for (const q of explained) {
+  if (typeof q.explanation !== 'string' || !q.explanation.trim()) {
+    throw new Error('bad explanation for ' + q.id);
+  }
+}
+console.log(`explanations present: ${explained.length}/${bank.questions.length}`);
+const missingExplanations = new Set();
+let coveredNext14 = 0;
+for (let day = 0; day < 14; day++) {
+  const now = new Date();
+  const dt = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() + day);
+  const dateStr = new Date(dt).toISOString().slice(0, 10);
+  for (const q of buildDailyQuiz(bank, dateStr)) {
+    const full = bank.questions.find((x) => x.id === q.id);
+    if (full && full.explanation) coveredNext14++;
+    else missingExplanations.add(q.id);
+  }
+}
+if (missingExplanations.size > 0) {
+  throw new Error('next-14-day questions missing explanations: ' + [...missingExplanations].join(', '));
+}
+// schema stays backward-compatible: explanation is optional, every other field unchanged
+for (const q of bank.questions) {
+  if (typeof q.id !== 'string' || typeof q.question !== 'string' || !Array.isArray(q.options) || q.options.length !== 4) {
+    throw new Error('question shape broke for ' + q.id);
+  }
+}
+console.log(`explanation coverage: all next-14-day scheduled questions explained (${coveredNext14} slots) ✓`);
+
 console.log('\nALL CHECKS PASSED');

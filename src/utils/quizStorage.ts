@@ -18,6 +18,45 @@ export function getQuizDone(date: string): QuizDone | null {
   }
 }
 
+// ── In-progress quiz (resume where you left off) ────────────────────────────
+
+const QUIZ_PROGRESS = 'yodoku_quiz_progress';
+
+export interface QuizProgress {
+  date: string;
+  answers: (number | null)[];
+  qIndex: number;
+}
+
+export function getQuizProgress(date: string): QuizProgress | null {
+  try {
+    const s = localStorage.getItem(QUIZ_PROGRESS);
+    const data: QuizProgress | null = s ? (JSON.parse(s) as QuizProgress) : null;
+    if (!data || data.date !== date) return null;
+    if (!Array.isArray(data.answers) || data.answers.length === 0) return null;
+    return data;
+  } catch {
+    return null;
+  }
+}
+
+export function saveQuizProgress(date: string, answers: (number | null)[], qIndex: number): void {
+  try {
+    // Don't persist a finished quiz as "in progress" — completion owns that date.
+    localStorage.setItem(QUIZ_PROGRESS, JSON.stringify({ date, answers, qIndex }));
+  } catch {
+    // ignore
+  }
+}
+
+export function clearQuizProgress(): void {
+  try {
+    localStorage.removeItem(QUIZ_PROGRESS);
+  } catch {
+    // ignore
+  }
+}
+
 export function saveQuizDone(date: string, answers: (number | null)[]): void {
   try {
     localStorage.setItem(QUIZ_DONE, JSON.stringify({ date, answers }));

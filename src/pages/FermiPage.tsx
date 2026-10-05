@@ -12,9 +12,20 @@ import {
 } from '../utils/fermiLogic';
 import { FERMI_BANK } from '../utils/puzzleGenerator';
 import { markPlayed, todayISO } from '../utils/dailyProgress';
+import { getTodayUTCStr } from '../utils/dailySeed';
+import { loadResume, saveResume } from '../utils/gameResume';
+import ResumeBanner from '../components/ResumeBanner';
 
 const LAUNCH_DATE = '2026-08-07';
 const DAY_MS = 86400000;
+
+type FermiSaved = {
+  idx: number;
+  guesses: FermiGuess[];
+  attempts: number;
+  won: boolean;
+  over: boolean;
+};
 
 function getTodayIndex(): number {
   const utcDay = (d: Date) => Date.UTC(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate());
@@ -30,6 +41,7 @@ export default function FermiPage() {
   const [error, setError] = useState('');
   const [copied, setCopied] = useState(false);
   const [cardOpen, setCardOpen] = useState(false);
+  const [resumed, setResumed] = useState(false);
 
   useEffect(() => {
     if (state?.won) markPlayed('fermi', todayISO());
@@ -39,9 +51,30 @@ export default function FermiPage() {
   useEffect(() => {
     const idx = getTodayIndex();
     const puzzle = FERMI_BANK[idx];
-    setState(initFermiState(puzzle));
+    const s = initFermiState(puzzle);
+    const saved = loadResume<FermiSaved>('fermi', getTodayUTCStr());
+    if (saved && saved.idx === idx && Array.isArray(saved.guesses)) {
+      s.guesses = saved.guesses;
+      s.attempts = saved.attempts;
+      s.won = saved.won;
+      s.over = saved.over;
+      if (!saved.over && saved.attempts > 0) setResumed(true);
+    }
+    setState(s);
     setLoading(false);
   }, []);
+
+  // Persist in-progress guesses so leaving the site never resets the puzzle.
+  useEffect(() => {
+    if (!state || !state.puzzle) return;
+    saveResume<FermiSaved>('fermi', getTodayUTCStr(), {
+      idx: getTodayIndex(),
+      guesses: state.guesses,
+      attempts: state.attempts,
+      won: state.won,
+      over: state.over,
+    });
+  }, [state]);
 
   useEffect(() => {
     if (!state?.over && inputRef.current) {
@@ -117,6 +150,9 @@ export default function FermiPage() {
 
   return (
     <div>
+      {/* Resume sticker */}
+      {resumed && <ResumeBanner date={`${state.attempts}/6 guesses in`} accent="var(--fm-orange)" />}
+
       {/* Header */}
       <div className="flex items-center justify-between mb-4">
         <h2 className="text-lg font-black m-0 flex items-center gap-2"

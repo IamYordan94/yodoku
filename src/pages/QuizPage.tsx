@@ -1,8 +1,9 @@
 import { useState, useEffect, useCallback } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useSearchParams } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import AdSlot from '../components/AdSlot';
 import ShareCardModal from '../components/ShareCardModal';
+import ResumeBanner from '../components/ResumeBanner';
 import type { QuizBank, DailyQuestion } from '../utils/quizLogic';
 import {
   CATEGORY_META,
@@ -12,7 +13,15 @@ import {
   shareQuizText,
   getQuizNumber,
 } from '../utils/quizLogic';
-import { getQuizDone, saveQuizDone, bumpStreak, getStreak } from '../utils/quizStorage';
+import {
+  getQuizDone,
+  saveQuizDone,
+  bumpStreak,
+  getStreak,
+  getQuizProgress,
+  saveQuizProgress,
+  clearQuizProgress,
+} from '../utils/quizStorage';
 import { getTodayUTCStr } from '../utils/dailySeed';
 
 function difficultyDots(d: 1 | 2 | 3): string {
@@ -28,8 +37,14 @@ export default function QuizPage() {
   const [cardOpen, setCardOpen] = useState(false);
   const [loadError, setLoadError] = useState(false);
   const [streak, setStreak] = useState(getStreak());
+  const [resumed, setResumed] = useState(false);
 
-  const [date] = useState(() => getTodayUTCStr());
+  const [searchParams] = useSearchParams();
+  const dateParam = searchParams.get('date');
+  const [date] = useState(() =>
+    dateParam && /^\d{4}-\d{2}-\d{2}$/.test(dateParam) ? dateParam : getTodayUTCStr()
+  );
+  const isToday = date === getTodayUTCStr();
   const quizNum = getQuizNumber(date);
 
   // Load bank + build today's quiz (restore saved answers if already done)
@@ -53,7 +68,16 @@ export default function QuizPage() {
           setAnswers(done.answers.slice(0, daily.length));
           setOver(true);
         } else {
-          setAnswers(new Array(daily.length).fill(null));
+          const progress = getQuizProgress(date);
+          if (progress && progress.answers.some((a) => a !== null)) {
+            const restored = progress.answers.slice(0, daily.length);
+            while (restored.length < daily.length) restored.push(null);
+            setAnswers(restored);
+            setQIndex(Math.min(Math.max(progress.qIndex, 0), daily.length - 1));
+            setResumed(true);
+          } else {
+            setAnswers(new Array(daily.length).fill(null));
+          }
         }
       })
       .catch(() => {
@@ -68,9 +92,10 @@ export default function QuizPage() {
   const finish = useCallback((finalAnswers: (number | null)[]) => {
     // Only the FIRST completion is stored as the day's result; replays don't overwrite it
     if (!getQuizDone(date)) saveQuizDone(date, finalAnswers);
-    setStreak(bumpStreak(date));
+    if (isToday) setStreak(bumpStreak(date));
+    clearQuizProgress();
     setOver(true);
-  }, [date]);
+  }, [date, isToday]);
 
   const handlePick = (optionIdx: number) => {
     if (!quiz || over) return;
@@ -80,6 +105,9 @@ export default function QuizPage() {
     setAnswers(next);
     if (qIndex + 1 >= quiz.length) {
       finish(next);
+    } else {
+      // Persist in-progress so leaving the site doesn't reset the quiz.
+      saveQuizProgress(date, next, qIndex);
     }
   };
 
@@ -87,11 +115,14 @@ export default function QuizPage() {
     if (!quiz) return;
     if (qIndex + 1 < quiz.length) {
       setQIndex(qIndex + 1);
+      saveQuizProgress(date, answers, qIndex + 1);
     }
   };
 
   const handleReplay = () => {
     if (!quiz) return;
+    clearQuizProgress();
+    setResumed(false);
     setAnswers(new Array(quiz.length).fill(null));
     setQIndex(0);
     setOver(false);
@@ -173,11 +204,18 @@ export default function QuizPage() {
               const correct = answers[i] === q.answer;
               const cat = CATEGORY_META[q.category];
               return (
-                <div key={q.id} className="flex items-center gap-2 text-sm font-bold"
-                  style={{ color: correct ? 'var(--qz-ink)' : 'var(--qz-ink-soft)' }}>
-                  <span style={{ width: '18px' }}>{correct ? '🟩' : '🟥'}</span>
-                  <span style={{ fontFamily: "'JetBrains Mono', monospace", fontSize: '11px' }}>{cat ? cat.emoji : '❓'}</span>
-                  <span className="truncate">{q.question}</span>
+                <div key={q.id} className="flex flex-col gap-1">
+                  <div className="flex items-center gap-2 text-sm font-bold"
+                    style={{ color: correct ? 'var(--qz-ink)' : 'var(--qz-ink-soft)' }}>
+                    <span style={{ width: '18px' }}>{correct ? '🟩' : '🟥'}</span>
+                    <span style={{ fontFamily: "'JetBrains Mono', monospace", fontSize: '11px' }}>{cat ? cat.emoji : '❓'}</span>
+                    <span className="truncate">{q.question}</span>
+                  </div>
+                  {!correct && q.explanation && (
+                    <p className="text-[12px] font-semibold m-0" style={{ color: 'var(--qz-ink-soft)', paddingLeft: '26px', lineHeight: 1.5 }}>
+                      💡 <strong style={{ color: 'var(--qz-ink)' }}>{q.options[q.answer]}</strong> — {q.explanation}
+                    </p>
+                  )}
                 </div>
               );
             })}
@@ -271,6 +309,9 @@ export default function QuizPage() {
 
   return (
     <div>
+      {/* Resume sticker — shown when saved in-progress answers were restored */}
+      {resumed && <ResumeBanner accent="#ffc93c" />}
+
       {/* Header row */}
       <div className="flex items-center justify-between mb-4">
         <div className="flex items-center gap-2 flex-wrap">
@@ -397,6 +438,26 @@ export default function QuizPage() {
           );
         })}
       </div>
+
+      {/* Teaching explanation — shown when the player got it wrong */}
+      {answered && picked !== q.answer && q.explanation && (
+        <div style={{
+          background: 'var(--qz-panel)',
+          border: '2.5px solid var(--qz-ink)',
+          borderLeft: '6px solid var(--qz-accent)',
+          borderRadius: '10px',
+          padding: '12px 14px',
+          marginBottom: '16px',
+        }}>
+          <p className="text-[11px] font-black uppercase tracking-widest m-0 mb-1"
+            style={{ color: 'var(--qz-ink-soft)', fontFamily: "'JetBrains Mono', monospace" }}>
+            the answer
+          </p>
+          <p className="text-sm font-bold m-0" style={{ color: 'var(--qz-ink)', lineHeight: 1.5 }}>
+            <strong>{q.options[q.answer]}</strong> — {q.explanation}
+          </p>
+        </div>
+      )}
 
       {/* Next / finish */}
       {answered && qIndex + 1 < quiz.length && (

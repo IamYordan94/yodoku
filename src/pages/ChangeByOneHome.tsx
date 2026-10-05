@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import PastPuzzlesLink from '../components/PastPuzzlesLink';
 import { getTodayCboDateStr } from '../utils/cbo-dailyChallenge';
 
 export default function ChangeByOneHome() {
@@ -82,6 +83,8 @@ export default function ChangeByOneHome() {
               </Link>
             </div>
           </div>
+
+          <PastPuzzlesLink to="/changebyone/calendar" accent="var(--cbo-highlight)" />
 
           {/* Divider */}
           <div

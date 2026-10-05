@@ -49,11 +49,13 @@ const FermiAbout = lazy(() => import('./pages/FermiAbout'));
 const QuizHome = lazy(() => import('./pages/QuizHome'));
 const QuizLayout = lazy(() => import('./layouts/QuizLayout'));
 const QuizPage = lazy(() => import('./pages/QuizPage'));
+const QuizArchive = lazy(() => import('./pages/QuizArchive'));
 const QuizAbout = lazy(() => import('./pages/QuizAbout'));
 
 const SevenLettersHome = lazy(() => import('./pages/SevenLettersHome'));
 const SevenLettersLayout = lazy(() => import('./layouts/SevenLettersLayout'));
 const SevenLettersPage = lazy(() => import('./pages/SevenLettersPage'));
+const SevenArchive = lazy(() => import('./pages/SevenArchive'));
 const SevenLettersAbout = lazy(() => import('./pages/SevenLettersAbout'));
 
 const PlusPage = lazy(() => import('./pages/PlusPage'));
@@ -191,6 +193,7 @@ function App() {
           <Route index element={<QuizHome />} />
           <Route element={<QuizLayout />}>
             <Route path="play" element={<QuizPage />} />
+            <Route path="archive" element={<QuizArchive />} />
             <Route path="about" element={<QuizAbout />} />
           </Route>
         </Route>
@@ -198,6 +201,7 @@ function App() {
           <Route index element={<SevenLettersHome />} />
           <Route element={<SevenLettersLayout />}>
             <Route path="play" element={<SevenLettersPage />} />
+            <Route path="archive" element={<SevenArchive />} />
             <Route path="about" element={<SevenLettersAbout />} />
           </Route>
         </Route>
