@@ -66,7 +66,7 @@ export function measure(now = new Date()) {
 
   // ── Change by One: generated per date, bounded by the word list ──
   try {
-    const words = readJson(p('public', 'data', 'words.json'));
+    const words = readJson(p('scripts', 'data', 'words.json'));
     let total = 0;
     for (const v of Object.values(words)) {
       if (Array.isArray(v)) total += v.length;
@@ -74,7 +74,7 @@ export function measure(now = new Date()) {
     }
     games.push({
       game: 'Change by One', key: 'cbo',
-      source: 'public/data/words.json (generated per date)',
+      source: 'scripts/data/words.json (generated per date)',
       items: total,
       runway: Infinity, // generated per date, not drawn from a fixed list
       status: STATUS.OK,

@@ -22,9 +22,9 @@ const MIN_PER_LENGTH = 300;
 const LENGTHS = [3, 4, 5, 6, 7, 8];
 
 export function check() {
-  const file = p('public', 'data', 'words.json');
+  const file = p('scripts', 'data', 'words.json');
   if (!fs.existsSync(file)) {
-    return { ok: false, rows: [], note: 'public/data/words.json is missing — Change by One cannot generate a puzzle' };
+    return { ok: false, rows: [], note: 'scripts/data/words.json is missing — Change by One cannot generate a puzzle' };
   }
   const words = readJson(file);
   const rows = [];

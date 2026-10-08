@@ -53,7 +53,7 @@ function hasFormableWord(availableLetters, foundWords, solutionWords, getWordsBy
 
 // --- real data ---
 const puzzles = JSON.parse(readFileSync('public/data/lettermix-puzzles.json', 'utf8'));
-const wordsJson = JSON.parse(readFileSync('public/data/words.json', 'utf8'));
+const wordsJson = JSON.parse(readFileSync('scripts/data/words.json', 'utf8'));
 const common = JSON.parse(readFileSync('public/words-cbo.json', 'utf8'));
 
 const dictionary = new Set();
