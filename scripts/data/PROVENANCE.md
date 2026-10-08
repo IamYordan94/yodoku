@@ -1,9 +1,9 @@
-# Curated English word data (Change by One + Clear the String)
+# Curated English word data (the shared vocabulary standard)
 
 `english-common.txt` is the curated common-English word list used to build
-`public/words-cbo.json` (Change by One's dictionary). It is also loaded by Clear
-the String as a broad fallback dictionary so common words (e.g. `hands`, `flood`)
-are accepted even when they are missing from `public/data/words.json`.
+`public/words-cbo.json` (Change by One's dictionary) and as the shared fairness
+bar + answer pool source for Clear the String, 7 Letters and Word Pool (see
+`docs/vocab-audit/00-vocabulary-standard.md`).
 
 ## Sources (both reputable, open licence)
 
@@ -19,15 +19,26 @@ are accepted even when they are missing from `public/data/words.json`.
 ```
 curated = wordfreq_en_top_20000
             ∩ words_alpha                 (must be a real, dictionary word)
-            − profanity/slur blocklist     (family game, see build script)
+            − safety-blocklist.txt        (profanity/slurs)
+            − prune-blocklist.txt         (abbreviations, foreign function
+                                           words, proper nouns — audit 2026-10-08)
             running length filter 3..8
 ```
 
+**2026-10-08 vocabulary audit pass:** 421 junk-class entries removed
+(abbreviations/units like `mph`/`mrs`, foreign function words like `der`/`una`,
+proper nouns like `zurich`/`yemen`, contractions like `youre`); the list went
+17,705 → 17,284. The prune set is frozen in `prune-blocklist.txt` (435 policy
+entries, applied by `scripts/build-cbo-words.mjs` on every rebuild). Real
+English words that merely LOOK foreign (ale, bra, hat, tan, met, van, pour,
+per, dank, payer, fare, ivory — matched by the raw cross-language scan) were
+deliberately kept. Full method: `docs/vocab-audit/00-vocabulary-standard.md`.
+
 Names (e.g. `ming`, `john`) are intentionally **kept** in the dictionary so that
 players can still type legitimate words that double as names (`mark`, `rose`),
-but they are **excluded from being puzzle start/end tokens** via
+but they are **excluded from being puzzle start/end tokens / answers** via
 `scripts/data/names-blocklist.txt` (dominictarr/random-name) — see
-`scripts/gen-cbo-pairs.mjs`.
+`scripts/gen-cbo-pairs.mjs` and the games' `loadPools`.
 
 The exhaustive Scrabble-style dump that previously filled `public/words-cbo.json`
 (and produced the junk words `wran`, `aani`, `aaru`, `adad`, `acar`) is no longer
@@ -42,6 +53,6 @@ words=[w for w in top_n_list('en',20000) if w.isalpha() and w.islower() and 3<=l
 open('wordfreq-top.txt','w').write('\n'.join(words))
 PY
 ```
-then intersect with `words_alpha.txt` minus the blocklist in
-`scripts/build-cbo-words.mjs`'s sibling notes. The verbatim committed list is the
-source of truth — the build/regeneration never touches the network.
+then intersect with `words_alpha.txt` minus the two blocklists. The verbatim
+committed list is the source of truth — the build/regeneration never touches
+the network.

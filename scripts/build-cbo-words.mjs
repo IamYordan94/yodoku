@@ -4,19 +4,34 @@
 //   node scripts/build-cbo-words.mjs
 //
 // Source: scripts/data/english-common.txt (see scripts/data/PROVENANCE.md).
-// Output shape: { "3": ["ace", ...], "4": [...], ..., "8": [...] } — the same
+// Applies scripts/data/prune-blocklist.txt (abbreviation / foreign function
+// word / proper-noun junk removed by the 2026-10-08 vocabulary audit) and
+// scripts/data/safety-blocklist.txt (profanity & slurs).
+// Output shape: { "3": ["ace", ...], "4": [...], ..., "8": [...] } - the same
 // shape cbo-words.ts already consumes.
 import { readFileSync, writeFileSync } from 'node:fs';
 
 const SRC = 'scripts/data/english-common.txt';
+const PRUNE = 'scripts/data/prune-blocklist.txt';
+const SAFETY = 'scripts/data/safety-blocklist.txt';
 const OUT = 'public/words-cbo.json';
 const MIN_LEN = 3;
 const MAX_LEN = 8;
 
+const loadBlocklist = (path) =>
+  new Set(
+    readFileSync(path, 'utf8')
+      .split(/\r?\n/)
+      .map((w) => w.trim().toLowerCase())
+      .filter(Boolean)
+  );
+
+const blocked = new Set([...loadBlocklist(PRUNE), ...loadBlocklist(SAFETY)]);
+
 const words = readFileSync(SRC, 'utf8')
   .split(/\r?\n/)
   .map((w) => w.trim().toLowerCase())
-  .filter((w) => /^[a-z]+$/.test(w) && w.length >= MIN_LEN && w.length <= MAX_LEN);
+  .filter((w) => /^[a-z]+$/.test(w) && w.length >= MIN_LEN && w.length <= MAX_LEN && !blocked.has(w));
 
 const byLen = {};
 for (const w of words) (byLen[w.length] ||= []).push(w);
