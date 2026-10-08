@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { useEffect, useMemo, useState } from 'react';
 import AdSlot from '../components/AdSlot';
@@ -212,6 +212,16 @@ export default function Home() {
     }
   };
 
+  // Deep link: /#games scrolls straight to the games grid (used by the "Keep playing free" button on /plus).
+  const location = useLocation();
+  useEffect(() => {
+    if (location.hash !== '#games') return;
+    const t = window.setTimeout(() => {
+      document.getElementById('games')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }, 60);
+    return () => window.clearTimeout(t);
+  }, [location.hash]);
+
   return (
     <div style={{ background: 'var(--yodoku-bg)', minHeight: '100vh', color: 'var(--yodoku-ink)' }}>
       {/* Masthead */}
@@ -389,23 +399,52 @@ export default function Home() {
       {/* Install prompt */}
       <InstallSticker />
 
-      {/* Game grid */}
-      <main className="p-4 md:p-6 max-w-[1040px] mx-auto">
-        <div className="flex items-center gap-3 mb-5">
-          <span
-            className="text-[10px] font-black uppercase tracking-[0.16em]"
-            style={{ color: 'var(--yodoku-ink-soft)', fontFamily: "'JetBrains Mono', monospace" }}
+      {/* Games section - its own band, clearly separated from the info blocks above */}
+      <section id="games" style={{ marginTop: '40px', scrollMarginTop: '14px' }}>
+        <div
+          style={{
+            background: 'var(--yodoku-dark)',
+            borderTop: '3px solid var(--yodoku-ink)',
+            borderBottom: '3px solid var(--yodoku-ink)',
+            padding: '13px 0',
+          }}
+        >
+          <div
+            className="px-4 md:px-6 max-w-[1040px] mx-auto flex items-center"
+            style={{ gap: '12px' }}
           >
-            Games
-          </span>
-          <div style={{ flex: 1, height: '2px', background: 'var(--yodoku-ink)', opacity: 0.15 }} />
-          <span
-            className="text-[10px] font-bold uppercase tracking-[0.12em]"
-            style={{ color: 'var(--yodoku-ink-soft)', fontFamily: "'JetBrains Mono', monospace" }}
-          >
-            {new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
-          </span>
+            <span
+              className="text-[12px] font-black uppercase"
+              style={{
+                color: 'var(--yodoku-bg)',
+                fontFamily: "'JetBrains Mono', monospace",
+                letterSpacing: '0.18em',
+              }}
+            >
+              Today&rsquo;s games
+            </span>
+            <div style={{ flex: 1, height: '2px', background: 'rgba(255,255,255,0.16)' }} />
+            <span
+              style={{
+                background: 'var(--yodoku-lime)',
+                color: 'var(--yodoku-dark)',
+                padding: '3px 10px',
+                border: '2px solid var(--yodoku-bg)',
+                borderRadius: '4px',
+                fontSize: '10px',
+                fontWeight: 800,
+                transform: 'rotate(-1deg)',
+                fontFamily: "'JetBrains Mono', monospace",
+                textTransform: 'uppercase',
+                whiteSpace: 'nowrap',
+              }}
+            >
+              {new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
+            </span>
+          </div>
         </div>
+
+        <main className="p-4 md:p-6 max-w-[1040px] mx-auto">
 
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
 
@@ -537,7 +576,8 @@ export default function Home() {
             </Link>
           </div>
         </footer>
-      </main>
+        </main>
+      </section>
 
       {/* Inline keyframes for ticker */}
       <style>{`

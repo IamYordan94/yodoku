@@ -166,9 +166,10 @@ export default function PlusPage() {
         </p>
 
         <div style={{ display: 'flex', gap: 18, flexWrap: 'wrap' }}>
-          {/* FREE card */}
+          {/* FREE card (stacks under the Yodoku+ card on mobile) */}
           <div
             style={{
+              order: 2,
               flex: '1 1 340px',
               border: '2.5px solid #141414',
               borderRadius: 14,
@@ -189,11 +190,14 @@ export default function PlusPage() {
               <Perk>Share cards &amp; on-device stats</Perk>
               <Perk>No signup. No spam.</Perk>
             </ul>
-            <div
+            <Link
+              to="/#games"
               style={{
                 display: 'inline-block',
                 width: '100%',
                 textAlign: 'center',
+                textDecoration: 'none',
+                color: '#141414',
                 border: '2.5px solid #141414',
                 borderRadius: 10,
                 padding: '13px 16px',
@@ -204,15 +208,16 @@ export default function PlusPage() {
               }}
             >
               Keep playing free
-            </div>
+            </Link>
             <div style={{ fontSize: 11.5, color: 'rgba(20,20,20,0.62)', marginTop: 10 }}>
               Everything that exists today stays free. Nothing is taken away.
             </div>
           </div>
 
-          {/* PLUS card */}
+          {/* PLUS card (leads the offer) */}
           <div
             style={{
+              order: 1,
               flex: '1 1 340px',
               border: '2.5px solid #141414',
               borderRadius: 14,
