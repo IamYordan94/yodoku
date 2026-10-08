@@ -1,31 +1,37 @@
-// Generates 60 daily boards for "7 Letters" → public/data/seven-boards.json
-// Reads the hub's word database by absolute path (do NOT copy words.json here).
-// Run from the output/game-seven folder:  node scripts/generate-seven-boards.mjs
+// Generates daily boards for "7 Letters" → public/data/seven-boards.json
+//
+// Answer universe = scripts/data/english-common.txt (the shared curated standard)
+// MINUS scripts/data/names-blocklist.txt (a name is never a puzzle answer).
+// Earlier revisions solved against public/data/words.json — a 15 MB uncurated
+// dictionary full of non-words — which is why ~58% of board answers were junk.
+// Every board is pangram-seeded: its letters come from a curated 7-letter word
+// with 7 distinct letters, so at least one pangram always exists.
+//
+// Run from the repo root:  node scripts/generate-seven-boards.mjs
+// CLI: --count=N total boards (default 180), --append to keep existing boards
+// and add more, --seed-base=N where to start scanning seeds (append defaults to
+// the number of boards already present, so a top-up does not rescan them).
 
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-const REPO_ROOT = 'C:/Users/veria/Desktop/AI STUFF DIFFERENT AGENTS/Build and Online/YODOKUAPP';
-const WORDS_PATH = join(REPO_ROOT, 'public', 'data', 'words.json');
-
 const __dirname = dirname(fileURLToPath(import.meta.url));
+const DATA_DIR = join(__dirname, 'data');
 const OUT_PATH = join(__dirname, '..', 'public', 'data', 'seven-boards.json');
 
-const ALPHABET = 'abcdefghijklmnopqrstuvwxyz'.split('');
 const MIN_WORDS = 25;
+const DEFAULT_COUNT = 180;
+// Fixed base seed → fully deterministic generation (no Math.random anywhere).
+const BASE_SEED = 0;
 
-// CLI: --count=N total boards to end up with, --append to keep the existing
-// boards and add more instead of regenerating the file from scratch,
-// --seed-base=N where to start scanning candidate seeds (defaults to the number
-// of boards already present when appending, so a re-run does not rescan them).
 const argv = process.argv.slice(2);
 const getArg = (n, dflt) => {
   const hit = argv.find((a) => a.startsWith(`--${n}=`));
   return hit ? hit.slice(n.length + 3) : dflt;
 };
 const APPEND = argv.includes('--append');
-const NUM_BOARDS = Number(getArg('count', 60));
+const NUM_BOARDS = Number(getArg('count', DEFAULT_COUNT));
 
 // Same mulberry32 PRNG family as the repo's dailySeed.ts (deterministic)
 function seedRandom(seed) {
@@ -44,18 +50,49 @@ function seedRandom(seed) {
   };
 }
 
-function solve(letters, center, byLen) {
-  const set = new Set(letters);
+// ── Curated word universe ──────────────────────────────────────────────────
+function readList(file) {
+  return readFileSync(join(DATA_DIR, file), 'utf-8')
+    .split(/\r?\n/)
+    .map((s) => s.trim().toLowerCase())
+    .filter(Boolean);
+}
+
+const names = new Set(readList('names-blocklist.txt'));
+const universe = [
+  ...new Set(
+    readList('english-common.txt').filter(
+      (w) => /^[a-z]+$/.test(w) && w.length >= 3 && w.length <= 7 && !names.has(w)
+    )
+  ),
+];
+
+const byLen = {};
+for (const w of universe) (byLen[w.length] ??= []).push(w);
+console.log(
+  'Curated universe:',
+  Object.entries(byLen).map(([l, w]) => `${l}:${w.length}`).join(' '),
+  `= ${universe.length} words (names excluded)`
+);
+
+// Pangram seeds: curated words with exactly 7 distinct letters.
+const pangramSeeds = (byLen[7] ?? []).filter((w) => new Set(w).size === 7);
+if (pangramSeeds.length === 0) {
+  console.error('FAILED: no 7-distinct-letter curated words to seed from');
+  process.exit(1);
+}
+
+function solve(letters, center) {
   const counts = {};
   for (const l of letters) counts[l] = (counts[l] ?? 0) + 1;
   const found = new Set();
   for (let len = 3; len <= 7; len++) {
-    for (const w of byLen[len]) {
+    for (const w of byLen[len] ?? []) {
       if (!w.includes(center)) continue;
       const need = {};
       let ok = true;
       for (const ch of w) {
-        if (!set.has(ch)) { ok = false; break; }
+        if (!(ch in counts)) { ok = false; break; }
         need[ch] = (need[ch] ?? 0) + 1;
         if (need[ch] > counts[ch]) { ok = false; break; }
       }
@@ -65,25 +102,24 @@ function solve(letters, center, byLen) {
   return [...found].sort();
 }
 
+function isPangram(word, letters) {
+  return word.length === 7 && new Set(word).size === 7 && [...word].every((c) => letters.includes(c));
+}
+
+/** Mirrors scoreWord() in src/utils/sevenLettersLogic.ts exactly. */
 function scoreWord(word, letters) {
-  const isPangram = word.length === 7 && new Set(word).size === 7 &&
-    [...word].every((c) => letters.includes(c));
   const base = word.length === 3 ? 1 : word.length;
-  return isPangram ? base + 7 : base;
+  return isPangram(word, letters) ? base + 7 : base;
 }
 
-const raw = JSON.parse(readFileSync(WORDS_PATH, 'utf-8'));
-// words.json shape: { "3": [{word,pos,definition}, ...], "4": ..., ... }
-const byLen = {};
-for (const [len, arr] of Object.entries(raw)) {
-  byLen[Number(len)] = [...new Set(arr.map((e) => e.word.toLowerCase()))];
+function tierBlock(maxScore) {
+  const at = (p) => Math.ceil(maxScore * p);
+  return { good: at(0.15), solid: at(0.3), great: at(0.45), amazing: at(0.6), genius: at(0.8), queen: at(1) };
 }
-console.log('Dictionary:', Object.entries(byLen).map(([l, w]) => `${l}:${w.length}`).join(' '), 'words');
 
-// Pre-index dictionary by letter-set signature for fast candidate lookup
+// ── Generation ─────────────────────────────────────────────────────────────
 const boards = [];
 
-// Append mode: start from the boards already published so a top-up only ADDS.
 if (APPEND) {
   try {
     const existing = JSON.parse(readFileSync(OUT_PATH, 'utf-8'));
@@ -94,64 +130,71 @@ if (APPEND) {
   }
 }
 
-let candidateSeed = Number(getArg('seed-base', APPEND ? boards.length : 0));
+let candidateSeed = Number(getArg('seed-base', APPEND ? boards.length : BASE_SEED));
+const SEED_LIMIT = 200000;
 
 function tryMakeBoard(seedNum) {
   const rng = seedRandom(`seven-board-${seedNum}`);
-  // Pick a pangram first: a random 7-distinct-letter word guarantees ≥1 pangram.
-  const sevens = byLen[7];
-  for (let attempt = 0; attempt < 4000; attempt++) {
-    const pangramWord = sevens[Math.floor(rng() * sevens.length)];
-    const uniq = [...new Set(pangramWord)];
-    if (uniq.length !== 7) continue;
-    const letters = uniq.slice().sort();
-    const centerIdx = Math.floor(rng() * 7);
-    const center = letters[centerIdx];
-    const words = solve(letters, center, byLen);
-    if (words.length >= MIN_WORDS) {
-      const maxScore = words.reduce((s, w) => s + scoreWord(w, letters), 0);
-      return {
-        id: boards.length,
-        letters,
-        center,
-        words,
-        maxScore,
-        tiers: {
-          good: Math.ceil(maxScore * 0.15),
-          solid: Math.ceil(maxScore * 0.3),
-          great: Math.ceil(maxScore * 0.45),
-          amazing: Math.ceil(maxScore * 0.6),
-          genius: Math.ceil(maxScore * 0.8),
-          queen: Math.ceil(maxScore * 1),
-        },
-      };
-    }
-  }
-  return null;
+  const pangramWord = pangramSeeds[Math.floor(rng() * pangramSeeds.length)];
+  const letters = [...new Set(pangramWord)].sort();
+  // Evaluate every center; keep only boards rich enough to play.
+  const perCenter = letters.map((center) => ({ center, words: solve(letters, center) }));
+  const qualifying = perCenter.filter((c) => c.words.length >= MIN_WORDS);
+  if (qualifying.length === 0) return null;
+  const pick = qualifying[Math.floor(rng() * qualifying.length)];
+  const maxScore = pick.words.reduce((s, w) => s + scoreWord(w, letters), 0);
+  return { letters, center: pick.center, words: pick.words, maxScore };
 }
 
-while (boards.length < NUM_BOARDS && candidateSeed < 50000) {
+while (boards.length < NUM_BOARDS && candidateSeed < SEED_LIMIT) {
   const board = tryMakeBoard(candidateSeed++);
   if (!board) continue;
   const key = board.letters.join('') + '|' + board.center;
-  const dup = boards.some((b) => b.letters.join('') + '|' + b.center === key);
-  if (!dup) boards.push(board);
+  if (boards.some((b) => b.letters.join('') + '|' + b.center === key)) continue;
+  boards.push({
+    id: boards.length,
+    letters: board.letters,
+    center: board.center,
+    words: board.words,
+    maxScore: board.maxScore,
+    tiers: tierBlock(board.maxScore),
+  });
 }
 
 if (boards.length < NUM_BOARDS) {
-  console.error(`FAILED: only produced ${boards.length}/${NUM_BOARDS} boards`);
+  console.error(`FAILED: only produced ${boards.length}/${NUM_BOARDS} boards (scanned ${candidateSeed} seeds)`);
   process.exit(1);
+}
+
+// ── Self-checks (fail loudly rather than ship bad data) ────────────────────
+const universeSet = new Set(universe);
+for (const b of boards) {
+  if (b.id !== boards.indexOf(b)) { console.error('FAILED: id mismatch at ' + b.id); process.exit(1); }
+  if (b.letters.length !== 7 || new Set(b.letters).size !== 7) { console.error(`FAILED: board ${b.id} letters not 7 distinct`); process.exit(1); }
+  if (!b.letters.includes(b.center)) { console.error(`FAILED: board ${b.id} center not on board`); process.exit(1); }
+  let pangrams = 0;
+  for (const w of b.words) {
+    if (!universeSet.has(w)) { console.error(`FAILED: board ${b.id} word "${w}" not in curated universe`); process.exit(1); }
+    if (!w.includes(b.center)) { console.error(`FAILED: board ${b.id} word "${w}" missing center`); process.exit(1); }
+    const counts = {};
+    for (const l of b.letters) counts[l] = (counts[l] ?? 0) + 1;
+    const need = {};
+    let ok = true;
+    for (const ch of w) { if (!(ch in counts)) { ok = false; break; } need[ch] = (need[ch] ?? 0) + 1; if (need[ch] > counts[ch]) { ok = false; break; } }
+    if (!ok) { console.error(`FAILED: board ${b.id} word "${w}" not formable from letters`); process.exit(1); }
+    if (isPangram(w, b.letters)) pangrams++;
+  }
+  if (pangrams < 1) { console.error(`FAILED: board ${b.id} has no pangram`); process.exit(1); }
+  const recomputed = b.words.reduce((s, w) => s + scoreWord(w, b.letters), 0);
+  if (recomputed !== b.maxScore) { console.error(`FAILED: board ${b.id} maxScore ${b.maxScore} != recomputed ${recomputed}`); process.exit(1); }
 }
 
 mkdirSync(dirname(OUT_PATH), { recursive: true });
 writeFileSync(OUT_PATH, JSON.stringify({ version: 1, boards }, null, 2));
 
-const minWords = Math.min(...boards.map((b) => b.words.length));
-const maxWords = Math.max(...boards.map((b) => b.words.length));
-const withPangram = boards.filter((b) => b.words.some((w) => new Set(w).size === 7 && w.length === 7)).length;
+const counts = boards.map((b) => b.words.length).sort((a, b) => a - b);
+const scores = boards.map((b) => b.maxScore).sort((a, b) => a - b);
+const withPangram = boards.filter((b) => b.words.some((w) => isPangram(w, b.letters))).length;
 console.log(`Wrote ${boards.length} boards → ${OUT_PATH}`);
-console.log(`Words per board: min ${minWords}, max ${maxWords}. Boards with a pangram: ${withPangram}/${boards.length}`);
-
-// Top 3 boards by word count (for reporting)
-const top3 = [...boards].sort((a, b) => b.words.length - a.words.length).slice(0, 3);
-for (const b of top3) console.log(`TOP: ${b.center.toUpperCase()}+${b.letters.filter(l => l !== b.center).join('').toUpperCase()} — ${b.words.length} words`);
+console.log(`Words/board: min ${counts[0]}, median ${counts[Math.floor(counts.length / 2)]}, max ${counts[counts.length - 1]}`);
+console.log(`maxScore range: ${scores[0]}–${scores[scores.length - 1]}. Boards with a pangram: ${withPangram}/${boards.length}`);

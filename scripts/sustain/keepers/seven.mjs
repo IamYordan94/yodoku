@@ -1,9 +1,9 @@
 // scripts/sustain/keepers/seven.mjs
 //
-// 7 Letters (game 7) serves boards on a `days % boards.length` rotation, so 60
-// boards = a repeat every 60 days. Boards are generated from the hub's own
-// dictionary by scripts/generate-seven-boards.mjs, which is deterministic and now
-// supports --append / --count / --seed-base (added alongside this keeper).
+// 7 Letters (game 7) serves boards on a `days % boards.length` rotation, so N
+// boards = a repeat every N days (target 180 = ~6 months). Boards are generated
+// from the curated standard by scripts/generate-seven-boards.mjs, which is
+// deterministic and supports --append / --count / --seed-base.
 //
 // Usage: node scripts/sustain/keepers/seven.mjs [--apply] [--target=180]
 

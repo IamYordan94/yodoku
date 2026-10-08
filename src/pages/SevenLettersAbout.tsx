@@ -62,7 +62,7 @@ export default function SevenLettersAbout() {
       }}>
         <h3 className="text-lg font-black" style={{ color: '#141414', fontFamily: "'JetBrains Mono', monospace", textTransform: 'uppercase' }}>Fair Boards, Every Day</h3>
         <p className="text-sm leading-relaxed font-bold m-0" style={{ color: '#6f6a5e' }}>
-          All 60 boards in the rotation were pre-computed with the full solver against our dictionary.
+          All 180 boards in the rotation were pre-computed with the full solver against our curated word list.
           Each one is guaranteed to have at least 25 valid words (most have far more) and at least one
           pangram — so no dead days.
         </p>

@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 // Past 7 Letters boards. Every board in the data file is playable via
-// /seven/play?board=N (daily boards rotate through the first 60 indices).
+// /seven/play?board=N (the daily rotation walks all board indices).
 
 interface Board {
   id: number;

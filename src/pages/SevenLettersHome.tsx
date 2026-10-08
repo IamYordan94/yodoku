@@ -4,7 +4,7 @@ import PastPuzzlesLink from '../components/PastPuzzlesLink';
 
 const LAUNCH_DATE = '2026-08-23';
 const DAY_MS = 86400000;
-const NUM_BOARDS = 60;
+const NUM_BOARDS = 180;
 
 /** Daily board rotation — same UTC-day formula the other hub games use. */
 export function getTodayIndex(): number {
