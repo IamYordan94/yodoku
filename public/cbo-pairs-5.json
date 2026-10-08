@@ -1,437 +1,82 @@
 [
   {
-    "start_word": "lasts",
-    "end_word": "fouls",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "boots",
-    "end_word": "facto",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "reach",
-    "end_word": "torah",
+    "start_word": "fetch",
+    "end_word": "lunch",
     "optimal_steps": 5
   },
   {
-    "start_word": "baths",
-    "end_word": "inter",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "funds",
-    "end_word": "fixed",
+    "start_word": "groin",
+    "end_word": "crops",
     "optimal_steps": 4
   },
   {
-    "start_word": "fecal",
-    "end_word": "maths",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "flank",
-    "end_word": "chest",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "bears",
-    "end_word": "aimed",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "berth",
-    "end_word": "dazed",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "coils",
-    "end_word": "cafes",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "filly",
-    "end_word": "tails",
+    "start_word": "creep",
+    "end_word": "triad",
     "optimal_steps": 4
   },
   {
-    "start_word": "leeds",
-    "end_word": "sinus",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "chess",
-    "end_word": "plays",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "later",
-    "end_word": "nerds",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "birth",
-    "end_word": "facts",
+    "start_word": "flash",
+    "end_word": "slabs",
     "optimal_steps": 5
   },
   {
-    "start_word": "filth",
-    "end_word": "laser",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "cling",
-    "end_word": "stems",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "firms",
-    "end_word": "dolls",
+    "start_word": "shade",
+    "end_word": "suite",
     "optimal_steps": 5
   },
   {
-    "start_word": "dolls",
-    "end_word": "typed",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "barks",
-    "end_word": "saver",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "gents",
-    "end_word": "faded",
+    "start_word": "bogus",
+    "end_word": "gamer",
     "optimal_steps": 8
   },
   {
-    "start_word": "kinds",
-    "end_word": "snoop",
-    "optimal_steps": 12
-  },
-  {
-    "start_word": "bites",
-    "end_word": "fails",
+    "start_word": "books",
+    "end_word": "fakes",
     "optimal_steps": 6
   },
   {
-    "start_word": "boils",
-    "end_word": "verbs",
-    "optimal_steps": 10
+    "start_word": "hanks",
+    "end_word": "women",
+    "optimal_steps": 8
   },
   {
-    "start_word": "flush",
-    "end_word": "goals",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "beers",
-    "end_word": "fails",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "groom",
-    "end_word": "trips",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "benin",
-    "end_word": "vegas",
+    "start_word": "flung",
+    "end_word": "ewing",
     "optimal_steps": 4
   },
   {
-    "start_word": "ducks",
-    "end_word": "pools",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "hired",
-    "end_word": "kinky",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "leafy",
-    "end_word": "basis",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "beets",
-    "end_word": "lacks",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "stink",
-    "end_word": "quote",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "hints",
-    "end_word": "tunes",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "ships",
-    "end_word": "banda",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "doing",
-    "end_word": "spine",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "grimm",
-    "end_word": "lying",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "maine",
-    "end_word": "taker",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "scoop",
-    "end_word": "swamp",
+    "start_word": "scans",
+    "end_word": "beads",
     "optimal_steps": 4
   },
   {
-    "start_word": "prime",
-    "end_word": "sling",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "cared",
-    "end_word": "genes",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "plans",
-    "end_word": "reefs",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "draws",
-    "end_word": "sects",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "drier",
-    "end_word": "hails",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "munch",
-    "end_word": "fetch",
+    "start_word": "rails",
+    "end_word": "joins",
     "optimal_steps": 5
   },
   {
-    "start_word": "bases",
-    "end_word": "hopes",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "pores",
-    "end_word": "flops",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "drawn",
-    "end_word": "beers",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "relay",
-    "end_word": "regal",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "flows",
-    "end_word": "birds",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "finch",
-    "end_word": "latch",
-    "optimal_steps": 4
-  },
-  {
-    "start_word": "chips",
-    "end_word": "deeds",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "picks",
-    "end_word": "votes",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "shook",
-    "end_word": "knack",
-    "optimal_steps": 4
-  },
-  {
-    "start_word": "feeds",
-    "end_word": "pasha",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "capes",
-    "end_word": "gangs",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "cards",
-    "end_word": "lends",
+    "start_word": "choke",
+    "end_word": "chile",
     "optimal_steps": 5
   },
   {
-    "start_word": "raced",
-    "end_word": "renal",
-    "optimal_steps": 12
-  },
-  {
-    "start_word": "fifth",
-    "end_word": "waged",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "meets",
-    "end_word": "wives",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "heels",
-    "end_word": "maine",
+    "start_word": "roads",
+    "end_word": "cages",
     "optimal_steps": 6
   },
   {
-    "start_word": "dried",
-    "end_word": "trans",
+    "start_word": "sewer",
+    "end_word": "hated",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "trope",
+    "end_word": "phony",
     "optimal_steps": 5
   },
   {
-    "start_word": "owing",
-    "end_word": "needy",
-    "optimal_steps": 12
-  },
-  {
-    "start_word": "arise",
-    "end_word": "shine",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "parts",
-    "end_word": "songs",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "blend",
-    "end_word": "sheep",
-    "optimal_steps": 4
-  },
-  {
-    "start_word": "gusts",
-    "end_word": "cores",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "silly",
-    "end_word": "bowls",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "based",
-    "end_word": "bored",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "moans",
-    "end_word": "ropes",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "blink",
-    "end_word": "sleep",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "flare",
-    "end_word": "grime",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "boxer",
-    "end_word": "sizes",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "hikes",
-    "end_word": "balls",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "forte",
-    "end_word": "snake",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "cells",
-    "end_word": "bowls",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "relax",
-    "end_word": "feral",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "fixes",
-    "end_word": "stems",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "peaks",
-    "end_word": "dense",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "clash",
-    "end_word": "plaza",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "pools",
-    "end_word": "leaky",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "plump",
-    "end_word": "fangs",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "latex",
-    "end_word": "risky",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "sites",
-    "end_word": "fails",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "drive",
-    "end_word": "quite",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "clams",
-    "end_word": "doves",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "fools",
-    "end_word": "water",
+    "start_word": "belts",
+    "end_word": "sword",
     "optimal_steps": 8
   },
   {
@@ -440,189 +85,104 @@
     "optimal_steps": 4
   },
   {
+    "start_word": "ramps",
+    "end_word": "bumpy",
+    "optimal_steps": 4
+  },
+  {
+    "start_word": "grids",
+    "end_word": "meats",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "poles",
+    "end_word": "booty",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "snake",
+    "end_word": "slump",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "prize",
+    "end_word": "whole",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "bathe",
+    "end_word": "soils",
+    "optimal_steps": 8
+  },
+  {
     "start_word": "fangs",
-    "end_word": "tenth",
+    "end_word": "mints",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "bites",
+    "end_word": "mocks",
     "optimal_steps": 6
   },
   {
-    "start_word": "daily",
-    "end_word": "tours",
-    "optimal_steps": 10
+    "start_word": "rumor",
+    "end_word": "tires",
+    "optimal_steps": 5
   },
   {
-    "start_word": "races",
-    "end_word": "bikes",
-    "optimal_steps": 4
-  },
-  {
-    "start_word": "dares",
-    "end_word": "reefs",
+    "start_word": "sworn",
+    "end_word": "swaps",
     "optimal_steps": 7
   },
   {
-    "start_word": "bumps",
-    "end_word": "limbs",
-    "optimal_steps": 4
-  },
-  {
-    "start_word": "busty",
-    "end_word": "yanks",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "snaps",
-    "end_word": "thing",
+    "start_word": "skins",
+    "end_word": "germs",
     "optimal_steps": 8
   },
   {
-    "start_word": "frail",
-    "end_word": "snipe",
-    "optimal_steps": 12
-  },
-  {
-    "start_word": "brave",
-    "end_word": "crime",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "slams",
-    "end_word": "acorn",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "pasha",
-    "end_word": "pests",
+    "start_word": "grain",
+    "end_word": "think",
     "optimal_steps": 7
   },
   {
-    "start_word": "knock",
-    "end_word": "spock",
-    "optimal_steps": 5
+    "start_word": "curvy",
+    "end_word": "roses",
+    "optimal_steps": 7
   },
   {
-    "start_word": "rides",
-    "end_word": "spurs",
-    "optimal_steps": 12
-  },
-  {
-    "start_word": "kills",
-    "end_word": "poses",
+    "start_word": "ditch",
+    "end_word": "lunch",
     "optimal_steps": 4
   },
   {
-    "start_word": "tents",
-    "end_word": "fines",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "slaps",
-    "end_word": "menus",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "tanks",
-    "end_word": "aunts",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "pants",
-    "end_word": "bored",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "smoky",
-    "end_word": "snare",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "snack",
-    "end_word": "speck",
-    "optimal_steps": 4
-  },
-  {
-    "start_word": "shops",
-    "end_word": "spied",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "saved",
-    "end_word": "forks",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "shade",
-    "end_word": "slurs",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "rages",
-    "end_word": "locks",
-    "optimal_steps": 4
-  },
-  {
-    "start_word": "genus",
+    "start_word": "shall",
     "end_word": "slate",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "bonus",
-    "end_word": "tenth",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "sever",
-    "end_word": "lines",
     "optimal_steps": 4
   },
   {
-    "start_word": "earns",
-    "end_word": "armed",
+    "start_word": "rules",
+    "end_word": "reefs",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "horse",
+    "end_word": "rough",
+    "optimal_steps": 4
+  },
+  {
+    "start_word": "phone",
+    "end_word": "track",
     "optimal_steps": 7
   },
   {
-    "start_word": "leafs",
-    "end_word": "slips",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "ruled",
-    "end_word": "solos",
+    "start_word": "beast",
+    "end_word": "weave",
     "optimal_steps": 4
   },
   {
-    "start_word": "smear",
-    "end_word": "slept",
+    "start_word": "slime",
+    "end_word": "spare",
     "optimal_steps": 4
-  },
-  {
-    "start_word": "sword",
-    "end_word": "scary",
-    "optimal_steps": 4
-  },
-  {
-    "start_word": "holes",
-    "end_word": "shirt",
-    "optimal_steps": 12
-  },
-  {
-    "start_word": "speak",
-    "end_word": "share",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "hoped",
-    "end_word": "typos",
-    "optimal_steps": 4
-  },
-  {
-    "start_word": "slums",
-    "end_word": "rates",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "smack",
-    "end_word": "stung",
-    "optimal_steps": 5
   },
   {
     "start_word": "pumps",
@@ -630,374 +190,214 @@
     "optimal_steps": 5
   },
   {
-    "start_word": "hacks",
-    "end_word": "risen",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "hoods",
-    "end_word": "boils",
+    "start_word": "taper",
+    "end_word": "aired",
     "optimal_steps": 5
   },
   {
-    "start_word": "clasp",
-    "end_word": "nests",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "grape",
-    "end_word": "while",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "ports",
-    "end_word": "talks",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "spied",
-    "end_word": "stage",
+    "start_word": "focal",
+    "end_word": "modem",
     "optimal_steps": 7
   },
   {
-    "start_word": "swine",
-    "end_word": "thong",
+    "start_word": "salts",
+    "end_word": "taken",
     "optimal_steps": 4
   },
   {
-    "start_word": "chile",
-    "end_word": "chaps",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "chord",
-    "end_word": "grime",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "shame",
-    "end_word": "goals",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "glide",
-    "end_word": "crops",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "grabs",
-    "end_word": "stump",
+    "start_word": "typed",
+    "end_word": "fonts",
     "optimal_steps": 8
   },
   {
-    "start_word": "goons",
-    "end_word": "doves",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "crows",
-    "end_word": "heres",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "boost",
-    "end_word": "leeds",
+    "start_word": "grave",
+    "end_word": "grimm",
     "optimal_steps": 7
   },
   {
-    "start_word": "bloke",
-    "end_word": "prize",
-    "optimal_steps": 10
+    "start_word": "these",
+    "end_word": "chili",
+    "optimal_steps": 6
   },
   {
-    "start_word": "tears",
-    "end_word": "grass",
+    "start_word": "shook",
+    "end_word": "share",
     "optimal_steps": 4
   },
   {
-    "start_word": "feces",
-    "end_word": "tools",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "shawl",
-    "end_word": "stake",
-    "optimal_steps": 4
-  },
-  {
-    "start_word": "slave",
-    "end_word": "stoop",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "smash",
-    "end_word": "grips",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "sling",
-    "end_word": "terms",
-    "optimal_steps": 8
+    "start_word": "voter",
+    "end_word": "dover",
+    "optimal_steps": 6
   },
   {
     "start_word": "suite",
-    "end_word": "phony",
+    "end_word": "prone",
     "optimal_steps": 6
   },
   {
-    "start_word": "spots",
-    "end_word": "minds",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "shave",
-    "end_word": "cramp",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "racer",
-    "end_word": "kinks",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "shine",
-    "end_word": "spots",
-    "optimal_steps": 4
-  },
-  {
-    "start_word": "slice",
-    "end_word": "soaps",
+    "start_word": "volts",
+    "end_word": "taken",
     "optimal_steps": 7
   },
   {
-    "start_word": "arias",
-    "end_word": "lords",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "grams",
-    "end_word": "vents",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "acorn",
-    "end_word": "whips",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "spent",
-    "end_word": "cramp",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "tones",
-    "end_word": "tease",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "scary",
-    "end_word": "flung",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "meals",
-    "end_word": "vowed",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "quits",
-    "end_word": "meaty",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "carve",
-    "end_word": "forte",
+    "start_word": "mules",
+    "end_word": "famed",
     "optimal_steps": 5
   },
   {
-    "start_word": "reuse",
-    "end_word": "porch",
+    "start_word": "seven",
+    "end_word": "words",
     "optimal_steps": 7
   },
   {
-    "start_word": "taken",
-    "end_word": "finds",
-    "optimal_steps": 6
+    "start_word": "frees",
+    "end_word": "seems",
+    "optimal_steps": 8
   },
   {
-    "start_word": "taper",
-    "end_word": "rated",
+    "start_word": "booed",
+    "end_word": "coles",
     "optimal_steps": 5
   },
   {
-    "start_word": "backs",
-    "end_word": "tours",
-    "optimal_steps": 9
+    "start_word": "tasty",
+    "end_word": "taxis",
+    "optimal_steps": 8
   },
   {
-    "start_word": "punch",
-    "end_word": "fetch",
+    "start_word": "daily",
+    "end_word": "years",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "famed",
+    "end_word": "bolts",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "soles",
+    "end_word": "ponds",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "spelt",
+    "end_word": "fling",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "whole",
+    "end_word": "quite",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "soils",
+    "end_word": "males",
     "optimal_steps": 4
+  },
+  {
+    "start_word": "towns",
+    "end_word": "rooms",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "doves",
+    "end_word": "malls",
+    "optimal_steps": 4
+  },
+  {
+    "start_word": "paved",
+    "end_word": "party",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "slang",
+    "end_word": "flaps",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "trunk",
+    "end_word": "brain",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "seats",
+    "end_word": "boxed",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "vents",
+    "end_word": "caste",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "whose",
+    "end_word": "crate",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "laces",
+    "end_word": "earns",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "props",
+    "end_word": "flaps",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "spies",
+    "end_word": "chile",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "facet",
+    "end_word": "leads",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "faded",
+    "end_word": "reeds",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "ruled",
+    "end_word": "rants",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "baked",
+    "end_word": "waits",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "finds",
+    "end_word": "longs",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "tours",
+    "end_word": "kilos",
+    "optimal_steps": 8
   },
   {
     "start_word": "leash",
-    "end_word": "needs",
-    "optimal_steps": 6
+    "end_word": "wards",
+    "optimal_steps": 8
   },
   {
-    "start_word": "bytes",
-    "end_word": "herbs",
-    "optimal_steps": 6
+    "start_word": "goals",
+    "end_word": "prays",
+    "optimal_steps": 8
   },
   {
-    "start_word": "goats",
-    "end_word": "belly",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "speck",
-    "end_word": "whack",
+    "start_word": "specs",
+    "end_word": "shook",
     "optimal_steps": 4
   },
   {
-    "start_word": "heres",
-    "end_word": "cults",
+    "start_word": "trash",
+    "end_word": "slots",
     "optimal_steps": 8
-  },
-  {
-    "start_word": "snake",
-    "end_word": "crown",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "naked",
-    "end_word": "lives",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "firth",
-    "end_word": "lived",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "knack",
-    "end_word": "spock",
-    "optimal_steps": 4
-  },
-  {
-    "start_word": "sewer",
-    "end_word": "panda",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "blond",
-    "end_word": "sheen",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "prone",
-    "end_word": "stink",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "plane",
-    "end_word": "leeds",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "mails",
-    "end_word": "tried",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "souls",
-    "end_word": "ruler",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "dries",
-    "end_word": "plaza",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "slate",
-    "end_word": "mates",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "posed",
-    "end_word": "needy",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "tease",
-    "end_word": "leaky",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "flips",
-    "end_word": "boxer",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "shape",
-    "end_word": "books",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "mower",
-    "end_word": "pedal",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "spell",
-    "end_word": "swans",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "fouls",
-    "end_word": "space",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "molds",
-    "end_word": "taxed",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "drunk",
-    "end_word": "seine",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "clans",
-    "end_word": "mates",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "tolls",
-    "end_word": "leafs",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "toned",
-    "end_word": "tramp",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "rural",
-    "end_word": "named",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "grade",
-    "end_word": "whose",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "carte",
-    "end_word": "loans",
-    "optimal_steps": 6
   },
   {
     "start_word": "sleek",
@@ -1005,49 +405,79 @@
     "optimal_steps": 5
   },
   {
-    "start_word": "eased",
-    "end_word": "carts",
+    "start_word": "leafy",
+    "end_word": "jerky",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "crypt",
+    "end_word": "flask",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "drier",
+    "end_word": "grasp",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "slows",
+    "end_word": "loans",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "winds",
+    "end_word": "fools",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "moles",
+    "end_word": "dairy",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "sects",
+    "end_word": "slips",
     "optimal_steps": 5
   },
   {
-    "start_word": "swung",
-    "end_word": "crack",
-    "optimal_steps": 9
+    "start_word": "rests",
+    "end_word": "berth",
+    "optimal_steps": 8
   },
   {
-    "start_word": "moods",
-    "end_word": "tones",
-    "optimal_steps": 5
+    "start_word": "posed",
+    "end_word": "force",
+    "optimal_steps": 6
   },
   {
-    "start_word": "sails",
-    "end_word": "corps",
+    "start_word": "disks",
+    "end_word": "heads",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "spice",
+    "end_word": "slump",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "shiny",
+    "end_word": "clams",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "rolls",
+    "end_word": "nerdy",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "tires",
+    "end_word": "seems",
     "optimal_steps": 7
   },
   {
     "start_word": "cares",
-    "end_word": "boats",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "shalt",
-    "end_word": "boats",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "slugs",
-    "end_word": "tends",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "shoes",
-    "end_word": "plays",
+    "end_word": "penal",
     "optimal_steps": 8
-  },
-  {
-    "start_word": "chats",
-    "end_word": "flaps",
-    "optimal_steps": 5
   },
   {
     "start_word": "ovens",
@@ -1055,583 +485,1083 @@
     "optimal_steps": 4
   },
   {
-    "start_word": "aunts",
-    "end_word": "curse",
-    "optimal_steps": 10
+    "start_word": "eaten",
+    "end_word": "dunes",
+    "optimal_steps": 6
   },
   {
-    "start_word": "leads",
-    "end_word": "waved",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "flock",
-    "end_word": "shiny",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "rents",
-    "end_word": "crash",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "fifty",
-    "end_word": "faked",
+    "start_word": "hyper",
+    "end_word": "winds",
     "optimal_steps": 8
   },
   {
-    "start_word": "fired",
-    "end_word": "likes",
-    "optimal_steps": 4
+    "start_word": "weeds",
+    "end_word": "bases",
+    "optimal_steps": 7
   },
   {
-    "start_word": "pairs",
-    "end_word": "bells",
-    "optimal_steps": 5
+    "start_word": "drank",
+    "end_word": "slime",
+    "optimal_steps": 8
   },
   {
-    "start_word": "place",
-    "end_word": "bowls",
-    "optimal_steps": 12
+    "start_word": "moans",
+    "end_word": "weave",
+    "optimal_steps": 8
   },
   {
-    "start_word": "stack",
-    "end_word": "shout",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "moles",
-    "end_word": "fools",
-    "optimal_steps": 4
-  },
-  {
-    "start_word": "locus",
-    "end_word": "towed",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "lends",
-    "end_word": "fears",
-    "optimal_steps": 4
-  },
-  {
-    "start_word": "roses",
-    "end_word": "curse",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "pedal",
-    "end_word": "gully",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "dukes",
-    "end_word": "raged",
+    "start_word": "mains",
+    "end_word": "pools",
     "optimal_steps": 6
   },
   {
-    "start_word": "shark",
-    "end_word": "steak",
+    "start_word": "magic",
+    "end_word": "tango",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "finch",
+    "end_word": "batch",
+    "optimal_steps": 4
+  },
+  {
+    "start_word": "divas",
+    "end_word": "lager",
     "optimal_steps": 6
   },
   {
-    "start_word": "modal",
-    "end_word": "birth",
+    "start_word": "areas",
+    "end_word": "check",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "belly",
+    "end_word": "feels",
+    "optimal_steps": 4
+  },
+  {
+    "start_word": "walks",
+    "end_word": "tired",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "cheek",
+    "end_word": "dried",
+    "optimal_steps": 4
+  },
+  {
+    "start_word": "deeds",
+    "end_word": "tired",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "vines",
+    "end_word": "feces",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "decoy",
+    "end_word": "fetal",
+    "optimal_steps": 4
+  },
+  {
+    "start_word": "crock",
+    "end_word": "suits",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "carts",
+    "end_word": "folks",
+    "optimal_steps": 4
+  },
+  {
+    "start_word": "capes",
+    "end_word": "liter",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "dying",
+    "end_word": "whine",
+    "optimal_steps": 4
+  },
+  {
+    "start_word": "whack",
+    "end_word": "slope",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "tents",
+    "end_word": "slums",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "ticks",
+    "end_word": "tolls",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "cites",
+    "end_word": "bucks",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "slave",
+    "end_word": "scary",
+    "optimal_steps": 4
+  },
+  {
+    "start_word": "scope",
+    "end_word": "stabs",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "stash",
+    "end_word": "snaps",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "fists",
+    "end_word": "curls",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "kings",
+    "end_word": "laces",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "those",
+    "end_word": "prime",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "wages",
+    "end_word": "fixed",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "domes",
+    "end_word": "tells",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "ships",
+    "end_word": "trash",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "piles",
+    "end_word": "fouls",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "swans",
+    "end_word": "chops",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "dread",
+    "end_word": "aries",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "fixer",
+    "end_word": "mates",
+    "optimal_steps": 4
+  },
+  {
+    "start_word": "mined",
+    "end_word": "inter",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "lands",
+    "end_word": "later",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "stops",
+    "end_word": "grain",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "spine",
+    "end_word": "swaps",
+    "optimal_steps": 4
+  },
+  {
+    "start_word": "faces",
+    "end_word": "fangs",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "chefs",
+    "end_word": "crypt",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "paths",
+    "end_word": "beats",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "fuels",
+    "end_word": "hello",
+    "optimal_steps": 4
+  },
+  {
+    "start_word": "tyres",
+    "end_word": "fades",
+    "optimal_steps": 4
+  },
+  {
+    "start_word": "souls",
+    "end_word": "solos",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "scarf",
+    "end_word": "spine",
+    "optimal_steps": 4
+  },
+  {
+    "start_word": "sores",
+    "end_word": "lakhs",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "aimed",
+    "end_word": "cured",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "decal",
+    "end_word": "modem",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "cited",
+    "end_word": "docks",
     "optimal_steps": 7
   },
   {
     "start_word": "andes",
-    "end_word": "seals",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "speed",
-    "end_word": "stung",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "meats",
-    "end_word": "words",
+    "end_word": "popes",
     "optimal_steps": 6
   },
   {
-    "start_word": "slide",
-    "end_word": "crock",
-    "optimal_steps": 5
+    "start_word": "texts",
+    "end_word": "heals",
+    "optimal_steps": 6
   },
   {
-    "start_word": "locks",
-    "end_word": "motel",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "cheer",
-    "end_word": "tried",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "hotel",
-    "end_word": "hates",
+    "start_word": "snipe",
+    "end_word": "flick",
     "optimal_steps": 7
   },
   {
-    "start_word": "flags",
-    "end_word": "mocks",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "spelt",
-    "end_word": "tones",
-    "optimal_steps": 12
-  },
-  {
-    "start_word": "hails",
-    "end_word": "ponds",
+    "start_word": "hurts",
+    "end_word": "bogus",
     "optimal_steps": 8
   },
   {
-    "start_word": "shiny",
-    "end_word": "leeds",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "quote",
-    "end_word": "props",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "ceded",
-    "end_word": "hives",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "torch",
-    "end_word": "worse",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "limbo",
-    "end_word": "bumpy",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "carts",
-    "end_word": "needs",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "robes",
-    "end_word": "tanks",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "trays",
-    "end_word": "tamed",
-    "optimal_steps": 12
-  },
-  {
-    "start_word": "dazed",
-    "end_word": "polls",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "footy",
-    "end_word": "leads",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "nosed",
-    "end_word": "lanes",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "booms",
-    "end_word": "paths",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "blast",
-    "end_word": "seeds",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "click",
-    "end_word": "cloth",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "curse",
-    "end_word": "biker",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "intel",
-    "end_word": "fever",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "spans",
-    "end_word": "click",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "drank",
-    "end_word": "shirt",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "joker",
-    "end_word": "vents",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "kings",
-    "end_word": "timor",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "oiled",
-    "end_word": "fewer",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "spite",
-    "end_word": "stamp",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "hires",
-    "end_word": "birds",
+    "start_word": "break",
+    "end_word": "tries",
     "optimal_steps": 5
   },
   {
-    "start_word": "broke",
-    "end_word": "prime",
-    "optimal_steps": 8
+    "start_word": "wired",
+    "end_word": "taped",
+    "optimal_steps": 4
   },
   {
-    "start_word": "makes",
-    "end_word": "risks",
+    "start_word": "train",
+    "end_word": "thick",
     "optimal_steps": 5
   },
   {
-    "start_word": "spins",
-    "end_word": "crush",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "verbs",
-    "end_word": "busty",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "alert",
-    "end_word": "opens",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "specs",
-    "end_word": "smack",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "fresh",
-    "end_word": "fools",
-    "optimal_steps": 12
-  },
-  {
-    "start_word": "lined",
-    "end_word": "reads",
+    "start_word": "cater",
+    "end_word": "popes",
     "optimal_steps": 6
   },
   {
-    "start_word": "vegas",
-    "end_word": "lenin",
+    "start_word": "trade",
+    "end_word": "crazy",
+    "optimal_steps": 4
+  },
+  {
+    "start_word": "goats",
+    "end_word": "leaks",
     "optimal_steps": 5
   },
   {
-    "start_word": "scalp",
+    "start_word": "comes",
+    "end_word": "lined",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "stunt",
+    "end_word": "swine",
+    "optimal_steps": 4
+  },
+  {
+    "start_word": "gorge",
+    "end_word": "rants",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "swell",
     "end_word": "scant",
     "optimal_steps": 5
   },
   {
-    "start_word": "clamp",
-    "end_word": "hades",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "mains",
-    "end_word": "roads",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "paper",
-    "end_word": "jeans",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "foray",
-    "end_word": "saver",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "tread",
-    "end_word": "trans",
+    "start_word": "prose",
+    "end_word": "thing",
     "optimal_steps": 6
   },
   {
-    "start_word": "slurs",
-    "end_word": "firth",
-    "optimal_steps": 12
+    "start_word": "barns",
+    "end_word": "cafes",
+    "optimal_steps": 4
   },
   {
-    "start_word": "prank",
-    "end_word": "grain",
+    "start_word": "fares",
+    "end_word": "volts",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "poems",
+    "end_word": "coles",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "delay",
+    "end_word": "local",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "needs",
+    "end_word": "stamp",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "smack",
+    "end_word": "shift",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "suits",
+    "end_word": "chile",
     "optimal_steps": 7
   },
   {
-    "start_word": "spicy",
-    "end_word": "going",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "bones",
-    "end_word": "fears",
+    "start_word": "barks",
+    "end_word": "wipes",
     "optimal_steps": 5
   },
   {
-    "start_word": "seams",
-    "end_word": "cones",
+    "start_word": "feels",
+    "end_word": "goats",
     "optimal_steps": 6
   },
   {
-    "start_word": "fetch",
-    "end_word": "lunch",
+    "start_word": "cents",
+    "end_word": "poker",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "risen",
+    "end_word": "foray",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "basis",
+    "end_word": "rages",
+    "optimal_steps": 4
+  },
+  {
+    "start_word": "bloke",
+    "end_word": "bravo",
+    "optimal_steps": 4
+  },
+  {
+    "start_word": "bored",
+    "end_word": "cites",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "norms",
+    "end_word": "mixed",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "plane",
+    "end_word": "swine",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "booms",
+    "end_word": "wives",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "petal",
+    "end_word": "nodes",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "clans",
+    "end_word": "roads",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "trail",
+    "end_word": "flock",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "spock",
+    "end_word": "scope",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "moons",
+    "end_word": "comes",
     "optimal_steps": 5
   },
   {
-    "start_word": "hates",
-    "end_word": "fuels",
+    "start_word": "swaps",
+    "end_word": "blown",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "biker",
+    "end_word": "boxed",
     "optimal_steps": 8
   },
   {
-    "start_word": "forge",
-    "end_word": "loops",
+    "start_word": "fated",
+    "end_word": "packs",
+    "optimal_steps": 4
+  },
+  {
+    "start_word": "ewing",
+    "end_word": "spice",
+    "optimal_steps": 4
+  },
+  {
+    "start_word": "shock",
+    "end_word": "snout",
+    "optimal_steps": 4
+  },
+  {
+    "start_word": "dives",
+    "end_word": "mocks",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "fatal",
+    "end_word": "renal",
+    "optimal_steps": 4
+  },
+  {
+    "start_word": "added",
+    "end_word": "heats",
     "optimal_steps": 8
   },
   {
-    "start_word": "fused",
-    "end_word": "needs",
-    "optimal_steps": 10
+    "start_word": "heirs",
+    "end_word": "tells",
+    "optimal_steps": 4
   },
   {
-    "start_word": "drags",
-    "end_word": "heals",
-    "optimal_steps": 11
+    "start_word": "fines",
+    "end_word": "wards",
+    "optimal_steps": 4
   },
   {
-    "start_word": "curls",
+    "start_word": "earns",
+    "end_word": "tasty",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "rooms",
+    "end_word": "paved",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "graze",
+    "end_word": "prize",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "bikes",
+    "end_word": "force",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "fixes",
+    "end_word": "woven",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "brush",
+    "end_word": "prays",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "falls",
+    "end_word": "flaws",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "thyme",
+    "end_word": "whose",
+    "optimal_steps": 4
+  },
+  {
+    "start_word": "kinky",
+    "end_word": "sends",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "drone",
+    "end_word": "chili",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "farts",
+    "end_word": "tunes",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "scorn",
+    "end_word": "skate",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "lured",
+    "end_word": "voter",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "curve",
+    "end_word": "fares",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "stars",
+    "end_word": "flaps",
+    "optimal_steps": 4
+  },
+  {
+    "start_word": "least",
+    "end_word": "bands",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "busty",
+    "end_word": "taxes",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "mater",
+    "end_word": "meals",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "yeast",
+    "end_word": "leeds",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "swing",
+    "end_word": "slows",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "gusto",
+    "end_word": "fakes",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "slash",
+    "end_word": "plant",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "stoke",
+    "end_word": "flags",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "risks",
+    "end_word": "force",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "coded",
+    "end_word": "gangs",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "grows",
+    "end_word": "shops",
+    "optimal_steps": 4
+  },
+  {
+    "start_word": "makes",
+    "end_word": "metal",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "glide",
+    "end_word": "stink",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "reply",
+    "end_word": "fetal",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "joint",
+    "end_word": "soaps",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "teeth",
+    "end_word": "seams",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "rides",
+    "end_word": "taken",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "woken",
+    "end_word": "lands",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "mails",
+    "end_word": "skips",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "mixes",
+    "end_word": "faked",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "stung",
+    "end_word": "ships",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "spank",
+    "end_word": "flows",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "slums",
+    "end_word": "feels",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "sails",
+    "end_word": "rarer",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "lobes",
+    "end_word": "masks",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "fully",
+    "end_word": "soils",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "fakes",
+    "end_word": "beams",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "tamed",
+    "end_word": "party",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "pairs",
+    "end_word": "flops",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "bells",
+    "end_word": "fouls",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "bonus",
+    "end_word": "rates",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "grate",
+    "end_word": "chile",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "spire",
+    "end_word": "crops",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "slide",
+    "end_word": "shots",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "fever",
+    "end_word": "foxes",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "women",
+    "end_word": "ranks",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "cling",
+    "end_word": "slice",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "ruler",
+    "end_word": "loner",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "pipes",
+    "end_word": "gases",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "mixed",
+    "end_word": "wives",
+    "optimal_steps": 4
+  },
+  {
+    "start_word": "pants",
+    "end_word": "aunty",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "basin",
+    "end_word": "leads",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "grips",
+    "end_word": "sects",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "sized",
+    "end_word": "hives",
+    "optimal_steps": 4
+  },
+  {
+    "start_word": "dazed",
+    "end_word": "heads",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "stale",
+    "end_word": "slums",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "hosts",
+    "end_word": "oasis",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "hails",
+    "end_word": "dunes",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "knack",
+    "end_word": "shout",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "yikes",
+    "end_word": "dukes",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "sever",
     "end_word": "wakes",
     "optimal_steps": 4
   },
   {
-    "start_word": "aunty",
-    "end_word": "goals",
-    "optimal_steps": 12
-  },
-  {
-    "start_word": "trade",
-    "end_word": "flare",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "saver",
-    "end_word": "fetal",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "trick",
-    "end_word": "grain",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "songs",
-    "end_word": "cafes",
+    "start_word": "dover",
+    "end_word": "bulls",
     "optimal_steps": 7
   },
   {
-    "start_word": "beast",
-    "end_word": "beams",
+    "start_word": "leads",
+    "end_word": "spank",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "cramp",
+    "end_word": "leaks",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "gowns",
+    "end_word": "modes",
     "optimal_steps": 6
   },
   {
-    "start_word": "fined",
-    "end_word": "texan",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "bangs",
-    "end_word": "germs",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "tract",
-    "end_word": "flock",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "hover",
-    "end_word": "later",
-    "optimal_steps": 4
-  },
-  {
-    "start_word": "typed",
-    "end_word": "faced",
-    "optimal_steps": 4
-  },
-  {
-    "start_word": "seven",
-    "end_word": "hired",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "plant",
-    "end_word": "sings",
-    "optimal_steps": 12
-  },
-  {
-    "start_word": "chose",
-    "end_word": "trick",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "trope",
-    "end_word": "spins",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "tyres",
-    "end_word": "finds",
-    "optimal_steps": 4
-  },
-  {
-    "start_word": "prays",
-    "end_word": "yards",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "shaft",
-    "end_word": "books",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "pours",
-    "end_word": "robes",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "towed",
-    "end_word": "loans",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "cites",
-    "end_word": "fever",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "lobes",
-    "end_word": "gifts",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "kinks",
-    "end_word": "posts",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "lever",
-    "end_word": "focal",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "curly",
-    "end_word": "doors",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "salty",
-    "end_word": "tents",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "golds",
-    "end_word": "divas",
+    "start_word": "rouse",
+    "end_word": "porch",
     "optimal_steps": 6
   },
   {
-    "start_word": "volts",
-    "end_word": "toner",
-    "optimal_steps": 5
+    "start_word": "latex",
+    "end_word": "fails",
+    "optimal_steps": 7
   },
   {
-    "start_word": "blame",
-    "end_word": "flute",
-    "optimal_steps": 4
-  },
-  {
-    "start_word": "minds",
-    "end_word": "warts",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "mover",
-    "end_word": "monks",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "smell",
-    "end_word": "scans",
+    "start_word": "rower",
+    "end_word": "woman",
     "optimal_steps": 6
   },
   {
-    "start_word": "loves",
-    "end_word": "fecal",
+    "start_word": "mocks",
+    "end_word": "malls",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "hangs",
+    "end_word": "pests",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "gated",
+    "end_word": "forms",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "lists",
+    "end_word": "hosts",
+    "optimal_steps": 4
+  },
+  {
+    "start_word": "fails",
+    "end_word": "cover",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "seams",
+    "end_word": "forks",
     "optimal_steps": 8
   },
   {
-    "start_word": "kicks",
-    "end_word": "nails",
-    "optimal_steps": 9
+    "start_word": "lends",
+    "end_word": "flaws",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "owing",
+    "end_word": "scent",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "crate",
+    "end_word": "whole",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "tenth",
+    "end_word": "meals",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "wakes",
+    "end_word": "leafy",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "cries",
+    "end_word": "tread",
+    "optimal_steps": 4
+  },
+  {
+    "start_word": "spicy",
+    "end_word": "shalt",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "soaps",
+    "end_word": "reads",
+    "optimal_steps": 6
   },
   {
     "start_word": "phony",
-    "end_word": "whips",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "cents",
-    "end_word": "slips",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "paint",
-    "end_word": "firms",
+    "end_word": "flung",
     "optimal_steps": 8
   },
   {
-    "start_word": "flesh",
+    "start_word": "grams",
+    "end_word": "birds",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "shame",
+    "end_word": "spoke",
+    "optimal_steps": 4
+  },
+  {
+    "start_word": "wiped",
     "end_word": "bangs",
-    "optimal_steps": 11
+    "optimal_steps": 6
   },
   {
-    "start_word": "inter",
-    "end_word": "cents",
-    "optimal_steps": 11
+    "start_word": "sting",
+    "end_word": "spots",
+    "optimal_steps": 6
   },
   {
-    "start_word": "takes",
-    "end_word": "codex",
+    "start_word": "drugs",
+    "end_word": "flows",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "taker",
+    "end_word": "looms",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "lacks",
+    "end_word": "cases",
+    "optimal_steps": 4
+  },
+  {
+    "start_word": "crank",
+    "end_word": "twain",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "hairs",
+    "end_word": "soaps",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "cooks",
+    "end_word": "vices",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "curly",
+    "end_word": "force",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "shaky",
+    "end_word": "store",
+    "optimal_steps": 4
+  },
+  {
+    "start_word": "muses",
+    "end_word": "cells",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "flaws",
+    "end_word": "hoods",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "hooks",
+    "end_word": "seams",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "flare",
+    "end_word": "graph",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "drive",
+    "end_word": "spite",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "coven",
+    "end_word": "fared",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "boast",
+    "end_word": "leaps",
+    "optimal_steps": 4
+  },
+  {
+    "start_word": "tests",
+    "end_word": "fines",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "facto",
+    "end_word": "baked",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "bucks",
+    "end_word": "dazed",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "share",
+    "end_word": "specs",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "penal",
+    "end_word": "coles",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "shone",
+    "end_word": "suing",
+    "optimal_steps": 4
+  },
+  {
+    "start_word": "crows",
+    "end_word": "twain",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "place",
+    "end_word": "slump",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "meals",
+    "end_word": "clasp",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "chops",
+    "end_word": "spins",
     "optimal_steps": 5
   },
   {
@@ -1640,363 +1570,433 @@
     "optimal_steps": 4
   },
   {
-    "start_word": "focus",
-    "end_word": "fixes",
+    "start_word": "forty",
+    "end_word": "flats",
     "optimal_steps": 7
   },
   {
-    "start_word": "trial",
-    "end_word": "aries",
+    "start_word": "stats",
+    "end_word": "beers",
     "optimal_steps": 4
   },
   {
-    "start_word": "seine",
-    "end_word": "soups",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "focal",
-    "end_word": "rower",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "liver",
-    "end_word": "cubes",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "gifts",
-    "end_word": "vices",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "ewing",
-    "end_word": "meaty",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "tests",
-    "end_word": "crash",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "soaps",
-    "end_word": "tyres",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "vests",
-    "end_word": "dense",
-    "optimal_steps": 12
-  },
-  {
-    "start_word": "scant",
-    "end_word": "looks",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "renal",
-    "end_word": "ceded",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "cisco",
-    "end_word": "decks",
+    "start_word": "vases",
+    "end_word": "lifts",
     "optimal_steps": 5
   },
   {
-    "start_word": "shady",
-    "end_word": "shift",
+    "start_word": "laser",
+    "end_word": "lived",
+    "optimal_steps": 4
+  },
+  {
+    "start_word": "punch",
+    "end_word": "fetch",
+    "optimal_steps": 4
+  },
+  {
+    "start_word": "shine",
+    "end_word": "track",
     "optimal_steps": 5
   },
   {
-    "start_word": "check",
-    "end_word": "dryer",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "grown",
-    "end_word": "bowls",
-    "optimal_steps": 12
-  },
-  {
-    "start_word": "sheen",
-    "end_word": "areas",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "crypt",
-    "end_word": "frown",
-    "optimal_steps": 12
-  },
-  {
-    "start_word": "dared",
-    "end_word": "moths",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "aides",
-    "end_word": "farce",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "goose",
-    "end_word": "torah",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "mater",
-    "end_word": "tones",
+    "start_word": "waste",
+    "end_word": "lords",
     "optimal_steps": 6
   },
   {
-    "start_word": "roads",
-    "end_word": "feels",
-    "optimal_steps": 4
+    "start_word": "backs",
+    "end_word": "fools",
+    "optimal_steps": 6
   },
   {
-    "start_word": "shows",
-    "end_word": "plump",
+    "start_word": "fused",
+    "end_word": "taken",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "males",
+    "end_word": "inner",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "drawn",
+    "end_word": "clams",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "rover",
+    "end_word": "sails",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "lived",
+    "end_word": "naked",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "fires",
+    "end_word": "lungs",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "stood",
+    "end_word": "seems",
     "optimal_steps": 8
   },
   {
-    "start_word": "piles",
-    "end_word": "vests",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "linen",
-    "end_word": "rages",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "loner",
-    "end_word": "plays",
-    "optimal_steps": 12
-  },
-  {
-    "start_word": "oasis",
-    "end_word": "filth",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "spire",
-    "end_word": "guide",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "falls",
-    "end_word": "lands",
+    "start_word": "traps",
+    "end_word": "bells",
     "optimal_steps": 6
   },
   {
-    "start_word": "leans",
-    "end_word": "fixes",
+    "start_word": "scalp",
+    "end_word": "slums",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "balls",
+    "end_word": "racks",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "crash",
+    "end_word": "boats",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "feral",
+    "end_word": "mural",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "parts",
+    "end_word": "doves",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "golds",
+    "end_word": "eater",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "eased",
+    "end_word": "basic",
+    "optimal_steps": 4
+  },
+  {
+    "start_word": "dense",
+    "end_word": "leaks",
     "optimal_steps": 7
   },
   {
-    "start_word": "blown",
-    "end_word": "fling",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "thank",
-    "end_word": "grown",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "tubes",
-    "end_word": "eased",
+    "start_word": "plots",
+    "end_word": "clash",
     "optimal_steps": 7
   },
   {
-    "start_word": "seeks",
-    "end_word": "chess",
-    "optimal_steps": 12
+    "start_word": "jelly",
+    "end_word": "feats",
+    "optimal_steps": 5
   },
   {
-    "start_word": "rouge",
-    "end_word": "loose",
+    "start_word": "genus",
+    "end_word": "winds",
     "optimal_steps": 4
   },
   {
-    "start_word": "sleep",
-    "end_word": "cheek",
+    "start_word": "cords",
+    "end_word": "dover",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "lover",
+    "end_word": "hikes",
     "optimal_steps": 4
   },
   {
-    "start_word": "cases",
-    "end_word": "faced",
+    "start_word": "store",
+    "end_word": "slant",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "thong",
+    "end_word": "spits",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "woven",
+    "end_word": "noses",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "blows",
+    "end_word": "spite",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "leaky",
+    "end_word": "leave",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "calls",
+    "end_word": "cones",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "speak",
+    "end_word": "shoot",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "shove",
+    "end_word": "prose",
     "optimal_steps": 4
   },
   {
-    "start_word": "sects",
-    "end_word": "sizes",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "lease",
-    "end_word": "dazed",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "heads",
-    "end_word": "minds",
-    "optimal_steps": 4
-  },
-  {
-    "start_word": "force",
-    "end_word": "mixes",
+    "start_word": "arose",
+    "end_word": "shirt",
     "optimal_steps": 7
   },
   {
     "start_word": "cheat",
-    "end_word": "deals",
-    "optimal_steps": 12
+    "end_word": "trash",
+    "optimal_steps": 6
   },
   {
-    "start_word": "chili",
-    "end_word": "gravy",
-    "optimal_steps": 9
+    "start_word": "towel",
+    "end_word": "lanes",
+    "optimal_steps": 6
   },
   {
-    "start_word": "joins",
-    "end_word": "inter",
-    "optimal_steps": 12
+    "start_word": "worms",
+    "end_word": "gears",
+    "optimal_steps": 7
   },
   {
-    "start_word": "heals",
-    "end_word": "birds",
+    "start_word": "frail",
+    "end_word": "crock",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "seeks",
+    "end_word": "scent",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "cloth",
+    "end_word": "spite",
     "optimal_steps": 5
   },
   {
-    "start_word": "board",
-    "end_word": "tools",
+    "start_word": "sinks",
+    "end_word": "soils",
     "optimal_steps": 8
   },
   {
-    "start_word": "porch",
-    "end_word": "react",
-    "optimal_steps": 4
-  },
-  {
-    "start_word": "chest",
-    "end_word": "deals",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "voted",
-    "end_word": "fares",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "hanks",
-    "end_word": "timid",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "canes",
-    "end_word": "teams",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "cured",
-    "end_word": "meaty",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "smoke",
-    "end_word": "slams",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "pulls",
-    "end_word": "print",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "blows",
-    "end_word": "suits",
+    "start_word": "liner",
+    "end_word": "saved",
     "optimal_steps": 5
   },
   {
-    "start_word": "moved",
-    "end_word": "ranks",
-    "optimal_steps": 7
+    "start_word": "thank",
+    "end_word": "doing",
+    "optimal_steps": 5
   },
   {
-    "start_word": "tiles",
-    "end_word": "sized",
+    "start_word": "waves",
+    "end_word": "poles",
     "optimal_steps": 4
   },
   {
-    "start_word": "quota",
-    "end_word": "swine",
+    "start_word": "lumps",
+    "end_word": "limbo",
+    "optimal_steps": 4
+  },
+  {
+    "start_word": "scant",
+    "end_word": "skins",
+    "optimal_steps": 4
+  },
+  {
+    "start_word": "crest",
+    "end_word": "cramp",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "crazy",
+    "end_word": "chime",
     "optimal_steps": 6
   },
   {
-    "start_word": "playa",
-    "end_word": "skips",
+    "start_word": "bumpy",
+    "end_word": "limbs",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "loses",
+    "end_word": "voter",
+    "optimal_steps": 4
+  },
+  {
+    "start_word": "wires",
+    "end_word": "loner",
+    "optimal_steps": 4
+  },
+  {
+    "start_word": "chaos",
+    "end_word": "groin",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "track",
+    "end_word": "seize",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "genes",
+    "end_word": "boots",
     "optimal_steps": 8
   },
   {
-    "start_word": "feast",
-    "end_word": "modes",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "grasp",
-    "end_word": "reefs",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "snoop",
-    "end_word": "slang",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "vocal",
-    "end_word": "relay",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "joked",
-    "end_word": "soups",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "chime",
-    "end_word": "quits",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "class",
-    "end_word": "heels",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "lover",
-    "end_word": "picky",
+    "start_word": "deans",
+    "end_word": "hides",
     "optimal_steps": 7
   },
   {
-    "start_word": "tango",
-    "end_word": "manic",
+    "start_word": "fined",
+    "end_word": "divas",
     "optimal_steps": 4
   },
   {
-    "start_word": "hyped",
-    "end_word": "ruler",
+    "start_word": "bytes",
+    "end_word": "domes",
     "optimal_steps": 6
   },
   {
-    "start_word": "fairs",
-    "end_word": "hours",
+    "start_word": "flies",
+    "end_word": "seems",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "teach",
+    "end_word": "tough",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "bleep",
+    "end_word": "cheek",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "liked",
+    "end_word": "warns",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "hints",
+    "end_word": "darts",
+    "optimal_steps": 4
+  },
+  {
+    "start_word": "reels",
+    "end_word": "dealt",
+    "optimal_steps": 4
+  },
+  {
+    "start_word": "sword",
+    "end_word": "smoky",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "touch",
+    "end_word": "rouse",
+    "optimal_steps": 4
+  },
+  {
+    "start_word": "plump",
+    "end_word": "store",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "blind",
+    "end_word": "sheen",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "zones",
+    "end_word": "fared",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "fouls",
+    "end_word": "salts",
     "optimal_steps": 7
   },
   {
-    "start_word": "texts",
-    "end_word": "rises",
+    "start_word": "silky",
+    "end_word": "norms",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "comet",
+    "end_word": "loans",
     "optimal_steps": 6
+  },
+  {
+    "start_word": "fonts",
+    "end_word": "minds",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "snuck",
+    "end_word": "crook",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "modal",
+    "end_word": "boats",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "nosed",
+    "end_word": "loved",
+    "optimal_steps": 4
+  },
+  {
+    "start_word": "ropes",
+    "end_word": "picks",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "spend",
+    "end_word": "flows",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "prays",
+    "end_word": "swans",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "coils",
+    "end_word": "fairy",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "grass",
+    "end_word": "bends",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "brave",
+    "end_word": "grime",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "flips",
+    "end_word": "dials",
+    "optimal_steps": 7
   }
 ]

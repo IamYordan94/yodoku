@@ -12,10 +12,28 @@
 import { readFileSync } from 'node:fs';
 
 const LENGTHS = [4, 5, 6, 7];
+// Game-play move ceiling (reset threshold) — used as the BFS search depth.
 const MAX_MOVES = { 4: 10, 5: 12, 6: 12, 7: 14 };
+// Approved generation caps (audit decision C, 2026-10-08): every pool's
+// optimal_steps must sit inside these bounds.
+const PAIR_MAX_STEPS = { 4: 10, 5: 8, 6: 8, 7: 8 };
 const DAYS_AHEAD = 730;
 
 const wordsData = JSON.parse(readFileSync('public/words-cbo.json', 'utf8'));
+
+const loadBlocklist = (path) =>
+  new Set(
+    readFileSync(path, 'utf8')
+      .split('\n')
+      .map((w) => w.trim().toLowerCase())
+      .filter(Boolean)
+  );
+// Tokens no generated puzzle may use, not even as a shortest-path step.
+const blockedTokens = new Set([
+  ...loadBlocklist('scripts/data/names-blocklist.txt'),
+  ...loadBlocklist('scripts/data/prune-blocklist.txt'),
+  ...loadBlocklist('scripts/data/safety-blocklist.txt'),
+]);
 const sets = {};
 for (const len of LENGTHS) {
   const list = Array.isArray(wordsData[String(len)]) ? wordsData[String(len)] : [];
@@ -86,10 +104,12 @@ for (const len of LENGTHS) {
     if (!sets[len].has(s)) throw new Error(`${where}: start word not in curated list`);
     if (!sets[len].has(e)) throw new Error(`${where}: end word not in curated list`);
     if (s === e) throw new Error(`${where}: start equals end`);
+    if (blockedTokens.has(s) || blockedTokens.has(e)) throw new Error(`${where}: blocked endpoint token (name/prune/safety)`);
     if (!Number.isInteger(p.optimal_steps) || p.optimal_steps < 1) throw new Error(`${where}: bad optimal_steps ${p.optimal_steps}`);
     const dist = bfsDistance(s, e, adjByLen[len], MAX_MOVES[len]);
     if (dist === -1) throw new Error(`${where}: no solvable ladder within the dictionary`);
     if (dist !== p.optimal_steps) throw new Error(`${where}: optimal_steps=${p.optimal_steps} but BFS distance=${dist}`);
+    if (p.optimal_steps > PAIR_MAX_STEPS[len]) throw new Error(`${where}: optimal_steps=${p.optimal_steps} exceeds approved cap ${PAIR_MAX_STEPS[len]}`);
     if (p.optimal_steps > MAX_MOVES[len]) throw new Error(`${where}: optimal_steps exceeds max moves ${MAX_MOVES[len]}`);
     const key = s < e ? `${s}|${e}` : `${e}|${s}`;
     if (seen.has(key)) throw new Error(`${where}: duplicate pair`);

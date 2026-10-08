@@ -1,413 +1,53 @@
 [
   {
-    "start_word": "jacked",
-    "end_word": "passed",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "picked",
-    "end_word": "kitten",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "poured",
-    "end_word": "roster",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "peking",
-    "end_word": "making",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "phases",
-    "end_word": "scared",
-    "optimal_steps": 12
-  },
-  {
-    "start_word": "mister",
-    "end_word": "ranked",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "pocket",
-    "end_word": "kisses",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "stinks",
-    "end_word": "swells",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "teased",
-    "end_word": "placid",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "takers",
-    "end_word": "covert",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "stroke",
-    "end_word": "straws",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "ranges",
-    "end_word": "fooled",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "mounds",
-    "end_word": "bouncy",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "storms",
-    "end_word": "slowed",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "stalls",
-    "end_word": "stings",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "leases",
-    "end_word": "spared",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "nested",
-    "end_word": "dashed",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "swells",
-    "end_word": "sticky",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "stoned",
-    "end_word": "teaser",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "racket",
-    "end_word": "routes",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "bagged",
-    "end_word": "faster",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "hostel",
-    "end_word": "netted",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "stalks",
-    "end_word": "shells",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "stings",
-    "end_word": "skulls",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "biting",
-    "end_word": "boring",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "tagged",
-    "end_word": "hitter",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "stride",
-    "end_word": "scrape",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "passer",
-    "end_word": "marker",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "talked",
-    "end_word": "locker",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "stares",
-    "end_word": "shifts",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "tanker",
-    "end_word": "hitter",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "sister",
-    "end_word": "tagged",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "healer",
-    "end_word": "shaved",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "binder",
-    "end_word": "linked",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "potion",
-    "end_word": "radios",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "stoked",
-    "end_word": "skirts",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "slider",
-    "end_word": "placed",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "stoves",
-    "end_word": "slides",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "siding",
-    "end_word": "spying",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "backed",
-    "end_word": "touted",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "hinged",
-    "end_word": "wooden",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "pastel",
-    "end_word": "hinted",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "stages",
-    "end_word": "shower",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "motion",
-    "end_word": "radios",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "hugged",
-    "end_word": "gutted",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "planks",
-    "end_word": "sports",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "harmed",
-    "end_word": "forgot",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "bearer",
-    "end_word": "dagger",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "ballet",
-    "end_word": "rocket",
-    "optimal_steps": 12
-  },
-  {
-    "start_word": "wished",
-    "end_word": "rocket",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "snakes",
-    "end_word": "hangar",
-    "optimal_steps": 12
-  },
-  {
-    "start_word": "blades",
-    "end_word": "sports",
-    "optimal_steps": 12
-  },
-  {
-    "start_word": "paired",
-    "end_word": "bowled",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "beaded",
-    "end_word": "phased",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "bounce",
-    "end_word": "sounds",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "tucked",
-    "end_word": "ballet",
-    "optimal_steps": 12
-  },
-  {
-    "start_word": "docked",
+    "start_word": "banger",
     "end_word": "weaker",
-    "optimal_steps": 12
+    "optimal_steps": 7
   },
   {
-    "start_word": "sliced",
-    "end_word": "bitten",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "gaping",
-    "end_word": "piling",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "paying",
-    "end_word": "gaming",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "shouts",
-    "end_word": "scared",
+    "start_word": "rapper",
+    "end_word": "hopped",
     "optimal_steps": 5
   },
   {
     "start_word": "hanged",
-    "end_word": "bitten",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "faking",
-    "end_word": "aiming",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "riding",
-    "end_word": "ravine",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "franks",
-    "end_word": "spicer",
-    "optimal_steps": 12
-  },
-  {
-    "start_word": "signed",
-    "end_word": "ticked",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "ticker",
-    "end_word": "choked",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "raping",
-    "end_word": "curing",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "towing",
-    "end_word": "fading",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "killer",
-    "end_word": "talked",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "makers",
-    "end_word": "levers",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "sorted",
-    "end_word": "cooker",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "trains",
-    "end_word": "brakes",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "piping",
-    "end_word": "laying",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "cheery",
-    "end_word": "blocks",
+    "end_word": "wicket",
     "optimal_steps": 7
   },
   {
-    "start_word": "dodger",
-    "end_word": "begged",
+    "start_word": "sinner",
+    "end_word": "landed",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "lasted",
+    "end_word": "ticker",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "phased",
+    "end_word": "headed",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "grader",
+    "end_word": "traits",
     "optimal_steps": 5
   },
   {
-    "start_word": "shared",
-    "end_word": "manned",
-    "optimal_steps": 11
+    "start_word": "banned",
+    "end_word": "looted",
+    "optimal_steps": 6
   },
   {
-    "start_word": "biking",
-    "end_word": "tuning",
-    "optimal_steps": 5
+    "start_word": "movers",
+    "end_word": "pacers",
+    "optimal_steps": 6
   },
   {
-    "start_word": "franco",
-    "end_word": "cheeky",
-    "optimal_steps": 12
-  },
-  {
-    "start_word": "mating",
-    "end_word": "naming",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "choked",
-    "end_word": "mashed",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "flocks",
-    "end_word": "placid",
-    "optimal_steps": 8
+    "start_word": "netted",
+    "end_word": "hostel",
+    "optimal_steps": 7
   },
   {
     "start_word": "strive",
@@ -415,458 +55,348 @@
     "optimal_steps": 5
   },
   {
-    "start_word": "spiced",
-    "end_word": "flanks",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "hatred",
-    "end_word": "bowled",
+    "start_word": "paving",
+    "end_word": "casing",
     "optimal_steps": 5
   },
   {
-    "start_word": "healed",
-    "end_word": "crores",
+    "start_word": "winner",
+    "end_word": "louder",
     "optimal_steps": 8
   },
   {
-    "start_word": "stacks",
-    "end_word": "swells",
+    "start_word": "braves",
+    "end_word": "braids",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "hosted",
+    "end_word": "walled",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "barred",
+    "end_word": "backed",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "calmed",
+    "end_word": "parked",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "losers",
+    "end_word": "racers",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "straws",
+    "end_word": "stroke",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "ripper",
+    "end_word": "camper",
     "optimal_steps": 6
   },
   {
-    "start_word": "greeks",
-    "end_word": "plates",
-    "optimal_steps": 12
+    "start_word": "pauses",
+    "end_word": "sorted",
+    "optimal_steps": 6
   },
   {
-    "start_word": "shakes",
-    "end_word": "framed",
-    "optimal_steps": 11
+    "start_word": "tanker",
+    "end_word": "reader",
+    "optimal_steps": 5
   },
   {
-    "start_word": "misled",
-    "end_word": "parted",
+    "start_word": "muster",
+    "end_word": "bagged",
     "optimal_steps": 7
   },
   {
-    "start_word": "reaper",
-    "end_word": "teased",
+    "start_word": "hinder",
+    "end_word": "wicked",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "cheers",
+    "end_word": "blacks",
     "optimal_steps": 7
+  },
+  {
+    "start_word": "shoots",
+    "end_word": "snakes",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "carved",
+    "end_word": "pulses",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "cooler",
+    "end_word": "rocked",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "creeks",
+    "end_word": "blanks",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "fouled",
+    "end_word": "ranked",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "flicks",
+    "end_word": "greets",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "airing",
+    "end_word": "making",
+    "optimal_steps": 5
   },
   {
     "start_word": "spices",
-    "end_word": "buster",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "tipped",
-    "end_word": "hamper",
+    "end_word": "status",
     "optimal_steps": 5
   },
   {
-    "start_word": "dealer",
-    "end_word": "shorty",
-    "optimal_steps": 10
+    "start_word": "slowed",
+    "end_word": "stoner",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "hinted",
+    "end_word": "banner",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "banged",
+    "end_word": "dinner",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "tended",
+    "end_word": "kicked",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "wiping",
+    "end_word": "racing",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "gutted",
+    "end_word": "dusted",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "beater",
+    "end_word": "spiked",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "causes",
+    "end_word": "lasted",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "raving",
+    "end_word": "giving",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "grains",
+    "end_word": "traded",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "parked",
+    "end_word": "tinker",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "skulls",
+    "end_word": "snacks",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "shower",
+    "end_word": "seated",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "lifted",
+    "end_word": "masked",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "bikini",
+    "end_word": "aiming",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "sister",
+    "end_word": "manned",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "locker",
+    "end_word": "talked",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "passes",
+    "end_word": "banned",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "listen",
+    "end_word": "missed",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "dances",
+    "end_word": "bitter",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "winger",
+    "end_word": "lodges",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "tagged",
+    "end_word": "hinges",
+    "optimal_steps": 5
   },
   {
     "start_word": "hooded",
-    "end_word": "pinned",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "booted",
-    "end_word": "banker",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "shifts",
-    "end_word": "shaded",
+    "end_word": "ranked",
     "optimal_steps": 6
   },
   {
-    "start_word": "trunks",
-    "end_word": "brakes",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "sticks",
-    "end_word": "skulls",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "piling",
-    "end_word": "tuning",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "chases",
-    "end_word": "dealer",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "slated",
-    "end_word": "gutted",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "faster",
-    "end_word": "shaped",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "pacers",
-    "end_word": "covent",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "turing",
-    "end_word": "having",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "rocked",
-    "end_word": "vetted",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "hounds",
-    "end_word": "bounce",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "stones",
-    "end_word": "shamed",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "tilted",
-    "end_word": "busted",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "feeder",
-    "end_word": "hunted",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "smells",
-    "end_word": "stinks",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "hitter",
-    "end_word": "manner",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "licked",
-    "end_word": "listed",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "poking",
-    "end_word": "mining",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "barter",
-    "end_word": "handed",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "blocks",
-    "end_word": "creeks",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "layers",
-    "end_word": "covert",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "banker",
-    "end_word": "spares",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "covent",
-    "end_word": "lakers",
+    "start_word": "flores",
+    "end_word": "soared",
     "optimal_steps": 6
   },
   {
     "start_word": "parted",
-    "end_word": "hinder",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "bounty",
-    "end_word": "wounds",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "shines",
-    "end_word": "storey",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "hating",
-    "end_word": "hiking",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "fender",
-    "end_word": "legged",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "passed",
-    "end_word": "sucked",
+    "end_word": "routes",
     "optimal_steps": 6
   },
   {
-    "start_word": "racked",
-    "end_word": "kinder",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "chores",
-    "end_word": "sutter",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "popped",
-    "end_word": "hamper",
+    "start_word": "hitter",
+    "end_word": "mashed",
     "optimal_steps": 6
-  },
-  {
-    "start_word": "banger",
-    "end_word": "shapes",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "bullet",
-    "end_word": "sacked",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "hiring",
-    "end_word": "wading",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "liking",
-    "end_word": "pacing",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "legged",
-    "end_word": "pauses",
-    "optimal_steps": 12
-  },
-  {
-    "start_word": "filter",
-    "end_word": "shaved",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "kicker",
-    "end_word": "vetoed",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "curing",
-    "end_word": "biking",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "spikes",
-    "end_word": "slated",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "skills",
-    "end_word": "stings",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "spiked",
-    "end_word": "swayed",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "dagger",
-    "end_word": "storey",
-    "optimal_steps": 12
-  },
-  {
-    "start_word": "diving",
-    "end_word": "siding",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "father",
-    "end_word": "sighed",
-    "optimal_steps": 10
   },
   {
     "start_word": "gaming",
-    "end_word": "piling",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "traces",
-    "end_word": "bruins",
+    "end_word": "paying",
     "optimal_steps": 5
   },
   {
-    "start_word": "paused",
-    "end_word": "finder",
-    "optimal_steps": 11
+    "start_word": "linger",
+    "end_word": "linked",
+    "optimal_steps": 8
   },
   {
-    "start_word": "batter",
-    "end_word": "sealed",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "levels",
-    "end_word": "bikers",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "trader",
-    "end_word": "trunks",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "ticked",
-    "end_word": "pastel",
+    "start_word": "waning",
+    "end_word": "during",
     "optimal_steps": 6
   },
   {
-    "start_word": "chorus",
-    "end_word": "flared",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "butter",
-    "end_word": "dances",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "tasted",
-    "end_word": "banned",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "cracks",
-    "end_word": "braids",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "courts",
-    "end_word": "bounce",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "racers",
-    "end_word": "lowers",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "greets",
-    "end_word": "franks",
-    "optimal_steps": 12
-  },
-  {
-    "start_word": "finger",
-    "end_word": "begged",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "planes",
-    "end_word": "spared",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "leased",
-    "end_word": "stoked",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "stills",
-    "end_word": "sticky",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "manned",
-    "end_word": "vested",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "pegged",
-    "end_word": "posted",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "headed",
-    "end_word": "picket",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "lifted",
-    "end_word": "packet",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "shaken",
-    "end_word": "caster",
-    "optimal_steps": 12
-  },
-  {
-    "start_word": "ticket",
-    "end_word": "cooked",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "skirts",
-    "end_word": "spares",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "posted",
-    "end_word": "ticket",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "walled",
+    "start_word": "wicket",
     "end_word": "cooker",
-    "optimal_steps": 12
+    "optimal_steps": 6
   },
   {
-    "start_word": "booing",
-    "end_word": "gaming",
-    "optimal_steps": 12
-  },
-  {
-    "start_word": "fouled",
-    "end_word": "worked",
+    "start_word": "nested",
+    "end_word": "racket",
     "optimal_steps": 8
   },
   {
-    "start_word": "forces",
-    "end_word": "warned",
+    "start_word": "stoked",
+    "end_word": "prayed",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "bagged",
+    "end_word": "booted",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "sighed",
+    "end_word": "tanned",
     "optimal_steps": 5
   },
   {
-    "start_word": "reader",
-    "end_word": "scorer",
-    "optimal_steps": 8
+    "start_word": "greeks",
+    "end_word": "cheese",
+    "optimal_steps": 5
   },
   {
-    "start_word": "baking",
-    "end_word": "sizing",
+    "start_word": "hotter",
+    "end_word": "banger",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "makers",
+    "end_word": "racers",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "booted",
+    "end_word": "tucked",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "caring",
+    "end_word": "paving",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "caster",
+    "end_word": "masses",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "beaten",
+    "end_word": "ousted",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "killer",
+    "end_word": "tasted",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "drains",
+    "end_word": "braces",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "pinned",
+    "end_word": "tinged",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "ousted",
+    "end_word": "fatter",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "banked",
+    "end_word": "litter",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "stakes",
+    "end_word": "headed",
     "optimal_steps": 5
   },
   {
@@ -875,179 +405,614 @@
     "optimal_steps": 5
   },
   {
-    "start_word": "walked",
-    "end_word": "parked",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "shoved",
-    "end_word": "banter",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "phased",
-    "end_word": "peaked",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "lauded",
-    "end_word": "ported",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "digger",
-    "end_word": "barter",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "basins",
-    "end_word": "mowing",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "shells",
-    "end_word": "stocks",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "shaker",
-    "end_word": "swayed",
+    "start_word": "wastes",
+    "end_word": "gather",
     "optimal_steps": 6
   },
   {
-    "start_word": "waxing",
+    "start_word": "buster",
+    "end_word": "scaled",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "rugged",
+    "end_word": "wicked",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "worked",
+    "end_word": "cooled",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "marked",
+    "end_word": "waited",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "washed",
+    "end_word": "kissed",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "dining",
     "end_word": "citing",
     "optimal_steps": 5
   },
   {
-    "start_word": "lasted",
-    "end_word": "hunted",
-    "optimal_steps": 11
+    "start_word": "scaled",
+    "end_word": "litter",
+    "optimal_steps": 7
   },
   {
-    "start_word": "kitten",
-    "end_word": "stoner",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "booked",
-    "end_word": "hinged",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "buster",
-    "end_word": "sharks",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "caster",
-    "end_word": "starts",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "blacks",
-    "end_word": "checks",
+    "start_word": "matter",
+    "end_word": "washed",
     "optimal_steps": 5
   },
   {
-    "start_word": "wading",
-    "end_word": "during",
-    "optimal_steps": 6
+    "start_word": "tasted",
+    "end_word": "banged",
+    "optimal_steps": 7
   },
   {
-    "start_word": "fished",
-    "end_word": "lifted",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "chaser",
-    "end_word": "framed",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "hopped",
-    "end_word": "camper",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "canned",
-    "end_word": "masses",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "showed",
+    "start_word": "bugged",
     "end_word": "father",
-    "optimal_steps": 12
+    "optimal_steps": 7
   },
   {
-    "start_word": "sports",
-    "end_word": "statue",
+    "start_word": "dishes",
+    "end_word": "darker",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "reader",
+    "end_word": "teased",
     "optimal_steps": 6
   },
   {
-    "start_word": "trucks",
-    "end_word": "grains",
+    "start_word": "motion",
+    "end_word": "radius",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "racked",
+    "end_word": "signed",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "spades",
+    "end_word": "seated",
     "optimal_steps": 5
   },
   {
-    "start_word": "hosted",
-    "end_word": "ticked",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "glider",
-    "end_word": "chords",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "saying",
-    "end_word": "living",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "fitted",
-    "end_word": "scaled",
+    "start_word": "header",
+    "end_word": "spores",
     "optimal_steps": 8
+  },
+  {
+    "start_word": "swayed",
+    "end_word": "sutter",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "packet",
+    "end_word": "rooted",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "master",
+    "end_word": "kinder",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "soaked",
+    "end_word": "sports",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "aiming",
+    "end_word": "rating",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "binder",
+    "end_word": "banked",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "stored",
+    "end_word": "weaker",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "ducked",
+    "end_word": "penned",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "licked",
+    "end_word": "winger",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "covers",
+    "end_word": "payers",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "shirts",
+    "end_word": "stated",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "caused",
+    "end_word": "ported",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "leaned",
+    "end_word": "render",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "cracks",
+    "end_word": "drains",
+    "optimal_steps": 5
   },
   {
     "start_word": "ballot",
-    "end_word": "locked",
-    "optimal_steps": 12
-  },
-  {
-    "start_word": "soared",
-    "end_word": "shafts",
+    "end_word": "masked",
     "optimal_steps": 7
   },
   {
-    "start_word": "banked",
-    "end_word": "scared",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "waited",
-    "end_word": "batter",
+    "start_word": "payers",
+    "end_word": "levels",
     "optimal_steps": 6
   },
   {
-    "start_word": "blames",
-    "end_word": "leased",
+    "start_word": "raging",
+    "end_word": "hiring",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "phases",
+    "end_word": "beamed",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "sizing",
+    "end_word": "waxing",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "piping",
+    "end_word": "faking",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "headed",
+    "end_word": "geared",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "moving",
+    "end_word": "baking",
     "optimal_steps": 5
   },
   {
-    "start_word": "tender",
-    "end_word": "routes",
-    "optimal_steps": 11
+    "start_word": "gassed",
+    "end_word": "lifted",
+    "optimal_steps": 5
   },
   {
-    "start_word": "treats",
-    "end_word": "flicks",
-    "optimal_steps": 9
+    "start_word": "legged",
+    "end_word": "tilted",
+    "optimal_steps": 8
   },
   {
-    "start_word": "mowing",
-    "end_word": "during",
-    "optimal_steps": 9
+    "start_word": "willed",
+    "end_word": "marked",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "better",
+    "end_word": "pegged",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "weaker",
+    "end_word": "banker",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "rooted",
+    "end_word": "marred",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "waking",
+    "end_word": "mixing",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "paused",
+    "end_word": "rented",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "pacing",
+    "end_word": "adding",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "ailing",
+    "end_word": "diving",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "saying",
+    "end_word": "typing",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "states",
+    "end_word": "pranks",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "mixing",
+    "end_word": "joking",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "stones",
+    "end_word": "shoved",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "taking",
+    "end_word": "tuning",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "kitten",
+    "end_word": "weaker",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "soared",
+    "end_word": "blower",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "waving",
+    "end_word": "diving",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "braids",
+    "end_word": "braces",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "picket",
+    "end_word": "ranged",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "lenses",
+    "end_word": "loaded",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "spared",
+    "end_word": "leader",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "planes",
+    "end_word": "stares",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "trains",
+    "end_word": "brakes",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "shoved",
+    "end_word": "shaken",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "gazing",
+    "end_word": "hiking",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "casino",
+    "end_word": "racing",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "brands",
+    "end_word": "cracks",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "racing",
+    "end_word": "turing",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "spider",
+    "end_word": "swayed",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "planks",
+    "end_word": "cheeks",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "rovers",
+    "end_word": "payers",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "frames",
+    "end_word": "termed",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "filmed",
+    "end_word": "calmed",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "stared",
+    "end_word": "flanks",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "papers",
+    "end_word": "covers",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "wounds",
+    "end_word": "bounty",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "shells",
+    "end_word": "smacks",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "pacers",
+    "end_word": "lovers",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "smoked",
+    "end_word": "chores",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "passer",
+    "end_word": "vested",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "kicked",
+    "end_word": "canned",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "casing",
+    "end_word": "firing",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "liking",
+    "end_word": "poking",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "wishes",
+    "end_word": "parted",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "passed",
+    "end_word": "jacket",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "nearer",
+    "end_word": "skates",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "fender",
+    "end_word": "beaded",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "hurled",
+    "end_word": "pulses",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "sticky",
+    "end_word": "skulls",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "tucked",
+    "end_word": "hanger",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "shamed",
+    "end_word": "flores",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "teaser",
+    "end_word": "seater",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "wicked",
+    "end_word": "pauses",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "hugged",
+    "end_word": "packet",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "scares",
+    "end_word": "skirts",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "rowing",
+    "end_word": "posing",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "fading",
+    "end_word": "living",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "sucker",
+    "end_word": "bolted",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "loaded",
+    "end_word": "tended",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "rested",
+    "end_word": "master",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "stalks",
+    "end_word": "swells",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "shorts",
+    "end_word": "showed",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "radios",
+    "end_word": "potion",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "making",
+    "end_word": "giving",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "teamed",
+    "end_word": "staged",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "sports",
+    "end_word": "shaved",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "wanted",
+    "end_word": "marred",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "footed",
+    "end_word": "tinder",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "seller",
+    "end_word": "calmed",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "talked",
+    "end_word": "ticket",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "braced",
+    "end_word": "tricky",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "scores",
+    "end_word": "spikes",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "wearer",
+    "end_word": "banned",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "castes",
+    "end_word": "litter",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "joking",
+    "end_word": "giving",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "posted",
+    "end_word": "messes",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "lodged",
+    "end_word": "banner",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "flames",
+    "end_word": "seated",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "gifted",
+    "end_word": "wanted",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "levers",
+    "end_word": "payers",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "spiced",
+    "end_word": "flared",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "gaping",
+    "end_word": "tuning",
+    "optimal_steps": 7
   },
   {
     "start_word": "capped",
@@ -1055,594 +1020,154 @@
     "optimal_steps": 5
   },
   {
-    "start_word": "casing",
-    "end_word": "diving",
-    "optimal_steps": 6
+    "start_word": "trucks",
+    "end_word": "brains",
+    "optimal_steps": 5
   },
   {
-    "start_word": "played",
+    "start_word": "tender",
+    "end_word": "fatter",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "plated",
     "end_word": "feared",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "naming",
-    "end_word": "bowing",
-    "optimal_steps": 12
-  },
-  {
-    "start_word": "treaty",
-    "end_word": "cheeky",
     "optimal_steps": 7
   },
   {
-    "start_word": "kinder",
-    "end_word": "sister",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "warned",
-    "end_word": "forgot",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "warped",
-    "end_word": "forgot",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "cheeky",
-    "end_word": "blanks",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "gender",
-    "end_word": "phases",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "sinner",
-    "end_word": "manner",
+    "start_word": "raping",
+    "end_word": "curing",
     "optimal_steps": 5
   },
   {
-    "start_word": "wallet",
-    "end_word": "tested",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "stayed",
-    "end_word": "danced",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "racing",
-    "end_word": "wiping",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "grader",
-    "end_word": "trucks",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "statue",
-    "end_word": "geared",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "sucker",
-    "end_word": "lashed",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "lender",
-    "end_word": "ceased",
+    "start_word": "pocket",
+    "end_word": "render",
     "optimal_steps": 7
   },
   {
-    "start_word": "chords",
-    "end_word": "shower",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "ripped",
-    "end_word": "hamper",
+    "start_word": "jagger",
+    "end_word": "latter",
     "optimal_steps": 6
   },
   {
-    "start_word": "tinder",
-    "end_word": "flares",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "parked",
-    "end_word": "bidder",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "ranged",
+    "start_word": "misled",
     "end_word": "waited",
     "optimal_steps": 8
   },
   {
-    "start_word": "passes",
-    "end_word": "penned",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "bigger",
-    "end_word": "sealed",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "latter",
-    "end_word": "tinted",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "paving",
-    "end_word": "fixing",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "picket",
-    "end_word": "washed",
+    "start_word": "fitted",
+    "end_word": "mashed",
     "optimal_steps": 7
   },
   {
-    "start_word": "leaned",
-    "end_word": "lender",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "lasers",
-    "end_word": "covent",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "marred",
-    "end_word": "jacket",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "heated",
-    "end_word": "winger",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "graded",
-    "end_word": "trucks",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "called",
-    "end_word": "messes",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "routes",
-    "end_word": "choked",
+    "start_word": "hiking",
+    "end_word": "saying",
     "optimal_steps": 6
   },
   {
-    "start_word": "creeks",
-    "end_word": "places",
-    "optimal_steps": 11
+    "start_word": "stares",
+    "end_word": "sutter",
+    "optimal_steps": 8
   },
   {
-    "start_word": "tubing",
-    "end_word": "casino",
+    "start_word": "sinned",
+    "end_word": "handed",
     "optimal_steps": 5
   },
   {
-    "start_word": "posing",
-    "end_word": "raving",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "lenses",
-    "end_word": "scored",
-    "optimal_steps": 12
-  },
-  {
-    "start_word": "leader",
-    "end_word": "flares",
-    "optimal_steps": 8
+    "start_word": "sweaty",
+    "end_word": "sleepy",
+    "optimal_steps": 5
   },
   {
     "start_word": "banded",
-    "end_word": "dances",
-    "optimal_steps": 5
+    "end_word": "routed",
+    "optimal_steps": 8
   },
   {
     "start_word": "ceases",
-    "end_word": "swayed",
-    "optimal_steps": 11
+    "end_word": "louder",
+    "optimal_steps": 7
   },
   {
-    "start_word": "levers",
-    "end_word": "bakers",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "storey",
-    "end_word": "banger",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "spider",
-    "end_word": "starts",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "scouts",
-    "end_word": "shapes",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "easing",
-    "end_word": "spying",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "waving",
-    "end_word": "tiring",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "billed",
-    "end_word": "sucker",
-    "optimal_steps": 12
-  },
-  {
-    "start_word": "clocks",
-    "end_word": "scared",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "scares",
-    "end_word": "kitten",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "sporty",
-    "end_word": "letter",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "barred",
-    "end_word": "cooker",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "worded",
-    "end_word": "talked",
-    "optimal_steps": 12
-  },
-  {
-    "start_word": "waging",
-    "end_word": "dining",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "leaves",
-    "end_word": "beamed",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "spaces",
-    "end_word": "flames",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "boring",
-    "end_word": "losing",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "bidder",
-    "end_word": "better",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "traded",
-    "end_word": "bricks",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "rented",
+    "start_word": "canned",
     "end_word": "washed",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "chased",
-    "end_word": "scorer",
-    "optimal_steps": 12
-  },
-  {
-    "start_word": "bathed",
-    "end_word": "shared",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "framed",
-    "end_word": "header",
     "optimal_steps": 8
   },
   {
-    "start_word": "wearer",
-    "end_word": "kicked",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "reared",
-    "end_word": "slider",
+    "start_word": "bullet",
+    "end_word": "tested",
     "optimal_steps": 8
   },
   {
-    "start_word": "laying",
-    "end_word": "giving",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "letter",
-    "end_word": "wicket",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "boiler",
-    "end_word": "paired",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "raging",
-    "end_word": "peeing",
-    "optimal_steps": 12
-  },
-  {
-    "start_word": "filing",
-    "end_word": "having",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "timing",
-    "end_word": "taking",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "sacred",
-    "end_word": "footer",
+    "start_word": "picked",
+    "end_word": "caused",
     "optimal_steps": 7
-  },
-  {
-    "start_word": "cancel",
-    "end_word": "wearer",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "forgot",
-    "end_word": "earned",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "worker",
-    "end_word": "kicker",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "basics",
-    "end_word": "turing",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "tested",
-    "end_word": "ranged",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "banter",
-    "end_word": "tender",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "spaced",
-    "end_word": "healer",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "slices",
-    "end_word": "reared",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "greens",
-    "end_word": "clocks",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "killed",
-    "end_word": "marker",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "masked",
-    "end_word": "messes",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "spills",
-    "end_word": "shocks",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "seeing",
-    "end_word": "basins",
-    "optimal_steps": 12
-  },
-  {
-    "start_word": "reveal",
-    "end_word": "deceit",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "wounds",
-    "end_word": "bounce",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "bricks",
-    "end_word": "trader",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "scrape",
-    "end_word": "strike",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "slides",
-    "end_word": "flakes",
-    "optimal_steps": 12
-  },
-  {
-    "start_word": "render",
-    "end_word": "locker",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "gutter",
-    "end_word": "lashed",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "grains",
-    "end_word": "tricky",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "boxing",
-    "end_word": "waxing",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "banned",
-    "end_word": "winner",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "mounts",
-    "end_word": "bounce",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "tiring",
-    "end_word": "saving",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "wiring",
-    "end_word": "rating",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "messes",
-    "end_word": "sorted",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "brains",
-    "end_word": "braves",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "packed",
-    "end_word": "paused",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "scared",
-    "end_word": "filter",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "toured",
-    "end_word": "netted",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "teaser",
-    "end_word": "stakes",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "dusted",
-    "end_word": "dishes",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "pacing",
-    "end_word": "casino",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "peaked",
-    "end_word": "reader",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "checks",
-    "end_word": "places",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "lashes",
-    "end_word": "dusted",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "francs",
-    "end_word": "places",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "braids",
-    "end_word": "tricks",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "arming",
-    "end_word": "baking",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "leaked",
-    "end_word": "stored",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "manner",
-    "end_word": "danced",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "hotter",
-    "end_word": "sinned",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "cooked",
-    "end_word": "messes",
-    "optimal_steps": 11
   },
   {
     "start_word": "shapes",
-    "end_word": "spiced",
+    "end_word": "statue",
     "optimal_steps": 5
   },
   {
-    "start_word": "shamed",
-    "end_word": "batter",
+    "start_word": "stroke",
+    "end_word": "scraps",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "greets",
+    "end_word": "chicks",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "jacked",
+    "end_word": "wooden",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "wading",
+    "end_word": "adding",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "forces",
+    "end_word": "warmer",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "tipped",
+    "end_word": "hamper",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "trunks",
+    "end_word": "trails",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "waxing",
+    "end_word": "naming",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "geared",
+    "end_word": "beater",
     "optimal_steps": 8
+  },
+  {
+    "start_word": "spiked",
+    "end_word": "skater",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "hopped",
+    "end_word": "hamper",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "timing",
+    "end_word": "moving",
+    "optimal_steps": 7
   },
   {
     "start_word": "dipped",
@@ -1650,14 +1175,139 @@
     "optimal_steps": 5
   },
   {
-    "start_word": "beamed",
-    "end_word": "seater",
+    "start_word": "francs",
+    "end_word": "placid",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "dagger",
+    "end_word": "bathed",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "shared",
+    "end_word": "planes",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "posing",
+    "end_word": "bowing",
     "optimal_steps": 5
   },
   {
-    "start_word": "dating",
-    "end_word": "riding",
+    "start_word": "franks",
+    "end_word": "flocks",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "stoves",
+    "end_word": "shoved",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "sharks",
+    "end_word": "shifts",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "loaned",
+    "end_word": "feeder",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "gender",
+    "end_word": "hinted",
     "optimal_steps": 7
+  },
+  {
+    "start_word": "lining",
+    "end_word": "ailing",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "bitter",
+    "end_word": "hanged",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "showed",
+    "end_word": "storey",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "skates",
+    "end_word": "buster",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "batter",
+    "end_word": "soaked",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "landed",
+    "end_word": "cancel",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "slices",
+    "end_word": "sports",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "hostel",
+    "end_word": "rented",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "ravine",
+    "end_word": "caring",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "trader",
+    "end_word": "trains",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "during",
+    "end_word": "piping",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "touted",
+    "end_word": "cooker",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "kisses",
+    "end_word": "caused",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "shouts",
+    "end_word": "stoned",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "hinges",
+    "end_word": "hacked",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "lauded",
+    "end_word": "masked",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "firing",
+    "end_word": "posing",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "traced",
+    "end_word": "brains",
+    "optimal_steps": 5
   },
   {
     "start_word": "smiles",
@@ -1665,314 +1315,264 @@
     "optimal_steps": 5
   },
   {
-    "start_word": "caring",
-    "end_word": "lining",
+    "start_word": "hounds",
+    "end_word": "bouncy",
     "optimal_steps": 6
   },
   {
-    "start_word": "stated",
-    "end_word": "senses",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "bowled",
-    "end_word": "smiles",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "sacked",
-    "end_word": "worker",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "blanks",
-    "end_word": "muster",
-    "optimal_steps": 12
-  },
-  {
-    "start_word": "kissed",
-    "end_word": "ticker",
-    "optimal_steps": 12
-  },
-  {
-    "start_word": "stocks",
-    "end_word": "spills",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "longer",
-    "end_word": "leaned",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "shorty",
-    "end_word": "spades",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "shaped",
-    "end_word": "banter",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "braves",
-    "end_word": "drains",
+    "start_word": "boxing",
+    "end_word": "posing",
     "optimal_steps": 6
   },
   {
-    "start_word": "scored",
-    "end_word": "tinder",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "danced",
-    "end_word": "bonded",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "warmed",
-    "end_word": "forgot",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "flicks",
-    "end_word": "greets",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "finder",
-    "end_word": "litter",
+    "start_word": "skater",
+    "end_word": "washed",
     "optimal_steps": 8
   },
   {
-    "start_word": "clicks",
-    "end_word": "plated",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "braced",
-    "end_word": "grains",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "gifted",
-    "end_word": "batted",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "tanned",
-    "end_word": "mashed",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "jagged",
-    "end_word": "lodged",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "strife",
-    "end_word": "scrape",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "peeing",
-    "end_word": "loving",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "frames",
-    "end_word": "leased",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "smoked",
-    "end_word": "batted",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "footer",
-    "end_word": "wooded",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "staged",
-    "end_word": "bugged",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "pulses",
-    "end_word": "carved",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "lashed",
-    "end_word": "rented",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "rowing",
-    "end_word": "diving",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "weaken",
-    "end_word": "hinged",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "fatter",
-    "end_word": "tasked",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "slowed",
-    "end_word": "frames",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "ousted",
-    "end_word": "handed",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "hanger",
-    "end_word": "ticker",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "cashed",
-    "end_word": "bearer",
+    "start_word": "backed",
+    "end_word": "kitten",
     "optimal_steps": 7
   },
   {
     "start_word": "lovers",
-    "end_word": "papers",
+    "end_word": "bakery",
     "optimal_steps": 5
   },
   {
-    "start_word": "master",
-    "end_word": "netted",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "movers",
-    "end_word": "papers",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "loaned",
-    "end_word": "spaced",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "having",
-    "end_word": "boring",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "banged",
-    "end_word": "nearer",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "skates",
-    "end_word": "wished",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "taking",
-    "end_word": "spying",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "brakes",
-    "end_word": "brains",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "ducked",
-    "end_word": "jagged",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "camped",
-    "end_word": "rapper",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "bitter",
-    "end_word": "stoned",
+    "start_word": "vested",
+    "end_word": "pallet",
     "optimal_steps": 8
   },
   {
-    "start_word": "forced",
-    "end_word": "earned",
+    "start_word": "toured",
+    "end_word": "sacked",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "framed",
+    "end_word": "beamed",
     "optimal_steps": 5
   },
   {
-    "start_word": "living",
-    "end_word": "rating",
+    "start_word": "healed",
+    "end_word": "leaves",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "biking",
+    "end_word": "curing",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "marker",
+    "end_word": "vested",
     "optimal_steps": 6
   },
   {
-    "start_word": "wishes",
-    "end_word": "ticket",
-    "optimal_steps": 10
+    "start_word": "hiding",
+    "end_word": "paving",
+    "optimal_steps": 6
   },
   {
-    "start_word": "scorer",
-    "end_word": "weaken",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "mapped",
-    "end_word": "zipper",
+    "start_word": "healer",
+    "end_word": "feeder",
     "optimal_steps": 5
   },
   {
-    "start_word": "missed",
-    "end_word": "walled",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "pitted",
-    "end_word": "tanker",
+    "start_word": "socket",
+    "end_word": "panned",
     "optimal_steps": 7
-  },
-  {
-    "start_word": "gutted",
-    "end_word": "sharks",
-    "optimal_steps": 11
   },
   {
     "start_word": "aiding",
-    "end_word": "having",
+    "end_word": "taxing",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "pitted",
+    "end_word": "banked",
     "optimal_steps": 7
   },
   {
-    "start_word": "wiping",
-    "end_word": "booing",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "mining",
-    "end_word": "piping",
+    "start_word": "hinged",
+    "end_word": "hacked",
     "optimal_steps": 5
   },
   {
-    "start_word": "shaded",
-    "end_word": "smoked",
+    "start_word": "tinker",
+    "end_word": "hinges",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "cooked",
+    "end_word": "pocket",
     "optimal_steps": 5
   },
   {
-    "start_word": "wooden",
-    "end_word": "talked",
-    "optimal_steps": 12
+    "start_word": "zipper",
+    "end_word": "popped",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "reveal",
+    "end_word": "deceit",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "cashed",
+    "end_word": "willed",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "feared",
+    "end_word": "shaped",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "courts",
+    "end_word": "bounce",
+    "optimal_steps": 5
   },
   {
     "start_word": "tricks",
-    "end_word": "grains",
+    "end_word": "drains",
     "optimal_steps": 5
+  },
+  {
+    "start_word": "walked",
+    "end_word": "netted",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "stills",
+    "end_word": "shocks",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "manner",
+    "end_word": "seated",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "cheery",
+    "end_word": "greens",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "packed",
+    "end_word": "bidder",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "easing",
+    "end_word": "hiring",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "plants",
+    "end_word": "scaled",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "leaves",
+    "end_word": "reader",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "begged",
+    "end_word": "parked",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "routed",
+    "end_word": "sacred",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "fixing",
+    "end_word": "giving",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "latter",
+    "end_word": "dancer",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "heated",
+    "end_word": "stoked",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "cheesy",
+    "end_word": "greens",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "father",
+    "end_word": "talked",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "lodges",
+    "end_word": "banger",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "snacks",
+    "end_word": "spills",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "stoned",
+    "end_word": "shower",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "dating",
+    "end_word": "lining",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "letter",
+    "end_word": "weaker",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "seeing",
+    "end_word": "lining",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "senses",
+    "end_word": "blames",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "feeder",
+    "end_word": "headed",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "bashed",
+    "end_word": "ticked",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "placed",
+    "end_word": "status",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "worker",
+    "end_word": "docked",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "misses",
+    "end_word": "lashed",
+    "optimal_steps": 6
   },
   {
     "start_word": "sounds",
@@ -1980,23 +1580,423 @@
     "optimal_steps": 5
   },
   {
-    "start_word": "linger",
+    "start_word": "panned",
+    "end_word": "dancer",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "lotion",
+    "end_word": "radius",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "clicks",
+    "end_word": "creepy",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "weaken",
+    "end_word": "fitter",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "wooded",
+    "end_word": "packed",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "walled",
+    "end_word": "lasted",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "logged",
+    "end_word": "jacket",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "blames",
+    "end_word": "lenses",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "tester",
+    "end_word": "lashes",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "banter",
+    "end_word": "lauded",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "spaces",
+    "end_word": "statue",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "fished",
+    "end_word": "netted",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "dancer",
+    "end_word": "tinged",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "mapped",
+    "end_word": "zipper",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "siding",
+    "end_word": "losing",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "sitter",
+    "end_word": "tastes",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "bruins",
+    "end_word": "traded",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "messes",
+    "end_word": "marred",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "storey",
+    "end_word": "shafts",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "shaken",
+    "end_word": "reared",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "locked",
+    "end_word": "worked",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "chicks",
+    "end_word": "planks",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "shocks",
+    "end_word": "swells",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "chased",
+    "end_word": "louder",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "repeal",
+    "end_word": "deceit",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "spines",
+    "end_word": "chorus",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "riding",
+    "end_word": "wading",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "vetoed",
+    "end_word": "posted",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "scored",
+    "end_word": "geared",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "mowing",
+    "end_word": "wiring",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "radius",
+    "end_word": "potion",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "blamed",
+    "end_word": "loader",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "sensed",
+    "end_word": "leaked",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "places",
+    "end_word": "shares",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "stages",
+    "end_word": "shouts",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "finder",
+    "end_word": "mocked",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "dashed",
+    "end_word": "tester",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "hanger",
+    "end_word": "gutted",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "layers",
+    "end_word": "covent",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "traces",
+    "end_word": "braids",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "gather",
+    "end_word": "bitten",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "hacked",
+    "end_word": "batted",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "waited",
+    "end_word": "matter",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "spells",
+    "end_word": "stings",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "bakers",
+    "end_word": "covers",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "ranges",
+    "end_word": "pocket",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "pranks",
+    "end_word": "checks",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "paying",
+    "end_word": "airing",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "rocket",
+    "end_word": "bonded",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "darker",
+    "end_word": "netted",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "shards",
+    "end_word": "glider",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "missed",
+    "end_word": "washer",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "tinder",
+    "end_word": "tinted",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "sliced",
     "end_word": "scored",
-    "optimal_steps": 12
+    "optimal_steps": 5
   },
   {
-    "start_word": "shoots",
-    "end_word": "barter",
-    "optimal_steps": 12
+    "start_word": "scared",
+    "end_word": "spider",
+    "optimal_steps": 5
   },
   {
-    "start_word": "starts",
-    "end_word": "sister",
-    "optimal_steps": 10
+    "start_word": "dodger",
+    "end_word": "ranged",
+    "optimal_steps": 8
   },
   {
-    "start_word": "tended",
-    "end_word": "hunted",
-    "optimal_steps": 9
+    "start_word": "rating",
+    "end_word": "tiring",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "covent",
+    "end_word": "makers",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "seater",
+    "end_word": "shakes",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "jagged",
+    "end_word": "dances",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "danger",
+    "end_word": "lashed",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "filing",
+    "end_word": "making",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "tilted",
+    "end_word": "digger",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "grated",
+    "end_word": "trains",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "plates",
+    "end_word": "smoked",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "basing",
+    "end_word": "ravine",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "blanks",
+    "end_word": "slated",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "braces",
+    "end_word": "brands",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "spaced",
+    "end_word": "status",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "checks",
+    "end_word": "plants",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "louder",
+    "end_word": "peaked",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "sutter",
+    "end_word": "lashes",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "reared",
+    "end_word": "sealed",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "slated",
+    "end_word": "bitter",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "laying",
+    "end_word": "hiding",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "mounts",
+    "end_word": "bounce",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "shakes",
+    "end_word": "bearer",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "leaked",
+    "end_word": "feeder",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "bounce",
+    "end_word": "wounds",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "blocks",
+    "end_word": "placed",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "flares",
+    "end_word": "showed",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "router",
+    "end_word": "cooked",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "tinted",
+    "end_word": "jacket",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "swings",
+    "end_word": "stalks",
+    "optimal_steps": 5
   }
 ]

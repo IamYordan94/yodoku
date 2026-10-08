@@ -22,9 +22,11 @@ function ordinal(n: number) {
   return n === 1 ? '1st' : n === 2 ? '2nd' : n === 3 ? '3rd' : `${n}th`;
 }
 
+// 3★ = within 2 moves of optimal (the exact shortest path is usually unique and
+// unknowable); 2★ = within 4 moves; otherwise 1★.
 function starsFor(moves: number, optimal: number): number {
-  if (moves <= optimal) return 3;
-  if (moves <= optimal + 2) return 2;
+  if (moves <= optimal + 2) return 3;
+  if (moves <= optimal + 4) return 2;
   return 1;
 }
 

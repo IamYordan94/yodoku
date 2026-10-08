@@ -1,1143 +1,93 @@
 [
   {
-    "start_word": "hooking",
-    "end_word": "vetting",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "feeling",
-    "end_word": "shoving",
-    "optimal_steps": 12
-  },
-  {
-    "start_word": "letting",
-    "end_word": "hurling",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "failing",
-    "end_word": "shaking",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "boating",
-    "end_word": "sacking",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "batches",
-    "end_word": "punched",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "hurling",
-    "end_word": "teaming",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "bathing",
-    "end_word": "grating",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "boasted",
-    "end_word": "cluster",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "planner",
-    "end_word": "rooster",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "banging",
-    "end_word": "getting",
+    "start_word": "glowing",
+    "end_word": "soaring",
     "optimal_steps": 6
   },
   {
-    "start_word": "ditches",
-    "end_word": "punches",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "chances",
-    "end_word": "chaired",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "belated",
-    "end_word": "debated",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "packets",
-    "end_word": "manners",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "propped",
-    "end_word": "stopper",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "mocking",
-    "end_word": "tearing",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "marshes",
-    "end_word": "punched",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "parking",
-    "end_word": "binding",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "fearing",
-    "end_word": "banking",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "blowing",
-    "end_word": "leasing",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "blister",
-    "end_word": "flutter",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "rooster",
-    "end_word": "platter",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "masking",
-    "end_word": "railing",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "putting",
-    "end_word": "nailing",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "swapped",
-    "end_word": "stopped",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "carving",
-    "end_word": "flaming",
-    "optimal_steps": 14
-  },
-  {
-    "start_word": "matched",
-    "end_word": "punches",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "binding",
-    "end_word": "curving",
-    "optimal_steps": 13
-  },
-  {
-    "start_word": "baiting",
-    "end_word": "minding",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "shopper",
-    "end_word": "clapped",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "slipper",
-    "end_word": "stepped",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "snowing",
-    "end_word": "begging",
-    "optimal_steps": 14
-  },
-  {
-    "start_word": "marking",
-    "end_word": "bidding",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "charred",
-    "end_word": "chatted",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "soaring",
-    "end_word": "boating",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "banning",
-    "end_word": "ducking",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "selling",
-    "end_word": "failing",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "mailing",
-    "end_word": "milking",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "slashed",
-    "end_word": "brushes",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "chopper",
-    "end_word": "steeped",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "sockets",
-    "end_word": "banners",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "roasted",
-    "end_word": "platter",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "staging",
-    "end_word": "hacking",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "bolster",
-    "end_word": "plaster",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "jackets",
-    "end_word": "tankers",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "logging",
-    "end_word": "ranting",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "loosing",
-    "end_word": "staging",
-    "optimal_steps": 13
-  },
-  {
-    "start_word": "staring",
-    "end_word": "sailing",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "filling",
-    "end_word": "digging",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "charmed",
-    "end_word": "chatted",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "sealing",
-    "end_word": "booking",
-    "optimal_steps": 12
-  },
-  {
-    "start_word": "rooting",
-    "end_word": "sailing",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "milling",
-    "end_word": "marking",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "linking",
-    "end_word": "blazing",
-    "optimal_steps": 13
-  },
-  {
-    "start_word": "cutting",
-    "end_word": "wanting",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "shelved",
-    "end_word": "skillet",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "lodging",
-    "end_word": "handing",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "shading",
-    "end_word": "seeming",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "crushed",
-    "end_word": "grasses",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "pinched",
-    "end_word": "marches",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "meaning",
-    "end_word": "winding",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "catches",
-    "end_word": "punched",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "plunder",
-    "end_word": "blinked",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "toaster",
-    "end_word": "planted",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "booster",
-    "end_word": "flatter",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "blaming",
-    "end_word": "singing",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "chatter",
-    "end_word": "chaired",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "nesting",
-    "end_word": "snoring",
+    "start_word": "sacking",
+    "end_word": "costing",
     "optimal_steps": 7
   },
   {
     "start_word": "booming",
-    "end_word": "raising",
-    "optimal_steps": 12
-  },
-  {
-    "start_word": "cashing",
-    "end_word": "racking",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "sharing",
-    "end_word": "feeling",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "praying",
-    "end_word": "framing",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "tagging",
-    "end_word": "letting",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "betting",
-    "end_word": "bidding",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "bagging",
-    "end_word": "nailing",
+    "end_word": "parting",
     "optimal_steps": 7
   },
   {
-    "start_word": "crushes",
-    "end_word": "smashed",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "marches",
-    "end_word": "punches",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "looming",
-    "end_word": "masking",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "choking",
-    "end_word": "resting",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "teaming",
-    "end_word": "hailing",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "blinked",
-    "end_word": "slander",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "casting",
-    "end_word": "earring",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "gearing",
-    "end_word": "bending",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "bedding",
-    "end_word": "calling",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "glaring",
-    "end_word": "costing",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "groping",
-    "end_word": "beating",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "manners",
-    "end_word": "rockets",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "steered",
-    "end_word": "shopper",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "routine",
-    "end_word": "seating",
-    "optimal_steps": 14
-  },
-  {
-    "start_word": "chapter",
-    "end_word": "chained",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "flipped",
-    "end_word": "dropped",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "soaking",
-    "end_word": "minding",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "stating",
-    "end_word": "glowing",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "setting",
-    "end_word": "cooking",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "bashing",
-    "end_word": "leaving",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "classes",
-    "end_word": "smashes",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "redding",
-    "end_word": "morning",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "clauses",
-    "end_word": "trashed",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "dealing",
-    "end_word": "ranting",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "healing",
-    "end_word": "blowing",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "dodging",
-    "end_word": "barking",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "steeped",
-    "end_word": "cropped",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "punches",
-    "end_word": "watched",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "pockets",
-    "end_word": "banners",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "blaster",
-    "end_word": "bolster",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "hawking",
-    "end_word": "praying",
-    "optimal_steps": 14
-  },
-  {
-    "start_word": "charter",
-    "end_word": "chained",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "milking",
-    "end_word": "swaying",
-    "optimal_steps": 14
-  },
-  {
-    "start_word": "gaining",
-    "end_word": "mocking",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "longing",
-    "end_word": "smiling",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "trashed",
-    "end_word": "smashes",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "costing",
-    "end_word": "bonding",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "flashes",
-    "end_word": "brushed",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "parting",
-    "end_word": "rooting",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "reeling",
-    "end_word": "leaking",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "watches",
-    "end_word": "punches",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "tracing",
-    "end_word": "roaring",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "leaking",
-    "end_word": "roaming",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "loading",
-    "end_word": "wanting",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "watched",
-    "end_word": "lunches",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "chatted",
-    "end_word": "chained",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "peaking",
-    "end_word": "feeling",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "chipped",
-    "end_word": "steered",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "sailing",
-    "end_word": "cutting",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "grating",
-    "end_word": "wedding",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "sitting",
-    "end_word": "locking",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "barking",
-    "end_word": "choking",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "pooping",
-    "end_word": "logging",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "resting",
-    "end_word": "scaling",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "scatter",
-    "end_word": "chances",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "hinting",
-    "end_word": "blazing",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "stalled",
-    "end_word": "shocker",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "leaning",
-    "end_word": "glowing",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "funding",
-    "end_word": "wasting",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "routing",
-    "end_word": "lasting",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "tearing",
-    "end_word": "bending",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "platter",
-    "end_word": "toaster",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "cooling",
-    "end_word": "gaining",
-    "optimal_steps": 13
-  },
-  {
-    "start_word": "crusher",
-    "end_word": "flushed",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "clapped",
-    "end_word": "dropped",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "calming",
-    "end_word": "heating",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "looping",
-    "end_word": "vending",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "leading",
-    "end_word": "sharing",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "heating",
-    "end_word": "resting",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "shoving",
-    "end_word": "seating",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "dropped",
-    "end_word": "stepped",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "hurting",
-    "end_word": "ranting",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "shatter",
-    "end_word": "chaired",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "tanning",
-    "end_word": "casting",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "netting",
-    "end_word": "hosting",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "vending",
-    "end_word": "boating",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "begging",
-    "end_word": "docking",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "blasted",
-    "end_word": "flutter",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "looking",
-    "end_word": "shaming",
-    "optimal_steps": 14
-  },
-  {
-    "start_word": "raisins",
-    "end_word": "sitting",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "braking",
-    "end_word": "grating",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "moaning",
-    "end_word": "sending",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "flashed",
-    "end_word": "grasses",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "growing",
-    "end_word": "scaring",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "chaired",
-    "end_word": "shutter",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "crashes",
-    "end_word": "smashes",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "bugging",
-    "end_word": "racking",
+    "start_word": "shocker",
+    "end_word": "stalled",
     "optimal_steps": 5
   },
   {
     "start_word": "slapped",
-    "end_word": "chopper",
+    "end_word": "stopper",
     "optimal_steps": 5
   },
   {
-    "start_word": "bracing",
-    "end_word": "scoring",
-    "optimal_steps": 12
-  },
-  {
-    "start_word": "raiding",
-    "end_word": "shoving",
-    "optimal_steps": 13
-  },
-  {
-    "start_word": "shaming",
-    "end_word": "marking",
-    "optimal_steps": 13
-  },
-  {
-    "start_word": "rockets",
-    "end_word": "banners",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "marched",
-    "end_word": "punched",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "blazing",
-    "end_word": "falling",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "hearing",
-    "end_word": "carving",
-    "optimal_steps": 12
-  },
-  {
-    "start_word": "patched",
-    "end_word": "lunches",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "flaming",
-    "end_word": "dashing",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "dialing",
-    "end_word": "milking",
-    "optimal_steps": 14
-  },
-  {
-    "start_word": "punched",
-    "end_word": "marches",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "lifting",
-    "end_word": "moaning",
-    "optimal_steps": 13
-  },
-  {
-    "start_word": "washing",
-    "end_word": "gaining",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "charges",
-    "end_word": "scatter",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "matches",
-    "end_word": "punches",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "lasting",
-    "end_word": "leaning",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "curling",
-    "end_word": "wailing",
-    "optimal_steps": 12
-  },
-  {
-    "start_word": "fasting",
-    "end_word": "redding",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "classed",
-    "end_word": "brushes",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "curving",
-    "end_word": "cashing",
-    "optimal_steps": 13
-  },
-  {
-    "start_word": "ranging",
-    "end_word": "dashing",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "ducking",
-    "end_word": "raising",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "ticking",
-    "end_word": "hauling",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "trading",
-    "end_word": "railing",
-    "optimal_steps": 13
-  },
-  {
-    "start_word": "locking",
-    "end_word": "winding",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "hatchet",
-    "end_word": "punched",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "needing",
-    "end_word": "wedding",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "glowing",
-    "end_word": "feeding",
-    "optimal_steps": 14
-  },
-  {
-    "start_word": "getting",
-    "end_word": "lodging",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "concept",
-    "end_word": "contest",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "beaming",
-    "end_word": "trading",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "chopped",
-    "end_word": "steered",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "earning",
-    "end_word": "tagging",
+    "start_word": "brushes",
+    "end_word": "smashes",
     "optimal_steps": 7
-  },
-  {
-    "start_word": "skating",
-    "end_word": "lashing",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "shaking",
-    "end_word": "seeming",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "railing",
-    "end_word": "dialing",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "kidding",
-    "end_word": "telling",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "tankers",
-    "end_word": "sockets",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "stepped",
-    "end_word": "clipped",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "wailing",
-    "end_word": "telling",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "debated",
-    "end_word": "delayed",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "hitting",
-    "end_word": "rigging",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "finding",
-    "end_word": "ticking",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "storing",
-    "end_word": "vending",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "hugging",
-    "end_word": "vetting",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "calling",
-    "end_word": "running",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "hauling",
-    "end_word": "jarring",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "bonding",
-    "end_word": "kicking",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "booking",
-    "end_word": "venting",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "flatter",
-    "end_word": "toaster",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "looting",
-    "end_word": "hugging",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "hanging",
-    "end_word": "hopping",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "popping",
-    "end_word": "railing",
-    "optimal_steps": 12
-  },
-  {
-    "start_word": "crashed",
-    "end_word": "grasses",
-    "optimal_steps": 5
   },
   {
     "start_word": "clipped",
-    "end_word": "steeped",
+    "end_word": "steered",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "platter",
+    "end_word": "rooster",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "bashing",
+    "end_word": "hauling",
     "optimal_steps": 6
   },
   {
-    "start_word": "planned",
-    "end_word": "clutter",
+    "start_word": "raising",
+    "end_word": "posting",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "wedding",
+    "end_word": "letting",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "barking",
+    "end_word": "hugging",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "planner",
+    "end_word": "cluster",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "planter",
+    "end_word": "rooster",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "snowing",
+    "end_word": "getting",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "changes",
+    "end_word": "scatter",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "sitting",
+    "end_word": "cashing",
     "optimal_steps": 6
   },
   {
     "start_word": "tending",
-    "end_word": "hooking",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "hosting",
-    "end_word": "hurling",
-    "optimal_steps": 12
-  },
-  {
-    "start_word": "cunning",
-    "end_word": "lasting",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "winning",
-    "end_word": "rocking",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "ruining",
-    "end_word": "fearing",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "testing",
-    "end_word": "barking",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "hailing",
-    "end_word": "costing",
+    "end_word": "pinning",
     "optimal_steps": 5
-  },
-  {
-    "start_word": "snapped",
-    "end_word": "dropped",
-    "optimal_steps": 7
   },
   {
     "start_word": "battery",
@@ -1145,543 +95,93 @@
     "optimal_steps": 5
   },
   {
-    "start_word": "posting",
-    "end_word": "slowing",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "wishing",
-    "end_word": "seeming",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "sacking",
-    "end_word": "tearing",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "pinning",
-    "end_word": "sparing",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "reading",
-    "end_word": "hurting",
-    "optimal_steps": 9
-  },
-  {
     "start_word": "tasting",
-    "end_word": "glaring",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "pitches",
-    "end_word": "lunches",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "lunches",
-    "end_word": "catches",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "bidding",
-    "end_word": "leaping",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "placing",
-    "end_word": "snowing",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "grasses",
-    "end_word": "slashed",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "hatches",
-    "end_word": "punched",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "grading",
-    "end_word": "putting",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "roaring",
-    "end_word": "minding",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "brushed",
-    "end_word": "clauses",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "lockers",
-    "end_word": "tankers",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "roaming",
-    "end_word": "looking",
-    "optimal_steps": 14
-  },
-  {
-    "start_word": "shipper",
-    "end_word": "propped",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "boosted",
-    "end_word": "planter",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "minding",
-    "end_word": "putting",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "heaters",
-    "end_word": "centers",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "batting",
-    "end_word": "bedding",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "glasses",
-    "end_word": "crusher",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "relayed",
-    "end_word": "debated",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "flushed",
-    "end_word": "brushed",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "killing",
-    "end_word": "tending",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "jarring",
-    "end_word": "docking",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "debates",
-    "end_word": "delayed",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "skilled",
-    "end_word": "shelves",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "spacing",
-    "end_word": "pending",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "welding",
-    "end_word": "licking",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "cropped",
-    "end_word": "swapped",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "glazing",
-    "end_word": "posting",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "smashed",
-    "end_word": "glasses",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "seeding",
-    "end_word": "lashing",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "shutter",
-    "end_word": "changes",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "handing",
-    "end_word": "docking",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "renting",
-    "end_word": "morning",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "filming",
-    "end_word": "mocking",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "sensing",
-    "end_word": "fearing",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "grazing",
-    "end_word": "winding",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "hatched",
-    "end_word": "lunches",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "plating",
-    "end_word": "singing",
-    "optimal_steps": 13
-  },
-  {
-    "start_word": "watcher",
-    "end_word": "punched",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "earring",
-    "end_word": "coating",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "leaving",
-    "end_word": "fueling",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "planter",
-    "end_word": "roasted",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "shaping",
-    "end_word": "grating",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "changes",
-    "end_word": "chained",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "barring",
-    "end_word": "cashing",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "slowing",
-    "end_word": "flaming",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "chained",
-    "end_word": "shatter",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "stopper",
-    "end_word": "clapped",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "debuted",
-    "end_word": "related",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "ringing",
-    "end_word": "looming",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "backers",
-    "end_word": "rockers",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "wanting",
-    "end_word": "seeking",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "hopping",
-    "end_word": "rocking",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "forcing",
-    "end_word": "earning",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "sinking",
-    "end_word": "hopping",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "backing",
-    "end_word": "filling",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "rotting",
-    "end_word": "wedding",
-    "optimal_steps": 14
-  },
-  {
-    "start_word": "lashing",
-    "end_word": "sucking",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "playing",
-    "end_word": "roaring",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "planted",
-    "end_word": "toasted",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "beating",
-    "end_word": "meaning",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "witches",
-    "end_word": "punches",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "changer",
-    "end_word": "shutter",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "running",
-    "end_word": "writing",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "waiting",
-    "end_word": "groping",
-    "optimal_steps": 14
-  },
-  {
-    "start_word": "coaster",
-    "end_word": "booster",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "bunkers",
-    "end_word": "pockets",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "scoring",
-    "end_word": "telling",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "picking",
-    "end_word": "bidding",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "bonkers",
-    "end_word": "rockets",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "raining",
-    "end_word": "showing",
-    "optimal_steps": 14
-  },
-  {
-    "start_word": "wasting",
-    "end_word": "beaming",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "dashing",
-    "end_word": "knowing",
-    "optimal_steps": 12
-  },
-  {
-    "start_word": "hackers",
-    "end_word": "rockers",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "bulging",
-    "end_word": "rotting",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "sloping",
-    "end_word": "leaking",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "hacking",
-    "end_word": "shaving",
-    "optimal_steps": 12
-  },
-  {
-    "start_word": "roofing",
-    "end_word": "raisins",
-    "optimal_steps": 14
-  },
-  {
-    "start_word": "packers",
-    "end_word": "lockers",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "whipped",
-    "end_word": "steeped",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "racking",
-    "end_word": "bidding",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "nearing",
-    "end_word": "barking",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "packing",
-    "end_word": "fishing",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "clutter",
-    "end_word": "boosted",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "seeking",
-    "end_word": "picking",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "licking",
     "end_word": "tearing",
-    "optimal_steps": 11
+    "optimal_steps": 7
   },
   {
-    "start_word": "writing",
-    "end_word": "leaning",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "listing",
-    "end_word": "killing",
+    "start_word": "shoving",
+    "end_word": "glazing",
     "optimal_steps": 8
   },
   {
-    "start_word": "bending",
-    "end_word": "raiding",
-    "optimal_steps": 9
+    "start_word": "groping",
+    "end_word": "soaring",
+    "optimal_steps": 8
   },
   {
-    "start_word": "cooking",
-    "end_word": "banning",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "scaring",
-    "end_word": "placing",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "sparing",
-    "end_word": "nesting",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "plaster",
-    "end_word": "toaster",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "shelves",
-    "end_word": "skillet",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "fueling",
-    "end_word": "bending",
+    "start_word": "ruining",
+    "end_word": "calling",
     "optimal_steps": 5
   },
   {
     "start_word": "seeming",
-    "end_word": "fooling",
-    "optimal_steps": 14
+    "end_word": "roaring",
+    "optimal_steps": 7
   },
   {
-    "start_word": "rioting",
-    "end_word": "linking",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "yelling",
-    "end_word": "listing",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "relaxed",
-    "end_word": "debated",
+    "start_word": "watches",
+    "end_word": "punched",
     "optimal_steps": 5
   },
   {
-    "start_word": "toasted",
-    "end_word": "cluster",
-    "optimal_steps": 9
+    "start_word": "shaming",
+    "end_word": "glazing",
+    "optimal_steps": 7
   },
   {
-    "start_word": "ratchet",
-    "end_word": "ditched",
+    "start_word": "lending",
+    "end_word": "failing",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "washing",
+    "end_word": "stating",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "flaming",
+    "end_word": "spacing",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "ditched",
+    "end_word": "lunches",
     "optimal_steps": 5
   },
   {
-    "start_word": "raising",
-    "end_word": "looping",
-    "optimal_steps": 11
+    "start_word": "concept",
+    "end_word": "contest",
+    "optimal_steps": 5
   },
   {
-    "start_word": "coating",
-    "end_word": "rocking",
+    "start_word": "hosting",
+    "end_word": "lending",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "hurling",
+    "end_word": "batting",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "masking",
+    "end_word": "nesting",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "hurting",
+    "end_word": "boating",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "failing",
+    "end_word": "lacking",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "tagging",
+    "end_word": "hailing",
     "optimal_steps": 8
   },
   {
@@ -1690,123 +190,1438 @@
     "optimal_steps": 5
   },
   {
-    "start_word": "feeding",
-    "end_word": "booming",
-    "optimal_steps": 13
+    "start_word": "boasted",
+    "end_word": "flatter",
+    "optimal_steps": 5
   },
   {
-    "start_word": "nursing",
-    "end_word": "tending",
-    "optimal_steps": 13
+    "start_word": "chaired",
+    "end_word": "shatter",
+    "optimal_steps": 6
   },
   {
-    "start_word": "patches",
+    "start_word": "looming",
+    "end_word": "parting",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "seeking",
+    "end_word": "heading",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "bidding",
+    "end_word": "tasting",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "lagging",
+    "end_word": "sinking",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "chatted",
+    "end_word": "chances",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "betting",
+    "end_word": "hailing",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "curling",
+    "end_word": "sitting",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "relayed",
+    "end_word": "debated",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "stopper",
+    "end_word": "flipped",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "boosted",
+    "end_word": "planned",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "charmed",
+    "end_word": "shutter",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "punched",
+    "end_word": "ratchet",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "rioting",
+    "end_word": "barking",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "blaming",
+    "end_word": "selling",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "bagging",
+    "end_word": "vetting",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "barring",
+    "end_word": "nailing",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "hatched",
     "end_word": "lunches",
     "optimal_steps": 6
   },
   {
-    "start_word": "docking",
-    "end_word": "raisins",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "snoring",
-    "end_word": "billing",
-    "optimal_steps": 14
-  },
-  {
-    "start_word": "nailing",
-    "end_word": "looting",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "forging",
-    "end_word": "earning",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "fishing",
-    "end_word": "winding",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "vetting",
-    "end_word": "swaying",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "winding",
-    "end_word": "sacking",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "kicking",
-    "end_word": "finding",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "nagging",
-    "end_word": "betting",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "shaving",
-    "end_word": "peaking",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "leaping",
-    "end_word": "minding",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "sending",
-    "end_word": "wanting",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "showing",
-    "end_word": "tasting",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "smashes",
-    "end_word": "crushes",
+    "start_word": "dodging",
+    "end_word": "hanging",
     "optimal_steps": 6
   },
   {
-    "start_word": "delayed",
+    "start_word": "shelves",
+    "end_word": "skillet",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "ranging",
+    "end_word": "parting",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "flushed",
+    "end_word": "glasses",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "holster",
+    "end_word": "plaster",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "shelved",
+    "end_word": "skillet",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "billing",
+    "end_word": "casting",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "vetting",
+    "end_word": "storing",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "needing",
+    "end_word": "hearing",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "pending",
+    "end_word": "selling",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "venting",
+    "end_word": "wishing",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "blister",
+    "end_word": "clutter",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "whipped",
+    "end_word": "steered",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "setting",
+    "end_word": "winning",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "cashing",
+    "end_word": "staging",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "scoring",
+    "end_word": "venting",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "leaving",
+    "end_word": "renting",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "jackets",
+    "end_word": "lockers",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "stepped",
+    "end_word": "propped",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "blowing",
+    "end_word": "shading",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "dropped",
+    "end_word": "steeped",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "posting",
+    "end_word": "glaring",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "relaxed",
+    "end_word": "debated",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "batches",
+    "end_word": "punches",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "punches",
+    "end_word": "ditches",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "ditches",
+    "end_word": "marched",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "popping",
+    "end_word": "lacking",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "grazing",
+    "end_word": "seating",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "belated",
     "end_word": "debuted",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "swaying",
+    "end_word": "snowing",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "shaving",
+    "end_word": "lending",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "lasting",
+    "end_word": "letting",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "flowing",
+    "end_word": "sparing",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "getting",
+    "end_word": "ruining",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "banging",
+    "end_word": "batting",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "marches",
+    "end_word": "punches",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "delayed",
+    "end_word": "debates",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "raiding",
+    "end_word": "vetting",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "praying",
+    "end_word": "shading",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "parking",
+    "end_word": "tagging",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "bugging",
+    "end_word": "waiting",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "bunkers",
+    "end_word": "lockers",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "bathing",
+    "end_word": "bedding",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "listing",
+    "end_word": "barking",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "weaving",
+    "end_word": "venting",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "stating",
+    "end_word": "bonding",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "chapter",
+    "end_word": "chances",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "netting",
+    "end_word": "ruining",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "rooting",
+    "end_word": "marking",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "lunches",
+    "end_word": "patches",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "rocking",
+    "end_word": "popping",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "hawking",
+    "end_word": "routing",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "related",
+    "end_word": "debuted",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "banning",
+    "end_word": "footing",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "sloping",
+    "end_word": "shading",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "leaking",
+    "end_word": "glazing",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "sailing",
+    "end_word": "sealing",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "swapped",
+    "end_word": "chopped",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "growing",
+    "end_word": "shaving",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "parting",
+    "end_word": "logging",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "grating",
+    "end_word": "flaming",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "pinched",
+    "end_word": "marshes",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "costing",
+    "end_word": "nearing",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "bracing",
+    "end_word": "glazing",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "snapped",
+    "end_word": "steered",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "cooling",
+    "end_word": "routine",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "debuted",
+    "end_word": "relayed",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "killing",
+    "end_word": "raising",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "banking",
+    "end_word": "minding",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "staging",
+    "end_word": "tearing",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "bending",
+    "end_word": "batting",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "classed",
+    "end_word": "brushes",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "yelling",
+    "end_word": "framing",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "packers",
+    "end_word": "lockers",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "sockets",
+    "end_word": "banners",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "pitcher",
+    "end_word": "ratchet",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "morning",
+    "end_word": "fearing",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "bonkers",
+    "end_word": "pockets",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "boating",
+    "end_word": "vending",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "minding",
+    "end_word": "moaning",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "dealing",
+    "end_word": "venting",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "chipped",
+    "end_word": "steered",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "tearing",
+    "end_word": "shaming",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "redding",
+    "end_word": "storing",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "ringing",
+    "end_word": "marking",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "booking",
+    "end_word": "waiting",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "backers",
+    "end_word": "lockers",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "shopper",
+    "end_word": "snapped",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "funding",
+    "end_word": "leasing",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "railing",
+    "end_word": "bashing",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "writing",
+    "end_word": "scaling",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "soaking",
+    "end_word": "seeding",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "charges",
+    "end_word": "shutter",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "debated",
+    "end_word": "delayed",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "ratchet",
+    "end_word": "lunches",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "flatter",
+    "end_word": "booster",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "fishing",
+    "end_word": "falling",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "roasted",
+    "end_word": "platter",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "cunning",
+    "end_word": "filling",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "fearing",
+    "end_word": "cutting",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "pitched",
+    "end_word": "marshes",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "skilled",
+    "end_word": "shelves",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "smiling",
+    "end_word": "cunning",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "spacing",
+    "end_word": "putting",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "footing",
+    "end_word": "hopping",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "gearing",
+    "end_word": "showing",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "meaning",
+    "end_word": "welding",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "ticking",
+    "end_word": "tagging",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "letting",
+    "end_word": "lacking",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "racking",
+    "end_word": "seating",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "casting",
+    "end_word": "cutting",
     "optimal_steps": 7
   },
   {
     "start_word": "sucking",
-    "end_word": "masking",
-    "optimal_steps": 5
+    "end_word": "lodging",
+    "optimal_steps": 8
   },
   {
-    "start_word": "ranking",
-    "end_word": "blowing",
-    "optimal_steps": 13
+    "start_word": "tracing",
+    "end_word": "beaming",
+    "optimal_steps": 7
   },
   {
-    "start_word": "falling",
-    "end_word": "rearing",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "catcher",
-    "end_word": "punched",
+    "start_word": "scatter",
+    "end_word": "charmed",
     "optimal_steps": 6
   },
   {
-    "start_word": "flowing",
-    "end_word": "bending",
-    "optimal_steps": 12
+    "start_word": "toaster",
+    "end_word": "bolster",
+    "optimal_steps": 5
   },
   {
-    "start_word": "banking",
+    "start_word": "pitches",
+    "end_word": "lunches",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "smashed",
+    "end_word": "brushes",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "hatchet",
+    "end_word": "punches",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "leaping",
+    "end_word": "shaming",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "clutter",
+    "end_word": "planned",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "ranking",
+    "end_word": "earning",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "hooking",
+    "end_word": "hopping",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "context",
+    "end_word": "concern",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "framing",
+    "end_word": "peaking",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "heating",
+    "end_word": "kidding",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "mocking",
+    "end_word": "petting",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "filling",
+    "end_word": "baiting",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "falling",
+    "end_word": "lasting",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "manners",
+    "end_word": "pockets",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "booster",
+    "end_word": "blister",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "binding",
+    "end_word": "baiting",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "catcher",
+    "end_word": "ditched",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "knowing",
+    "end_word": "heating",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "wasting",
+    "end_word": "hugging",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "nursing",
+    "end_word": "hinting",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "vending",
+    "end_word": "looking",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "milling",
+    "end_word": "lashing",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "hailing",
+    "end_word": "singing",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "calming",
+    "end_word": "ruining",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "roofing",
+    "end_word": "packing",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "roaring",
+    "end_word": "playing",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "running",
+    "end_word": "cashing",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "clauses",
+    "end_word": "trashed",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "packets",
+    "end_word": "manners",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "glazing",
+    "end_word": "hosting",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "grading",
+    "end_word": "nearing",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "begging",
+    "end_word": "dashing",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "rotting",
+    "end_word": "mocking",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "charged",
+    "end_word": "shutter",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "heaters",
+    "end_word": "centers",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "sealing",
+    "end_word": "winning",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "pooping",
+    "end_word": "banging",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "glasses",
+    "end_word": "brushed",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "cutting",
+    "end_word": "teaming",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "singing",
+    "end_word": "railing",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "roaming",
+    "end_word": "yelling",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "bedding",
+    "end_word": "scoring",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "fueling",
+    "end_word": "getting",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "planned",
+    "end_word": "toasted",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "finding",
+    "end_word": "letting",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "wailing",
+    "end_word": "digging",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "scaring",
+    "end_word": "teasing",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "blaster",
+    "end_word": "bolster",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "routing",
+    "end_word": "marking",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "crashed",
+    "end_word": "grasses",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "routine",
+    "end_word": "picking",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "propped",
+    "end_word": "shipper",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "hearing",
+    "end_word": "swaying",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "choking",
+    "end_word": "kicking",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "patches",
+    "end_word": "punches",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "slashed",
+    "end_word": "grasses",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "hauling",
+    "end_word": "beating",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "placing",
+    "end_word": "batting",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "welding",
+    "end_word": "feeding",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "slaying",
+    "end_word": "blaming",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "watcher",
+    "end_word": "lunches",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "looting",
+    "end_word": "marking",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "skating",
+    "end_word": "wanting",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "bearing",
+    "end_word": "hurting",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "teaming",
+    "end_word": "grazing",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "dialing",
+    "end_word": "tending",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "rockets",
+    "end_word": "banners",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "wishing",
+    "end_word": "lacking",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "teasing",
+    "end_word": "waiting",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "packing",
     "end_word": "longing",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "flipped",
+    "end_word": "steeped",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "watched",
+    "end_word": "lunches",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "rooster",
+    "end_word": "toaster",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "sending",
+    "end_word": "cutting",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "playing",
+    "end_word": "telling",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "handing",
+    "end_word": "kicking",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "jarring",
+    "end_word": "booking",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "crushes",
+    "end_word": "smashes",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "plunder",
+    "end_word": "blinked",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "lockers",
+    "end_word": "banners",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "bonding",
+    "end_word": "blaming",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "marched",
+    "end_word": "punches",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "cursing",
+    "end_word": "hinting",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "slipper",
+    "end_word": "dropped",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "winning",
+    "end_word": "ranting",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "chained",
+    "end_word": "chances",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "shipper",
+    "end_word": "steered",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "linking",
+    "end_word": "handing",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "matched",
+    "end_word": "punches",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "lodging",
+    "end_word": "racking",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "hitting",
+    "end_word": "cutting",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "reading",
+    "end_word": "telling",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "putting",
+    "end_word": "peaking",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "skipped",
+    "end_word": "steeped",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "kidding",
+    "end_word": "seeming",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "shutter",
+    "end_word": "changes",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "looping",
+    "end_word": "singing",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "hugging",
+    "end_word": "wanting",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "clapped",
+    "end_word": "steeped",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "longing",
+    "end_word": "banking",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "telling",
+    "end_word": "peaking",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "chopper",
+    "end_word": "slapped",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "mailing",
+    "end_word": "renting",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "hanging",
+    "end_word": "betting",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "trashed",
+    "end_word": "smashes",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "matches",
+    "end_word": "punches",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "ducking",
+    "end_word": "popping",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "shading",
+    "end_word": "selling",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "healing",
+    "end_word": "wailing",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "loading",
+    "end_word": "hitting",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "tankers",
+    "end_word": "rockers",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "sensing",
+    "end_word": "kidding",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "ranting",
+    "end_word": "staring",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "baiting",
+    "end_word": "sharing",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "jogging",
+    "end_word": "hugging",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "seating",
+    "end_word": "listing",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "steeped",
+    "end_word": "slipper",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "licking",
+    "end_word": "renting",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "classes",
+    "end_word": "brushed",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "bolster",
+    "end_word": "plaster",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "carving",
+    "end_word": "sitting",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "staying",
+    "end_word": "slowing",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "rockers",
+    "end_word": "banners",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "raisins",
+    "end_word": "petting",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "hacking",
+    "end_word": "nesting",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "patched",
+    "end_word": "lunches",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "milking",
+    "end_word": "wailing",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "brushed",
+    "end_word": "smashed",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "calling",
+    "end_word": "wishing",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "coating",
+    "end_word": "reading",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "plaster",
+    "end_word": "toaster",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "logging",
+    "end_word": "linking",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "catches",
+    "end_word": "punches",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "changer",
+    "end_word": "scatter",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "toasted",
+    "end_word": "planner",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "witches",
+    "end_word": "lunches",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "hunting",
+    "end_word": "letting",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "hatches",
+    "end_word": "punches",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "loosing",
+    "end_word": "parting",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "slowing",
+    "end_word": "reading",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "cooking",
+    "end_word": "ringing",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "rearing",
+    "end_word": "lasting",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "digging",
+    "end_word": "barking",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "beating",
+    "end_word": "showing",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "nailing",
+    "end_word": "rigging",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "leaning",
+    "end_word": "flaming",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "cropped",
+    "end_word": "snapped",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "feeding",
+    "end_word": "fearing",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "plating",
+    "end_word": "skating",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "flashes",
+    "end_word": "brushed",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "slander",
+    "end_word": "blinked",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "pinning",
+    "end_word": "lending",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "changed",
+    "end_word": "chatted",
     "optimal_steps": 5
   },
   {
@@ -1815,79 +1630,89 @@
     "optimal_steps": 5
   },
   {
-    "start_word": "billing",
-    "end_word": "netting",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "weaving",
-    "end_word": "packing",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "holster",
-    "end_word": "planter",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "morning",
-    "end_word": "showing",
-    "optimal_steps": 12
-  },
-  {
-    "start_word": "bankers",
-    "end_word": "lockers",
+    "start_word": "nagging",
+    "end_word": "fasting",
     "optimal_steps": 7
   },
   {
-    "start_word": "slaying",
-    "end_word": "bedding",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "fooling",
-    "end_word": "nagging",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "peeling",
-    "end_word": "bidding",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "teasing",
-    "end_word": "morning",
+    "start_word": "chopped",
+    "end_word": "steered",
     "optimal_steps": 5
   },
   {
-    "start_word": "rigging",
-    "end_word": "coating",
-    "optimal_steps": 8
-  },
-  {
-    "start_word": "contend",
-    "end_word": "concern",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "staying",
-    "end_word": "banging",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "telling",
-    "end_word": "flowing",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "scaling",
-    "end_word": "grazing",
+    "start_word": "peaking",
+    "end_word": "kidding",
     "optimal_steps": 7
   },
   {
-    "start_word": "cluster",
-    "end_word": "rooster",
-    "optimal_steps": 11
+    "start_word": "backing",
+    "end_word": "bulging",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "fasting",
+    "end_word": "beaming",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "trading",
+    "end_word": "teaming",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "grasses",
+    "end_word": "flushed",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "flutter",
+    "end_word": "boasted",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "soaring",
+    "end_word": "bashing",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "staring",
+    "end_word": "tending",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "hinting",
+    "end_word": "wailing",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "sharing",
+    "end_word": "hunting",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "shaping",
+    "end_word": "welding",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "forcing",
+    "end_word": "earning",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "flashed",
+    "end_word": "brushes",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "crashes",
+    "end_word": "smashes",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "petting",
+    "end_word": "sinking",
+    "optimal_steps": 8
   },
   {
     "start_word": "contest",
@@ -1895,99 +1720,39 @@
     "optimal_steps": 5
   },
   {
-    "start_word": "footing",
-    "end_word": "finding",
-    "optimal_steps": 13
+    "start_word": "bankers",
+    "end_word": "lockers",
+    "optimal_steps": 7
   },
   {
-    "start_word": "changed",
-    "end_word": "shatter",
-    "optimal_steps": 5
+    "start_word": "earring",
+    "end_word": "rigging",
+    "optimal_steps": 7
   },
   {
-    "start_word": "wedding",
-    "end_word": "dialing",
+    "start_word": "beaming",
+    "end_word": "bending",
     "optimal_steps": 6
   },
   {
-    "start_word": "jogging",
-    "end_word": "looting",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "brushes",
-    "end_word": "grasses",
-    "optimal_steps": 6
-  },
-  {
-    "start_word": "hunting",
-    "end_word": "looping",
-    "optimal_steps": 14
-  },
-  {
-    "start_word": "pending",
-    "end_word": "trading",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "flutter",
-    "end_word": "toaster",
+    "start_word": "locking",
+    "end_word": "bashing",
     "optimal_steps": 8
   },
   {
-    "start_word": "rockers",
-    "end_word": "bonkers",
-    "optimal_steps": 7
-  },
-  {
-    "start_word": "seating",
-    "end_word": "masking",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "venting",
-    "end_word": "hunting",
+    "start_word": "sparing",
+    "end_word": "blaming",
     "optimal_steps": 6
   },
   {
-    "start_word": "singing",
-    "end_word": "bashing",
+    "start_word": "docking",
+    "end_word": "hopping",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "chances",
+    "end_word": "shutter",
     "optimal_steps": 7
-  },
-  {
-    "start_word": "lending",
-    "end_word": "beaming",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "smiling",
-    "end_word": "glaring",
-    "optimal_steps": 10
-  },
-  {
-    "start_word": "leasing",
-    "end_word": "washing",
-    "optimal_steps": 9
-  },
-  {
-    "start_word": "rearing",
-    "end_word": "killing",
-    "optimal_steps": 11
-  },
-  {
-    "start_word": "lacking",
-    "end_word": "shaking",
-    "optimal_steps": 12
-  },
-  {
-    "start_word": "skipped",
-    "end_word": "propped",
-    "optimal_steps": 5
-  },
-  {
-    "start_word": "bearing",
-    "end_word": "shaming",
-    "optimal_steps": 5
   },
   {
     "start_word": "slipped",
@@ -1995,8 +1760,243 @@
     "optimal_steps": 6
   },
   {
-    "start_word": "framing",
-    "end_word": "batting",
+    "start_word": "charred",
+    "end_word": "chatted",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "curving",
+    "end_word": "sitting",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "fooling",
+    "end_word": "hawking",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "wanting",
+    "end_word": "kidding",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "steered",
+    "end_word": "propped",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "rigging",
+    "end_word": "barking",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "reeling",
+    "end_word": "vetting",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "gaining",
+    "end_word": "killing",
     "optimal_steps": 6
+  },
+  {
+    "start_word": "nearing",
+    "end_word": "washing",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "lacking",
+    "end_word": "waiting",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "glaring",
+    "end_word": "needing",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "hopping",
+    "end_word": "linking",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "feeling",
+    "end_word": "leaking",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "dashing",
+    "end_word": "railing",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "storing",
+    "end_word": "letting",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "contend",
+    "end_word": "concept",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "tanning",
+    "end_word": "earring",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "renting",
+    "end_word": "gearing",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "earning",
+    "end_word": "licking",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "snoring",
+    "end_word": "leaping",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "blasted",
+    "end_word": "clutter",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "marshes",
+    "end_word": "pitcher",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "raining",
+    "end_word": "boating",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "batting",
+    "end_word": "gaining",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "looking",
+    "end_word": "earring",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "heading",
+    "end_word": "fueling",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "coaster",
+    "end_word": "planner",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "smashes",
+    "end_word": "classes",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "hackers",
+    "end_word": "lockers",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "showing",
+    "end_word": "leading",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "seeding",
+    "end_word": "soaring",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "crusher",
+    "end_word": "clauses",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "leasing",
+    "end_word": "bashing",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "planted",
+    "end_word": "toasted",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "braking",
+    "end_word": "blazing",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "sinking",
+    "end_word": "fasting",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "lashing",
+    "end_word": "falling",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "cluster",
+    "end_word": "plaster",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "shatter",
+    "end_word": "changes",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "nesting",
+    "end_word": "leaking",
+    "optimal_steps": 7
+  },
+  {
+    "start_word": "scaling",
+    "end_word": "wedding",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "crushed",
+    "end_word": "grasses",
+    "optimal_steps": 6
+  },
+  {
+    "start_word": "filming",
+    "end_word": "betting",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "picking",
+    "end_word": "footing",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "pockets",
+    "end_word": "tankers",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "shipped",
+    "end_word": "steered",
+    "optimal_steps": 5
+  },
+  {
+    "start_word": "testing",
+    "end_word": "meaning",
+    "optimal_steps": 8
+  },
+  {
+    "start_word": "leading",
+    "end_word": "staring",
+    "optimal_steps": 5
   }
 ]
