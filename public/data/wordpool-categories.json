@@ -10,22 +10,13 @@
           "words": [
             "dog",
             "cat",
-            "bird",
-            "fish",
-            "lion",
-            "bear",
-            "wolf",
-            "deer",
-            "fox",
             "horse",
+            "mouse",
+            "tiger",
+            "sheep",
+            "rat",
             "cow",
             "pig",
-            "sheep",
-            "goat",
-            "duck",
-            "mouse",
-            "rat",
-            "tiger",
             "elephant",
             "monkey"
           ]
@@ -34,44 +25,28 @@
           "level": 2,
           "name": "Wild Animals",
           "words": [
-            "lion",
-            "bear",
-            "wolf",
-            "deer",
-            "fox",
             "tiger",
             "elephant",
             "monkey",
-            "zebra",
-            "giraffe",
-            "hippo",
-            "rhino",
-            "leopard",
-            "cheetah",
-            "hyena",
-            "camel",
-            "gorilla",
             "panda",
-            "koala"
+            "gorilla",
+            "leopard",
+            "rhino"
           ]
         },
         {
           "level": 3,
           "name": "African Animals",
           "words": [
-            "lion",
             "elephant",
-            "giraffe",
-            "zebra",
-            "hippo",
-            "rhino",
-            "leopard",
-            "cheetah",
-            "hyena",
             "gorilla",
-            "camel",
-            "antelope",
-            "wildebeest"
+            "leopard",
+            "rhino",
+            "zebra",
+            "giraffe",
+            "cheetah",
+            "hippo",
+            "antelope"
           ]
         },
         {
@@ -79,29 +54,32 @@
           "name": "Large African Animals",
           "words": [
             "elephant",
-            "giraffe",
-            "hippo",
+            "leopard",
             "rhino",
-            "lion",
-            "leopard"
+            "giraffe",
+            "hippo"
           ]
         },
         {
           "level": 5,
-          "name": "Large African Carnivores",
+          "name": "African Predators",
           "words": [
-            "lion",
+            "python",
+            "predator",
             "leopard",
             "cheetah",
-            "hyena"
+            "vulture"
           ]
         },
         {
           "level": 6,
-          "name": "Large African Cats",
+          "name": "Big Cats",
           "words": [
-            "lion",
+            "tiger",
             "leopard",
+            "jaguar",
+            "cougar",
+            "puma",
             "cheetah"
           ]
         }
@@ -115,26 +93,18 @@
           "level": 1,
           "name": "Food",
           "words": [
-            "apple",
-            "bread",
+            "tea",
             "milk",
-            "egg",
-            "rice",
-            "pasta",
-            "cheese",
-            "butter",
-            "sugar",
-            "salt",
             "meat",
-            "fish",
-            "soup",
-            "salad",
-            "pizza",
-            "burger",
+            "salt",
+            "cheese",
             "fruit",
-            "vegetable",
-            "coffee",
-            "tea"
+            "bread",
+            "egg",
+            "pizza",
+            "butter",
+            "salad",
+            "soup"
           ]
         },
         {
@@ -142,25 +112,22 @@
           "name": "Dairy & Eggs",
           "words": [
             "milk",
-            "cheese",
-            "butter",
-            "yogurt",
             "cream",
-            "egg"
+            "cheese",
+            "egg",
+            "butter",
+            "yogurt"
           ]
         },
         {
           "level": 3,
           "name": "Baked Goods",
           "words": [
-            "bread",
             "roll",
-            "bun",
             "cake",
-            "cookie",
+            "bread",
             "pie",
-            "muffin",
-            "croissant",
+            "bun",
             "bagel"
           ]
         },
@@ -169,38 +136,36 @@
           "name": "Breakfast Foods",
           "words": [
             "egg",
-            "bacon",
             "toast",
             "cereal",
+            "oatmeal",
             "pancake",
             "waffle",
-            "oatmeal",
-            "bagel",
-            "muffin"
+            "bagel"
           ]
         },
         {
           "level": 5,
-          "name": "French Pastries",
+          "name": "Desserts",
           "words": [
-            "croissant",
-            "eclair",
-            "macaron",
-            "crepe",
-            "tart",
-            "souffle"
+            "cake",
+            "pie",
+            "dessert",
+            "pudding",
+            "pastry",
+            "biscuit",
+            "tart"
           ]
         },
         {
           "level": 6,
-          "name": "Types of Pasta",
+          "name": "Pasta & Noodles",
           "words": [
-            "spaghetti",
-            "penne",
+            "pasta",
+            "noodle",
             "lasagna",
-            "ravioli",
-            "fettuccine",
-            "macaroni"
+            "macaroni",
+            "tortilla"
           ]
         }
       ]
@@ -213,44 +178,38 @@
           "level": 1,
           "name": "Transportation",
           "words": [
-            "car",
-            "bus",
             "train",
+            "ship",
+            "bus",
             "plane",
             "boat",
-            "bike",
             "truck",
-            "ship",
+            "bike",
             "taxi",
-            "van",
-            "subway",
-            "helicopter"
+            "subway"
           ]
         },
         {
           "level": 2,
           "name": "Ground Vehicles",
           "words": [
-            "car",
-            "bus",
             "train",
+            "bus",
             "truck",
-            "van",
-            "taxi",
             "bike",
-            "motorcycle"
+            "taxi"
           ]
         },
         {
           "level": 3,
           "name": "Water Vehicles",
           "words": [
-            "boat",
             "ship",
+            "boat",
+            "ferry",
             "yacht",
             "canoe",
-            "kayak",
-            "ferry"
+            "kayak"
           ]
         },
         {
@@ -258,20 +217,23 @@
           "name": "Air Vehicles",
           "words": [
             "plane",
-            "helicopter",
+            "aircraft",
+            "rocket",
             "jet",
-            "airship",
-            "glider"
+            "drone",
+            "balloon",
+            "glider",
+            "airliner"
           ]
         },
         {
           "level": 5,
           "name": "Public Transport",
           "words": [
-            "bus",
             "train",
-            "subway",
+            "bus",
             "taxi",
+            "subway",
             "ferry",
             "tram"
           ]
@@ -280,10 +242,11 @@
           "level": 6,
           "name": "Two-Wheeled Vehicles",
           "words": [
+            "cycle",
             "bike",
-            "motorcycle",
+            "bicycle",
             "scooter",
-            "moped"
+            "tandem"
           ]
         }
       ]
@@ -297,109 +260,71 @@
           "name": "Plants",
           "words": [
             "tree",
-            "flower",
             "grass",
-            "bush",
-            "fern",
-            "moss",
-            "vine",
-            "rose",
-            "tulip",
-            "daisy",
-            "oak",
-            "pine",
+            "leaf",
+            "trunk",
             "maple",
-            "palm",
-            "cactus",
-            "lily",
-            "orchid",
-            "sunflower",
-            "daffodil"
+            "bamboo"
           ]
         },
         {
           "level": 2,
           "name": "Trees",
           "words": [
-            "oak",
-            "pine",
             "maple",
-            "palm",
-            "birch",
-            "willow",
-            "cedar",
-            "fir",
-            "elm",
-            "ash",
-            "chestnut",
             "walnut",
-            "cherry"
+            "fir",
+            "chestnut",
+            "aspen"
           ]
         },
         {
           "level": 3,
-          "name": "Flowers",
+          "name": "Flowers & Herbs",
           "words": [
-            "rose",
-            "tulip",
-            "daisy",
-            "lily",
+            "mint",
+            "cosmos",
             "orchid",
-            "sunflower",
-            "daffodil",
-            "violet",
-            "poppy",
-            "iris",
-            "carnation",
-            "dahlia",
-            "peony",
-            "marigold",
-            "jasmine"
+            "parsley",
+            "tulip",
+            "thyme"
           ]
         },
         {
           "level": 4,
           "name": "Garden Plants",
           "words": [
-            "rose",
-            "tulip",
-            "daisy",
-            "lily",
-            "orchid",
-            "sunflower",
-            "marigold",
-            "lavender",
             "mint",
-            "basil",
             "tomato",
             "carrot",
-            "lettuce"
+            "lettuce",
+            "lavender",
+            "orchid",
+            "tulip"
           ]
         },
         {
           "level": 5,
           "name": "Coniferous Trees",
           "words": [
-            "pine",
-            "cedar",
             "fir",
             "spruce",
-            "hemlock",
-            "larch",
+            "cypress",
             "redwood",
-            "sequoia"
+            "juniper",
+            "yew"
           ]
         },
         {
           "level": 6,
-          "name": "Rose Types",
+          "name": "Plant Parts",
           "words": [
-            "tea",
-            "floribunda",
-            "grandiflora",
-            "climbing",
-            "shrub",
-            "miniature"
+            "stem",
+            "leaf",
+            "trunk",
+            "bark",
+            "sap",
+            "pollen"
           ]
         }
       ]
@@ -414,19 +339,16 @@
           "words": [
             "doctor",
             "teacher",
-            "nurse",
-            "lawyer",
-            "engineer",
             "artist",
-            "chef",
             "driver",
             "writer",
-            "singer",
+            "lawyer",
             "actor",
             "pilot",
-            "farmer",
-            "builder",
-            "soldier"
+            "engineer",
+            "soldier",
+            "chef",
+            "builder"
           ]
         },
         {
@@ -434,27 +356,20 @@
           "name": "Healthcare",
           "words": [
             "doctor",
-            "nurse",
             "surgeon",
-            "dentist",
             "vet",
-            "therapist",
-            "paramedic",
-            "pharmacist",
-            "radiologist"
+            "dentist"
           ]
         },
         {
           "level": 3,
           "name": "Education",
           "words": [
+            "coach",
             "teacher",
-            "professor",
-            "tutor",
-            "principal",
-            "librarian",
-            "counselor",
-            "instructor"
+            "mentor",
+            "lecturer",
+            "tutor"
           ]
         },
         {
@@ -463,38 +378,33 @@
           "words": [
             "artist",
             "writer",
-            "singer",
             "actor",
-            "musician",
-            "painter",
             "designer",
-            "photographer",
+            "musician",
             "sculptor"
           ]
         },
         {
           "level": 5,
-          "name": "Science",
+          "name": "Technical Jobs",
           "words": [
-            "scientist",
-            "researcher",
+            "engineer",
+            "analyst",
+            "builder",
+            "mechanic",
+            "inventor",
             "chemist",
-            "physicist",
-            "biologist",
-            "astronomer",
-            "geologist"
+            "plumber"
           ]
         },
         {
           "level": 6,
           "name": "Medical Specialists",
           "words": [
-            "cardiologist",
-            "neurologist",
-            "dermatologist",
-            "oncologist",
-            "pediatrician",
-            "psychiatrist"
+            "doctor",
+            "surgeon",
+            "dentist",
+            "midwife"
           ]
         }
       ]
@@ -507,37 +417,31 @@
           "level": 1,
           "name": "Sports",
           "words": [
-            "soccer",
-            "tennis",
-            "basketball",
-            "baseball",
-            "swimming",
             "running",
             "golf",
+            "baseball",
+            "dancing",
+            "soccer",
+            "swimming",
             "hockey",
-            "volleyball",
-            "boxing",
-            "skiing",
-            "cycling",
-            "surfing",
+            "tennis",
             "yoga",
-            "dancing"
+            "boxing",
+            "cycling",
+            "skiing"
           ]
         },
         {
           "level": 2,
           "name": "Ball Sports",
           "words": [
-            "soccer",
-            "tennis",
-            "basketball",
-            "baseball",
-            "volleyball",
             "golf",
-            "cricket",
+            "baseball",
+            "soccer",
             "rugby",
-            "bowling",
-            "pool"
+            "cricket",
+            "tennis",
+            "bowling"
           ]
         },
         {
@@ -545,24 +449,20 @@
           "name": "Water Sports",
           "words": [
             "swimming",
-            "surfing",
             "diving",
-            "rowing",
             "sailing",
-            "kayaking",
-            "canoeing"
+            "surfing",
+            "rowing"
           ]
         },
         {
           "level": 4,
           "name": "Winter Sports",
           "words": [
-            "skiing",
-            "snowboarding",
             "hockey",
-            "curling",
             "skating",
-            "bobsled"
+            "skiing",
+            "curling"
           ]
         },
         {
@@ -570,23 +470,21 @@
           "name": "Combat Sports",
           "words": [
             "boxing",
-            "wrestling",
-            "judo",
-            "karate",
-            "taekwondo",
             "fencing",
-            "mma"
+            "karate",
+            "judo"
           ]
         },
         {
           "level": 6,
-          "name": "Racket Sports",
+          "name": "Tennis Terms",
           "words": [
+            "serve",
             "tennis",
-            "badminton",
+            "rally",
+            "smash",
             "squash",
-            "table tennis",
-            "racquetball"
+            "paddle"
           ]
         }
       ]
@@ -599,26 +497,13 @@
           "level": 1,
           "name": "Music",
           "words": [
-            "piano",
             "guitar",
-            "violin",
-            "drums",
-            "flute",
-            "cello",
-            "harp",
-            "trumpet",
-            "banjo",
+            "piano",
             "organ",
-            "bass",
-            "oboe",
-            "tuba",
-            "lute",
-            "fife",
-            "gong",
-            "horn",
-            "lyre",
-            "sitar",
-            "zither"
+            "drums",
+            "violin",
+            "trumpet",
+            "flute"
           ]
         },
         {
@@ -627,17 +512,8 @@
           "words": [
             "guitar",
             "violin",
-            "cello",
-            "harp",
-            "banjo",
-            "lute",
-            "lyre",
-            "sitar",
-            "zither",
-            "mandolin",
-            "ukulele",
-            "viola",
-            "fiddle"
+            "fiddle",
+            "banjo"
           ]
         },
         {
@@ -645,46 +521,43 @@
           "name": "Classical Instruments",
           "words": [
             "violin",
-            "cello",
-            "oboe",
             "flute",
-            "tuba",
-            "harp",
-            "viola",
-            "bassoon",
             "clarinet",
-            "piccolo",
-            "harpsichord"
+            "piccolo"
           ]
         },
         {
           "level": 4,
-          "name": "Orchestral Woodwinds",
+          "name": "Woodwind Instruments",
           "words": [
+            "whistle",
+            "recorder",
             "flute",
-            "oboe",
             "clarinet",
-            "bassoon",
-            "piccolo",
-            "saxophone"
+            "piccolo"
           ]
         },
         {
           "level": 5,
-          "name": "Double-Reed Woodwinds",
+          "name": "Percussion Instruments",
           "words": [
-            "oboe",
-            "bassoon",
-            "cor anglais",
-            "shawm"
+            "drum",
+            "triangle",
+            "gong",
+            "snare",
+            "chime"
           ]
         },
         {
           "level": 6,
-          "name": "Orchestral Double Reeds",
+          "name": "Popular Instruments",
           "words": [
-            "oboe",
-            "bassoon"
+            "guitar",
+            "piano",
+            "organ",
+            "drum",
+            "keyboard",
+            "violin"
           ]
         }
       ]
@@ -697,61 +570,45 @@
           "level": 1,
           "name": "Space",
           "words": [
-            "star",
-            "moon",
             "planet",
-            "comet",
-            "galaxy",
-            "nebula",
-            "orbit",
-            "crater",
-            "meteor",
-            "eclipse",
-            "rocket",
-            "asteroid",
-            "cosmos",
-            "aurora",
-            "void",
             "solar",
+            "rocket",
+            "galaxy",
+            "orbit",
+            "void",
+            "eclipse",
             "lunar",
-            "nova",
-            "quasar",
-            "pulsar"
+            "comet",
+            "asteroid",
+            "crater",
+            "meteor"
           ]
         },
         {
           "level": 2,
           "name": "Solar System Bodies",
           "words": [
+            "sun",
             "planet",
-            "moon",
+            "mercury",
+            "jupiter",
             "comet",
             "asteroid",
             "meteor",
-            "sun",
-            "saturn",
-            "mars",
-            "venus",
-            "jupiter",
-            "neptune",
-            "uranus",
-            "mercury",
-            "pluto"
+            "saturn"
           ]
         },
         {
           "level": 3,
           "name": "Planets",
           "words": [
+            "earth",
             "mercury",
-            "venus",
-            "mars",
             "jupiter",
             "saturn",
-            "uranus",
             "neptune",
-            "earth",
-            "pluto"
+            "pluto",
+            "uranus"
           ]
         },
         {
@@ -760,23 +617,30 @@
           "words": [
             "jupiter",
             "saturn",
-            "uranus",
-            "neptune"
+            "neptune",
+            "uranus"
           ]
         },
         {
           "level": 5,
-          "name": "Ringed Gas Giants",
+          "name": "Outer Planets",
           "words": [
+            "jupiter",
             "saturn",
+            "neptune",
             "uranus"
           ]
         },
         {
           "level": 6,
-          "name": "Famous Ringed Planets",
+          "name": "Space Travel",
           "words": [
-            "saturn"
+            "mission",
+            "launch",
+            "rocket",
+            "orbit",
+            "shuttle",
+            "capsule"
           ]
         }
       ]
@@ -789,86 +653,82 @@
           "level": 1,
           "name": "Places",
           "words": [
-            "ocean",
-            "river",
-            "mountain",
-            "valley",
-            "desert",
-            "forest",
-            "island",
-            "canyon",
-            "glacier",
-            "plateau",
-            "delta",
-            "cape",
-            "bay",
-            "gulf",
             "lake",
-            "marsh",
+            "mountain",
+            "ocean",
+            "desert",
+            "cape",
+            "gulf",
+            "delta",
+            "canyon",
             "reef",
-            "dune",
-            "cliff",
-            "fjord"
+            "plateau",
+            "glacier"
           ]
         },
         {
           "level": 2,
           "name": "Water Features",
           "words": [
-            "ocean",
-            "river",
             "lake",
-            "bay",
+            "ocean",
             "gulf",
             "delta",
-            "marsh",
-            "reef",
-            "fjord",
-            "strait",
-            "lagoon",
-            "waterfall",
-            "estuary"
+            "reef"
           ]
         },
         {
           "level": 3,
           "name": "Ocean Features",
           "words": [
+            "current",
+            "coast",
+            "gulf",
+            "ridge",
+            "basin",
+            "tide",
+            "shelf",
             "reef",
             "trench",
-            "gyre",
-            "shoal",
-            "atoll",
-            "seamount",
             "abyss"
           ]
         },
         {
           "level": 4,
-          "name": "Coral Reef Features",
+          "name": "Coastal Features",
           "words": [
+            "coast",
+            "cape",
+            "delta",
             "reef",
-            "atoll",
+            "inlet",
             "lagoon",
-            "shoal"
+            "dune"
           ]
         },
         {
           "level": 5,
-          "name": "Atoll Components",
+          "name": "Water Bodies",
           "words": [
-            "reef",
-            "lagoon",
-            "islet",
-            "atoll"
+            "sea",
+            "lake",
+            "ocean",
+            "stream",
+            "creek",
+            "swamp",
+            "lagoon"
           ]
         },
         {
           "level": 6,
-          "name": "Atoll Water Bodies",
+          "name": "Landforms",
           "words": [
-            "lagoon",
-            "atoll"
+            "peak",
+            "plain",
+            "desert",
+            "summit",
+            "jungle",
+            "canyon"
           ]
         }
       ]
@@ -882,83 +742,76 @@
           "name": "Drinks",
           "words": [
             "water",
-            "juice",
-            "tea",
-            "coffee",
-            "milk",
-            "soda",
             "wine",
+            "tea",
             "beer",
-            "cider",
-            "lemonade",
-            "cocoa",
-            "broth",
-            "punch",
+            "milk",
+            "juice",
             "shake",
-            "smoothie",
-            "whiskey",
+            "punch",
+            "soda",
             "vodka",
-            "rum",
-            "gin",
-            "tonic"
+            "whiskey",
+            "gin"
           ]
         },
         {
           "level": 2,
           "name": "Hot Drinks",
           "words": [
+            "water",
             "tea",
-            "coffee",
+            "milk",
             "cocoa",
-            "espresso",
-            "latte",
-            "cappuccino",
-            "chai",
-            "matcha",
-            "cider",
-            "tisane"
+            "cider"
           ]
         },
         {
           "level": 3,
-          "name": "Coffee Drinks",
+          "name": "Cold Drinks",
           "words": [
-            "espresso",
-            "latte",
-            "cappuccino",
-            "mocha",
-            "macchiato",
-            "americano",
-            "cortado"
+            "water",
+            "milk",
+            "juice",
+            "soda",
+            "cola",
+            "cider",
+            "lemonade",
+            "smoothie"
           ]
         },
         {
           "level": 4,
-          "name": "Espresso-Based Drinks",
+          "name": "Soft Drinks",
           "words": [
-            "latte",
-            "cappuccino",
-            "macchiato",
-            "americano",
-            "cortado"
+            "punch",
+            "soda",
+            "cola",
+            "squash",
+            "lemonade",
+            "tonic"
           ]
         },
         {
           "level": 5,
-          "name": "Milk-Forward Espresso",
+          "name": "Beer & Ale",
           "words": [
-            "latte",
-            "cappuccino",
-            "macchiato",
-            "cortado"
+            "beer",
+            "ale",
+            "cider",
+            "lager"
           ]
         },
         {
           "level": 6,
-          "name": "Frothy Espresso Drinks",
+          "name": "Spirits",
           "words": [
-            "cappuccino",
-            "macchiato"
+            "sake",
+            "punch",
+            "vodka",
+            "scotch",
+            "gin",
+            "rum"
           ]
         }
       ]
@@ -972,25 +825,17 @@
           "name": "Body Parts",
           "words": [
             "heart",
-            "brain",
-            "lung",
-            "liver",
-            "spine",
-            "knee",
-            "elbow",
-            "wrist",
-            "ankle",
-            "skull",
-            "hip",
-            "rib",
-            "jaw",
-            "ear",
             "eye",
+            "brain",
             "nose",
+            "hip",
+            "ear",
+            "knee",
+            "liver",
             "lip",
-            "shin",
-            "palm",
-            "heel"
+            "lung",
+            "skull",
+            "wrist"
           ]
         },
         {
@@ -999,13 +844,10 @@
           "words": [
             "heart",
             "brain",
-            "lung",
-            "liver",
-            "kidney",
             "stomach",
-            "spleen",
-            "pancreas",
-            "intestine",
+            "liver",
+            "lung",
+            "kidney",
             "bladder",
             "thyroid"
           ]
@@ -1016,36 +858,44 @@
           "words": [
             "heart",
             "brain",
-            "lung",
             "liver",
+            "lung",
             "kidney"
           ]
         },
         {
           "level": 4,
-          "name": "Thoracic Organs",
+          "name": "Chest Anatomy",
           "words": [
             "heart",
             "lung",
-            "aorta",
-            "thymus"
+            "spine",
+            "vein",
+            "artery",
+            "rib"
           ]
         },
         {
           "level": 5,
           "name": "Heart Structures",
           "words": [
-            "aorta",
-            "ventricle",
-            "atrium",
-            "valve"
+            "chamber",
+            "valve",
+            "pulse",
+            "vein",
+            "artery",
+            "atrium"
           ]
         },
         {
           "level": 6,
-          "name": "Heart Chambers",
+          "name": "Circulation",
           "words": [
-            "ventricle",
+            "heart",
+            "valve",
+            "pulse",
+            "vein",
+            "artery",
             "atrium"
           ]
         }
@@ -1060,91 +910,74 @@
           "name": "Technology",
           "words": [
             "phone",
-            "laptop",
-            "server",
-            "router",
-            "screen",
-            "mouse",
-            "keyboard",
-            "printer",
-            "scanner",
-            "tablet",
+            "code",
             "camera",
-            "drone",
-            "sensor",
-            "chip",
+            "screen",
             "cable",
-            "modem",
             "cloud",
-            "pixel",
-            "byte",
-            "code"
+            "mouse",
+            "laptop",
+            "keyboard",
+            "tablet",
+            "drone",
+            "printer"
           ]
         },
         {
           "level": 2,
           "name": "Computer Hardware",
           "words": [
-            "chip",
-            "processor",
-            "ram",
-            "gpu",
-            "cpu",
-            "motherboard",
-            "hard drive",
-            "ssd",
-            "keyboard",
-            "mouse",
-            "monitor",
-            "fan",
+            "cable",
             "battery",
-            "port",
-            "cable"
+            "monitor",
+            "mouse",
+            "keyboard"
           ]
         },
         {
           "level": 3,
           "name": "Processing Components",
           "words": [
-            "chip",
-            "processor",
-            "cpu",
-            "gpu",
-            "ram",
+            "bus",
+            "core",
+            "register",
+            "clock",
             "cache",
-            "register"
+            "byte"
           ]
         },
         {
           "level": 4,
           "name": "CPU Components",
           "words": [
+            "bus",
             "core",
-            "cache",
             "register",
-            "transistor",
-            "alu",
-            "bus"
+            "cache"
           ]
         },
         {
           "level": 5,
-          "name": "CPU Cache Types",
+          "name": "Computer Memory",
           "words": [
-            "l1",
-            "l2",
-            "l3",
+            "register",
+            "stack",
+            "disk",
+            "buffer",
             "cache",
-            "register"
+            "heap"
           ]
         },
         {
           "level": 6,
-          "name": "CPU Cache Levels",
+          "name": "Computing Terms",
           "words": [
-            "l1",
-            "l2",
-            "l3"
+            "register",
+            "stack",
+            "buffer",
+            "cache",
+            "kernel",
+            "byte"
           ]
         }
       ]
@@ -1158,82 +991,74 @@
           "name": "Weather",
           "words": [
             "rain",
-            "snow",
-            "wind",
-            "fog",
-            "hail",
-            "sleet",
-            "frost",
-            "storm",
             "cloud",
             "thunder",
-            "lightning",
-            "mist",
-            "drizzle",
-            "blizzard",
-            "tornado",
-            "cyclone",
             "rainbow",
-            "sunshine",
+            "hail",
+            "fog",
             "humidity",
-            "dew"
+            "tornado",
+            "mist",
+            "blizzard",
+            "cyclone"
           ]
         },
         {
           "level": 2,
           "name": "Precipitation",
           "words": [
-            "rain",
-            "snow",
-            "hail",
-            "sleet",
-            "drizzle",
-            "mist",
-            "frost",
-            "dew",
             "ice",
-            "freezing rain"
+            "rain",
+            "hail",
+            "mist"
           ]
         },
         {
           "level": 3,
-          "name": "Frozen Precipitation",
+          "name": "Weather Types",
           "words": [
-            "snow",
-            "hail",
-            "sleet",
-            "frost",
             "ice",
+            "shower",
+            "thunder",
+            "hail",
+            "fog",
+            "mist",
             "blizzard",
-            "freezing rain"
+            "drizzle"
           ]
         },
         {
           "level": 4,
-          "name": "Winter Storms",
+          "name": "Storms",
           "words": [
+            "shower",
+            "thunder",
+            "hail",
+            "tornado",
             "blizzard",
-            "snowstorm",
-            "ice storm",
-            "whiteout",
-            "northeaster"
+            "cyclone"
           ]
         },
         {
           "level": 5,
-          "name": "Heavy Snowstorms",
+          "name": "Severe Weather",
           "words": [
+            "thunder",
+            "hail",
+            "tornado",
             "blizzard",
-            "whiteout",
-            "snowsquall"
+            "cyclone"
           ]
         },
         {
           "level": 6,
-          "name": "Blizzard Conditions",
+          "name": "Cold Weather",
           "words": [
-            "blizzard",
-            "whiteout"
+            "ice",
+            "hail",
+            "fog",
+            "mist",
+            "blizzard"
           ]
         }
       ]
@@ -1246,26 +1071,18 @@
           "level": 1,
           "name": "Clothing",
           "words": [
-            "shirt",
-            "pants",
             "dress",
-            "coat",
-            "jacket",
-            "skirt",
-            "shoes",
-            "boots",
-            "hat",
-            "scarf",
-            "gloves",
-            "socks",
             "suit",
-            "jeans",
-            "vest",
-            "blazer",
-            "shorts",
+            "shoes",
+            "shirt",
+            "hat",
             "tie",
+            "pants",
             "belt",
-            "cardigan"
+            "coat",
+            "boots",
+            "jacket",
+            "jeans"
           ]
         },
         {
@@ -1274,15 +1091,9 @@
           "words": [
             "coat",
             "jacket",
-            "blazer",
-            "cardigan",
+            "cape",
             "vest",
-            "parka",
-            "raincoat",
-            "trench coat",
-            "poncho",
-            "cloak",
-            "cape"
+            "cloak"
           ]
         },
         {
@@ -1290,41 +1101,44 @@
           "name": "Formal Outerwear",
           "words": [
             "coat",
-            "blazer",
             "jacket",
-            "trench coat",
             "cape",
             "cloak",
-            "overcoat"
+            "blazer"
           ]
         },
         {
           "level": 4,
           "name": "Tailored Jackets",
           "words": [
+            "coat",
+            "jacket",
+            "vest",
+            "jumper",
             "blazer",
-            "suit jacket",
-            "sports coat",
-            "dinner jacket",
-            "morning coat"
+            "cardigan"
           ]
         },
         {
           "level": 5,
-          "name": "Evening Tailoring",
+          "name": "Formal Wear",
           "words": [
-            "dinner jacket",
-            "tuxedo",
-            "morning coat",
-            "tailcoat"
+            "suit",
+            "gown",
+            "vest",
+            "blazer",
+            "tuxedo"
           ]
         },
         {
           "level": 6,
-          "name": "Black Tie Garments",
+          "name": "Suits & Coats",
           "words": [
-            "tuxedo",
-            "dinner jacket"
+            "suit",
+            "coat",
+            "vest",
+            "blazer",
+            "tuxedo"
           ]
         }
       ]
@@ -1338,81 +1152,75 @@
           "name": "Buildings",
           "words": [
             "house",
-            "tower",
-            "bridge",
-            "castle",
-            "church",
-            "temple",
-            "mosque",
-            "stadium",
-            "museum",
-            "library",
             "school",
             "hospital",
-            "factory",
-            "barn",
-            "garage",
-            "palace",
+            "library",
             "prison",
-            "bunker",
-            "lighthouse",
-            "windmill"
+            "museum",
+            "stadium",
+            "factory",
+            "palace",
+            "garage",
+            "mosque"
           ]
         },
         {
           "level": 2,
           "name": "Religious Buildings",
           "words": [
-            "church",
-            "temple",
             "mosque",
-            "cathedral",
-            "synagogue",
-            "chapel",
-            "monastery",
             "shrine",
-            "pagoda",
-            "basilica"
+            "convent",
+            "basilica",
+            "priory"
           ]
         },
         {
           "level": 3,
-          "name": "Christian Worship",
+          "name": "Worship Buildings",
           "words": [
-            "church",
-            "cathedral",
-            "chapel",
+            "mosque",
+            "shrine",
+            "convent",
             "basilica",
-            "monastery",
-            "abbey",
             "priory"
           ]
         },
         {
           "level": 4,
-          "name": "Large Christian Buildings",
+          "name": "Grand Buildings",
           "words": [
-            "cathedral",
+            "fort",
+            "palace",
+            "mansion",
+            "shrine",
+            "dungeon",
             "basilica",
-            "abbey",
             "priory"
           ]
         },
         {
           "level": 5,
-          "name": "Medieval Abbeys",
+          "name": "Castles & Keeps",
           "words": [
-            "abbey",
-            "priory",
-            "monastery",
-            "convent"
+            "keep",
+            "fort",
+            "palace",
+            "mansion",
+            "dungeon",
+            "convent",
+            "moat"
           ]
         },
         {
           "level": 6,
-          "name": "Monastic Buildings",
+          "name": "Forts & Keeps",
           "words": [
-            "abbey",
+            "keep",
+            "fort",
+            "palace",
+            "dungeon",
+            "moat",
             "priory"
           ]
         }
@@ -1426,86 +1234,74 @@
           "level": 1,
           "name": "Writing",
           "words": [
+            "play",
+            "letter",
             "novel",
+            "script",
+            "epic",
             "poem",
             "essay",
-            "letter",
-            "diary",
-            "story",
-            "script",
-            "play",
-            "myth",
-            "fable",
-            "sonnet",
-            "prose",
             "verse",
-            "epic",
-            "lyric",
-            "satire",
-            "memoir",
+            "diary",
+            "myth",
             "thesis",
-            "parable",
-            "allegory"
+            "memoir"
           ]
         },
         {
           "level": 2,
           "name": "Poetic Forms",
           "words": [
-            "sonnet",
-            "haiku",
-            "limerick",
-            "ballad",
-            "ode",
-            "elegy",
             "epic",
-            "lyric",
             "verse",
-            "couplet",
-            "stanza",
-            "sestina"
+            "lyric",
+            "ballad"
           ]
         },
         {
           "level": 3,
           "name": "Structured Poem Types",
           "words": [
-            "sonnet",
-            "haiku",
-            "limerick",
+            "epic",
             "ballad",
-            "villanelle",
-            "sestina",
-            "pantoum"
+            "haiku",
+            "limerick"
           ]
         },
         {
           "level": 4,
-          "name": "Fixed-Form Poems",
+          "name": "Poetry Forms",
           "words": [
-            "sonnet",
-            "villanelle",
-            "sestina",
-            "pantoum",
-            "ghazal"
+            "epic",
+            "verse",
+            "lyric",
+            "ballad",
+            "haiku",
+            "limerick"
           ]
         },
         {
           "level": 5,
-          "name": "French-Origin Forms",
+          "name": "Poetry Terms",
           "words": [
-            "villanelle",
-            "pantoum",
-            "sestina",
-            "rondel"
+            "poem",
+            "verse",
+            "prose",
+            "lyric",
+            "rhyme",
+            "stanza"
           ]
         },
         {
           "level": 6,
-          "name": "Refrain-Based Forms",
+          "name": "Writing Forms",
           "words": [
-            "villanelle",
-            "pantoum"
+            "novel",
+            "fiction",
+            "poem",
+            "essay",
+            "prose",
+            "fable"
           ]
         }
       ]
@@ -1518,84 +1314,77 @@
           "level": 1,
           "name": "Science",
           "words": [
-            "atom",
-            "cell",
-            "gene",
-            "mass",
-            "force",
-            "energy",
-            "light",
-            "heat",
-            "gravity",
             "matter",
-            "wave",
+            "energy",
+            "force",
             "charge",
-            "field",
-            "bond",
+            "cell",
+            "mass",
+            "heat",
+            "wave",
             "acid",
-            "base",
-            "ion",
-            "photon",
-            "neutron",
-            "proton"
+            "gravity",
+            "atom"
           ]
         },
         {
           "level": 2,
           "name": "Atomic Particles",
           "words": [
-            "proton",
-            "neutron",
             "electron",
-            "photon",
-            "quark",
-            "boson",
-            "lepton",
-            "muon",
-            "neutrino",
-            "positron"
+            "neutron",
+            "proton",
+            "photon"
           ]
         },
         {
           "level": 3,
           "name": "Quarks & Leptons",
           "words": [
-            "quark",
-            "lepton",
-            "muon",
-            "neutrino",
+            "electron",
+            "atom",
+            "neutron",
+            "proton",
             "tau",
-            "gluon"
+            "quark"
           ]
         },
         {
           "level": 4,
-          "name": "Standard Model Fermions",
+          "name": "Subatomic",
           "words": [
-            "quark",
-            "lepton",
-            "muon",
+            "electron",
+            "atom",
+            "neutron",
+            "proton",
             "tau",
-            "neutrino"
+            "isotope",
+            "quark"
           ]
         },
         {
           "level": 5,
-          "name": "Lepton Family",
+          "name": "Atomic Physics",
           "words": [
+            "energy",
             "electron",
-            "muon",
-            "tau",
-            "neutrino"
+            "atom",
+            "molecule",
+            "neutron",
+            "proton",
+            "tau"
           ]
         },
         {
           "level": 6,
-          "name": "Charged Leptons",
+          "name": "Particles",
           "words": [
             "electron",
-            "muon",
-            "tau"
+            "atom",
+            "neutron",
+            "proton",
+            "tau",
+            "isotope"
           ]
         }
       ]
@@ -1608,93 +1397,74 @@
           "level": 1,
           "name": "Mythology",
           "words": [
-            "zeus",
-            "odin",
-            "thor",
-            "apollo",
-            "athena",
-            "hermes",
-            "ares",
-            "hades",
-            "poseidon",
-            "artemis",
-            "hera",
-            "aphrodite",
+            "shiva",
             "loki",
-            "freya",
-            "osiris",
-            "isis",
-            "ra",
-            "anubis",
-            "vishnu",
-            "shiva"
+            "hades",
+            "poseidon"
           ]
         },
         {
           "level": 2,
-          "name": "Greek Gods",
+          "name": "Mythical Beings",
           "words": [
-            "zeus",
-            "apollo",
-            "athena",
-            "hermes",
-            "ares",
-            "hades",
-            "poseidon",
-            "artemis",
-            "hera",
-            "aphrodite",
-            "hephaestus",
-            "dionysus",
-            "demeter",
-            "persephone"
+            "giant",
+            "witch",
+            "fairy",
+            "wizard",
+            "dwarf",
+            "oracle",
+            "titan",
+            "elf"
           ]
         },
         {
           "level": 3,
-          "name": "Olympian Gods",
+          "name": "Mythical Creatures",
           "words": [
-            "zeus",
-            "hera",
-            "poseidon",
-            "demeter",
-            "athena",
-            "apollo",
-            "artemis",
-            "ares",
-            "aphrodite",
-            "hephaestus",
-            "hermes",
-            "dionysus"
+            "phoenix",
+            "unicorn",
+            "mermaid",
+            "hydra",
+            "cyclops",
+            "medusa",
+            "ogre",
+            "poseidon"
           ]
         },
         {
           "level": 4,
-          "name": "Zeus's Children on Olympus",
+          "name": "Legendary Creatures",
           "words": [
-            "athena",
-            "apollo",
-            "artemis",
-            "ares",
-            "hermes",
-            "hephaestus",
-            "dionysus"
+            "phoenix",
+            "unicorn",
+            "mermaid",
+            "hydra",
+            "cyclops",
+            "medusa"
           ]
         },
         {
           "level": 5,
-          "name": "Twin Olympians",
+          "name": "Legendary Figures",
           "words": [
-            "apollo",
-            "artemis"
+            "witch",
+            "fairy",
+            "wizard",
+            "oracle",
+            "titan",
+            "siren"
           ]
         },
         {
           "level": 6,
-          "name": "Children of Leto",
+          "name": "Fantasy Races",
           "words": [
-            "apollo",
-            "artemis"
+            "giant",
+            "fairy",
+            "dwarf",
+            "troll",
+            "elf",
+            "goblin"
           ]
         }
       ]
@@ -1707,91 +1477,76 @@
           "level": 1,
           "name": "Sea Creatures",
           "words": [
+            "seal",
             "shark",
-            "whale",
-            "dolphin",
-            "squid",
-            "octopus",
+            "cod",
+            "shrimp",
             "crab",
             "lobster",
-            "shrimp",
-            "clam",
-            "oyster",
-            "seal",
-            "otter",
             "tuna",
-            "salmon",
-            "cod",
-            "eel",
-            "ray",
-            "jellyfish",
-            "seahorse",
-            "starfish"
+            "oyster"
           ]
         },
         {
           "level": 2,
-          "name": "Marine Mammals",
+          "name": "Marine Animals",
           "words": [
-            "whale",
-            "dolphin",
             "seal",
-            "otter",
-            "manatee",
-            "walrus",
-            "porpoise",
-            "sea lion",
-            "dugong"
+            "shark",
+            "shrimp",
+            "crab",
+            "lobster",
+            "sponge",
+            "oyster"
           ]
         },
         {
           "level": 3,
-          "name": "Cetaceans",
+          "name": "Shellfish",
           "words": [
-            "whale",
-            "dolphin",
-            "porpoise",
-            "orca",
-            "narwhal",
-            "beluga",
-            "sperm whale",
-            "humpback",
-            "minke"
+            "shrimp",
+            "crab",
+            "lobster",
+            "oyster",
+            "octopus",
+            "squid",
+            "clam"
           ]
         },
         {
           "level": 4,
-          "name": "Great Whales",
+          "name": "Sea Fish",
           "words": [
-            "humpback",
-            "blue whale",
-            "fin whale",
-            "sperm whale",
-            "bowhead",
-            "right whale"
+            "sole",
+            "shark",
+            "cod",
+            "tuna",
+            "catfish",
+            "eel",
+            "mackerel"
           ]
         },
         {
           "level": 5,
-          "name": "Baleen Whales",
+          "name": "Sea Predators",
           "words": [
-            "humpback",
-            "blue whale",
-            "fin whale",
-            "bowhead",
-            "right whale",
-            "minke"
+            "seal",
+            "shark",
+            "octopus",
+            "squid",
+            "eel"
           ]
         },
         {
           "level": 6,
-          "name": "Rorqual Whales",
+          "name": "Ocean Life",
           "words": [
-            "humpback",
-            "blue whale",
-            "fin whale",
-            "minke",
-            "sei whale"
+            "shrimp",
+            "crab",
+            "sponge",
+            "oyster",
+            "clam",
+            "plankton"
           ]
         }
       ]
@@ -1804,87 +1559,75 @@
           "level": 1,
           "name": "Hobbies",
           "words": [
-            "chess",
-            "poker",
-            "tennis",
-            "golf",
-            "hiking",
-            "painting",
-            "cooking",
             "reading",
-            "cycling",
-            "swimming",
-            "knitting",
-            "gardening",
-            "fishing",
-            "dancing",
-            "gaming",
-            "photography",
-            "yoga",
-            "sculpting",
+            "painting",
             "singing",
-            "drawing"
+            "drawing",
+            "golf",
+            "dancing",
+            "fishing",
+            "cooking",
+            "swimming",
+            "gaming",
+            "tennis",
+            "yoga"
           ]
         },
         {
           "level": 2,
           "name": "Board & Card Games",
           "words": [
-            "chess",
             "poker",
-            "bridge",
-            "draughts",
-            "backgammon",
-            "scrabble",
-            "cribbage",
-            "canasta",
-            "rummy",
-            "mahjong",
-            "go",
-            "checkers"
+            "chess",
+            "checkers",
+            "scrabble"
           ]
         },
         {
           "level": 3,
-          "name": "Strategy Board Games",
+          "name": "Board Games",
           "words": [
+            "poker",
             "chess",
-            "go",
-            "draughts",
-            "backgammon",
-            "checkers",
-            "othello",
-            "reversi"
+            "dice",
+            "bingo",
+            "domino",
+            "checkers"
           ]
         },
         {
           "level": 4,
-          "name": "Ancient Strategy Games",
+          "name": "Card & Board",
           "words": [
+            "hearts",
+            "poker",
             "chess",
-            "go",
-            "draughts",
-            "backgammon",
-            "senet",
-            "mancala"
+            "dice",
+            "bingo",
+            "domino"
           ]
         },
         {
           "level": 5,
-          "name": "Two-Player Abstract",
+          "name": "Puzzles & Games",
           "words": [
+            "puzzle",
             "chess",
-            "go",
-            "draughts",
-            "reversi"
+            "bingo",
+            "trivia",
+            "domino",
+            "checkers"
           ]
         },
         {
           "level": 6,
-          "name": "Classic Two-Player Boards",
+          "name": "Classic Boards",
           "words": [
             "chess",
-            "go"
+            "dice",
+            "bingo",
+            "domino",
+            "checkers"
           ]
         }
       ]
@@ -1897,26 +1640,18 @@
           "level": 1,
           "name": "Emotions",
           "words": [
-            "joy",
             "fear",
-            "anger",
-            "sadness",
-            "disgust",
             "surprise",
-            "trust",
-            "anticipation",
-            "love",
-            "shame",
-            "guilt",
-            "envy",
-            "pride",
-            "awe",
-            "grief",
-            "hope",
             "relief",
-            "anxiety",
+            "shame",
             "calm",
-            "boredom"
+            "anxiety",
+            "anger",
+            "guilt",
+            "grief",
+            "sadness",
+            "envy",
+            "awe"
           ]
         },
         {
@@ -1924,18 +1659,16 @@
           "name": "Negative Emotions",
           "words": [
             "fear",
-            "anger",
-            "sadness",
-            "disgust",
             "shame",
-            "guilt",
-            "envy",
-            "grief",
             "anxiety",
+            "anger",
+            "guilt",
+            "grief",
+            "sadness",
+            "envy",
             "despair",
-            "resentment",
-            "jealousy",
             "contempt",
+            "jealousy",
             "dread"
           ]
         },
@@ -1946,11 +1679,8 @@
             "shame",
             "guilt",
             "envy",
-            "pride",
-            "embarrassment",
             "contempt",
-            "jealousy",
-            "humiliation"
+            "jealousy"
           ]
         },
         {
@@ -1959,9 +1689,9 @@
           "words": [
             "shame",
             "guilt",
-            "pride",
-            "embarrassment",
-            "humiliation"
+            "envy",
+            "jealousy",
+            "remorse"
           ]
         },
         {
@@ -1969,8 +1699,9 @@
           "name": "Morally Evaluative",
           "words": [
             "shame",
+            "regret",
             "guilt",
-            "pride",
+            "disgust",
             "remorse"
           ]
         },
@@ -1979,6 +1710,7 @@
           "name": "Guilt-Adjacent Emotions",
           "words": [
             "shame",
+            "regret",
             "guilt",
             "remorse"
           ]
@@ -1993,25 +1725,14 @@
           "level": 1,
           "name": "Kitchen Items",
           "words": [
+            "scale",
+            "bowl",
             "knife",
             "pot",
-            "pan",
-            "bowl",
+            "oven",
             "fork",
             "spoon",
-            "ladle",
-            "whisk",
-            "sieve",
-            "spatula",
-            "grater",
-            "colander",
-            "tongs",
-            "peeler",
             "timer",
-            "scale",
-            "blender",
-            "oven",
-            "toaster",
             "kettle"
           ]
         },
@@ -2020,17 +1741,9 @@
           "name": "Cooking Vessels",
           "words": [
             "pot",
-            "pan",
-            "wok",
-            "skillet",
-            "saucepan",
-            "casserole",
-            "stockpot",
-            "dutch oven",
-            "roaster",
-            "baking dish",
-            "ramekin",
-            "tagine"
+            "oven",
+            "stove",
+            "kettle"
           ]
         },
         {
@@ -2038,41 +1751,46 @@
           "name": "Stovetop Vessels",
           "words": [
             "pot",
-            "pan",
-            "wok",
+            "kettle",
             "skillet",
-            "saucepan",
-            "stockpot",
-            "dutch oven"
+            "saucepan"
           ]
         },
         {
           "level": 4,
-          "name": "Cast Iron Cookware",
+          "name": "Kitchen Appliances",
           "words": [
-            "skillet",
-            "dutch oven",
-            "griddle",
-            "grill pan",
-            "brazier"
+            "oven",
+            "fridge",
+            "stove",
+            "freezer",
+            "kettle",
+            "blender",
+            "toaster",
+            "skillet"
           ]
         },
         {
           "level": 5,
-          "name": "Enameled Cast Iron",
+          "name": "Kitchen Tools",
           "words": [
-            "dutch oven",
-            "braiser",
-            "cocotte",
-            "casserole"
+            "cup",
+            "bowl",
+            "knife",
+            "fork",
+            "spoon",
+            "whisk"
           ]
         },
         {
           "level": 6,
-          "name": "French Casserole Types",
+          "name": "Tableware",
           "words": [
-            "cocotte",
-            "casserole"
+            "cup",
+            "bowl",
+            "knife",
+            "fork",
+            "spoon"
           ]
         }
       ]
@@ -2085,25 +1803,16 @@
           "level": 1,
           "name": "School",
           "words": [
-            "pencil",
-            "ruler",
-            "chalk",
-            "notebook",
-            "eraser",
-            "pen",
-            "compass",
-            "protractor",
-            "globe",
-            "atlas",
-            "dictionary",
-            "calculator",
-            "textbook",
-            "folder",
-            "binder",
             "desk",
-            "blackboard",
+            "globe",
+            "pencil",
             "marker",
-            "stapler",
+            "ruler",
+            "textbook",
+            "compass",
+            "folder",
+            "notebook",
+            "chalk",
             "scissors"
           ]
         },
@@ -2111,17 +1820,11 @@
           "level": 2,
           "name": "Writing Tools",
           "words": [
-            "pencil",
-            "pen",
-            "chalk",
-            "marker",
-            "crayon",
-            "charcoal",
-            "quill",
-            "stylus",
             "brush",
-            "highlighter",
-            "grease pencil"
+            "pencil",
+            "marker",
+            "chalk",
+            "charcoal"
           ]
         },
         {
@@ -2129,39 +1832,45 @@
           "name": "Graphite-Based Tools",
           "words": [
             "pencil",
-            "mechanical pencil",
-            "graphite",
             "charcoal",
+            "graphite",
             "crayon"
           ]
         },
         {
           "level": 4,
-          "name": "Types of Pencil",
+          "name": "Stationery",
           "words": [
-            "mechanical pencil",
-            "colored pencil",
-            "grease pencil",
-            "carpenter pencil",
-            "kohl pencil"
+            "paper",
+            "pencil",
+            "marker",
+            "ruler",
+            "notebook",
+            "chalk",
+            "crayon"
           ]
         },
         {
           "level": 5,
-          "name": "Drawing Pencils",
+          "name": "Drawing Tools",
           "words": [
-            "mechanical pencil",
-            "colored pencil",
-            "charcoal pencil",
-            "kohl pencil"
+            "pencil",
+            "marker",
+            "slate",
+            "chalk",
+            "crayon"
           ]
         },
         {
           "level": 6,
-          "name": "Pigment Pencils",
+          "name": "Art Supplies",
           "words": [
-            "colored pencil",
-            "kohl pencil"
+            "paint",
+            "brush",
+            "sketch",
+            "canvas",
+            "palette",
+            "chalk"
           ]
         }
       ]
@@ -2174,92 +1883,69 @@
           "level": 1,
           "name": "Insects",
           "words": [
-            "bee",
-            "ant",
             "fly",
-            "moth",
-            "beetle",
-            "wasp",
             "cricket",
-            "grasshopper",
-            "ladybug",
-            "dragonfly",
-            "butterfly",
-            "termite",
-            "mantis",
-            "firefly",
-            "aphid",
-            "flea",
+            "ant",
             "tick",
-            "louse",
-            "gnat",
-            "midge"
+            "beetle"
           ]
         },
         {
           "level": 2,
           "name": "Flying Insects",
           "words": [
-            "bee",
             "fly",
-            "moth",
-            "wasp",
-            "dragonfly",
-            "butterfly",
-            "gnat",
-            "midge",
-            "horsefly",
+            "cricket",
+            "ant",
             "mosquito",
-            "mayfly",
-            "lacewing"
+            "beetle"
           ]
         },
         {
           "level": 3,
-          "name": "Butterflies & Moths",
+          "name": "Butterflies",
           "words": [
-            "butterfly",
-            "moth",
-            "skipper",
-            "hawkmoth",
-            "burnet",
-            "swallowtail",
-            "monarch",
+            "emperor",
             "admiral",
-            "tortoiseshell"
-          ]
-        },
-        {
-          "level": 4,
-          "name": "True Butterflies",
-          "words": [
-            "swallowtail",
             "monarch",
-            "admiral",
-            "tortoiseshell",
-            "brimstone",
-            "cabbage white",
-            "painted lady"
-          ]
-        },
-        {
-          "level": 5,
-          "name": "Nymphalid Butterflies",
-          "words": [
-            "monarch",
-            "admiral",
-            "tortoiseshell",
-            "painted lady",
-            "peacock",
             "comma"
           ]
         },
         {
-          "level": 6,
-          "name": "Vanessa Genus",
+          "level": 4,
+          "name": "Common Insects",
           "words": [
+            "fly",
+            "cricket",
             "admiral",
-            "painted lady",
+            "ant",
+            "monarch",
+            "beetle",
+            "wasp"
+          ]
+        },
+        {
+          "level": 5,
+          "name": "Garden Insects",
+          "words": [
+            "fly",
+            "cricket",
+            "admiral",
+            "ant",
+            "monarch",
+            "beetle",
+            "wasp"
+          ]
+        },
+        {
+          "level": 6,
+          "name": "Garden Bugs",
+          "words": [
+            "fly",
+            "cricket",
+            "admiral",
+            "ant",
+            "beetle",
             "comma"
           ]
         }
@@ -2273,26 +1959,18 @@
           "level": 1,
           "name": "Military",
           "words": [
-            "sword",
-            "cannon",
-            "shield",
-            "armor",
-            "siege",
-            "cavalry",
-            "infantry",
-            "navy",
-            "fort",
-            "trench",
-            "missile",
             "bomb",
+            "navy",
             "tank",
+            "fort",
+            "sword",
+            "shield",
             "radar",
-            "bunker",
-            "grenade",
             "rifle",
-            "pistol",
-            "bayonet",
-            "mortar"
+            "missile",
+            "armor",
+            "infantry",
+            "pistol"
           ]
         },
         {
@@ -2300,62 +1978,53 @@
           "name": "Medieval Weapons",
           "words": [
             "sword",
-            "lance",
-            "mace",
-            "crossbow",
-            "longbow",
-            "pike",
-            "halberd",
-            "flail",
             "dagger",
-            "spear",
-            "axe",
-            "catapult",
-            "trebuchet",
-            "ballista"
+            "crossbow",
+            "catapult"
           ]
         },
         {
           "level": 3,
-          "name": "Pole Weapons",
+          "name": "Weapons",
           "words": [
-            "lance",
-            "pike",
-            "halberd",
-            "spear",
-            "glaive",
-            "voulge",
-            "partizan",
-            "spontoon"
+            "sword",
+            "shield",
+            "rifle",
+            "arrow",
+            "helmet",
+            "armor",
+            "dagger"
           ]
         },
         {
           "level": 4,
-          "name": "Staff Weapons",
+          "name": "Melee Weapons",
           "words": [
-            "pike",
-            "halberd",
-            "glaive",
-            "voulge",
-            "partizan"
+            "sword",
+            "shield",
+            "armor",
+            "dagger"
           ]
         },
         {
           "level": 5,
-          "name": "Swiss Infantry Weapons",
+          "name": "Battle Gear",
           "words": [
-            "pike",
-            "halberd",
-            "voulge",
-            "partizan"
+            "sword",
+            "shield",
+            "helmet",
+            "armor"
           ]
         },
         {
           "level": 6,
-          "name": "Halberd Variants",
+          "name": "Battlefield Gear",
           "words": [
-            "halberd",
-            "voulge"
+            "sword",
+            "shield",
+            "helmet",
+            "armor",
+            "dagger"
           ]
         }
       ]
@@ -2368,88 +2037,73 @@
           "level": 1,
           "name": "Environment",
           "words": [
-            "forest",
-            "ocean",
-            "glacier",
-            "wetland",
-            "savanna",
-            "tundra",
-            "coral",
-            "soil",
-            "climate",
-            "carbon",
-            "ozone",
-            "biodiversity",
-            "ecosystem",
-            "habitat",
-            "erosion",
-            "drought",
-            "flood",
-            "pollution",
             "species",
-            "biome"
+            "climate",
+            "ocean",
+            "carbon",
+            "soil",
+            "flood",
+            "habitat",
+            "drought",
+            "erosion",
+            "glacier"
           ]
         },
         {
           "level": 2,
           "name": "Ecosystems",
           "words": [
-            "forest",
             "ocean",
-            "wetland",
-            "savanna",
-            "tundra",
-            "grassland",
             "desert",
-            "taiga",
-            "mangrove",
-            "estuary",
             "bog",
-            "fen",
-            "heath",
-            "chaparral"
+            "estuary"
           ]
         },
         {
           "level": 3,
-          "name": "Forest Types",
+          "name": "Biomes",
           "words": [
-            "rainforest",
-            "taiga",
-            "boreal",
-            "temperate",
-            "deciduous",
-            "cloud forest",
-            "mangrove",
-            "gallery forest"
+            "desert",
+            "jungle",
+            "swamp",
+            "prairie",
+            "woodland",
+            "bog",
+            "wetland",
+            "tundra"
           ]
         },
         {
           "level": 4,
-          "name": "Tropical Forests",
+          "name": "Habitats",
           "words": [
-            "rainforest",
-            "cloud forest",
-            "mangrove",
-            "gallery forest",
-            "monsoon forest"
+            "jungle",
+            "swamp",
+            "woodland",
+            "bog",
+            "wetland"
           ]
         },
         {
           "level": 5,
-          "name": "Tropical Moist Forests",
+          "name": "Landscapes",
           "words": [
-            "rainforest",
-            "cloud forest",
-            "monsoon forest"
+            "desert",
+            "canyon",
+            "prairie",
+            "plateau",
+            "tundra"
           ]
         },
         {
           "level": 6,
-          "name": "Highland Tropical Forests",
+          "name": "Wild Places",
           "words": [
-            "cloud forest",
-            "elfin forest"
+            "desert",
+            "jungle",
+            "swamp",
+            "bog",
+            "tundra"
           ]
         }
       ]
@@ -2462,26 +2116,18 @@
           "level": 1,
           "name": "Medical",
           "words": [
-            "fever",
-            "pulse",
-            "diagnosis",
-            "surgery",
-            "vaccine",
-            "allergy",
-            "fracture",
             "cancer",
-            "virus",
-            "bacteria",
-            "immunity",
-            "dose",
+            "surgery",
             "therapy",
+            "virus",
+            "fever",
+            "dose",
+            "bacteria",
             "scan",
-            "biopsy",
-            "anesthesia",
-            "suture",
-            "scalpel",
-            "catheter",
-            "prognosis"
+            "pulse",
+            "vaccine",
+            "immunity",
+            "fracture"
           ]
         },
         {
@@ -2489,63 +2135,57 @@
           "name": "Medical Procedures",
           "words": [
             "surgery",
-            "biopsy",
             "scan",
-            "suture",
-            "catheter",
-            "transplant",
+            "biopsy",
             "dialysis",
-            "chemotherapy",
-            "radiation",
-            "amputation",
-            "endoscopy",
-            "intubation"
+            "catheter"
           ]
         },
         {
           "level": 3,
-          "name": "Diagnostic Procedures",
+          "name": "Treatments",
           "words": [
-            "biopsy",
+            "surgery",
+            "therapy",
+            "dose",
             "scan",
-            "endoscopy",
-            "colonoscopy",
-            "ultrasound",
-            "mri",
-            "x-ray",
-            "ct scan",
-            "ecg",
-            "eeg"
+            "pill",
+            "vaccine",
+            "remedy",
+            "aspirin",
+            "biopsy"
           ]
         },
         {
           "level": 4,
-          "name": "Imaging Diagnostics",
+          "name": "Medicine Types",
           "words": [
-            "ultrasound",
-            "mri",
-            "x-ray",
-            "ct scan",
-            "pet scan",
-            "fluoroscopy"
+            "therapy",
+            "dose",
+            "pill",
+            "vaccine",
+            "remedy",
+            "aspirin"
           ]
         },
         {
           "level": 5,
-          "name": "Cross-Sectional Imaging",
+          "name": "Tests & Scans",
           "words": [
-            "mri",
-            "ct scan",
-            "pet scan",
-            "spect"
+            "test",
+            "dose",
+            "scan",
+            "biopsy"
           ]
         },
         {
           "level": 6,
-          "name": "Nuclear Imaging",
+          "name": "Medical Tests",
           "words": [
-            "pet scan",
-            "spect"
+            "test",
+            "fever",
+            "scan",
+            "biopsy"
           ]
         }
       ]
@@ -2558,87 +2198,65 @@
           "level": 1,
           "name": "Colors",
           "words": [
-            "red",
             "blue",
-            "green",
             "yellow",
             "orange",
-            "purple",
             "pink",
-            "brown",
-            "black",
-            "white",
-            "grey",
-            "gold",
-            "silver",
-            "violet",
-            "indigo",
-            "teal",
-            "cyan",
-            "magenta",
-            "crimson",
-            "scarlet"
+            "purple",
+            "crimson"
           ]
         },
         {
           "level": 2,
           "name": "Shades of Red",
           "words": [
-            "red",
+            "wine",
+            "pink",
             "crimson",
-            "scarlet",
-            "maroon",
-            "ruby",
-            "burgundy",
-            "carmine",
-            "vermillion",
-            "rose",
-            "coral",
-            "salmon",
-            "cerise"
+            "blush"
           ]
         },
         {
           "level": 3,
           "name": "Deep Red Shades",
           "words": [
+            "wine",
             "crimson",
-            "scarlet",
-            "maroon",
-            "ruby",
             "burgundy",
-            "carmine",
-            "vermillion"
+            "maroon"
           ]
         },
         {
           "level": 4,
-          "name": "Wine-Toned Reds",
+          "name": "Warm Colors",
           "words": [
-            "maroon",
+            "pink",
+            "crimson",
+            "blush",
             "burgundy",
-            "claret",
-            "oxblood",
-            "aubergine"
+            "maroon"
           ]
         },
         {
           "level": 5,
-          "name": "Bordeaux Tones",
+          "name": "Dark Reds",
           "words": [
+            "wine",
+            "crimson",
             "burgundy",
-            "claret",
             "bordeaux",
-            "garnet"
+            "maroon"
           ]
         },
         {
           "level": 6,
-          "name": "Wine Region Colors",
+          "name": "Deep Tones",
           "words": [
+            "wine",
+            "crimson",
             "burgundy",
             "bordeaux",
-            "claret"
+            "maroon"
           ]
         }
       ]
@@ -2651,26 +2269,11 @@
           "level": 1,
           "name": "Ancient World",
           "words": [
-            "egypt",
-            "rome",
-            "greece",
-            "persia",
-            "babylon",
-            "carthage",
-            "sumeria",
-            "china",
             "india",
-            "maya",
-            "aztec",
-            "inca",
-            "viking",
-            "celtic",
-            "mongol",
+            "egypt",
+            "greece",
             "ottoman",
-            "byzantine",
-            "akkad",
-            "assyria",
-            "phoenicia"
+            "babylon"
           ]
         },
         {
@@ -2678,56 +2281,54 @@
           "name": "Mediterranean Civilizations",
           "words": [
             "egypt",
-            "rome",
             "greece",
-            "carthage",
-            "phoenicia",
-            "byzantium",
             "ottoman",
-            "persia",
-            "babylon",
-            "assyria"
+            "babylon"
           ]
         },
         {
           "level": 3,
           "name": "Classical Period",
           "words": [
-            "rome",
+            "egypt",
             "greece",
-            "persia",
-            "carthage",
+            "athens",
             "babylon",
-            "ptolemaic egypt"
+            "persia",
+            "sparta"
           ]
         },
         {
           "level": 4,
-          "name": "Hellenistic States",
+          "name": "Ancient Cities",
           "words": [
-            "ptolemaic egypt",
-            "seleucid",
-            "pergamon",
-            "macedon",
-            "bactria"
+            "athens",
+            "babylon",
+            "persia",
+            "sparta"
           ]
         },
         {
           "level": 5,
-          "name": "Successor Kingdoms",
+          "name": "Ancient Empires",
           "words": [
-            "ptolemaic egypt",
-            "seleucid",
-            "pergamon",
-            "macedon"
+            "kingdom",
+            "republic",
+            "empire",
+            "colony",
+            "dynasty"
           ]
         },
         {
           "level": 6,
-          "name": "Ptolemaic Successors",
+          "name": "Ancient Government",
           "words": [
-            "ptolemaic egypt",
-            "seleucid"
+            "senate",
+            "citizen",
+            "forum",
+            "emperor",
+            "legion",
+            "consul"
           ]
         }
       ]
@@ -2740,96 +2341,80 @@
           "level": 1,
           "name": "Household",
           "words": [
-            "lamp",
-            "sofa",
-            "chair",
             "table",
+            "chair",
             "mirror",
-            "carpet",
-            "curtain",
-            "shelf",
-            "pillow",
-            "blanket",
             "clock",
-            "vase",
-            "candle",
-            "drawer",
-            "hanger",
+            "blanket",
             "bucket",
-            "mop",
-            "broom",
-            "dustpan",
-            "detergent"
+            "shelf",
+            "candle",
+            "curtain",
+            "sofa",
+            "drawer",
+            "vase"
           ]
         },
         {
           "level": 2,
           "name": "Living Room Items",
           "words": [
-            "sofa",
-            "chair",
             "table",
-            "lamp",
+            "chair",
             "mirror",
-            "carpet",
-            "shelf",
-            "cushion",
-            "curtain",
-            "vase",
             "clock",
-            "bookcase",
+            "shelf",
+            "curtain",
+            "sofa",
             "ottoman",
-            "fireplace"
+            "cushion",
+            "vase"
           ]
         },
         {
           "level": 3,
           "name": "Seating Furniture",
           "words": [
-            "sofa",
             "chair",
-            "armchair",
-            "stool",
-            "ottoman",
             "bench",
-            "chaise",
-            "loveseat",
-            "sectional",
-            "rocker"
+            "sofa",
+            "ottoman",
+            "stool",
+            "armchair"
           ]
         },
         {
           "level": 4,
           "name": "Upholstered Seating",
           "words": [
+            "chair",
+            "bench",
+            "couch",
             "sofa",
-            "armchair",
             "ottoman",
-            "chaise",
-            "loveseat",
-            "sectional",
-            "settee"
+            "stool",
+            "armchair"
           ]
         },
         {
           "level": 5,
-          "name": "Long Upholstered Seats",
+          "name": "Soft Seating",
           "words": [
+            "couch",
             "sofa",
-            "chaise",
-            "loveseat",
-            "sectional",
-            "settee",
-            "divan"
+            "ottoman",
+            "armchair"
           ]
         },
         {
           "level": 6,
-          "name": "Reclining Lounge Seats",
+          "name": "Living Room Seats",
           "words": [
-            "chaise",
-            "divan",
-            "daybed"
+            "couch",
+            "sofa",
+            "ottoman",
+            "stool",
+            "armchair"
           ]
         }
       ]
@@ -2842,101 +2427,73 @@
           "level": 1,
           "name": "Airports & Flying",
           "words": [
-            "plane",
             "airport",
-            "flight",
-            "pilot",
-            "ticket",
-            "luggage",
-            "passport",
-            "gate",
-            "terminal",
-            "runway",
-            "takeoff",
-            "landing",
-            "boarding",
-            "suitcase",
+            "plane",
             "crew",
-            "passenger",
-            "departure",
+            "ticket",
+            "pilot",
+            "gate",
             "arrival",
-            "baggage",
-            "customs"
+            "terminal",
+            "customs",
+            "passport",
+            "boarding",
+            "runway"
           ]
         },
         {
           "level": 2,
           "name": "At the Airport",
           "words": [
-            "terminal",
-            "runway",
-            "gate",
-            "checkin",
             "security",
+            "gate",
+            "terminal",
             "passport",
-            "luggage",
-            "cart",
-            "concourse",
-            "tarmac",
-            "hangar",
-            "tower",
+            "runway",
             "shuttle",
-            "lounge",
-            "carousel",
-            "kiosk",
-            "escalator"
+            "luggage"
           ]
         },
         {
           "level": 3,
           "name": "Airport Buildings & Areas",
           "words": [
-            "terminal",
-            "hangar",
-            "concourse",
-            "lounge",
-            "tower",
-            "apron",
-            "jetway",
-            "baggage",
-            "customs",
-            "dutyfree",
             "waiting",
-            "checkpoint"
+            "terminal",
+            "customs",
+            "baggage",
+            "apron",
+            "hangar"
           ]
         },
         {
           "level": 4,
           "name": "Things That Move Planes",
           "words": [
-            "tug",
-            "loader",
-            "staircase",
-            "deicer",
-            "fueler",
+            "belt",
             "tractor",
-            "belt"
+            "tug",
+            "loader"
           ]
         },
         {
           "level": 5,
           "name": "Flight Crew Roles",
           "words": [
-            "pilot",
-            "copilot",
             "captain",
-            "attendant",
-            "navigator",
+            "crew",
+            "pilot",
             "engineer"
           ]
         },
         {
           "level": 6,
-          "name": "Cockpit Leaders",
+          "name": "Cockpit Crew",
           "words": [
+            "captain",
+            "crew",
             "pilot",
-            "copilot",
-            "captain"
+            "engineer"
           ]
         }
       ]
@@ -2949,103 +2506,67 @@
           "level": 1,
           "name": "Tools & Workshop",
           "words": [
-            "hammer",
-            "screwdriver",
-            "wrench",
-            "saw",
-            "drill",
-            "pliers",
-            "chisel",
-            "file",
-            "sander",
             "level",
+            "file",
             "tape",
-            "clamp",
-            "vise",
-            "nail",
+            "knife",
             "screw",
-            "bolt",
+            "nail",
+            "drill",
             "nut",
-            "washer",
-            "ruler",
-            "knife"
+            "ruler"
           ]
         },
         {
           "level": 2,
           "name": "Hand Tools",
           "words": [
-            "hammer",
-            "screwdriver",
-            "wrench",
-            "saw",
-            "pliers",
-            "chisel",
-            "file",
-            "mallet",
-            "hacksaw",
-            "crowbar",
-            "awl",
-            "trowel",
-            "spanner",
-            "rasp",
-            "snips",
             "square",
-            "caliper",
-            "gouge"
+            "file",
+            "knife",
+            "drill"
           ]
         },
         {
           "level": 3,
           "name": "Woodworking Tools",
           "words": [
-            "chisel",
-            "gouge",
-            "rasp",
             "plane",
-            "lathe",
-            "jigsaw",
-            "router",
-            "miter",
             "coping",
-            "spokeshave",
-            "adze",
-            "auger",
+            "router",
             "braces",
-            "dovetail"
+            "jigsaw"
           ]
         },
         {
           "level": 4,
           "name": "Cutting Tools",
           "words": [
-            "chisel",
-            "gouge",
-            "hacksaw",
-            "jigsaw",
-            "snips",
-            "awl",
-            "adze"
+            "knife",
+            "blade",
+            "drill",
+            "scissors",
+            "jigsaw"
           ]
         },
         {
           "level": 5,
-          "name": "Carving Tools",
+          "name": "Sharp Tools",
           "words": [
-            "chisel",
-            "gouge",
-            "adze",
-            "spokeshave",
-            "rasp"
+            "knife",
+            "blade",
+            "drill",
+            "scissors"
           ]
         },
         {
           "level": 6,
-          "name": "Edge Carving Tools",
+          "name": "Blades & Edges",
           "words": [
-            "chisel",
-            "gouge",
-            "adze"
+            "file",
+            "knife",
+            "blade",
+            "scissors"
           ]
         }
       ]
@@ -3059,49 +2580,29 @@
           "name": "Farm & Agriculture",
           "words": [
             "farm",
-            "barn",
-            "tractor",
-            "crop",
-            "field",
-            "harvest",
-            "seed",
             "soil",
-            "plow",
-            "hay",
-            "grain",
-            "corn",
-            "wheat",
             "fence",
-            "silage",
-            "orchard",
-            "pasture",
-            "irrigation",
-            "compost",
-            "livestock"
+            "corn",
+            "grain",
+            "crop",
+            "harvest",
+            "wheat",
+            "tractor",
+            "orchard"
           ]
         },
         {
           "level": 2,
           "name": "Crops & Grains",
           "words": [
-            "corn",
-            "wheat",
-            "barley",
-            "oats",
-            "rye",
-            "rice",
-            "soybean",
-            "sorghum",
-            "millet",
-            "canola",
-            "alfalfa",
             "cotton",
-            "sugarcane",
+            "corn",
             "potato",
-            "carrot",
-            "lettuce",
+            "wheat",
             "onion",
             "pumpkin",
+            "carrot",
+            "lettuce",
             "cabbage"
           ]
         },
@@ -3112,45 +2613,43 @@
             "wheat",
             "barley",
             "oats",
-            "rye",
-            "rice",
-            "millet",
-            "sorghum",
-            "buckwheat",
-            "triticale",
             "spelt",
-            "quinoa",
-            "farro"
+            "quinoa"
           ]
         },
         {
           "level": 4,
           "name": "Small Grains",
           "words": [
+            "corn",
+            "wheat",
             "barley",
             "oats",
-            "rye",
-            "millet",
-            "spelt",
-            "triticale"
+            "maize",
+            "spelt"
           ]
         },
         {
           "level": 5,
-          "name": "Cool-Climate Small Grains",
+          "name": "Cereal Crops",
           "words": [
+            "corn",
+            "wheat",
             "barley",
-            "rye",
             "oats",
+            "maize",
             "spelt"
           ]
         },
         {
           "level": 6,
-          "name": "Rye Family Grains",
+          "name": "Farm Crops",
           "words": [
-            "rye",
-            "triticale",
+            "corn",
+            "wheat",
+            "barley",
+            "oats",
+            "maize",
             "spelt"
           ]
         }
@@ -3164,101 +2663,82 @@
           "level": 1,
           "name": "Camping & Outdoors",
           "words": [
-            "tent",
-            "campfire",
-            "sleeping",
-            "backpack",
-            "lantern",
-            "flashlight",
-            "trail",
-            "forest",
-            "river",
-            "mountain",
-            "compass",
             "map",
+            "mountain",
             "matches",
-            "kindling",
-            "marshmallow",
-            "canoe",
+            "sleeping",
+            "trail",
             "boots",
-            "thermos",
-            "hammock",
-            "binoculars"
+            "tent",
+            "backpack",
+            "compass",
+            "lantern",
+            "canoe"
           ]
         },
         {
           "level": 2,
           "name": "Camping Gear",
           "words": [
-            "tent",
-            "backpack",
-            "lantern",
-            "flashlight",
             "sleeping",
-            "thermos",
-            "hammock",
-            "binoculars",
-            "stove",
-            "cooler",
-            "mat",
-            "pillow",
-            "poncho",
             "rope",
+            "tent",
             "stakes",
-            "tarp",
-            "canteen",
-            "headlamp",
-            "whistle"
+            "cooler",
+            "whistle",
+            "backpack",
+            "stove",
+            "lantern"
           ]
         },
         {
           "level": 3,
           "name": "Shelter & Sleep Gear",
           "words": [
-            "tent",
-            "tarp",
-            "hammock",
-            "bivy",
-            "bedroll",
             "sleeping",
-            "mat",
-            "pillow",
+            "rope",
+            "tent",
             "stakes",
-            "guyline",
-            "rainfly",
-            "vestibule"
+            "poles",
+            "torch",
+            "lantern",
+            "zipper"
           ]
         },
         {
           "level": 4,
           "name": "Tent Parts",
           "words": [
-            "rainfly",
+            "rope",
+            "tent",
             "stakes",
-            "guyline",
             "poles",
-            "vestibule",
-            "footprint",
             "zipper"
           ]
         },
         {
           "level": 5,
-          "name": "Tent Anchoring Parts",
+          "name": "Camp Tools",
           "words": [
+            "rope",
+            "tent",
             "stakes",
-            "guyline",
             "poles",
-            "pegs"
+            "compass",
+            "torch",
+            "lantern"
           ]
         },
         {
           "level": 6,
-          "name": "Tent Ground Stakes",
+          "name": "Camp Essentials",
           "words": [
+            "matches",
+            "rope",
+            "tent",
             "stakes",
-            "pegs",
-            "guyline"
+            "compass",
+            "torch"
           ]
         }
       ]
@@ -3271,26 +2751,18 @@
           "level": 1,
           "name": "Movies & Cinema",
           "words": [
-            "movie",
             "film",
-            "cinema",
+            "movie",
+            "director",
+            "scene",
+            "camera",
             "screen",
             "actor",
             "actress",
-            "director",
-            "camera",
-            "script",
-            "scene",
-            "trailer",
-            "premiere",
-            "theater",
-            "popcorn",
-            "subtitle",
-            "soundtrack",
-            "costume",
             "makeup",
-            "editing",
-            "sequel"
+            "script",
+            "theater",
+            "trailer"
           ]
         },
         {
@@ -3298,72 +2770,60 @@
           "name": "Behind the Camera",
           "words": [
             "director",
-            "producer",
-            "cinematographer",
             "editor",
-            "screenwriter",
-            "composer",
-            "gaffer",
+            "producer",
             "boom",
-            "grip",
-            "stylist",
             "casting",
-            "storyboard",
-            "clapperboard",
-            "dolly",
-            "crane",
-            "teleprompter",
-            "foley"
+            "grip",
+            "composer"
           ]
         },
         {
           "level": 3,
           "name": "Film Crew Jobs",
           "words": [
-            "gaffer",
-            "grip",
-            "foley",
-            "bestboy",
-            "keygrip",
-            "continuity",
             "location",
-            "standin",
-            "stuntman",
-            "extras",
+            "grip",
             "wardrobe",
-            "props"
+            "props",
+            "extras"
           ]
         },
         {
           "level": 4,
-          "name": "Lighting & Camera Crew",
+          "name": "Film Crew",
           "words": [
-            "gaffer",
-            "grip",
-            "bestboy",
-            "keygrip",
+            "camera",
+            "writer",
+            "actor",
+            "editor",
             "operator",
-            "focuspuller"
+            "grip"
           ]
         },
         {
           "level": 5,
-          "name": "Grip Department",
+          "name": "Camera Gear",
           "words": [
+            "camera",
+            "filter",
+            "lens",
             "grip",
-            "keygrip",
-            "bestboy",
-            "dolly",
-            "crane"
+            "zoom",
+            "shutter",
+            "tripod"
           ]
         },
         {
           "level": 6,
-          "name": "Grip Department Leads",
+          "name": "Film Terms",
           "words": [
-            "grip",
-            "keygrip",
-            "bestboy"
+            "take",
+            "shot",
+            "scene",
+            "camera",
+            "flash",
+            "script"
           ]
         }
       ]
@@ -3376,144 +2836,76 @@
           "level": 1,
           "name": "Everyday Jewellery",
           "words": [
-            "ring",
-            "chain",
             "watch",
+            "chain",
             "crown",
-            "brooch",
-            "locket",
-            "pendant",
-            "earring",
-            "bracelet",
-            "necklace",
-            "anklet",
-            "bangle",
-            "choker",
-            "charm",
-            "clasp",
-            "tiara",
             "medal",
-            "badge",
-            "buckle",
-            "bead",
-            "cameo",
-            "stud",
             "pin",
-            "gem"
+            "charm",
+            "badge",
+            "gem",
+            "necklace",
+            "stud",
+            "bracelet",
+            "buckle"
           ]
         },
         {
           "level": 2,
-          "name": "Gemstones",
+          "name": "Stones & Minerals",
           "words": [
-            "diamond",
-            "ruby",
-            "emerald",
-            "sapphire",
-            "opal",
-            "pearl",
-            "topaz",
-            "amethyst",
-            "garnet",
-            "jade",
-            "onyx",
-            "jasper",
-            "agate",
-            "peridot",
-            "citrine",
-            "zircon",
-            "spinel",
-            "amber",
+            "ore",
+            "mineral",
+            "marble",
+            "gem",
+            "granite",
+            "slate",
+            "lava",
             "quartz",
-            "coral",
-            "beryl",
-            "sunstone"
+            "shale"
           ]
         },
         {
           "level": 3,
           "name": "Precious Metals and Materials",
           "words": [
-            "gold",
-            "silver",
-            "platinum",
-            "copper",
-            "brass",
-            "bronze",
-            "nickel",
-            "titanium",
-            "steel",
-            "pewter",
-            "alloy",
-            "enamel",
-            "ivory",
-            "ebony",
-            "crystal",
-            "resin",
-            "chrome",
-            "cobalt",
-            "mercury",
-            "rhodium",
-            "tin",
             "lead",
-            "zinc"
+            "copper",
+            "bronze",
+            "tin",
+            "mercury",
+            "platinum",
+            "chrome",
+            "nickel",
+            "zinc",
+            "alloy"
           ]
         },
         {
           "level": 4,
           "name": "Gem Cuts and Jewellery Terms",
           "words": [
-            "cushion",
-            "facet",
-            "bezel",
-            "collet",
-            "prong",
-            "setting",
-            "girdle",
             "table",
-            "blemish",
+            "setting",
             "clarity",
-            "carat",
-            "polish",
-            "plaque",
-            "filigree",
-            "marquise",
-            "baguette",
             "trillion",
-            "cabochon",
-            "luster",
-            "sparkle"
+            "plaque",
+            "cushion",
+            "sparkle",
+            "facet"
           ]
         },
         {
           "level": 5,
           "name": "Jewellery Craft and Tools",
           "words": [
-            "solder",
-            "mandrel",
-            "loupe",
-            "tweezer",
-            "pliers",
-            "hammer",
-            "anvil",
-            "torch",
-            "mould",
             "cast",
-            "ingot",
-            "flux",
+            "file",
             "wire",
             "sheet",
-            "gauge",
-            "burr",
-            "burnish",
-            "pickle",
-            "clamp",
-            "file",
-            "saw",
-            "drill",
             "punch",
-            "vise",
-            "emery"
+            "drill",
+            "gauge"
           ]
         },
         {
@@ -3521,29 +2913,11 @@
           "name": "Mining and Extraction",
           "words": [
             "mine",
-            "shaft",
-            "quarry",
-            "ore",
-            "vein",
-            "lode",
             "claim",
-            "dredge",
-            "sluice",
-            "nugget",
-            "deposit",
-            "seam",
             "pit",
+            "deposit",
             "tunnel",
-            "prospect",
-            "smelter",
-            "refinery",
-            "excavate",
-            "assay",
-            "panning",
-            "slurry",
-            "bedrock",
-            "mineral",
-            "miner"
+            "prospect"
           ]
         }
       ]
@@ -3556,178 +2930,77 @@
           "level": 1,
           "name": "Parts of a Ship",
           "words": [
-            "hull",
-            "deck",
-            "mast",
-            "sail",
-            "keel",
-            "rudder",
-            "anchor",
-            "bow",
-            "stern",
-            "cabin",
-            "helm",
-            "oar",
-            "paddle",
-            "galley",
-            "hatch",
-            "tiller",
-            "boom",
-            "cleat",
             "wheel",
-            "funnel",
-            "gunwale",
-            "bowsprit",
-            "gangway",
-            "porthole"
+            "boom",
+            "cabin",
+            "anchor",
+            "sail"
           ]
         },
         {
           "level": 2,
           "name": "Nautical Directions",
           "words": [
-            "port",
-            "fore",
-            "aft",
-            "leeward",
-            "windward",
-            "abeam",
-            "astern",
-            "aloft",
-            "outboard",
-            "inboard",
-            "topside",
-            "seaward",
-            "landward",
-            "athwart",
-            "offshore",
-            "inshore",
-            "forward",
-            "aboard",
             "ahead",
-            "ashore"
+            "aboard",
+            "offshore",
+            "ashore",
+            "fore"
           ]
         },
         {
           "level": 3,
           "name": "Sailing Actions",
           "words": [
-            "tack",
-            "jibe",
-            "luff",
-            "reef",
-            "haul",
-            "hoist",
-            "furl",
-            "heave",
-            "moor",
-            "dock",
-            "launch",
-            "steer",
-            "row",
-            "drift",
-            "cast",
-            "warp",
-            "veer",
-            "yaw",
-            "trim",
-            "lash",
-            "belay",
-            "ease",
             "list",
-            "pitch"
+            "cast",
+            "launch",
+            "pitch",
+            "ease",
+            "dock",
+            "trim",
+            "haul",
+            "reef",
+            "drift"
           ]
         },
         {
           "level": 4,
           "name": "Types of Boats",
           "words": [
+            "junk",
+            "ferry",
             "yacht",
+            "barge",
             "canoe",
-            "kayak",
-            "dinghy",
-            "sloop",
-            "ketch",
-            "yawl",
-            "schooner",
-            "brig",
-            "galleon",
-            "frigate",
-            "skiff",
             "punt",
             "raft",
-            "barge",
-            "ferry",
-            "trawler",
-            "cutter",
-            "corvette",
-            "clipper",
-            "gondola",
-            "sampan",
-            "junk",
-            "dory",
-            "scow",
-            "pinnace"
+            "corvette"
           ]
         },
         {
           "level": 5,
           "name": "Ropes and Rigging",
           "words": [
-            "rope",
-            "line",
-            "knot",
-            "halyard",
-            "sheet",
             "stay",
-            "shroud",
-            "hawser",
             "cable",
-            "painter",
-            "lanyard",
-            "splice",
-            "block",
-            "tackle",
-            "pulley",
-            "winch",
-            "capstan",
-            "bight",
-            "hitch",
-            "bend",
+            "sheet",
             "loop",
-            "coil",
-            "tether",
-            "strand"
+            "tackle",
+            "bend",
+            "rope"
           ]
         },
         {
           "level": 6,
           "name": "Navigation at Sea",
           "words": [
-            "compass",
-            "chart",
-            "sextant",
-            "latitude",
-            "bearing",
-            "heading",
-            "beacon",
-            "buoy",
             "current",
-            "tide",
-            "swell",
-            "gale",
-            "squall",
-            "breeze",
-            "wake",
+            "heading",
+            "chart",
+            "bearing",
             "horizon",
-            "landmark",
-            "fathom",
-            "leeway",
-            "offing",
-            "mile",
-            "traverse",
-            "sounding",
-            "seaway"
+            "tide"
           ]
         }
       ]
@@ -3740,161 +3013,89 @@
           "level": 1,
           "name": "Court and Trial",
           "words": [
-            "court",
-            "trial",
-            "judge",
-            "jury",
-            "case",
-            "plea",
-            "appeal",
-            "bail",
-            "dock",
-            "bench",
-            "witness",
             "evidence",
-            "exhibit",
-            "motion",
-            "ruling",
-            "verdict",
-            "hearing",
-            "lawsuit",
-            "subpoena",
             "charge",
+            "judge",
+            "trial",
+            "hearing",
+            "appeal",
+            "motion",
+            "witness",
             "defence",
-            "offense",
-            "remand"
+            "jury",
+            "bench",
+            "ruling"
           ]
         },
         {
           "level": 2,
           "name": "Legal Roles",
           "words": [
-            "lawyer",
-            "attorney",
-            "counsel",
-            "advocate",
-            "litigant",
-            "juror",
             "justice",
-            "notary",
-            "bailiff",
-            "clerk",
-            "coroner",
-            "trustee",
-            "executor",
+            "attorney",
+            "lawyer",
             "guardian",
-            "arbiter",
-            "referee",
-            "warden",
+            "advocate",
+            "counsel",
             "sheriff",
-            "marshal",
-            "recorder"
+            "referee",
+            "recorder",
+            "trustee"
           ]
         },
         {
           "level": 3,
           "name": "Legal Documents",
           "words": [
+            "policy",
             "contract",
-            "deed",
-            "lease",
-            "will",
+            "notice",
+            "license",
+            "petition",
             "warrant",
-            "summons",
-            "statute",
             "charter",
             "patent",
-            "writ",
-            "covenant",
-            "clause",
-            "waiver",
-            "petition",
-            "decree",
-            "bond",
-            "tender",
-            "policy",
-            "notice",
-            "license"
+            "lease",
+            "tender"
           ]
         },
         {
           "level": 4,
           "name": "Crimes and Offences",
           "words": [
+            "murder",
+            "battery",
+            "assault",
+            "fraud",
             "theft",
             "robbery",
-            "burglary",
-            "fraud",
-            "arson",
-            "assault",
-            "battery",
-            "murder",
-            "bribery",
-            "forgery",
-            "perjury",
-            "trespass",
-            "libel",
-            "slander",
-            "piracy",
             "treason",
-            "smuggle",
-            "embezzle",
-            "abduct",
-            "kidnap",
-            "larceny",
-            "mugger"
+            "piracy"
           ]
         },
         {
           "level": 5,
           "name": "Penalties and Punishment",
           "words": [
-            "fine",
+            "cell",
             "prison",
             "jail",
-            "gaol",
-            "cell",
-            "parole",
             "sentence",
-            "custody",
-            "convict",
             "penalty",
-            "damages",
-            "forfeit",
-            "exile",
-            "ban",
-            "suspend",
-            "caution",
-            "reprieve",
-            "dungeon",
-            "scourge",
-            "punish"
+            "custody",
+            "damages"
           ]
         },
         {
           "level": 6,
           "name": "Legal Concepts",
           "words": [
+            "innocent",
             "equity",
-            "tort",
-            "felony",
-            "litigate",
-            "tribunal",
-            "quorum",
-            "immunity",
-            "mandate",
-            "sanction",
-            "tenure",
-            "doctrine",
-            "remedy",
             "judicial",
-            "legality",
-            "motive",
-            "indict",
-            "arraign",
-            "acquit",
-            "mistrial",
-            "innocent"
+            "doctrine",
+            "mandate",
+            "motive"
           ]
         }
       ]
@@ -3908,29 +3109,17 @@
           "name": "Money Basics",
           "words": [
             "money",
-            "cash",
-            "coin",
+            "change",
             "note",
-            "bank",
-            "loan",
-            "debt",
             "credit",
-            "debit",
-            "price",
-            "cost",
-            "wage",
-            "bill",
-            "penny",
+            "income",
+            "budget",
             "fund",
             "profit",
-            "loss",
-            "budget",
-            "income",
-            "salary",
-            "fee",
-            "rent",
-            "change",
-            "saving"
+            "debt",
+            "loan",
+            "saving",
+            "rent"
           ]
         },
         {
@@ -3938,51 +3127,33 @@
           "name": "Banking",
           "words": [
             "account",
-            "deposit",
-            "withdraw",
-            "balance",
-            "cheque",
-            "teller",
-            "branch",
-            "vault",
-            "transfer",
             "interest",
-            "mortgage",
-            "ledger",
-            "payment",
-            "currency",
             "exchange",
+            "balance",
+            "transfer",
+            "payment",
             "reserve",
+            "mortgage",
+            "currency",
+            "deposit",
             "treasury",
-            "escrow",
-            "annuity",
-            "pledge"
+            "withdraw"
           ]
         },
         {
           "level": 3,
           "name": "Investing and Markets",
           "words": [
-            "stock",
+            "future",
             "share",
-            "bond",
-            "equity",
-            "dividend",
-            "broker",
-            "market",
-            "asset",
-            "yield",
             "capital",
+            "option",
             "index",
             "rally",
-            "slump",
-            "bull",
-            "bear",
-            "trader",
-            "option",
-            "future",
-            "stake",
-            "merger"
+            "equity",
+            "asset",
+            "yield",
+            "stake"
           ]
         },
         {
@@ -3990,78 +3161,38 @@
           "name": "Business and Accounting",
           "words": [
             "revenue",
-            "expense",
-            "invoice",
-            "receipt",
-            "audit",
-            "turnover",
-            "margin",
-            "payroll",
-            "supplier",
-            "client",
-            "vendor",
-            "quota",
-            "estimate",
-            "overhead",
-            "refund",
-            "discount",
-            "freight",
-            "billing",
             "retail",
-            "outlay"
+            "client",
+            "discount",
+            "estimate",
+            "margin",
+            "expense",
+            "audit"
           ]
         },
         {
           "level": 5,
           "name": "Taxes and Public Finance",
           "words": [
+            "rate",
             "tax",
-            "levy",
-            "duty",
-            "tariff",
-            "rebate",
-            "bracket",
-            "filing",
-            "subsidy",
-            "grant",
-            "pension",
             "benefit",
+            "duty",
             "welfare",
             "fiscal",
-            "deficit",
-            "surplus",
-            "excise",
-            "toll",
-            "rate",
-            "tithe",
-            "customs",
-            "impost"
+            "pension"
           ]
         },
         {
           "level": 6,
           "name": "Financial Concepts",
           "words": [
-            "solvency",
-            "leverage",
-            "maturity",
             "premium",
-            "gearing",
+            "default",
             "compound",
             "prospect",
-            "bankrupt",
-            "creditor",
-            "debtor",
-            "hedge",
-            "volatile",
-            "coupon",
-            "default",
-            "gilt",
             "swap",
-            "bullion",
-            "barter",
-            "usury",
-            "devalue"
+            "leverage"
           ]
         }
       ]
@@ -4075,112 +3206,65 @@
           "name": "Camera Parts",
           "words": [
             "camera",
-            "lens",
-            "shutter",
-            "flash",
-            "tripod",
-            "eyepiece",
-            "sensor",
-            "battery",
-            "strap",
-            "case",
-            "dial",
-            "button",
             "screen",
-            "mount",
-            "body",
-            "hood",
-            "filter",
-            "cap",
-            "grip",
-            "shoe",
             "cable",
-            "port",
-            "card",
-            "zoom"
+            "battery",
+            "cap",
+            "flash",
+            "filter",
+            "shoe",
+            "hood",
+            "lens",
+            "grip",
+            "dial"
           ]
         },
         {
           "level": 2,
           "name": "Exposure and Settings",
           "words": [
-            "exposure",
-            "aperture",
             "focus",
-            "blur",
-            "contrast",
-            "bright",
-            "saturate",
-            "noise",
-            "grain",
-            "vignette",
-            "glare",
-            "flare",
-            "shadow",
-            "meter",
-            "clarity",
-            "texture",
-            "hue",
-            "tone",
-            "gamma",
-            "bracket",
             "depth",
-            "sharp"
+            "noise",
+            "tone",
+            "contrast",
+            "exposure",
+            "grain",
+            "texture",
+            "clarity",
+            "bracket",
+            "gamma",
+            "flare"
           ]
         },
         {
           "level": 3,
           "name": "Photography Gear and Accessories",
           "words": [
-            "brace",
-            "gimbal",
-            "diffuser",
-            "snoot",
-            "bulb",
-            "umbrella",
-            "clamp",
-            "trigger",
-            "remote",
-            "pouch",
-            "blower",
-            "loupe",
-            "backdrop",
-            "harness",
-            "holster",
             "stand",
+            "belt",
             "rail",
-            "jib",
-            "dolly",
-            "slider",
+            "remote",
+            "trigger",
+            "umbrella",
             "rig",
-            "belt"
+            "bulb",
+            "backdrop",
+            "clamp"
           ]
         },
         {
           "level": 4,
           "name": "Photography Genres",
           "words": [
-            "portrait",
-            "wildlife",
-            "macro",
             "street",
-            "fashion",
-            "sports",
-            "aerial",
-            "undersea",
-            "wedding",
-            "product",
-            "candid",
-            "abstract",
-            "glamour",
-            "forensic",
-            "medical",
-            "advert",
             "event",
-            "still",
+            "medical",
             "travel",
             "nature",
-            "urban"
+            "product",
+            "sports",
+            "wedding"
           ]
         },
         {
@@ -4188,55 +3272,24 @@
           "name": "Darkroom and Film",
           "words": [
             "film",
-            "negative",
-            "fixer",
-            "enlarger",
-            "darkroom",
-            "emulsion",
-            "contact",
-            "frame",
-            "spool",
-            "reel",
-            "tank",
-            "tongs",
-            "tray",
-            "timer",
-            "print",
             "paper",
-            "halide",
-            "silver",
-            "bromide",
-            "fixative",
-            "acetate",
-            "gelatin"
+            "contact",
+            "negative",
+            "tank",
+            "print",
+            "timer"
           ]
         },
         {
           "level": 6,
           "name": "Editing and Post-Processing",
           "words": [
-            "edit",
-            "crop",
-            "resize",
-            "retouch",
-            "sharpen",
-            "montage",
-            "collage",
+            "level",
             "layer",
             "mask",
-            "clone",
-            "stamp",
-            "curve",
-            "level",
-            "gradient",
-            "dodge",
-            "burn",
-            "render",
+            "edit",
             "export",
-            "rotate",
-            "sepia",
-            "fade",
-            "skew"
+            "crop"
           ]
         }
       ]
@@ -4249,170 +3302,81 @@
           "level": 1,
           "name": "Fishing Gear",
           "words": [
-            "rod",
-            "reel",
-            "hook",
-            "line",
-            "bait",
-            "lure",
-            "net",
-            "float",
-            "sinker",
-            "tackle",
-            "bobber",
-            "swivel",
-            "pliers",
-            "knife",
-            "bucket",
-            "creel",
-            "wader",
-            "vest",
-            "spool",
             "leader",
-            "pellet",
-            "spear",
-            "gaff",
-            "trap"
+            "net",
+            "knife",
+            "trap",
+            "tackle",
+            "bucket",
+            "float",
+            "bait",
+            "vest",
+            "lure"
           ]
         },
         {
           "level": 2,
           "name": "Fish Species",
           "words": [
-            "salmon",
-            "trout",
-            "carp",
-            "cod",
-            "bass",
-            "pike",
-            "perch",
-            "tuna",
-            "catfish",
-            "herring",
-            "mackerel",
-            "sardine",
-            "halibut",
-            "flounder",
             "sole",
-            "bream",
-            "tench",
-            "barbel",
-            "chub",
-            "dace",
-            "roach",
-            "rudd",
-            "grayling",
-            "grouper"
+            "cod",
+            "tuna",
+            "catfish"
           ]
         },
         {
           "level": 3,
           "name": "Fishing Techniques",
           "words": [
-            "casting",
-            "trolling",
-            "plugging",
-            "spinning",
-            "drifting",
-            "whipping",
-            "angling",
-            "netting",
-            "spearing",
-            "trapping",
-            "tickling",
-            "dredging",
-            "potting",
-            "harling",
-            "bobbing",
-            "stalking",
-            "fiddling",
-            "dipping",
             "striking",
-            "landing"
+            "casting",
+            "spinning",
+            "stalking",
+            "drifting",
+            "dipping",
+            "trolling",
+            "trapping",
+            "whipping",
+            "netting"
           ]
         },
         {
           "level": 4,
           "name": "Fishing Environments",
           "words": [
-            "coarse",
             "game",
-            "inland",
-            "ice",
-            "shore",
-            "surf",
-            "tidal",
-            "coastal",
-            "mountain",
-            "kayak",
-            "wading",
             "night",
-            "winter",
-            "inshore",
-            "offshore",
-            "reef",
-            "charter",
+            "ice",
+            "mountain",
             "sport",
-            "abyssal",
-            "salt"
+            "salt",
+            "charter",
+            "coastal"
           ]
         },
         {
           "level": 5,
           "name": "Waters and Fishing Spots",
           "words": [
-            "river",
+            "sea",
             "lake",
-            "pond",
+            "ocean",
             "stream",
             "creek",
-            "brook",
-            "ocean",
-            "sea",
-            "bay",
             "gulf",
-            "lagoon",
-            "estuary",
-            "marsh",
-            "swamp",
-            "canal",
-            "dock",
-            "pier",
-            "jetty",
-            "bank",
-            "inlet",
-            "delta",
-            "beach"
+            "canal"
           ]
         },
         {
           "level": 6,
           "name": "Bait and Lures",
           "words": [
-            "worm",
-            "maggot",
-            "minnow",
-            "shrimp",
-            "squid",
-            "prawn",
-            "dough",
-            "corn",
-            "spoon",
-            "spinner",
-            "jig",
-            "plug",
-            "popper",
             "fly",
             "cheese",
-            "liver",
-            "cricket",
-            "locust",
-            "leech",
-            "frog",
             "bread",
-            "paste",
-            "grub",
-            "larva"
+            "cricket",
+            "corn",
+            "liver"
           ]
         }
       ]
@@ -4425,141 +3389,57 @@
           "level": 1,
           "name": "Garden Birds",
           "words": [
-            "robin",
-            "sparrow",
-            "starling",
-            "wren",
-            "finch",
-            "dove",
-            "pigeon",
-            "magpie",
-            "crow",
-            "jay",
-            "thrush",
             "swallow",
-            "swift",
-            "martin",
-            "lark",
-            "cuckoo",
-            "dunnock",
-            "siskin",
-            "linnet",
+            "finch",
             "tit",
-            "rook",
-            "jackdaw",
-            "serin"
+            "cuckoo",
+            "rook"
           ]
         },
         {
           "level": 2,
           "name": "Birds of Prey",
           "words": [
-            "eagle",
-            "hawk",
-            "falcon",
-            "owl",
-            "kite",
-            "buzzard",
-            "kestrel",
-            "osprey",
-            "harrier",
-            "vulture",
-            "condor",
-            "merlin",
             "hobby",
-            "goshawk",
-            "caracara",
-            "eaglet",
-            "owlet",
-            "raptor",
-            "saker",
-            "lanner",
-            "shrike",
-            "shikra"
+            "owl",
+            "falcon",
+            "kite"
           ]
         },
         {
           "level": 3,
           "name": "Water and Sea Birds",
           "words": [
-            "duck",
             "goose",
-            "swan",
-            "heron",
-            "egret",
-            "stork",
-            "crane",
-            "pelican",
-            "gull",
-            "tern",
-            "puffin",
             "penguin",
+            "pelican",
             "flamingo",
-            "ibis",
-            "loon",
-            "grebe",
-            "coot",
-            "dipper",
-            "bittern",
-            "avocet",
             "gosling",
-            "petrel",
-            "gannet",
-            "skua"
+            "gull"
           ]
         },
         {
           "level": 4,
-          "name": "Songbirds and Warblers",
+          "name": "Songbirds",
           "words": [
-            "warbler",
-            "redstart",
-            "wheatear",
-            "whinchat",
-            "redwing",
-            "blackcap",
-            "pipit",
-            "wagtail",
-            "bunting",
-            "oriole",
-            "vireo",
-            "thrasher",
             "chat",
-            "redpoll",
-            "waxwing",
-            "nuthatch",
-            "nightjar",
-            "babbler",
-            "skylark",
-            "throstle"
+            "owl",
+            "swallow",
+            "falcon",
+            "finch",
+            "cuckoo"
           ]
         },
         {
           "level": 5,
-          "name": "Tropical and Exotic Birds",
+          "name": "Exotic Birds",
           "words": [
+            "penguin",
             "parrot",
-            "macaw",
-            "toucan",
-            "cockatoo",
-            "parakeet",
-            "lorikeet",
-            "hornbill",
-            "hoopoe",
-            "sunbird",
-            "lovebird",
-            "kea",
-            "kaka",
-            "quetzal",
-            "trogon",
-            "motmot",
-            "jacamar",
-            "tanager",
-            "cotinga",
-            "lyrebird",
-            "peacock",
-            "myna",
-            "manakin"
+            "vulture",
+            "pelican",
+            "flamingo",
+            "ostrich"
           ]
         },
         {
@@ -4567,24 +3447,10 @@
           "name": "Game and Wading Birds",
           "words": [
             "turkey",
-            "pheasant",
+            "rail",
+            "guinea",
             "grouse",
             "quail",
-            "woodcock",
-            "snipe",
-            "plover",
-            "curlew",
-            "lapwing",
-            "ruff",
-            "dotterel",
-            "redshank",
-            "godwit",
-            "dunlin",
-            "wader",
-            "rail",
-            "crake",
-            "bustard",
-            "guinea",
             "ostrich"
           ]
         }
@@ -4598,28 +3464,17 @@
           "level": 1,
           "name": "Theatre Basics",
           "words": [
+            "show",
+            "play",
+            "act",
+            "role",
             "stage",
             "scene",
-            "act",
-            "play",
-            "script",
-            "actor",
-            "role",
-            "drama",
-            "curtain",
             "seat",
-            "ticket",
-            "show",
             "cast",
-            "cue",
-            "line",
-            "mask",
-            "prompt",
-            "matinee",
-            "box",
-            "aisle",
-            "encore",
-            "balcony",
+            "drama",
+            "actor",
+            "ticket",
             "gallery"
           ]
         },
@@ -4627,56 +3482,34 @@
           "level": 2,
           "name": "Stage Directions and Positions",
           "words": [
-            "upstage",
-            "backdrop",
-            "apron",
-            "wing",
+            "house",
+            "side",
+            "drop",
             "fly",
-            "pit",
-            "grid",
-            "rake",
-            "traverse",
-            "thrust",
-            "portal",
-            "teaser",
             "flat",
             "border",
-            "scrim",
-            "drop",
-            "gauze",
             "leg",
-            "side",
-            "house",
             "circle",
-            "stall",
-            "catwalk"
+            "pit",
+            "grid",
+            "portal",
+            "thrust"
           ]
         },
         {
           "level": 3,
           "name": "Theatre Roles and People",
           "words": [
-            "actress",
-            "director",
-            "producer",
-            "player",
-            "usher",
-            "critic",
-            "audience",
-            "prompter",
-            "designer",
-            "comedian",
-            "mime",
-            "juggler",
-            "acrobat",
-            "manager",
-            "crew",
-            "star",
             "lead",
+            "director",
             "extra",
+            "manager",
             "agent",
-            "patron",
-            "chorus"
+            "audience",
+            "crew",
+            "actress",
+            "producer",
+            "designer"
           ]
         },
         {
@@ -4684,77 +3517,38 @@
           "name": "Play Genres and Forms",
           "words": [
             "comedy",
-            "tragedy",
-            "farce",
             "musical",
-            "satire",
-            "revue",
-            "sketch",
-            "cabaret",
-            "tableau",
-            "masque",
-            "skit",
             "mystery",
-            "miracle",
-            "morality",
-            "prologue",
-            "epilogue",
             "romance",
             "opera",
-            "oratorio",
-            "puppetry"
+            "tragedy",
+            "miracle",
+            "sketch"
           ]
         },
         {
           "level": 5,
           "name": "Backstage and Production",
           "words": [
-            "lighting",
-            "sound",
-            "rigging",
-            "costume",
-            "cosmetic",
-            "wig",
-            "scenery",
-            "dimmer",
-            "trap",
-            "revolve",
-            "batten",
-            "gantry",
-            "rig",
-            "prop",
             "set",
-            "wardrobe",
+            "sound",
+            "trap",
+            "lighting",
+            "costume",
             "dressing",
-            "audition",
-            "blocking",
-            "staging"
+            "blocking"
           ]
         },
         {
           "level": 6,
           "name": "Dramatic Devices",
           "words": [
-            "aside",
-            "subtext",
-            "metaphor",
-            "irony",
-            "allegory",
-            "parody",
-            "pathos",
-            "rhetoric",
-            "mimesis",
-            "tension",
             "conflict",
-            "climax",
-            "motif",
-            "allusion",
-            "pastiche",
-            "gag",
-            "imagery",
-            "diction",
+            "aside",
             "dialogue",
-            "nuance"
+            "tension",
+            "rhetoric",
+            "irony"
           ]
         }
       ]
@@ -4767,170 +3561,78 @@
           "level": 1,
           "name": "Dance Styles",
           "words": [
-            "waltz",
-            "tango",
-            "ballet",
+            "swing",
             "jazz",
             "tap",
-            "swing",
-            "samba",
-            "polka",
-            "mambo",
-            "flamenco",
-            "bolero",
-            "hustle",
-            "jive",
-            "limbo",
             "twist",
-            "minuet",
-            "gavotte",
-            "reel",
-            "jig",
-            "conga",
-            "mazurka",
-            "fandango",
-            "beguine",
-            "hornpipe",
-            "habanera"
+            "ballet",
+            "hustle",
+            "tango"
           ]
         },
         {
           "level": 2,
           "name": "Ballet Terms",
           "words": [
-            "attitude",
-            "chasse",
-            "glissade",
-            "assemble",
-            "coupe",
-            "jete",
-            "efface",
-            "adagio",
-            "allegro",
-            "coda",
-            "fouette",
-            "fondu",
-            "frappe",
-            "pique",
-            "rond",
-            "cabriole",
-            "ecarte",
-            "saut",
             "tour",
-            "balance"
+            "balance",
+            "attitude",
+            "assemble"
           ]
         },
         {
           "level": 3,
           "name": "Dance Moves and Steps",
           "words": [
-            "step",
-            "spin",
             "turn",
-            "pivot",
-            "shuffle",
+            "step",
             "kick",
-            "dip",
-            "lunge",
-            "sashay",
-            "lock",
-            "whip",
-            "swivel",
-            "flick",
             "hop",
-            "bounce",
-            "glide",
-            "sway",
-            "stomp",
-            "twirl",
-            "leap",
+            "spin",
             "slide",
-            "strut"
+            "dip",
+            "bounce",
+            "whip",
+            "leap"
           ]
         },
         {
           "level": 4,
           "name": "Music and Rhythm",
           "words": [
-            "beat",
-            "rhythm",
-            "tempo",
-            "melody",
-            "tune",
             "note",
-            "chord",
-            "harmony",
-            "bass",
-            "drum",
-            "groove",
-            "pulse",
-            "meter",
-            "bar",
-            "measure",
-            "accent",
-            "downbeat",
-            "upbeat",
-            "offbeat",
+            "beat",
             "count",
-            "riff",
+            "measure",
             "loop",
-            "clave",
-            "cadence"
+            "tune",
+            "accent",
+            "drum"
           ]
         },
         {
           "level": 5,
           "name": "Dance Attire",
           "words": [
-            "leotard",
-            "tutu",
-            "tights",
-            "slipper",
-            "bodice",
-            "skirt",
-            "sash",
-            "ribbon",
-            "headband",
-            "bun",
-            "sequin",
-            "fringe",
-            "feather",
             "cape",
+            "skirt",
+            "fringe",
+            "ribbon",
             "glove",
-            "tunic",
-            "cuff",
-            "scarf",
-            "buckle",
-            "corset",
-            "chignon",
-            "pump"
+            "feather",
+            "scarf"
           ]
         },
         {
           "level": 6,
           "name": "Dance Events and Groups",
           "words": [
-            "recital",
-            "showcase",
-            "audition",
-            "troupe",
-            "ensemble",
-            "contest",
-            "gala",
-            "ballroom",
-            "routine",
-            "solo",
-            "duet",
-            "trio",
-            "chorus",
-            "corps",
-            "maestro",
-            "cabaret",
-            "festival",
             "partner",
-            "posture",
-            "finale",
-            "matinee"
+            "festival",
+            "solo",
+            "contest",
+            "routine",
+            "corps"
           ]
         }
       ]
@@ -4943,169 +3645,88 @@
           "level": 1,
           "name": "Makeup Products",
           "words": [
-            "lipstick",
-            "mascara",
-            "blush",
-            "shadow",
-            "blusher",
-            "powder",
-            "gloss",
-            "bronzer",
-            "primer",
-            "tint",
-            "kohl",
-            "rouge",
-            "balm",
-            "stain",
-            "palette",
             "pencil",
             "liner",
-            "shimmer",
+            "palette",
+            "stain",
+            "lipstick",
+            "rouge",
+            "blush",
             "glitter",
-            "pigment",
-            "crayon",
-            "contour"
+            "primer"
           ]
         },
         {
           "level": 2,
           "name": "Skincare",
           "words": [
-            "cleanser",
-            "toner",
-            "serum",
-            "lotion",
-            "cream",
-            "mask",
-            "scrub",
             "oil",
-            "essence",
-            "mist",
-            "peel",
-            "patch",
-            "wipe",
-            "tonic",
-            "butter",
-            "salve",
-            "ointment",
-            "clay",
+            "cream",
             "acid",
-            "retinol",
+            "butter",
+            "mask",
+            "patch",
+            "essence",
             "vitamin",
-            "paste"
+            "wipe",
+            "paste",
+            "peel",
+            "serum"
           ]
         },
         {
           "level": 3,
           "name": "Hair Care and Styling",
           "words": [
-            "shampoo",
-            "rinse",
-            "mousse",
-            "gel",
-            "spray",
-            "wax",
-            "pomade",
-            "bleach",
-            "dye",
-            "curl",
             "smooth",
             "brush",
-            "comb",
-            "braid",
-            "bob",
-            "quiff",
+            "spray",
+            "wax",
             "fringe",
-            "updo",
+            "gel",
+            "dye",
+            "strand",
             "scissors",
-            "clipper",
-            "curler",
-            "hairdo",
-            "strand"
+            "shampoo"
           ]
         },
         {
           "level": 4,
           "name": "Nails and Manicure",
           "words": [
-            "polish",
-            "varnish",
-            "lacquer",
             "file",
-            "buffer",
-            "cuticle",
-            "manicure",
-            "pedicure",
-            "enamel",
-            "acrylic",
-            "remover",
-            "salon",
             "shape",
-            "sponge",
-            "soak",
-            "trim",
-            "emery",
-            "wrap",
-            "stiletto",
-            "almond",
+            "tip",
             "coat",
-            "tip"
+            "wrap",
+            "trim",
+            "salon",
+            "buffer"
           ]
         },
         {
           "level": 5,
           "name": "Beauty Tools",
           "words": [
-            "puff",
-            "wand",
-            "tweezer",
-            "mirror",
-            "case",
-            "pouch",
             "bottle",
-            "jar",
-            "vial",
+            "mirror",
             "tube",
-            "sifter",
-            "atomizer",
-            "lash",
-            "compact",
-            "sachet",
-            "tissue",
             "cotton",
-            "swab",
-            "towel",
-            "apron",
-            "glove",
-            "blender",
-            "roller",
-            "spatula"
+            "tissue",
+            "compact",
+            "roller"
           ]
         },
         {
           "level": 6,
           "name": "Fragrance and Scents",
           "words": [
-            "perfume",
-            "cologne",
-            "scent",
-            "aroma",
-            "musk",
-            "floral",
-            "citrus",
-            "woody",
-            "amber",
-            "rose",
-            "jasmine",
-            "lavender",
-            "vanilla",
-            "bergamot",
             "spice",
-            "attar",
-            "incense",
-            "bouquet",
-            "vetiver",
-            "balsam"
+            "vanilla",
+            "scent",
+            "floral",
+            "perfume",
+            "citrus"
           ]
         }
       ]

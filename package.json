@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build && node scripts/prerender-seo.mjs",
+    "build": "tsc -b && vite build && node scripts/prerender-seo.mjs && node scripts/validate-wordpool.mjs",
     "prerender": "node scripts/prerender-seo.mjs",
     "serve:dist": "node scripts/serve-dist.mjs",
     "lint": "eslint .",
