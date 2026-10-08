@@ -18,13 +18,16 @@ History of the long build session is searchable: `session_search("Yodoku6/7")`.
 | Accounts | Supabase `ibsbdwttksfuwiyywqlu` — magic-link sign-in live, `entitlements` table feeds Yodoku+ |
 | Spanish | Branch `es/p1-i18n` = **Phase 1 done** (i18n engine + EN/ES locales + language switcher wired; build + ad-guard green). Phase 2 (content) next. Never destabilize live English |
 
+**Recent (2026-10-08):** home games band + `#games` deep link deployed (`809362a` — games have their own dark section; `/plus` shows Yodoku+ first and "Keep playing free" links to `/#games`); boot loader min 900→1800 ms (reaches phones with the next app build). **Vocabulary audit COMPLETE** — 9 specialist reports committed in `docs/vocab-audit/` (each ends in a decision table; NOTHING applied to any data yet).
+
 ## Next actions (in order)
 
-1. **Play testers:** add the user's email (`mihaylovyordan94@gmail.com`) under *Test and release → Internal testing → Testers* → fetch the opt-in link → he installs from Play (he uninstalls the sideloaded APK first — signatures differ). He is tester #1.
-2. **Collect ~14 tester emails** from the user (Google-account emails, Android phones). Add in batches. Internal = instant installs; the **closed test** (12+ opted-in, 14 continuous days → production application) is the gate that counts — same people get re-added there.
-3. **Play store setup** — store listing, content rating, data safety, screenshots + feature graphic (assets in `docs/play-store/`). Required before the closed test can start.
-4. **Lemon Squeezy go-live** once activated (~10 min): test mode OFF → create LIVE webhook → swap `LS_WEBHOOK_SECRET` in Vercel env → redeploy (`vercel redeploy <url> --target production`) → flip `PAID_ENABLED`.
-5. **Spanish Phase 2** after Phase 1 review/merge.
+1. **Vocabulary wave:** owner decides per report row (decision list sent in chat 2026-10-08). Then ONE branch, one commit per game, tests green → ONE app build (v2) carries web fixes + loader + home band.
+2. **Play testers:** add the user's email (`mihaylovyordan94@gmail.com`) under *Test and release → Internal testing → Testers* → fetch the opt-in link → he installs from Play (he uninstalls the sideloaded APK first — signatures differ). He is tester #1.
+3. **Collect ~14 tester emails** from the user (Google-account emails, Android phones). Add in batches. Internal = instant installs; the **closed test** (12+ opted-in, 14 continuous days → production application) is the gate that counts — same people get re-added there.
+4. **Play store setup** — store listing, content rating, data safety, screenshots + feature graphic (assets in `docs/play-store/`). Required before the closed test can start.
+5. **Lemon Squeezy go-live** once activated (~10 min): test mode OFF → create LIVE webhook → swap `LS_WEBHOOK_SECRET` in Vercel env → redeploy (`vercel redeploy <url> --target production`) → flip `PAID_ENABLED`.
+6. **Spanish Phase 2** after Phase 1 review/merge.
 
 ## Where things live
 
