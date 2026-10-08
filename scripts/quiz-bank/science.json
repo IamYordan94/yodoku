@@ -128,14 +128,14 @@
     "id": "sci-011",
     "question": "What is the chemical symbol for oxygen?",
     "options": [
-      "Om",
-      "Ox",
-      "Og",
-      "O"
+      "C",
+      "O",
+      "N",
+      "S"
     ],
-    "answer": 3,
+    "answer": 1,
     "difficulty": 1,
-    "hint": "A single letter."
+    "hint": "The same symbol appears in H2O."
   },
   {
     "id": "sci-012",
@@ -233,18 +233,6 @@
       "Marie Curie"
     ],
     "answer": 3,
-    "difficulty": 1
-  },
-  {
-    "id": "sci-020",
-    "question": "How many legs does a spider have?",
-    "options": [
-      "8",
-      "6",
-      "10",
-      "4"
-    ],
-    "answer": 0,
     "difficulty": 1
   },
   {
@@ -653,18 +641,6 @@
     "answer": 0,
     "difficulty": 3,
     "hint": "Uracil replaces it in RNA."
-  },
-  {
-    "id": "sci-054",
-    "question": "How many hearts does an octopus have?",
-    "options": [
-      "3",
-      "2",
-      "4",
-      "1"
-    ],
-    "answer": 0,
-    "difficulty": 3
   },
   {
     "id": "sci-055",
@@ -1122,14 +1098,14 @@
     "id": "sci-090",
     "question": "What is the chemical symbol for carbon?",
     "options": [
+      "H",
+      "N",
       "C",
-      "Ca",
-      "Co",
-      "Cr"
+      "O"
     ],
-    "answer": 0,
+    "answer": 2,
     "difficulty": 1,
-    "hint": "It is a single letter."
+    "hint": "Diamond and graphite are pure forms of this element."
   },
   {
     "id": "sci-091",
@@ -1148,12 +1124,12 @@
     "id": "sci-092",
     "question": "What is the chemical symbol for nitrogen?",
     "options": [
+      "O",
+      "C",
       "N",
-      "Ni",
-      "Na",
-      "Ne"
+      "H"
     ],
-    "answer": 0,
+    "answer": 2,
     "difficulty": 2,
     "hint": "It makes up most of Earth's atmosphere."
   },

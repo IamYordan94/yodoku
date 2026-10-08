@@ -240,18 +240,6 @@
     "difficulty": 1
   },
   {
-    "id": "gen-021",
-    "question": "Who wrote the play 'Romeo and Juliet'?",
-    "options": [
-      "Charles Dickens",
-      "William Shakespeare",
-      "Jane Austen",
-      "Mark Twain"
-    ],
-    "answer": 1,
-    "difficulty": 2
-  },
-  {
     "id": "gen-022",
     "question": "What is the largest continent by area?",
     "options": [
@@ -298,18 +286,6 @@
       "Bear"
     ],
     "answer": 0
-  },
-  {
-    "id": "gen-026",
-    "question": "Who painted the Mona Lisa?",
-    "options": [
-      "Leonardo da Vinci",
-      "Michelangelo",
-      "Raphael",
-      "Vincent van Gogh"
-    ],
-    "answer": 0,
-    "difficulty": 2
   },
   {
     "id": "gen-027",
@@ -745,19 +721,6 @@
     "hint": "Same number as a honeycomb cell."
   },
   {
-    "id": "gen-362",
-    "question": "Which planet is known as the Red Planet?",
-    "options": [
-      "Mars",
-      "Venus",
-      "Jupiter",
-      "Mercury"
-    ],
-    "answer": 0,
-    "difficulty": 1,
-    "hint": "Named after the Roman god of war."
-  },
-  {
     "id": "gen-363",
     "question": "How many continents are there on Earth?",
     "options": [
@@ -836,19 +799,6 @@
     "hint": "Not Spanish — that's its neighbor's tongue."
   },
   {
-    "id": "gen-369",
-    "question": "How many strings does a standard violin have?",
-    "options": [
-      "Four",
-      "Five",
-      "Six",
-      "Seven"
-    ],
-    "answer": 0,
-    "difficulty": 1,
-    "hint": "Tuned G, D, A, E."
-  },
-  {
     "id": "gen-370",
     "question": "What year did humans first walk on the Moon?",
     "options": [
@@ -860,19 +810,6 @@
     "answer": 0,
     "difficulty": 2,
     "hint": "Apollo 11 mission."
-  },
-  {
-    "id": "gen-371",
-    "question": "What is the chemical symbol for gold?",
-    "options": [
-      "Au",
-      "Ag",
-      "Go",
-      "Gd"
-    ],
-    "answer": 0,
-    "difficulty": 2,
-    "hint": "From the Latin 'aurum'."
   },
   {
     "id": "gen-372",
@@ -901,19 +838,6 @@
     "hint": "Found in old thermometers."
   },
   {
-    "id": "gen-374",
-    "question": "What is the study of earthquakes called?",
-    "options": [
-      "Seismology",
-      "Geology",
-      "Meteorology",
-      "Volcanology"
-    ],
-    "answer": 0,
-    "difficulty": 2,
-    "hint": "Starts with 'seis-', Greek for shake."
-  },
-  {
     "id": "gen-375",
     "question": "Which chess piece can only move diagonally?",
     "options": [
@@ -938,19 +862,6 @@
     "answer": 0,
     "difficulty": 2,
     "hint": "Second-largest planet; famous for its rings."
-  },
-  {
-    "id": "gen-377",
-    "question": "What does DNA stand for?",
-    "options": [
-      "Deoxyribonucleic acid",
-      "Dynamic nuclear acid",
-      "Deoxyribose nucleotide array",
-      "Double nitrogen acid"
-    ],
-    "answer": 0,
-    "difficulty": 2,
-    "hint": "The molecule carrying genetic instructions."
   },
   {
     "id": "gen-378",
@@ -1165,18 +1076,6 @@
     "difficulty": 1
   },
   {
-    "id": "gen-095",
-    "question": "What is the chemical symbol for gold?",
-    "options": [
-      "Go",
-      "Gd",
-      "Au",
-      "Ag"
-    ],
-    "answer": 2,
-    "difficulty": 2
-  },
-  {
     "id": "gen-096",
     "question": "Which country gifted the Statue of Liberty to the USA?",
     "options": [
@@ -1201,18 +1100,6 @@
     "difficulty": 2
   },
   {
-    "id": "gen-098",
-    "question": "What is the largest island in the world?",
-    "options": [
-      "Greenland",
-      "Madagascar",
-      "Borneo",
-      "Australia"
-    ],
-    "answer": 0,
-    "difficulty": 2
-  },
-  {
     "id": "gen-099",
     "question": "Which organ pumps blood around the human body?",
     "options": [
@@ -1222,18 +1109,6 @@
       "Heart"
     ],
     "answer": 3,
-    "difficulty": 2
-  },
-  {
-    "id": "gen-100",
-    "question": "Who wrote 'A Christmas Carol'?",
-    "options": [
-      "Charles Dickens",
-      "Mark Twain",
-      "Oscar Wilde",
-      "Leo Tolstoy"
-    ],
-    "answer": 0,
     "difficulty": 2
   },
   {
@@ -1300,19 +1175,6 @@
     "hint": "A Spanish surrealist artist."
   },
   {
-    "id": "gen-106",
-    "question": "In which year did the Titanic sink?",
-    "options": [
-      "1905",
-      "1912",
-      "1918",
-      "1923"
-    ],
-    "answer": 1,
-    "difficulty": 3,
-    "hint": "It struck an iceberg on its maiden voyage."
-  },
-  {
     "id": "gen-107",
     "question": "What is the longest river in the world?",
     "options": [
@@ -1324,19 +1186,6 @@
     "answer": 1,
     "difficulty": 3,
     "hint": "It flows through northeastern Africa."
-  },
-  {
-    "id": "gen-108",
-    "question": "Which scientist discovered penicillin?",
-    "options": [
-      "Louis Pasteur",
-      "Alexander Fleming",
-      "Joseph Lister",
-      "Edward Jenner"
-    ],
-    "answer": 1,
-    "difficulty": 3,
-    "hint": "A Scottish bacteriologist."
   },
   {
     "id": "gen-109",

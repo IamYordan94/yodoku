@@ -767,19 +767,6 @@
     "hint": "Its name is also a dog breed"
   },
   {
-    "id": "his-064",
-    "question": "Who painted the ceiling of the Sistine Chapel?",
-    "options": [
-      "Leonardo da Vinci",
-      "Raphael",
-      "Michelangelo",
-      "Donatello"
-    ],
-    "answer": 2,
-    "difficulty": 1,
-    "hint": "Also sculpted David"
-  },
-  {
     "id": "his-065",
     "question": "In which year were East and West Germany reunified?",
     "options": [

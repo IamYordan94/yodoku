@@ -82,7 +82,8 @@
         "45"
       ],
       "answer": 0,
-      "category": "general"
+      "category": "general",
+      "explanation": "There are 60 minutes in one hour."
     },
     {
       "id": "gen-003",
@@ -122,7 +123,8 @@
       ],
       "answer": 0,
       "difficulty": 1,
-      "category": "general"
+      "category": "general",
+      "explanation": "The cheetah is the fastest land animal, reaching speeds of around 100 km/h."
     },
     {
       "id": "gen-006",
@@ -322,19 +324,6 @@
       "category": "general"
     },
     {
-      "id": "gen-021",
-      "question": "Who wrote the play 'Romeo and Juliet'?",
-      "options": [
-        "Charles Dickens",
-        "William Shakespeare",
-        "Jane Austen",
-        "Mark Twain"
-      ],
-      "answer": 1,
-      "difficulty": 2,
-      "category": "general"
-    },
-    {
       "id": "gen-022",
       "question": "What is the largest continent by area?",
       "options": [
@@ -358,7 +347,8 @@
       ],
       "answer": 3,
       "difficulty": 2,
-      "category": "general"
+      "category": "general",
+      "explanation": "The Great Barrier Reef lies off the coast of Queensland, Australia."
     },
     {
       "id": "gen-024",
@@ -384,19 +374,6 @@
         "Bear"
       ],
       "answer": 0,
-      "category": "general"
-    },
-    {
-      "id": "gen-026",
-      "question": "Who painted the Mona Lisa?",
-      "options": [
-        "Leonardo da Vinci",
-        "Michelangelo",
-        "Raphael",
-        "Vincent van Gogh"
-      ],
-      "answer": 0,
-      "difficulty": 2,
       "category": "general"
     },
     {
@@ -488,7 +465,8 @@
       ],
       "answer": 3,
       "difficulty": 2,
-      "category": "general"
+      "category": "general",
+      "explanation": "Ottawa is the capital city of Canada."
     },
     {
       "id": "gen-034",
@@ -661,7 +639,8 @@
       "answer": 1,
       "difficulty": 3,
       "hint": "It is the planet closest to the Sun.",
-      "category": "general"
+      "category": "general",
+      "explanation": "Mercury is the smallest planet in our solar system."
     },
     {
       "id": "gen-047",
@@ -824,7 +803,8 @@
       "answer": 1,
       "difficulty": 3,
       "hint": "An ancient Greek poet, traditionally said to be blind.",
-      "category": "general"
+      "category": "general",
+      "explanation": "'The Odyssey' is an ancient Greek epic poem attributed to Homer."
     },
     {
       "id": "gen-059",
@@ -838,7 +818,8 @@
       "answer": 3,
       "difficulty": 3,
       "hint": "It lies on the banks of the Nile.",
-      "category": "general"
+      "category": "general",
+      "explanation": "Cairo is the capital city of Egypt."
     },
     {
       "id": "gen-060",
@@ -868,20 +849,6 @@
       "hint": "Same number as a honeycomb cell.",
       "category": "general",
       "explanation": "A hexagon has six sides; 'hex' means six in Greek."
-    },
-    {
-      "id": "gen-362",
-      "question": "Which planet is known as the Red Planet?",
-      "options": [
-        "Mars",
-        "Venus",
-        "Jupiter",
-        "Mercury"
-      ],
-      "answer": 0,
-      "difficulty": 1,
-      "hint": "Named after the Roman god of war.",
-      "category": "general"
     },
     {
       "id": "gen-363",
@@ -969,20 +936,6 @@
       "explanation": "Portuguese is the official language of Brazil, a legacy of Portuguese colonisation."
     },
     {
-      "id": "gen-369",
-      "question": "How many strings does a standard violin have?",
-      "options": [
-        "Four",
-        "Five",
-        "Six",
-        "Seven"
-      ],
-      "answer": 0,
-      "difficulty": 1,
-      "hint": "Tuned G, D, A, E.",
-      "category": "general"
-    },
-    {
       "id": "gen-370",
       "question": "What year did humans first walk on the Moon?",
       "options": [
@@ -997,20 +950,6 @@
       "category": "general"
     },
     {
-      "id": "gen-371",
-      "question": "What is the chemical symbol for gold?",
-      "options": [
-        "Au",
-        "Ag",
-        "Go",
-        "Gd"
-      ],
-      "answer": 0,
-      "difficulty": 2,
-      "hint": "From the Latin 'aurum'.",
-      "category": "general"
-    },
-    {
       "id": "gen-372",
       "question": "What does CPU stand for in computing?",
       "options": [
@@ -1022,7 +961,8 @@
       "answer": 0,
       "difficulty": 2,
       "hint": "The 'brain' of a computer.",
-      "category": "general"
+      "category": "general",
+      "explanation": "CPU stands for Central Processing Unit, the main processor of a computer."
     },
     {
       "id": "gen-373",
@@ -1036,20 +976,6 @@
       "answer": 0,
       "difficulty": 2,
       "hint": "Found in old thermometers.",
-      "category": "general"
-    },
-    {
-      "id": "gen-374",
-      "question": "What is the study of earthquakes called?",
-      "options": [
-        "Seismology",
-        "Geology",
-        "Meteorology",
-        "Volcanology"
-      ],
-      "answer": 0,
-      "difficulty": 2,
-      "hint": "Starts with 'seis-', Greek for shake.",
       "category": "general"
     },
     {
@@ -1078,20 +1004,6 @@
       "answer": 0,
       "difficulty": 2,
       "hint": "Second-largest planet; famous for its rings.",
-      "category": "general"
-    },
-    {
-      "id": "gen-377",
-      "question": "What does DNA stand for?",
-      "options": [
-        "Deoxyribonucleic acid",
-        "Dynamic nuclear acid",
-        "Deoxyribose nucleotide array",
-        "Double nitrogen acid"
-      ],
-      "answer": 0,
-      "difficulty": 2,
-      "hint": "The molecule carrying genetic instructions.",
       "category": "general"
     },
     {
@@ -1162,7 +1074,8 @@
       "answer": 0,
       "difficulty": 3,
       "hint": "It guided ships into Alexandria.",
-      "category": "general"
+      "category": "general",
+      "explanation": "The Lighthouse of Alexandria, also called the Pharos, stood in the harbour of Alexandria."
     },
     {
       "id": "gen-383",
@@ -1258,7 +1171,8 @@
       ],
       "answer": 0,
       "difficulty": 1,
-      "category": "general"
+      "category": "general",
+      "explanation": "Water freezes at 0 degrees Celsius (32 degrees Fahrenheit) at standard pressure."
     },
     {
       "id": "gen-090",
@@ -1297,7 +1211,8 @@
       ],
       "answer": 1,
       "difficulty": 1,
-      "category": "general"
+      "category": "general",
+      "explanation": "10 minus 4 equals 6."
     },
     {
       "id": "gen-093",
@@ -1327,19 +1242,6 @@
       "explanation": "Caterpillars turn into butterflies (or moths) through the process of metamorphosis."
     },
     {
-      "id": "gen-095",
-      "question": "What is the chemical symbol for gold?",
-      "options": [
-        "Go",
-        "Gd",
-        "Au",
-        "Ag"
-      ],
-      "answer": 2,
-      "difficulty": 2,
-      "category": "general"
-    },
-    {
       "id": "gen-096",
       "question": "Which country gifted the Statue of Liberty to the USA?",
       "options": [
@@ -1366,19 +1268,6 @@
       "category": "general"
     },
     {
-      "id": "gen-098",
-      "question": "What is the largest island in the world?",
-      "options": [
-        "Greenland",
-        "Madagascar",
-        "Borneo",
-        "Australia"
-      ],
-      "answer": 0,
-      "difficulty": 2,
-      "category": "general"
-    },
-    {
       "id": "gen-099",
       "question": "Which organ pumps blood around the human body?",
       "options": [
@@ -1388,19 +1277,6 @@
         "Heart"
       ],
       "answer": 3,
-      "difficulty": 2,
-      "category": "general"
-    },
-    {
-      "id": "gen-100",
-      "question": "Who wrote 'A Christmas Carol'?",
-      "options": [
-        "Charles Dickens",
-        "Mark Twain",
-        "Oscar Wilde",
-        "Leo Tolstoy"
-      ],
-      "answer": 0,
       "difficulty": 2,
       "category": "general"
     },
@@ -1442,7 +1318,8 @@
       "answer": 1,
       "difficulty": 3,
       "hint": "It is a precious yellow metal.",
-      "category": "general"
+      "category": "general",
+      "explanation": "Gold has the atomic number 79."
     },
     {
       "id": "gen-104",
@@ -1473,20 +1350,6 @@
       "category": "general"
     },
     {
-      "id": "gen-106",
-      "question": "In which year did the Titanic sink?",
-      "options": [
-        "1905",
-        "1912",
-        "1918",
-        "1923"
-      ],
-      "answer": 1,
-      "difficulty": 3,
-      "hint": "It struck an iceberg on its maiden voyage.",
-      "category": "general"
-    },
-    {
       "id": "gen-107",
       "question": "What is the longest river in the world?",
       "options": [
@@ -1500,20 +1363,6 @@
       "hint": "It flows through northeastern Africa.",
       "category": "general",
       "explanation": "The Nile is generally cited as the longest river in the world, at about 6,650 km."
-    },
-    {
-      "id": "gen-108",
-      "question": "Which scientist discovered penicillin?",
-      "options": [
-        "Louis Pasteur",
-        "Alexander Fleming",
-        "Joseph Lister",
-        "Edward Jenner"
-      ],
-      "answer": 1,
-      "difficulty": 3,
-      "hint": "A Scottish bacteriologist.",
-      "category": "general"
     },
     {
       "id": "gen-109",
@@ -1721,7 +1570,8 @@
       ],
       "answer": 2,
       "difficulty": 1,
-      "category": "general"
+      "category": "general",
+      "explanation": "The standard English alphabet has 26 letters, from A to Z."
     },
     {
       "id": "gen-399",
@@ -1747,7 +1597,8 @@
       ],
       "answer": 3,
       "difficulty": 2,
-      "category": "general"
+      "category": "general",
+      "explanation": "Venus is called the 'Morning Star' when it appears in the eastern sky before dawn."
     },
     {
       "id": "gen-401",
@@ -1761,7 +1612,8 @@
       "answer": 2,
       "difficulty": 3,
       "hint": "It is a double-digit number, but not the highest you might guess.",
-      "category": "general"
+      "category": "general",
+      "explanation": "Russia spans 11 time zones, more than any other country."
     },
     {
       "id": "gen-402",
@@ -1996,7 +1848,8 @@
       "answer": 3,
       "difficulty": 1,
       "hint": "Six points, plus the extra point kick.",
-      "category": "sports"
+      "category": "sports",
+      "explanation": "A touchdown in American football is worth six points, with an extra-point attempt after."
     },
     {
       "id": "spo-010",
@@ -2038,7 +1891,8 @@
       "answer": 0,
       "difficulty": 1,
       "hint": "It's played on ice.",
-      "category": "sports"
+      "category": "sports",
+      "explanation": "The Stanley Cup is the championship trophy of professional ice hockey."
     },
     {
       "id": "spo-013",
@@ -2136,7 +1990,8 @@
       "answer": 0,
       "difficulty": 1,
       "hint": "Five coloured interlocking rings.",
-      "category": "sports"
+      "category": "sports",
+      "explanation": "The Olympic flag has five interlocking rings, representing the continents."
     },
     {
       "id": "spo-020",
@@ -2150,7 +2005,8 @@
       "answer": 3,
       "difficulty": 1,
       "hint": "A British seven-time champion.",
-      "category": "sports"
+      "category": "sports",
+      "explanation": "Lewis Hamilton is a seven-time Formula 1 World Champion."
     },
     {
       "id": "spo-021",
@@ -2164,7 +2020,8 @@
       "answer": 2,
       "difficulty": 2,
       "hint": "The final was Argentina vs France.",
-      "category": "sports"
+      "category": "sports",
+      "explanation": "Argentina won the FIFA World Cup in 2022, beating France in the final."
     },
     {
       "id": "spo-022",
@@ -2220,7 +2077,8 @@
       "answer": 3,
       "difficulty": 2,
       "hint": "A feared knockout artist of the 1980s.",
-      "category": "sports"
+      "category": "sports",
+      "explanation": "Heavyweight boxer Mike Tyson was nicknamed 'Iron Mike'."
     },
     {
       "id": "spo-026",
@@ -2444,7 +2302,8 @@
       "answer": 0,
       "difficulty": 3,
       "hint": "The tournament starred Zinedine Zidane.",
-      "category": "sports"
+      "category": "sports",
+      "explanation": "France hosted the 1998 FIFA World Cup and won it on home soil."
     },
     {
       "id": "spo-042",
@@ -2626,7 +2485,8 @@
       "answer": 2,
       "difficulty": 3,
       "hint": "The Romanian sensation.",
-      "category": "sports"
+      "category": "sports",
+      "explanation": "Nadia Comaneci scored the first perfect 10 in Olympic gymnastics at Montreal in 1976."
     },
     {
       "id": "spo-055",
@@ -2654,7 +2514,8 @@
       "answer": 1,
       "difficulty": 3,
       "hint": "The Swiss maestro.",
-      "category": "sports"
+      "category": "sports",
+      "explanation": "Roger Federer has won the most Wimbledon men's singles titles, with eight."
     },
     {
       "id": "spo-057",
@@ -2710,7 +2571,8 @@
       "answer": 0,
       "difficulty": 3,
       "hint": "Home of the Italian Grand Prix.",
-      "category": "sports"
+      "category": "sports",
+      "explanation": "The Monza circuit in Italy is known as 'The Temple of Speed'."
     },
     {
       "id": "spo-061",
@@ -2738,7 +2600,8 @@
       "answer": 1,
       "difficulty": 1,
       "hint": "Using your head on the pitch",
-      "category": "sports"
+      "category": "sports",
+      "explanation": "A header is a move in soccer, where a player strikes the ball with their head."
     },
     {
       "id": "spo-063",
@@ -2780,7 +2643,8 @@
       "answer": 0,
       "difficulty": 1,
       "hint": "Fastest racket sport",
-      "category": "sports"
+      "category": "sports",
+      "explanation": "Badminton players hit a shuttlecock over a net with rackets."
     },
     {
       "id": "spo-066",
@@ -2836,7 +2700,8 @@
       "answer": 2,
       "difficulty": 1,
       "hint": "Half of it is nine",
-      "category": "sports"
+      "category": "sports",
+      "explanation": "A standard round of golf is played over 18 holes."
     },
     {
       "id": "spo-070",
@@ -2949,7 +2814,8 @@
       "answer": 1,
       "difficulty": 2,
       "hint": "All reds with blacks, then the colours",
-      "category": "sports"
+      "category": "sports",
+      "explanation": "The maximum break in snooker is 147, achieved with fifteen reds and fifteen blacks."
     },
     {
       "id": "spo-078",
@@ -3217,7 +3083,8 @@
       "answer": 2,
       "difficulty": 2,
       "hint": "It is a treble.",
-      "category": "sports"
+      "category": "sports",
+      "explanation": "The highest possible score with a single dart throw is 60, the triple-20."
     },
     {
       "id": "spo-097",
@@ -3335,7 +3202,8 @@
       ],
       "answer": 0,
       "difficulty": 3,
-      "category": "sports"
+      "category": "sports",
+      "explanation": "The Ryder Cup is a biennial team competition in golf between Europe and the United States."
     },
     {
       "category": "sports",
@@ -3426,7 +3294,8 @@
       ],
       "answer": 1,
       "difficulty": 1,
-      "category": "movies"
+      "category": "movies",
+      "explanation": "Steven Spielberg directed 'Jaws', 'E.T.' and 'Jurassic Park'."
     },
     {
       "id": "mov-004",
@@ -3558,7 +3427,8 @@
       ],
       "answer": 2,
       "difficulty": 1,
-      "category": "movies"
+      "category": "movies",
+      "explanation": "Andy Serkis played Gollum in 'The Lord of the Rings' through motion capture."
     },
     {
       "id": "mov-014",
@@ -3676,7 +3546,8 @@
       ],
       "answer": 0,
       "difficulty": 2,
-      "category": "movies"
+      "category": "movies",
+      "explanation": "Humphrey Bogart plays Rick Blaine in 'Casablanca'."
     },
     {
       "id": "mov-023",
@@ -3981,7 +3852,8 @@
       "answer": 3,
       "difficulty": 3,
       "hint": "Often paired on screen with Spencer Tracy.",
-      "category": "movies"
+      "category": "movies",
+      "explanation": "Katharine Hepburn won four acting Oscars, more than any other performer."
     },
     {
       "id": "mov-046",
@@ -4051,7 +3923,8 @@
       "answer": 3,
       "difficulty": 3,
       "hint": "She famously said \"Fasten your seatbelts, it's going to be a bumpy night.\"",
-      "category": "movies"
+      "category": "movies",
+      "explanation": "Bette Davis played Margo Channing in 'All About Eve' (1950)."
     },
     {
       "id": "mov-051",
@@ -4222,7 +4095,8 @@
       "answer": 2,
       "difficulty": 1,
       "hint": "Let it go.",
-      "category": "movies"
+      "category": "movies",
+      "explanation": "Elsa, the snow queen with ice powers, is the lead character in Disney's 'Frozen'."
     },
     {
       "id": "mov-063",
@@ -4320,7 +4194,8 @@
       "answer": 1,
       "difficulty": 1,
       "hint": "Also starred in Edward Scissorhands.",
-      "category": "movies"
+      "category": "movies",
+      "explanation": "Johnny Depp played Captain Jack Sparrow in the 'Pirates of the Caribbean' films."
     },
     {
       "id": "mov-070",
@@ -4348,7 +4223,8 @@
       "answer": 1,
       "difficulty": 2,
       "hint": "British director, brother of Jonathan.",
-      "category": "movies"
+      "category": "movies",
+      "explanation": "Christopher Nolan directed 'Inception' and 'Interstellar'."
     },
     {
       "id": "mov-072",
@@ -4390,7 +4266,8 @@
       "answer": 2,
       "difficulty": 2,
       "hint": "Directed by Hayao Miyazaki, released 2001.",
-      "category": "movies"
+      "category": "movies",
+      "explanation": "Studio Ghibli's 'Spirited Away' follows Chihiro through a magical bathhouse."
     },
     {
       "id": "mov-075",
@@ -4433,7 +4310,8 @@
       "answer": 0,
       "difficulty": 2,
       "hint": "Directed by John Hughes.",
-      "category": "movies"
+      "category": "movies",
+      "explanation": "Matthew Broderick played Ferris Bueller in the 1986 film."
     },
     {
       "id": "mov-078",
@@ -4587,7 +4465,8 @@
       "answer": 1,
       "difficulty": 2,
       "hint": "He also voiced Mufasa in The Lion King.",
-      "category": "movies"
+      "category": "movies",
+      "explanation": "James Earl Jones provided the voice of Darth Vader in the original Star Wars trilogy."
     },
     {
       "id": "mov-089",
@@ -4601,7 +4480,8 @@
       "answer": 2,
       "difficulty": 3,
       "hint": "The title includes a year and a classical epic poem reference.",
-      "category": "movies"
+      "category": "movies",
+      "explanation": "'2001: A Space Odyssey', directed by Stanley Kubrick, features the computer HAL 9000."
     },
     {
       "id": "mov-090",
@@ -4629,7 +4509,8 @@
       "answer": 1,
       "difficulty": 2,
       "hint": "He is a New Zealand filmmaker.",
-      "category": "movies"
+      "category": "movies",
+      "explanation": "Peter Jackson directed 'The Lord of the Rings' film trilogy."
     },
     {
       "id": "mov-092",
@@ -4670,7 +4551,8 @@
       ],
       "answer": 1,
       "difficulty": 1,
-      "category": "movies"
+      "category": "movies",
+      "explanation": "Batman is nicknamed 'the Dark Knight' for his night-time vigilance in Gotham City."
     },
     {
       "id": "mov-095",
@@ -4829,7 +4711,8 @@
         "Iron Man"
       ],
       "answer": 1,
-      "difficulty": 1
+      "difficulty": 1,
+      "explanation": "Superman is nicknamed 'the Man of Steel'."
     },
     {
       "category": "movies",
@@ -4868,7 +4751,8 @@
         "George Lucas"
       ],
       "answer": 0,
-      "difficulty": 3
+      "difficulty": 3,
+      "explanation": "Ridley Scott directed 'Alien' (1979) and 'Blade Runner' (1982)."
     },
     {
       "id": "geo-001",
@@ -4933,7 +4817,8 @@
       ],
       "answer": 2,
       "difficulty": 1,
-      "category": "geography"
+      "category": "geography",
+      "explanation": "The capital of Australia is Canberra, not Sydney."
     },
     {
       "id": "geo-006",
@@ -4999,7 +4884,8 @@
       ],
       "answer": 3,
       "difficulty": 1,
-      "category": "geography"
+      "category": "geography",
+      "explanation": "Asia is the largest continent by both area and population."
     },
     {
       "id": "geo-011",
@@ -5052,7 +4938,8 @@
       ],
       "answer": 3,
       "difficulty": 1,
-      "category": "geography"
+      "category": "geography",
+      "explanation": "Japan is called the 'Land of the Rising Sun', reflected in its name Nihon."
     },
     {
       "id": "geo-015",
@@ -5091,7 +4978,8 @@
       ],
       "answer": 1,
       "difficulty": 1,
-      "category": "geography"
+      "category": "geography",
+      "explanation": "New Delhi is the capital of India."
     },
     {
       "id": "geo-018",
@@ -5182,7 +5070,8 @@
       ],
       "answer": 2,
       "difficulty": 2,
-      "category": "geography"
+      "category": "geography",
+      "explanation": "The Ural Mountains are traditionally considered the boundary between Europe and Asia."
     },
     {
       "id": "geo-025",
@@ -5221,7 +5110,8 @@
       ],
       "answer": 0,
       "difficulty": 2,
-      "category": "geography"
+      "category": "geography",
+      "explanation": "The Amazon is the longest river in South America and carries the most water of any river."
     },
     {
       "id": "geo-028",
@@ -5313,7 +5203,8 @@
       ],
       "answer": 1,
       "difficulty": 2,
-      "category": "geography"
+      "category": "geography",
+      "explanation": "Ethiopia was formerly known as Abyssinia."
     },
     {
       "id": "geo-035",
@@ -5434,7 +5325,8 @@
       "answer": 0,
       "difficulty": 3,
       "hint": "Its capital is Copenhagen.",
-      "category": "geography"
+      "category": "geography",
+      "explanation": "The currency of Denmark is the Danish krone."
     },
     {
       "id": "geo-044",
@@ -5560,7 +5452,8 @@
       "answer": 0,
       "difficulty": 3,
       "hint": "A historic trade hub in West Africa.",
-      "category": "geography"
+      "category": "geography",
+      "explanation": "Timbuktu, a historic city of learning, is located in Mali in West Africa."
     },
     {
       "id": "geo-053",
@@ -5616,7 +5509,8 @@
       "answer": 1,
       "difficulty": 3,
       "hint": "Also called the Chang Jiang.",
-      "category": "geography"
+      "category": "geography",
+      "explanation": "The Yangtze is the longest river in Asia and the third-longest in the world."
     },
     {
       "id": "geo-057",
@@ -5715,7 +5609,8 @@
       "answer": 0,
       "difficulty": 1,
       "hint": "It's the icy one at the South Pole.",
-      "category": "geography"
+      "category": "geography",
+      "explanation": "Antarctica is a continent in its own right, located around the South Pole."
     },
     {
       "id": "geo-064",
@@ -5955,7 +5850,8 @@
       "answer": 0,
       "difficulty": 3,
       "hint": "Three East African nations share it.",
-      "category": "geography"
+      "category": "geography",
+      "explanation": "Lake Victoria is bordered by Uganda, Kenya and Tanzania."
     },
     {
       "id": "geo-081",
@@ -5969,7 +5865,8 @@
       "answer": 0,
       "difficulty": 3,
       "hint": "It rises in Argentina near the Chilean border.",
-      "category": "geography"
+      "category": "geography",
+      "explanation": "Aconcagua, in Argentina's Andes, is the highest peak in South America at about 6,961 m."
     },
     {
       "id": "geo-082",
@@ -6026,7 +5923,8 @@
       "answer": 0,
       "difficulty": 3,
       "hint": "Its summit looks like a pyramid; south of it is Italian-speaking territory.",
-      "category": "geography"
+      "category": "geography",
+      "explanation": "The Matterhorn sits on the border between Switzerland and Italy."
     },
     {
       "id": "geo-086",
@@ -6068,7 +5966,8 @@
       "answer": 1,
       "difficulty": 2,
       "hint": "It is separated from the rest of the country by Canada.",
-      "category": "geography"
+      "category": "geography",
+      "explanation": "Alaska is the largest U.S. state by total area."
     },
     {
       "id": "geo-089",
@@ -6082,7 +5981,8 @@
       "answer": 2,
       "difficulty": 3,
       "hint": "It replaced Yangon as the capital in 2006.",
-      "category": "geography"
+      "category": "geography",
+      "explanation": "Naypyidaw is the capital city of Myanmar."
     },
     {
       "id": "geo-090",
@@ -6111,7 +6011,8 @@
       "answer": 1,
       "difficulty": 2,
       "hint": "It lies on the Han River.",
-      "category": "geography"
+      "category": "geography",
+      "explanation": "Seoul is the capital city of South Korea."
     },
     {
       "id": "geo-092",
@@ -6152,7 +6053,8 @@
       ],
       "answer": 0,
       "difficulty": 1,
-      "category": "geography"
+      "category": "geography",
+      "explanation": "The Arctic Ocean is the smallest of the world's five oceans by area."
     },
     {
       "id": "geo-095",
@@ -6245,7 +6147,8 @@
       "answer": 2,
       "difficulty": 3,
       "hint": "It is in South America and drops from a flat-topped mountain.",
-      "category": "geography"
+      "category": "geography",
+      "explanation": "Angel Falls in Venezuela is the world's highest uninterrupted waterfall."
     },
     {
       "id": "geo-102",
@@ -6271,7 +6174,8 @@
       ],
       "answer": 1,
       "difficulty": 2,
-      "category": "geography"
+      "category": "geography",
+      "explanation": "The Danube flows east through several countries and empties into the Black Sea."
     },
     {
       "id": "geo-104",
@@ -6365,7 +6269,8 @@
       "answer": 3,
       "difficulty": 1,
       "hint": "Two hydrogen atoms and one oxygen atom.",
-      "category": "science"
+      "category": "science",
+      "explanation": "The chemical formula for water is H2O: two hydrogen atoms and one oxygen."
     },
     {
       "id": "sci-002",
@@ -6379,7 +6284,8 @@
       "answer": 2,
       "difficulty": 1,
       "hint": "From the Latin word 'aurum'.",
-      "category": "science"
+      "category": "science",
+      "explanation": "The chemical symbol for gold is Au, from its Latin name aurum."
     },
     {
       "id": "sci-003",
@@ -6408,7 +6314,8 @@
       "answer": 2,
       "difficulty": 1,
       "hint": "Fast enough to circle Earth about 7.5 times in one second.",
-      "category": "science"
+      "category": "science",
+      "explanation": "The speed of light is approximately 300,000 kilometres per second."
     },
     {
       "id": "sci-005",
@@ -6489,21 +6396,23 @@
       "answer": 2,
       "difficulty": 1,
       "hint": "Pluto was reclassified as a dwarf planet in 2006.",
-      "category": "science"
+      "category": "science",
+      "explanation": "There are eight planets in our Solar System, from Mercury to Neptune."
     },
     {
       "id": "sci-011",
       "question": "What is the chemical symbol for oxygen?",
       "options": [
-        "Om",
-        "Ox",
-        "Og",
-        "O"
+        "C",
+        "O",
+        "N",
+        "S"
       ],
-      "answer": 3,
+      "answer": 1,
       "difficulty": 1,
-      "hint": "A single letter.",
-      "category": "science"
+      "hint": "The same symbol appears in H2O.",
+      "category": "science",
+      "explanation": "Oxygen's chemical symbol is O; it is the element humans need to breathe and makes up about 21% of the air."
     },
     {
       "id": "sci-012",
@@ -6570,7 +6479,8 @@
       ],
       "answer": 1,
       "difficulty": 1,
-      "category": "science"
+      "category": "science",
+      "explanation": "Albert Einstein developed the theory of relativity."
     },
     {
       "id": "sci-017",
@@ -6596,7 +6506,8 @@
       ],
       "answer": 2,
       "difficulty": 1,
-      "category": "science"
+      "category": "science",
+      "explanation": "Charles Darwin proposed the theory of evolution by natural selection."
     },
     {
       "id": "sci-019",
@@ -6612,19 +6523,6 @@
       "category": "science"
     },
     {
-      "id": "sci-020",
-      "question": "How many legs does a spider have?",
-      "options": [
-        "8",
-        "6",
-        "10",
-        "4"
-      ],
-      "answer": 0,
-      "difficulty": 1,
-      "category": "science"
-    },
-    {
       "id": "sci-021",
       "question": "What is the exact speed of light in a vacuum?",
       "options": [
@@ -6635,7 +6533,8 @@
       ],
       "answer": 0,
       "difficulty": 2,
-      "category": "science"
+      "category": "science",
+      "explanation": "The speed of light in a vacuum is exactly 299,792,458 metres per second."
     },
     {
       "id": "sci-022",
@@ -6756,7 +6655,8 @@
       ],
       "answer": 0,
       "difficulty": 2,
-      "category": "science"
+      "category": "science",
+      "explanation": "The mitochondrion is often called the cell's 'powerhouse' because it produces energy."
     },
     {
       "id": "sci-031",
@@ -6769,7 +6669,8 @@
       ],
       "answer": 1,
       "difficulty": 2,
-      "category": "science"
+      "category": "science",
+      "explanation": "Diamond, a form of carbon, is the hardest naturally occurring mineral."
     },
     {
       "id": "sci-032",
@@ -6886,7 +6787,8 @@
       ],
       "answer": 3,
       "difficulty": 2,
-      "category": "science"
+      "category": "science",
+      "explanation": "The chemical symbol for helium is He."
     },
     {
       "id": "sci-041",
@@ -6913,7 +6815,8 @@
       ],
       "answer": 2,
       "difficulty": 3,
-      "category": "science"
+      "category": "science",
+      "explanation": "The newton (N) is the SI unit of force, named after Isaac Newton."
     },
     {
       "id": "sci-043",
@@ -6942,7 +6845,8 @@
       "answer": 1,
       "difficulty": 3,
       "hint": "From the Latin word 'hydrargyrum'.",
-      "category": "science"
+      "category": "science",
+      "explanation": "The chemical symbol for mercury is Hg, from its Latin name hydrargyrum."
     },
     {
       "id": "sci-045",
@@ -6984,7 +6888,8 @@
       "answer": 3,
       "difficulty": 3,
       "hint": "About 78% of the air.",
-      "category": "science"
+      "category": "science",
+      "explanation": "Nitrogen makes up about 78% of Earth's atmosphere, its largest component."
     },
     {
       "id": "sci-048",
@@ -7052,7 +6957,8 @@
       ],
       "answer": 3,
       "difficulty": 3,
-      "category": "science"
+      "category": "science",
+      "explanation": "A DNA molecule has the shape of a double helix, like a twisted ladder."
     },
     {
       "id": "sci-053",
@@ -7067,20 +6973,6 @@
       "difficulty": 3,
       "hint": "Uracil replaces it in RNA.",
       "category": "science"
-    },
-    {
-      "id": "sci-054",
-      "question": "How many hearts does an octopus have?",
-      "options": [
-        "3",
-        "2",
-        "4",
-        "1"
-      ],
-      "answer": 0,
-      "difficulty": 3,
-      "category": "science",
-      "explanation": "An octopus has three hearts: two pump blood to the gills and one to the rest of the body."
     },
     {
       "id": "sci-055",
@@ -7107,7 +6999,8 @@
       "answer": 0,
       "difficulty": 3,
       "hint": "From the Latin word 'cuprum'.",
-      "category": "science"
+      "category": "science",
+      "explanation": "The chemical symbol for copper is Cu, from its Latin name cuprum."
     },
     {
       "id": "sci-057",
@@ -7245,7 +7138,8 @@
       "answer": 1,
       "difficulty": 1,
       "hint": "It builds a chrysalis or cocoon",
-      "category": "science"
+      "category": "science",
+      "explanation": "A caterpillar turns into a butterfly or moth during metamorphosis."
     },
     {
       "id": "sci-067",
@@ -7344,7 +7238,8 @@
       "answer": 0,
       "difficulty": 2,
       "hint": "From the Greek word for shaking",
-      "category": "science"
+      "category": "science",
+      "explanation": "The study of earthquakes is called seismology."
     },
     {
       "id": "sci-074",
@@ -7515,7 +7410,8 @@
       "answer": 2,
       "difficulty": 3,
       "hint": "Sailors ate limes to prevent it",
-      "category": "science"
+      "category": "science",
+      "explanation": "A deficiency of vitamin C causes scurvy, a disease of the gums and skin."
     },
     {
       "id": "sci-086",
@@ -7577,15 +7473,16 @@
       "id": "sci-090",
       "question": "What is the chemical symbol for carbon?",
       "options": [
+        "H",
+        "N",
         "C",
-        "Ca",
-        "Co",
-        "Cr"
+        "O"
       ],
-      "answer": 0,
+      "answer": 2,
       "difficulty": 1,
-      "hint": "It is a single letter.",
-      "category": "science"
+      "hint": "Diamond and graphite are pure forms of this element.",
+      "category": "science",
+      "explanation": "Carbon's chemical symbol is C; diamond and graphite are both pure forms of carbon."
     },
     {
       "id": "sci-091",
@@ -7605,15 +7502,16 @@
       "id": "sci-092",
       "question": "What is the chemical symbol for nitrogen?",
       "options": [
+        "O",
+        "C",
         "N",
-        "Ni",
-        "Na",
-        "Ne"
+        "H"
       ],
-      "answer": 0,
+      "answer": 2,
       "difficulty": 2,
       "hint": "It makes up most of Earth's atmosphere.",
-      "category": "science"
+      "category": "science",
+      "explanation": "Nitrogen's chemical symbol is N; it makes up about 78% of Earth's atmosphere."
     },
     {
       "id": "sci-093",
@@ -7666,7 +7564,8 @@
       ],
       "answer": 0,
       "difficulty": 2,
-      "category": "science"
+      "category": "science",
+      "explanation": "The pancreas produces the hormone insulin, which controls blood sugar."
     },
     {
       "id": "sci-097",
@@ -7719,7 +7618,8 @@
       ],
       "answer": 2,
       "difficulty": 2,
-      "category": "science"
+      "category": "science",
+      "explanation": "O negative is known as the universal donor blood type for red blood cells."
     },
     {
       "id": "sci-101",
@@ -7784,7 +7684,8 @@
       ],
       "answer": 3,
       "difficulty": 3,
-      "category": "science"
+      "category": "science",
+      "explanation": "The pascal (Pa) is the SI unit of pressure."
     },
     {
       "category": "science",
@@ -7889,7 +7790,8 @@
       ],
       "answer": 0,
       "difficulty": 1,
-      "category": "history"
+      "category": "history",
+      "explanation": "Christopher Columbus first reached the Americas in 1492 while sailing for Spain."
     },
     {
       "id": "his-005",
@@ -7902,7 +7804,8 @@
       ],
       "answer": 1,
       "difficulty": 1,
-      "category": "history"
+      "category": "history",
+      "explanation": "The RMS Titanic sank on its maiden voyage in the North Atlantic in 1912."
     },
     {
       "id": "his-006",
@@ -7928,7 +7831,8 @@
       ],
       "answer": 1,
       "difficulty": 1,
-      "category": "history"
+      "category": "history",
+      "explanation": "George Washington was the first President of the United States."
     },
     {
       "id": "his-008",
@@ -8059,7 +7963,8 @@
       ],
       "answer": 1,
       "difficulty": 1,
-      "category": "history"
+      "category": "history",
+      "explanation": "The pyramids at Giza were built by the ancient Egyptians."
     },
     {
       "id": "his-018",
@@ -8072,7 +7977,8 @@
       ],
       "answer": 2,
       "difficulty": 1,
-      "category": "history"
+      "category": "history",
+      "explanation": "The ancient Olympic Games originated in Greece, at Olympia."
     },
     {
       "id": "his-019",
@@ -8216,7 +8122,8 @@
       ],
       "answer": 1,
       "difficulty": 2,
-      "category": "history"
+      "category": "history",
+      "explanation": "Alexander Fleming discovered penicillin in 1928."
     },
     {
       "id": "his-030",
@@ -8405,7 +8312,8 @@
       "answer": 0,
       "difficulty": 3,
       "hint": "It helped decode Egyptian hieroglyphs.",
-      "category": "history"
+      "category": "history",
+      "explanation": "The Rosetta Stone was discovered in Egypt in 1799."
     },
     {
       "id": "his-044",
@@ -8541,7 +8449,8 @@
       ],
       "answer": 2,
       "difficulty": 3,
-      "category": "history"
+      "category": "history",
+      "explanation": "The Emperor Constantine legalized Christianity in 313 with the Edict of Milan."
     },
     {
       "id": "his-054",
@@ -8554,7 +8463,8 @@
       ],
       "answer": 1,
       "difficulty": 3,
-      "category": "history"
+      "category": "history",
+      "explanation": "The Taj Mahal was commissioned by the Mughal emperor Shah Jahan in memory of his wife."
     },
     {
       "id": "his-055",
@@ -8677,22 +8587,8 @@
       "answer": 0,
       "difficulty": 1,
       "hint": "Its name is also a dog breed",
-      "category": "history"
-    },
-    {
-      "id": "his-064",
-      "question": "Who painted the ceiling of the Sistine Chapel?",
-      "options": [
-        "Leonardo da Vinci",
-        "Raphael",
-        "Michelangelo",
-        "Donatello"
-      ],
-      "answer": 2,
-      "difficulty": 1,
-      "hint": "Also sculpted David",
       "category": "history",
-      "explanation": "Michelangelo painted the Sistine Chapel ceiling between 1508 and 1512."
+      "explanation": "Charles Darwin's voyage of discovery was made aboard HMS Beagle."
     },
     {
       "id": "his-065",
@@ -8706,7 +8602,8 @@
       "answer": 1,
       "difficulty": 1,
       "hint": "The year after the Wall fell",
-      "category": "history"
+      "category": "history",
+      "explanation": "East and West Germany were reunified in 1990."
     },
     {
       "id": "his-066",
@@ -8720,7 +8617,8 @@
       "answer": 2,
       "difficulty": 1,
       "hint": "Andean empire based at Cusco",
-      "category": "history"
+      "category": "history",
+      "explanation": "Machu Picchu was built by the Inca civilization in 15th-century Peru."
     },
     {
       "id": "his-067",
@@ -8832,7 +8730,8 @@
       "answer": 1,
       "difficulty": 2,
       "hint": "Meaning Great Charter",
-      "category": "history"
+      "category": "history",
+      "explanation": "King John of England agreed to the Magna Carta at Runnymede in 1215."
     },
     {
       "id": "his-075",
@@ -8846,7 +8745,8 @@
       "answer": 1,
       "difficulty": 2,
       "hint": "Also known as the Pharos",
-      "category": "history"
+      "category": "history",
+      "explanation": "The Lighthouse of Alexandria (the Pharos) was an ancient wonder standing by Alexandria's harbour."
     },
     {
       "id": "his-076",
@@ -9099,7 +8999,8 @@
       "answer": 1,
       "difficulty": 3,
       "hint": "She was nicknamed 'the Iron Lady'.",
-      "category": "history"
+      "category": "history",
+      "explanation": "Margaret Thatcher became the first female Prime Minister of the United Kingdom in 1979."
     },
     {
       "id": "his-094",
@@ -9324,7 +9225,8 @@
       "answer": 1,
       "difficulty": 1,
       "hint": "A port city in northwest England.",
-      "category": "music"
+      "category": "music",
+      "explanation": "The Beatles formed in the English city of Liverpool."
     },
     {
       "id": "mus-002",
@@ -9364,7 +9266,8 @@
       "answer": 1,
       "difficulty": 1,
       "hint": "Two more than 86.",
-      "category": "music"
+      "category": "music",
+      "explanation": "A standard piano has 88 keys."
     },
     {
       "id": "mus-005",
@@ -9377,7 +9280,8 @@
       ],
       "answer": 2,
       "difficulty": 1,
-      "category": "music"
+      "category": "music",
+      "explanation": "A standard acoustic guitar has six strings."
     },
     {
       "id": "mus-006",
@@ -9403,7 +9307,8 @@
       ],
       "answer": 1,
       "difficulty": 1,
-      "category": "music"
+      "category": "music",
+      "explanation": "Elvis Presley was known as the 'King of Rock 'n' Roll'."
     },
     {
       "id": "mus-008",
@@ -9430,7 +9335,8 @@
       ],
       "answer": 2,
       "difficulty": 1,
-      "category": "music"
+      "category": "music",
+      "explanation": "'Bohemian Rhapsody' was performed by the British rock band Queen."
     },
     {
       "id": "mus-010",
@@ -9458,7 +9364,8 @@
       "answer": 1,
       "difficulty": 1,
       "hint": "Think of do-re-mi-fa-sol-la-ti.",
-      "category": "music"
+      "category": "music",
+      "explanation": "A standard major scale contains seven notes before the octave repeats."
     },
     {
       "id": "mus-012",
@@ -9485,7 +9392,8 @@
       "answer": 2,
       "difficulty": 1,
       "hint": "The city was Salzburg.",
-      "category": "music"
+      "category": "music",
+      "explanation": "Wolfgang Amadeus Mozart was born in Salzburg, in what is now Austria."
     },
     {
       "id": "mus-014",
@@ -9631,7 +9539,8 @@
       ],
       "answer": 1,
       "difficulty": 2,
-      "category": "music"
+      "category": "music",
+      "explanation": "Beethoven continued composing while gradually losing his hearing."
     },
     {
       "id": "mus-025",
@@ -9791,7 +9700,8 @@
       ],
       "answer": 1,
       "difficulty": 2,
-      "category": "music"
+      "category": "music",
+      "explanation": "A chord of three notes is called a triad, the basic building block of harmony."
     },
     {
       "id": "mus-037",
@@ -9804,7 +9714,8 @@
       ],
       "answer": 0,
       "difficulty": 2,
-      "category": "music"
+      "category": "music",
+      "explanation": "Elvis Presley's first single, recorded at Sun Records in 1954, was 'That's All Right'."
     },
     {
       "id": "mus-038",
@@ -9857,7 +9768,8 @@
       ],
       "answer": 1,
       "difficulty": 3,
-      "category": "music"
+      "category": "music",
+      "explanation": "George Martin produced most of The Beatles' studio albums and was called the 'fifth Beatle'."
     },
     {
       "id": "mus-042",
@@ -10055,7 +9967,8 @@
       ],
       "answer": 1,
       "difficulty": 3,
-      "category": "music"
+      "category": "music",
+      "explanation": "John Landis directed the music video for Michael Jackson's 'Thriller'."
     },
     {
       "id": "mus-057",
@@ -10264,7 +10177,8 @@
       "answer": 1,
       "difficulty": 2,
       "hint": "Named after a London street and studio.",
-      "category": "music"
+      "category": "music",
+      "explanation": "'Come Together' and 'Here Comes the Sun' both appear on The Beatles' 1969 album 'Abbey Road'."
     },
     {
       "id": "mus-072",
@@ -10376,7 +10290,8 @@
       "answer": 1,
       "difficulty": 3,
       "hint": "Italian for 'passionate'.",
-      "category": "music"
+      "category": "music",
+      "explanation": "Beethoven's Piano Sonata No. 23 in F minor is nicknamed the 'Appassionata'."
     },
     {
       "id": "mus-080",
@@ -10390,7 +10305,8 @@
       "answer": 1,
       "difficulty": 3,
       "hint": "Same letter pair as his famous 'Art of Fugue'-era key choice; not D minor.",
-      "category": "music"
+      "category": "music",
+      "explanation": "Bach's Mass in B minor is regarded as one of his greatest late choral works."
     },
     {
       "id": "mus-081",
@@ -10703,7 +10619,8 @@
       ],
       "answer": 2,
       "difficulty": 2,
-      "category": "music"
+      "category": "music",
+      "explanation": "George Harrison was the lead guitarist of The Beatles."
     },
     {
       "id": "mus-104",
@@ -10756,7 +10673,8 @@
         "The Who"
       ],
       "answer": 2,
-      "difficulty": 2
+      "difficulty": 2,
+      "explanation": "Pink Floyd released 'The Dark Side of the Moon' in 1973."
     },
     {
       "category": "music",
@@ -10839,7 +10757,8 @@
       "answer": 3,
       "difficulty": 1,
       "hint": "It erases behind the cursor.",
-      "category": "technology"
+      "category": "technology",
+      "explanation": "The Backspace key deletes the character to the left of the cursor."
     },
     {
       "id": "tech-005",
@@ -10923,7 +10842,8 @@
       "answer": 1,
       "difficulty": 1,
       "hint": "You move it with your hand.",
-      "category": "technology"
+      "category": "technology",
+      "explanation": "A mouse is used to move the cursor on screen."
     },
     {
       "id": "tech-011",
@@ -11065,7 +10985,8 @@
       "answer": 3,
       "difficulty": 1,
       "hint": "Short for 'application'.",
-      "category": "technology"
+      "category": "technology",
+      "explanation": "'App' is short for application, a program designed for a specific task."
     },
     {
       "id": "tech-021",
@@ -11079,7 +11000,8 @@
       "answer": 0,
       "difficulty": 2,
       "hint": "The markup language of the web.",
-      "category": "technology"
+      "category": "technology",
+      "explanation": "HTML stands for HyperText Markup Language, the standard language for web pages."
     },
     {
       "id": "tech-022",
@@ -11234,7 +11156,8 @@
       "answer": 3,
       "difficulty": 2,
       "hint": "The search giant owns it.",
-      "category": "technology"
+      "category": "technology",
+      "explanation": "Google owns and develops the Android operating system."
     },
     {
       "id": "tech-033",
@@ -11305,7 +11228,8 @@
       "answer": 0,
       "difficulty": 2,
       "hint": "V is for... paste.",
-      "category": "technology"
+      "category": "technology",
+      "explanation": "Pressing Ctrl+V pastes copied content."
     },
     {
       "id": "tech-038",
@@ -11361,7 +11285,8 @@
       "answer": 0,
       "difficulty": 3,
       "hint": "A British computer scientist.",
-      "category": "technology"
+      "category": "technology",
+      "explanation": "Tim Berners-Lee is credited with inventing the World Wide Web."
     },
     {
       "id": "tech-042",
@@ -11476,7 +11401,8 @@
       "answer": 0,
       "difficulty": 3,
       "hint": "Point-and-click interface.",
-      "category": "technology"
+      "category": "technology",
+      "explanation": "GUI stands for Graphical User Interface."
     },
     {
       "id": "tech-050",
@@ -11504,7 +11430,8 @@
       "answer": 2,
       "difficulty": 3,
       "hint": "No moving parts.",
-      "category": "technology"
+      "category": "technology",
+      "explanation": "SSD stands for Solid State Drive, a storage device with no moving parts."
     },
     {
       "id": "tech-052",
@@ -11532,7 +11459,8 @@
       "answer": 0,
       "difficulty": 3,
       "hint": "The mid-1980s.",
-      "category": "technology"
+      "category": "technology",
+      "explanation": "The first Apple Macintosh was released in 1984."
     },
     {
       "id": "tech-054",
@@ -11617,7 +11545,8 @@
       "answer": 2,
       "difficulty": 3,
       "hint": "For private connections.",
-      "category": "technology"
+      "category": "technology",
+      "explanation": "VPN stands for Virtual Private Network, which encrypts a connection over the internet."
     },
     {
       "id": "tech-060",
@@ -11813,7 +11742,8 @@
       "answer": 1,
       "difficulty": 2,
       "hint": "The part of an app the user sees and touches.",
-      "category": "technology"
+      "category": "technology",
+      "explanation": "In software design UI stands for User Interface, what a user sees and interacts with."
     },
     {
       "id": "tech-074",
@@ -12148,7 +12078,8 @@
       "answer": 0,
       "difficulty": 3,
       "hint": "It works like a line of people.",
-      "category": "technology"
+      "category": "technology",
+      "explanation": "A queue processes items First-In-First-Out, like a line of people."
     },
     {
       "id": "tech-098",
@@ -12240,7 +12171,8 @@
       ],
       "answer": 2,
       "difficulty": 2,
-      "category": "technology"
+      "category": "technology",
+      "explanation": "A cookie is a small file a website stores on your device to remember information."
     },
     {
       "id": "tech-105",
@@ -12266,7 +12198,8 @@
         "Esc"
       ],
       "answer": 2,
-      "difficulty": 1
+      "difficulty": 1,
+      "explanation": "On most keyboards the Enter (Return) key moves the cursor to a new line and submits a command."
     },
     {
       "category": "technology",
@@ -12279,7 +12212,8 @@
         "A compressed archive"
       ],
       "answer": 1,
-      "difficulty": 2
+      "difficulty": 2,
+      "explanation": "On Windows a file ending in '.exe' is an executable program."
     },
     {
       "category": "technology",
@@ -12292,7 +12226,8 @@
         "Larger file size"
       ],
       "answer": 1,
-      "difficulty": 2
+      "difficulty": 2,
+      "explanation": "The 'S' in HTTPS stands for secure, indicating the connection is encrypted."
     },
     {
       "category": "technology",
@@ -12318,7 +12253,8 @@
       ],
       "answer": 0,
       "difficulty": 1,
-      "category": "food"
+      "category": "food",
+      "explanation": "Sushi is most famously associated with Japan, where it developed from vinegared rice."
     },
     {
       "id": "food-002",
@@ -12344,7 +12280,8 @@
       ],
       "answer": 2,
       "difficulty": 1,
-      "category": "food"
+      "category": "food",
+      "explanation": "Paella is a traditional rice dish from Spain, especially Valencia."
     },
     {
       "id": "food-004",
@@ -12449,7 +12386,8 @@
       ],
       "answer": 0,
       "difficulty": 1,
-      "category": "food"
+      "category": "food",
+      "explanation": "Chocolate is made from cocoa beans, the fermented and roasted seeds of the cacao tree."
     },
     {
       "id": "food-012",
@@ -12515,7 +12453,8 @@
       ],
       "answer": 1,
       "difficulty": 1,
-      "category": "food"
+      "category": "food",
+      "explanation": "Cheese is made from milk, by curdling and pressing the solids."
     },
     {
       "id": "food-017",
@@ -12541,7 +12480,8 @@
       ],
       "answer": 2,
       "difficulty": 1,
-      "category": "food"
+      "category": "food",
+      "explanation": "Barley is the grain traditionally used to brew beer."
     },
     {
       "id": "food-019",
@@ -12674,7 +12614,8 @@
       ],
       "answer": 1,
       "difficulty": 2,
-      "category": "food"
+      "category": "food",
+      "explanation": "Risotto is an Italian rice dish, so its main ingredient is rice."
     },
     {
       "id": "food-029",
@@ -12901,7 +12842,8 @@
       "answer": 1,
       "difficulty": 3,
       "hint": "A beet soup of Eastern Europe.",
-      "category": "food"
+      "category": "food",
+      "explanation": "Borscht, a beet soup, is most associated with Ukraine and Eastern Europe."
     },
     {
       "id": "food-046",
@@ -12943,7 +12885,8 @@
       "answer": 0,
       "difficulty": 3,
       "hint": "A complex sauce with chili and chocolate.",
-      "category": "food"
+      "category": "food",
+      "explanation": "Mole is a traditional savoury sauce from Mexico, often containing chilli and chocolate."
     },
     {
       "id": "food-049",
@@ -13082,7 +13025,8 @@
       "answer": 1,
       "difficulty": 3,
       "hint": "Used to thicken sauces.",
-      "category": "food"
+      "category": "food",
+      "explanation": "A roux is a mixture of flour and fat, used to thicken sauces."
     },
     {
       "id": "food-059",
@@ -13180,7 +13124,8 @@
       "answer": 1,
       "difficulty": 1,
       "hint": "They come from chickens.",
-      "category": "food"
+      "category": "food",
+      "explanation": "Eggs are the main ingredient of an omelette."
     },
     {
       "id": "food-066",
@@ -13209,7 +13154,8 @@
       "answer": 1,
       "difficulty": 1,
       "hint": "Often left uneaten on the side.",
-      "category": "food"
+      "category": "food",
+      "explanation": "Parsley is a curly green herb often used as a garnish."
     },
     {
       "id": "food-068",
@@ -13223,7 +13169,8 @@
       "answer": 1,
       "difficulty": 1,
       "hint": "A classic partner of jelly in sandwiches.",
-      "category": "food"
+      "category": "food",
+      "explanation": "Peanut butter is made from ground roasted peanuts, which are legumes."
     },
     {
       "id": "food-069",
@@ -13252,7 +13199,8 @@
       "answer": 1,
       "difficulty": 2,
       "hint": "Ground nuts and sugar, often shaped like fruit.",
-      "category": "food"
+      "category": "food",
+      "explanation": "Marzipan is made mainly from ground almonds and sugar."
     },
     {
       "id": "food-071",
@@ -13322,7 +13270,8 @@
       "answer": 2,
       "difficulty": 2,
       "hint": "Dark, sweet, and aged in wooden barrels.",
-      "category": "food"
+      "category": "food",
+      "explanation": "Balsamic vinegar is a dark, syrupy vinegar from Modena in Italy."
     },
     {
       "id": "food-076",
@@ -13407,7 +13356,8 @@
       "answer": 1,
       "difficulty": 3,
       "hint": "Traditionally hunted with pigs or dogs in Italy and France.",
-      "category": "food"
+      "category": "food",
+      "explanation": "A truffle is an expensive underground fungus that grows near the roots of trees such as oak."
     },
     {
       "id": "food-082",
@@ -13477,7 +13427,8 @@
       "answer": 1,
       "difficulty": 1,
       "hint": "It is long and thin and served with sauce.",
-      "category": "food"
+      "category": "food",
+      "explanation": "Spaghetti is a long, thin pasta; the other options are not pasta shapes."
     },
     {
       "id": "food-087",
@@ -13533,7 +13484,8 @@
       "answer": 1,
       "difficulty": 1,
       "hint": "It is often topped with melted cheese on toast.",
-      "category": "food"
+      "category": "food",
+      "explanation": "Onions are the main ingredient of French onion soup."
     },
     {
       "id": "food-091",
@@ -13722,7 +13674,8 @@
       ],
       "answer": 2,
       "difficulty": 2,
-      "category": "food"
+      "category": "food",
+      "explanation": "Profiteroles and éclairs are both made with choux pastry."
     },
     {
       "id": "food-105",
@@ -13748,7 +13701,8 @@
         "Kale"
       ],
       "answer": 1,
-      "difficulty": 1
+      "difficulty": 1,
+      "explanation": "Coleslaw is traditionally made from shredded raw cabbage in a dressing."
     },
     {
       "category": "food",
@@ -14126,7 +14080,8 @@
       ],
       "answer": 1,
       "difficulty": 2,
-      "category": "art"
+      "category": "art",
+      "explanation": "In Greek mythology Sisyphus was condemned to roll a boulder uphill forever."
     },
     {
       "id": "art-027",
@@ -14362,7 +14317,8 @@
       ],
       "answer": 1,
       "difficulty": 3,
-      "category": "art"
+      "category": "art",
+      "explanation": "Sophocles wrote the ancient Greek tragedy 'Oedipus Rex'."
     },
     {
       "id": "art-045",
@@ -14376,7 +14332,8 @@
       "answer": 0,
       "difficulty": 3,
       "hint": "He was a Dutch master of the Golden Age.",
-      "category": "art"
+      "category": "art",
+      "explanation": "Rembrandt painted 'The Night Watch', a famous group portrait of 1642."
     },
     {
       "id": "art-046",
@@ -14444,7 +14401,8 @@
       "answer": 1,
       "difficulty": 3,
       "hint": "It is kept at Trinity College in Dublin.",
-      "category": "art"
+      "category": "art",
+      "explanation": "The 'Book of Kells' is an illuminated manuscript from Ireland."
     },
     {
       "id": "art-051",
@@ -14497,7 +14455,8 @@
       ],
       "answer": 2,
       "difficulty": 3,
-      "category": "art"
+      "category": "art",
+      "explanation": "'Wuthering Heights' was written by Emily Brontë."
     },
     {
       "id": "art-055",
@@ -14510,7 +14469,8 @@
       ],
       "answer": 1,
       "difficulty": 3,
-      "category": "art"
+      "category": "art",
+      "explanation": "Claude Monet is famous for his 'Water Lilies' series of paintings."
     },
     {
       "id": "art-056",
@@ -14603,7 +14563,8 @@
       "answer": 0,
       "difficulty": 1,
       "hint": "A Danish author.",
-      "category": "art"
+      "category": "art",
+      "explanation": "'The Little Mermaid' fairy tale was written by Hans Christian Andersen."
     },
     {
       "id": "art-063",
@@ -14688,7 +14649,8 @@
       "answer": 0,
       "difficulty": 1,
       "hint": "His Ninth Symphony premiered when he could not hear it.",
-      "category": "art"
+      "category": "art",
+      "explanation": "Ludwig van Beethoven continued composing symphonies even after he went completely deaf."
     },
     {
       "id": "art-069",
@@ -14801,7 +14763,8 @@
       "answer": 0,
       "difficulty": 2,
       "hint": "By Harper Lee, set in Alabama.",
-      "category": "art"
+      "category": "art",
+      "explanation": "'To Kill a Mockingbird' by Harper Lee features Atticus Finch defending Tom Robinson."
     },
     {
       "id": "art-077",
@@ -14914,7 +14877,8 @@
       "answer": 0,
       "difficulty": 3,
       "hint": "An Austrian symbolist painter of the Vienna Secession.",
-      "category": "art"
+      "category": "art",
+      "explanation": "Gustav Klimt painted 'The Kiss', a gold-leaf work of the Vienna Secession."
     },
     {
       "id": "art-085",
@@ -14942,7 +14906,8 @@
       "answer": 1,
       "difficulty": 1,
       "hint": "Together with blue and yellow it mixes all other colours.",
-      "category": "art"
+      "category": "art",
+      "explanation": "Red is a primary colour in painting, along with blue and yellow."
     },
     {
       "id": "art-087",
@@ -14998,7 +14963,8 @@
       "answer": 1,
       "difficulty": 1,
       "hint": "It is the color of many flowers in the violet family.",
-      "category": "art"
+      "category": "art",
+      "explanation": "Mixing red and blue paint gives purple."
     },
     {
       "id": "art-091",
@@ -15186,7 +15152,8 @@
       ],
       "answer": 2,
       "difficulty": 2,
-      "category": "art"
+      "category": "art",
+      "explanation": "Francisco Goya painted 'The Third of May 1808', depicting a firing squad in Madrid."
     },
     {
       "id": "art-105",
@@ -15199,7 +15166,8 @@
       ],
       "answer": 3,
       "difficulty": 3,
-      "category": "art"
+      "category": "art",
+      "explanation": "T. S. Eliot wrote 'The Waste Land', a landmark modernist poem published in 1922."
     },
     {
       "category": "art",
@@ -15305,7 +15273,8 @@
       ],
       "answer": 2,
       "difficulty": 1,
-      "category": "animals"
+      "category": "animals",
+      "explanation": "A spider has eight legs; insects have six."
     },
     {
       "id": "anim-005",
@@ -15371,7 +15340,8 @@
       ],
       "answer": 1,
       "difficulty": 1,
-      "category": "animals"
+      "category": "animals",
+      "explanation": "Penguins are flightless birds; their wings work as flippers for swimming."
     },
     {
       "id": "anim-010",
@@ -15384,7 +15354,8 @@
       ],
       "answer": 2,
       "difficulty": 1,
-      "category": "animals"
+      "category": "animals",
+      "explanation": "Polar bears live in the Arctic, around the northern polar region."
     },
     {
       "id": "anim-011",
@@ -15397,7 +15368,8 @@
       ],
       "answer": 1,
       "difficulty": 1,
-      "category": "animals"
+      "category": "animals",
+      "explanation": "Honey bees make honey from flower nectar, storing it in the hive."
     },
     {
       "id": "anim-012",
@@ -15464,7 +15436,8 @@
       ],
       "answer": 2,
       "difficulty": 1,
-      "category": "animals"
+      "category": "animals",
+      "explanation": "Fish live in water and breathe through gills."
     },
     {
       "id": "anim-017",
@@ -15490,7 +15463,8 @@
       ],
       "answer": 1,
       "difficulty": 1,
-      "category": "animals"
+      "category": "animals",
+      "explanation": "Flamingos are pink, a colour that comes from pigments in the food they eat."
     },
     {
       "id": "anim-019",
@@ -15503,7 +15477,8 @@
       ],
       "answer": 1,
       "difficulty": 1,
-      "category": "animals"
+      "category": "animals",
+      "explanation": "Kangaroos hop and carry their young in a pouch; they are marsupials."
     },
     {
       "id": "anim-020",
@@ -15516,7 +15491,8 @@
       ],
       "answer": 0,
       "difficulty": 1,
-      "category": "animals"
+      "category": "animals",
+      "explanation": "Bears sleep through the winter in a long, deep sleep called hibernation."
     },
     {
       "id": "anim-021",
@@ -15529,7 +15505,8 @@
       ],
       "answer": 1,
       "difficulty": 2,
-      "category": "animals"
+      "category": "animals",
+      "explanation": "Cows are herbivores, eating only plants such as grass."
     },
     {
       "id": "anim-022",
@@ -15739,7 +15716,8 @@
       ],
       "answer": 1,
       "difficulty": 2,
-      "category": "animals"
+      "category": "animals",
+      "explanation": "Dolphins breathe air through a blowhole on top of their head."
     },
     {
       "id": "anim-038",
@@ -16103,7 +16081,8 @@
       "answer": 0,
       "difficulty": 1,
       "hint": "Looks like a horse in pajamas.",
-      "category": "animals"
+      "category": "animals",
+      "explanation": "The zebra is an African grazing animal with distinctive black and white stripes."
     },
     {
       "id": "anim-064",
@@ -16131,7 +16110,8 @@
       "answer": 0,
       "difficulty": 1,
       "hint": "It buzzes and makes hexagonal cells.",
-      "category": "animals"
+      "category": "animals",
+      "explanation": "Honey bees live in a hive and produce beeswax as well as honey."
     },
     {
       "id": "anim-066",
