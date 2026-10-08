@@ -4,7 +4,7 @@
  * Win = find all N solution words. Stuck = can't form more words but letters remain.
  */
 import { readFileSync, writeFileSync } from 'fs';
-import { fileURLToPath } from 'url';
+import { fileURLToPath, pathToFileURL } from 'url';
 import { dirname, join } from 'path';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -23,7 +23,7 @@ const usedWordsGlobal = new Set();
 
 // No longer needed - we just shuffle, don't verify formability
 
-function seedRandom(seed) {
+export function seedRandom(seed) {
   let h = 1779033703 ^ seed.length;
   for (let i = 0; i < seed.length; i++) {
     h = Math.imul(h ^ seed.charCodeAt(i), 3432918353);
@@ -46,7 +46,7 @@ function shuffle(arr, rand) {
   return a;
 }
 
-function pickWords(wordsByLen, config, rand) {
+export function pickWords(wordsByLen, config, rand) {
   const words = [];
   const { targetWords, minLen, maxLen } = config;
 
@@ -82,7 +82,7 @@ function pickWords(wordsByLen, config, rand) {
   return words;
 }
 
-function generateOne(dateStr, level, wordsByLen) {
+export function generateOne(dateStr, level, wordsByLen) {
   const config = CONFIG[level];
   const rand = seedRandom(dateStr + '-' + level);
   
@@ -101,9 +101,24 @@ function generateOne(dateStr, level, wordsByLen) {
   };
 }
 
-function main() {
-  const wordsPath = join(__dirname, '..', 'public', 'data', 'words.json');
+/**
+ * Curated common-English pool (public/words-cbo.json, built by
+ * scripts/build-cbo-words.mjs from scripts/data/english-common.txt).
+ *
+ * The old 15 MB words.json dictionary is packed with non-words ("ignobly",
+ * "hyalite", "zel", "vau") — drawing solutions from it produced puzzles nobody
+ * could beat. Every solution word must be a word a player recognises, so the
+ * pool is the curated list minus the given-name/surname blocklist.
+ */
+export function loadPools() {
+  const wordsPath = join(__dirname, '..', 'public', 'words-cbo.json');
   const data = JSON.parse(readFileSync(wordsPath, 'utf-8'));
+  const nameBlocklist = new Set(
+    readFileSync(join(__dirname, 'data', 'names-blocklist.txt'), 'utf-8')
+      .split(/\r?\n/)
+      .map((w) => w.trim().toLowerCase())
+      .filter(Boolean)
+  );
 
   const wordsByLen = {};
   for (const key of Object.keys(data)) {
@@ -112,9 +127,14 @@ function main() {
     const entries = data[key];
     if (!Array.isArray(entries)) continue;
     wordsByLen[key] = entries
-      .map((e) => e.word?.toLowerCase())
-      .filter((w) => w && w.length === n);
+      .map((w) => String(w).toLowerCase())
+      .filter((w) => w.length === n && !nameBlocklist.has(w));
   }
+  return wordsByLen;
+}
+
+function main() {
+  const wordsByLen = loadPools();
   console.log('Loaded words by length:', Object.keys(wordsByLen).map((k) => `${k}:${wordsByLen[k].length}`).join(', '));
 
   // CLI:
@@ -195,4 +215,6 @@ function main() {
   }
 }
 
-main();
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  main();
+}

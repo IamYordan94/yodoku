@@ -18,7 +18,9 @@ declare global { interface Window { __bootStart?: number; __bootKeep?: boolean; 
 const bootEl = document.getElementById('boot-loader')
 if (bootEl && !bootEl.hidden && !window.__bootKeep) {
   const start = window.__bootStart || Date.now()
-  const wait = Math.max(0, 900 - (Date.now() - start))
+  // ~1.8s minimum: the tile animation (staggered to 540ms) needs room to play
+  // out before the game screen appears. At the old 900ms the loader flashed by.
+  const wait = Math.max(0, 1800 - (Date.now() - start))
   window.setTimeout(() => {
     bootEl.classList.add('boot-out')
     window.setTimeout(() => bootEl.remove(), 320)
