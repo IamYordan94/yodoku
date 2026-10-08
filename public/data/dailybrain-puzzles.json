@@ -13,147 +13,6 @@
       ],
       "reveal": "Grind size controls extraction speed; steeping controls strength; pressing stops extraction. Coarse grind + 4-minute steep = balanced cup.",
       "citation": "https://www.stumptowncoffee.com/pages/brew-guide-french-press",
-      "difficulty": "easy",
-      "reverse": true
-    },
-    {
-      "category": "cooking",
-      "rule": "Baking bread from scratch",
-      "items": [
-        "mix flour water yeast salt",
-        "knead the dough",
-        "let it rise",
-        "punch it down",
-        "shape the loaf",
-        "bake it"
-      ],
-      "reveal": "Yeast produces CO₂ during fermentation; kneading develops gluten; punching redistributes yeast for second rise.",
-      "citation": "https://www.kingarthurbaking.com/learn/guides/bread",
-      "difficulty": "easy",
-      "reverse": true
-    },
-    {
-      "category": "cooking",
-      "rule": "Making a cup of tea (British method)",
-      "items": [
-        "boil fresh water",
-        "warm the teapot",
-        "add tea leaves",
-        "pour boiling water",
-        "steep 3–5 minutes",
-        "pour through strainer"
-      ],
-      "reveal": "Freshly boiled water has more dissolved oxygen for better flavour. Warming the pot prevents temperature drop.",
-      "citation": "https://www.tea.co.uk/how-to-brew-tea",
-      "difficulty": "easy",
-      "reverse": true
-    },
-    {
-      "category": "cooking",
-      "rule": "Making pasta from scratch",
-      "items": [
-        "make a flour well",
-        "crack eggs into the well",
-        "slowly incorporate flour",
-        "knead until smooth",
-        "rest the dough 30 min",
-        "roll and cut"
-      ],
-      "reveal": "The flour well contains eggs; slow incorporation prevents lumps. Resting relaxes gluten for easier rolling.",
-      "citation": "https://www.seriouseats.com/fresh-egg-pasta",
-      "difficulty": "easy"
-    },
-    {
-      "category": "cooking",
-      "rule": "Making sushi rice",
-      "items": [
-        "rinse rice until water runs clear",
-        "cook rice",
-        "mix rice vinegar sugar salt",
-        "cool rice slightly",
-        "fold seasoning into rice",
-        "fan rice to glossy finish"
-      ],
-      "reveal": "Rinsing removes excess starch. Fanning while folding cools rice and gives characteristic glossy sheen.",
-      "citation": "https://www.justonecookbook.com/how-to-make-sushi-rice/",
-      "difficulty": "easy",
-      "reverse": true
-    },
-    {
-      "category": "cooking",
-      "rule": "Making pancakes from scratch",
-      "items": [
-        "mix dry ingredients",
-        "whisk wet ingredients",
-        "combine wet and dry",
-        "heat the griddle",
-        "pour batter",
-        "flip when bubbles form"
-      ],
-      "reveal": "Don't overmix -- lumps are fine. Bubbles forming on top = ready to flip. First pancake is always the tester.",
-      "citation": "https://www.kingarthurbaking.com/recipes/simply-perfect-pancakes-recipe",
-      "difficulty": "easy"
-    },
-    {
-      "category": "cooking",
-      "rule": "Roasting a chicken",
-      "items": [
-        "preheat oven to 425°F",
-        "pat chicken dry",
-        "season inside and out",
-        "truss the legs",
-        "roast breast-side up",
-        "rest 15 min before carving"
-      ],
-      "reveal": "Dry skin = crispy. High initial heat renders fat. Resting redistributes juices -- cutting immediately loses them.",
-      "citation": "https://www.seriouseats.com/butterflied-roasted-chicken-with-quick-jus-recipe",
-      "difficulty": "easy",
-      "reverse": true
-    },
-    {
-      "category": "cooking",
-      "rule": "Making chocolate chip cookies",
-      "items": [
-        "cream butter and sugar",
-        "add eggs and vanilla",
-        "mix in dry ingredients",
-        "fold in chocolate chips",
-        "scoop onto baking sheet",
-        "bake at 350°F for 10–12 min"
-      ],
-      "reveal": "Creaming incorporates air for lift. Chilling dough before baking deepens flavour and prevents spreading.",
-      "citation": "https://www.kingarthurbaking.com/recipes/chocolate-chip-cookies-recipe",
-      "difficulty": "easy"
-    },
-    {
-      "category": "cooking",
-      "rule": "Brewing pour-over coffee",
-      "items": [
-        "rinse the filter",
-        "add ground coffee",
-        "bloom with hot water (30s)",
-        "pour in slow circles",
-        "let it drain completely",
-        "serve immediately"
-      ],
-      "reveal": "Blooming releases CO₂ for even extraction. Slow circular pour prevents channeling. Drink within minutes -- coffee oxidises.",
-      "citation": "https://www.stumptowncoffee.com/pages/brew-guide-pour-over",
-      "difficulty": "easy",
-      "reverse": true
-    },
-    {
-      "category": "cooking",
-      "rule": "Making homemade pizza",
-      "items": [
-        "activate yeast in warm water",
-        "mix and knead dough",
-        "let dough rise 1 hour",
-        "stretch into a round",
-        "add sauce and toppings",
-        "bake at highest oven temp"
-      ],
-      "reveal": "High heat mimics a pizza oven (900°F). Stretch by hand -- rolling pins degas the dough. Less is more with toppings.",
-      "citation": "https://www.seriouseats.com/basic-pizza-dough-recipe",
       "difficulty": "easy"
     },
     {
@@ -172,141 +31,6 @@
       "difficulty": "easy"
     },
     {
-      "category": "science",
-      "rule": "The scientific method",
-      "items": [
-        "ask a question",
-        "do background research",
-        "construct a hypothesis",
-        "test with an experiment",
-        "analyze data",
-        "communicate results"
-      ],
-      "reveal": "Iterative -- results lead to new questions. A hypothesis must be falsifiable to be scientific.",
-      "citation": "https://www.sciencebuddies.org/science-fair-projects/science-fair/steps-of-the-scientific-method",
-      "difficulty": "medium"
-    },
-    {
-      "category": "science",
-      "rule": "Path of food through the body",
-      "items": [
-        "mouth",
-        "esophagus",
-        "stomach",
-        "small intestine",
-        "large intestine",
-        "rectum"
-      ],
-      "reveal": "Mechanical breakdown -> chemical digestion -> absorption -> water reabsorption -> storage. Small intestine does ~90% of nutrient absorption.",
-      "citation": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
-      "difficulty": "easy"
-    },
-    {
-      "category": "science",
-      "rule": "Life cycle of a star (Sun-like)",
-      "items": [
-        "nebula",
-        "protostar",
-        "main sequence star",
-        "red giant",
-        "planetary nebula",
-        "white dwarf"
-      ],
-      "reveal": "Stars spend ~90% of life on main sequence fusing hydrogen. Our Sun is halfway through its 10-billion-year run.",
-      "citation": "https://imagine.gsfc.nasa.gov/science/objects/stars1.html",
-      "difficulty": "medium"
-    },
-    {
-      "category": "science",
-      "rule": "Photosynthesis process",
-      "items": [
-        "sunlight absorbed by chlorophyll",
-        "water split into H and O",
-        "CO₂ enters through stomata",
-        "Calvin cycle fixes carbon",
-        "glucose produced",
-        "oxygen released"
-      ],
-      "reveal": "Light reactions split water to make ATP; Calvin cycle uses ATP to build glucose. Oxygen is a waste product from water splitting.",
-      "citation": "https://www.britannica.com/science/photosynthesis",
-      "difficulty": "medium"
-    },
-    {
-      "category": "science",
-      "rule": "Rock cycle",
-      "items": [
-        "magma cools",
-        "igneous rock forms",
-        "weathering and erosion",
-        "sediment deposited",
-        "compaction and cementation",
-        "sedimentary rock"
-      ],
-      "reveal": "Igneous -> sedimentary -> metamorphic -> melt back to magma. Any rock can become any other -- a true cycle, not a line.",
-      "citation": "https://www.britannica.com/science/rock-cycle",
-      "difficulty": "medium"
-    },
-    {
-      "category": "science",
-      "rule": "Human evolution timeline",
-      "items": [
-        "Ardipithecus (4.4 mya)",
-        "Australopithecus afarensis (Lucy)",
-        "Homo habilis",
-        "Homo erectus",
-        "Homo neanderthalensis",
-        "Homo sapiens"
-      ],
-      "reveal": "Bipedalism first, then bigger brains, then tools, then fire. Neanderthals were contemporaries, not ancestors.",
-      "citation": "https://humanorigins.si.edu/evidence/human-family-tree",
-      "difficulty": "hard"
-    },
-    {
-      "category": "science",
-      "rule": "DNA to protein (central dogma)",
-      "items": [
-        "DNA transcription",
-        "mRNA processing",
-        "mRNA leaves nucleus",
-        "ribosome binds mRNA",
-        "tRNA brings amino acids",
-        "polypeptide chain forms"
-      ],
-      "reveal": "Transcription copies DNA to mRNA; translation reads mRNA to build protein. One gene -> one polypeptide -> folded protein.",
-      "citation": "https://www.genome.gov/genetics-glossary/Central-Dogma",
-      "difficulty": "hard"
-    },
-    {
-      "category": "science",
-      "rule": "Cell division (mitosis)",
-      "items": [
-        "interphase (DNA replicates)",
-        "prophase (chromosomes condense)",
-        "metaphase (align at equator)",
-        "anaphase (sister chromatids separate)",
-        "telophase (nuclear envelope reforms)",
-        "cytokinesis (cell splits)"
-      ],
-      "reveal": "Mitosis produces two identical daughter cells. Interphase is where the cell spends 90% of its life -- it's not a 'resting' phase.",
-      "citation": "https://www.britannica.com/science/mitosis",
-      "difficulty": "medium"
-    },
-    {
-      "category": "science",
-      "rule": "The carbon cycle",
-      "items": [
-        "CO₂ in atmosphere",
-        "plants absorb CO₂ (photosynthesis)",
-        "animals eat plants",
-        "respiration releases CO₂",
-        "decomposition returns carbon to soil",
-        "fossil fuel burning adds CO₂"
-      ],
-      "reveal": "Carbon moves between atmosphere, biosphere, oceans, and geosphere. Human burning of fossil fuels has increased atmospheric CO₂ by ~50% since 1750.",
-      "citation": "https://www.britannica.com/science/carbon-cycle",
-      "difficulty": "medium"
-    },
-    {
       "category": "history",
       "rule": "French Revolution (1789–1799)",
       "items": [
@@ -320,140 +44,6 @@
       "reveal": "Slide from constitutional reform to radical terror to military dictatorship -- causes, not dates.",
       "citation": "https://www.britannica.com/event/French-Revolution",
       "difficulty": "medium"
-    },
-    {
-      "category": "history",
-      "rule": "History of the Roman Republic",
-      "items": [
-        "Overthrow of the monarchy",
-        "Creation of the Senate",
-        "Punic Wars against Carthage",
-        "Gracchi reforms",
-        "Caesar crosses the Rubicon",
-        "Augustus becomes first emperor"
-      ],
-      "reveal": "The Republic expanded through war, collapsed from internal inequality and ambition. The Rubicon was the point of no return.",
-      "citation": "https://www.britannica.com/place/ancient-Rome",
-      "difficulty": "medium"
-    },
-    {
-      "category": "history",
-      "rule": "World War II (1939–1945)",
-      "items": [
-        "Germany invades Poland",
-        "Fall of France",
-        "Pearl Harbor attack",
-        "D-Day landings",
-        "Hiroshima bomb",
-        "Japan surrenders"
-      ],
-      "reveal": "Escalated from European to global war with Pearl Harbor. D-Day opened the Western Front; atomic bombs ended the Pacific war.",
-      "citation": "https://www.britannica.com/event/World-War-II",
-      "difficulty": "medium"
-    },
-    {
-      "category": "history",
-      "rule": "American Revolution (1765–1783)",
-      "items": [
-        "Stamp Act passed",
-        "Boston Tea Party",
-        "First Continental Congress",
-        "Declaration of Independence",
-        "Battle of Yorktown",
-        "Treaty of Paris"
-      ],
-      "reveal": "Taxation without representation -> protest -> organized resistance -> declaration -> war -> victory. Eight years from Congress to treaty.",
-      "citation": "https://www.britannica.com/event/American-Revolution",
-      "difficulty": "medium"
-    },
-    {
-      "category": "history",
-      "rule": "Development of the internet",
-      "items": [
-        "ARPANET (1969)",
-        "TCP/IP protocol (1983)",
-        "World Wide Web (1991)",
-        "Google search (1998)",
-        "Facebook (2004)",
-        "iPhone (2007)"
-      ],
-      "reveal": "Each step is a layer: plumbing -> protocol -> content -> discovery -> social -> mobile. The internet is a stack.",
-      "citation": "https://www.internetsociety.org/internet/history-internet/",
-      "difficulty": "medium"
-    },
-    {
-      "category": "history",
-      "rule": "Space Race (1957–1969)",
-      "items": [
-        "Sputnik launched (1957)",
-        "Yuri Gagarin orbits Earth (1961)",
-        "JFK's Moon speech (1961)",
-        "Apollo 8 orbits Moon (1968)",
-        "Apollo 11 lands on Moon (1969)"
-      ],
-      "reveal": "From first satellite to first Moon landing in just 12 years. The race was driven by Cold War competition -- but the technology legacy is universal.",
-      "citation": "https://www.britannica.com/science/space-exploration",
-      "difficulty": "medium"
-    },
-    {
-      "category": "history",
-      "rule": "Industrial Revolution milestones",
-      "items": [
-        "Spinning jenny invented (1764)",
-        "Watt's steam engine (1776)",
-        "First steam locomotive (1804)",
-        "Telegraph invented (1837)",
-        "Bessemer steel process (1856)",
-        "First telephone call (1876)"
-      ],
-      "reveal": "Textile mechanisation -> steam power -> transport revolution -> instant communication -> mass production. Each innovation enabled the next.",
-      "citation": "https://www.britannica.com/event/Industrial-Revolution",
-      "difficulty": "medium"
-    },
-    {
-      "category": "history",
-      "rule": "Civil Rights Movement (US)",
-      "items": [
-        "Brown v. Board of Education (1954)",
-        "Montgomery Bus Boycott (1955)",
-        "March on Washington (1963)",
-        "Civil Rights Act (1964)",
-        "Voting Rights Act (1965)",
-        "Fair Housing Act (1968)"
-      ],
-      "reveal": "Legal challenges -> grassroots protest -> mass mobilisation -> federal legislation. Each law built on the momentum of the previous.",
-      "citation": "https://www.britannica.com/event/American-civil-rights-movement",
-      "difficulty": "medium"
-    },
-    {
-      "category": "history",
-      "rule": "Renaissance timeline",
-      "items": [
-        "Gutenberg's printing press (1440)",
-        "Columbus reaches Americas (1492)",
-        "da Vinci paints Mona Lisa (1503)",
-        "Michelangelo's David (1504)",
-        "Luther's 95 Theses (1517)",
-        "Copernicus publishes heliocentric model (1543)"
-      ],
-      "reveal": "Printing press democratised knowledge -> exploration expanded worldview -> art captured humanism -> Reformation challenged authority -> science redefined the cosmos.",
-      "citation": "https://www.britannica.com/event/Renaissance",
-      "difficulty": "medium"
-    },
-    {
-      "category": "history",
-      "rule": "Ancient Egypt timeline (Old to New Kingdom)",
-      "items": [
-        "Great Pyramid built (2560 BCE)",
-        "Middle Kingdom begins (2055 BCE)",
-        "Hyksos invasion (1650 BCE)",
-        "New Kingdom begins (1550 BCE)",
-        "Tutankhamun reigns (1332 BCE)",
-        "Ramesses II reigns (1279 BCE)"
-      ],
-      "reveal": "Old Kingdom = pyramid age. Middle Kingdom = stability. Hyksos introduced chariots. New Kingdom = empire and famous pharaohs -- three distinct eras over 1,300 years.",
-      "citation": "https://www.britannica.com/place/ancient-Egypt",
-      "difficulty": "hard"
     },
     {
       "category": "grammar",
@@ -470,137 +60,6 @@
       "difficulty": "medium"
     },
     {
-      "category": "grammar",
-      "rule": "Order of adverbs (MPTM)",
-      "items": [
-        "manner",
-        "place",
-        "frequency",
-        "time",
-        "purpose"
-      ],
-      "reveal": "Manner-Place-Frequency-Time-Purpose: 'She sang beautifully at the concert every night last week to raise money.'",
-      "citation": "https://dictionary.cambridge.org/grammar/british-grammar/adverbs-and-adverb-phrases-position",
-      "difficulty": "medium"
-    },
-    {
-      "category": "grammar",
-      "rule": "Punctuation hierarchy",
-      "items": [
-        "period",
-        "comma",
-        "semicolon",
-        "colon",
-        "dash",
-        "parentheses"
-      ],
-      "reveal": "Period = full stop. Comma = brief pause. Semicolon links related clauses. Colon introduces. Dash interrupts. Parentheses whisper.",
-      "citation": "https://www.grammarly.com/blog/punctuation/",
-      "difficulty": "easy"
-    },
-    {
-      "category": "grammar",
-      "rule": "Tense timeline (past to future)",
-      "items": [
-        "past perfect",
-        "simple past",
-        "present perfect",
-        "simple present",
-        "present continuous",
-        "simple future"
-      ],
-      "reveal": "Past perfect = before another past event. Present perfect = past action with present relevance. Present continuous = happening right now.",
-      "citation": "https://www.grammarly.com/blog/verb-tenses/",
-      "difficulty": "medium"
-    },
-    {
-      "category": "grammar",
-      "rule": "Sentence building (simplest to most complex)",
-      "items": [
-        "independent clause",
-        "compound sentence",
-        "complex sentence",
-        "compound-complex sentence"
-      ],
-      "reveal": "A clause has subject + verb. Compound = two independent clauses joined. Complex = independent + dependent. Compound-complex = three or more.",
-      "citation": "https://academicguides.waldenu.edu/writingcenter/grammar/sentencestructure",
-      "difficulty": "easy"
-    },
-    {
-      "category": "grammar",
-      "rule": "Parts of speech frequency in English",
-      "items": [
-        "noun",
-        "verb",
-        "adjective",
-        "adverb",
-        "preposition",
-        "conjunction"
-      ],
-      "reveal": "Nouns and verbs are the workhorses. Prepositions are the most frequently used closed class -- 'of', 'in', 'to', 'for', 'with' alone account for ~10% of all words.",
-      "citation": "https://www.britannica.com/topic/part-of-speech",
-      "difficulty": "easy"
-    },
-    {
-      "category": "grammar",
-      "rule": "Article usage: definite to indefinite",
-      "items": [
-        "the (specific, known to both)",
-        "a (singular, any one)",
-        "an (singular, before vowel sound)",
-        "some (plural or uncountable)",
-        "no article (general statements)",
-        "any (questions and negatives)"
-      ],
-      "reveal": "'The' is the most common word in English. The choice between articles encodes whether the listener is expected to know which thing you mean.",
-      "citation": "https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/determiners-quantifiers",
-      "difficulty": "medium"
-    },
-    {
-      "category": "grammar",
-      "rule": "Writing process (academic)",
-      "items": [
-        "brainstorm and research",
-        "create an outline",
-        "write the first draft",
-        "revise for structure",
-        "edit for grammar and style",
-        "proofread"
-      ],
-      "reveal": "Writing = rewriting. The first draft is for getting ideas down; revision is where the real writing happens. Never edit while drafting.",
-      "citation": "https://owl.purdue.edu/owl/general_writing/the_writing_process/index.html",
-      "difficulty": "easy"
-    },
-    {
-      "category": "grammar",
-      "rule": "Pronoun case hierarchy",
-      "items": [
-        "I/we (subject)",
-        "me/us (object)",
-        "my/our (possessive adjective)",
-        "mine/ours (possessive pronoun)",
-        "myself/ourselves (reflexive)",
-        "who/whom (interrogative)"
-      ],
-      "reveal": "Subject does the action; object receives it. 'Whom' is dying in spoken English but still required in formal writing after prepositions.",
-      "citation": "https://www.grammarly.com/blog/pronouns/",
-      "difficulty": "medium"
-    },
-    {
-      "category": "grammar",
-      "rule": "Conditional sentences (most certain to least)",
-      "items": [
-        "zero conditional (facts)",
-        "first conditional (real future)",
-        "second conditional (unlikely present)",
-        "third conditional (impossible past)",
-        "mixed conditional"
-      ],
-      "reveal": "If + present, present = always true. If + present, will = possible. If + past, would = hypothetical. If + past perfect, would have = regret.",
-      "citation": "https://www.grammarly.com/blog/conditional-sentences/",
-      "difficulty": "hard"
-    },
-    {
       "category": "everyday",
       "rule": "Sending a letter",
       "items": [
@@ -614,142 +73,6 @@
       "reveal": "Fold before sealing, address before stamping, stamp before posting. An unstamped, unaddressed envelope will never arrive.",
       "citation": "https://www.usps.com/ship/letters.htm",
       "difficulty": "easy"
-    },
-    {
-      "category": "everyday",
-      "rule": "Washing laundry",
-      "items": [
-        "sort clothes by colour",
-        "load the machine",
-        "add detergent",
-        "select cycle and temperature",
-        "start the wash",
-        "transfer to dryer"
-      ],
-      "reveal": "Sorting prevents colour bleeding. Cold water saves energy and protects fabrics. Too much detergent leaves residue.",
-      "citation": "https://www.cleaninginstitute.org/cleaning-tips/clothes/laundry-basics",
-      "difficulty": "easy"
-    },
-    {
-      "category": "everyday",
-      "rule": "Changing a car tyre",
-      "items": [
-        "park on flat ground",
-        "loosen lug nuts slightly",
-        "jack up the car",
-        "remove lug nuts and tyre",
-        "mount the spare tyre",
-        "tighten lug nuts in star pattern"
-      ],
-      "reveal": "Loosen nuts before jacking (wheel needs ground friction). Star-pattern tightening prevents warping the brake rotor.",
-      "citation": "https://www.bridgestonetire.com/learn/maintenance/how-to-change-a-flat-tire/",
-      "difficulty": "easy"
-    },
-    {
-      "category": "everyday",
-      "rule": "Morning routine (optimal)",
-      "items": [
-        "wake up",
-        "drink water",
-        "exercise",
-        "shower",
-        "get dressed",
-        "eat breakfast"
-      ],
-      "reveal": "Water first rehydrates after sleep. Exercise before shower saves time. Breakfast after dressing avoids spills.",
-      "citation": "https://www.sleepfoundation.org/sleep-hygiene/morning-routine",
-      "difficulty": "easy"
-    },
-    {
-      "category": "everyday",
-      "rule": "Grocery shopping efficiently",
-      "items": [
-        "make a list",
-        "check pantry for what you have",
-        "go to the store",
-        "shop perimeter first (fresh food)",
-        "then aisles (packaged goods)",
-        "check out and pay"
-      ],
-      "reveal": "Perimeter-first = fresh produce, dairy, meat before packaged. Reduces impulse buys and is typically healthier.",
-      "citation": "https://www.eatright.org/food/planning/smart-shopping",
-      "difficulty": "easy"
-    },
-    {
-      "category": "everyday",
-      "rule": "Packing for a trip",
-      "items": [
-        "check weather and itinerary",
-        "lay out everything you want to bring",
-        "remove one third (you won't need it)",
-        "roll clothes (saves space)",
-        "pack heaviest items at the bottom",
-        "place toiletries in a sealed bag on top"
-      ],
-      "reveal": "Rolling clothes saves ~30% space and reduces wrinkles. The 'remove one third' rule is travel wisdom -- you always overpack.",
-      "citation": "https://www.ricksteves.com/travel-tips/packing-light",
-      "difficulty": "easy"
-    },
-    {
-      "category": "everyday",
-      "rule": "Setting up a new phone",
-      "items": [
-        "charge it to 100%",
-        "connect to Wi-Fi",
-        "sign in to your account",
-        "restore from backup (or start fresh)",
-        "set up biometrics (face/fingerprint)",
-        "install essential apps"
-      ],
-      "reveal": "Charging first prevents setup interruptions. Restoring from backup saves hours. Biometrics before app install -- security first.",
-      "citation": "https://support.apple.com/en-us/HT202033",
-      "difficulty": "easy"
-    },
-    {
-      "category": "everyday",
-      "rule": "Writing a resume",
-      "items": [
-        "list your work experience",
-        "quantify achievements with numbers",
-        "write a summary statement",
-        "add education and skills",
-        "tailor for the specific job",
-        "proofread three times"
-      ],
-      "reveal": "Recruiters spend ~7 seconds on first scan. Numbers catch eyes: 'increased sales 40%' beats 'responsible for sales'.",
-      "citation": "https://www.indeed.com/career-advice/resumes-cover-letters/how-to-write-a-resume",
-      "difficulty": "easy"
-    },
-    {
-      "category": "everyday",
-      "rule": "Making a budget",
-      "items": [
-        "track all spending for one month",
-        "categorise expenses (needs vs wants)",
-        "calculate total monthly income",
-        "set spending limits per category",
-        "build an emergency fund first",
-        "invest the surplus"
-      ],
-      "reveal": "You can't budget what you don't measure. Emergency fund = 3–6 months of expenses before any investing. Pay yourself first.",
-      "citation": "https://www.consumerfinance.gov/about-us/blog/budgeting-how-to-create-a-budget-and-stick-with-it/",
-      "difficulty": "easy"
-    },
-    {
-      "category": "everyday",
-      "rule": "Planning a dinner party",
-      "items": [
-        "choose a date and invite guests",
-        "plan the menu (account for dietary needs)",
-        "shop for ingredients (day before)",
-        "prep what you can in advance",
-        "set the table and arrange seating",
-        "cook and serve -- don't apologise"
-      ],
-      "reveal": "Prep in advance = less stress. Seating arrangement shapes conversation. Never apologise for the food -- guests don't notice what you think went wrong.",
-      "citation": "https://www.bonappetit.com/story/how-to-host-a-dinner-party",
-      "difficulty": "easy",
-      "reverse": true
     },
     {
       "category": "mixed",
@@ -769,38 +92,6 @@
       "difficulty": "medium"
     },
     {
-      "category": "science",
-      "rule": "Electromagnetic spectrum (lowest to highest energy)",
-      "items": [
-        "radio waves",
-        "microwaves",
-        "infrared",
-        "visible light",
-        "ultraviolet",
-        "X-rays",
-        "gamma rays"
-      ],
-      "reveal": "Longer wavelength = lower energy. Radio waves can be kilometres long; gamma rays are smaller than an atom. Only visible light can our eyes detect.",
-      "citation": "https://imagine.gsfc.nasa.gov/science/toolbox/emspectrum1.html",
-      "difficulty": "hard"
-    },
-    {
-      "category": "history",
-      "rule": "Seven Wonders of the Ancient World (chronological)",
-      "items": [
-        "Great Pyramid of Giza",
-        "Hanging Gardens of Babylon",
-        "Statue of Zeus at Olympia",
-        "Temple of Artemis at Ephesus",
-        "Mausoleum at Halicarnassus",
-        "Colossus of Rhodes",
-        "Lighthouse of Alexandria"
-      ],
-      "reveal": "Only the Great Pyramid survives today. The list was a tourist guide for ancient Greek travellers -- the original bucket list.",
-      "citation": "https://www.britannica.com/list/seven-wonders-of-the-ancient-world",
-      "difficulty": "hard"
-    },
-    {
       "category": "biology",
       "rule": "Taxonomic ranks (broadest to most specific)",
       "items": [
@@ -818,78 +109,90 @@
       "difficulty": "medium"
     },
     {
-      "category": "everyday",
-      "rule": "Steps to buy a house",
+      "category": "cooking",
+      "rule": "Baking bread from scratch",
       "items": [
-        "check credit score and get pre-approved",
-        "find a real estate agent",
-        "tour homes and make an offer",
-        "get a home inspection",
-        "secure final mortgage approval",
-        "close the deal and get the keys"
+        "mix flour water yeast salt",
+        "knead the dough",
+        "let it rise",
+        "punch it down",
+        "shape the loaf",
+        "bake it"
       ],
-      "reveal": "Pre-approval shows sellers you're serious. Inspection protects you from hidden problems. Closing is signing a mountain of paperwork.",
-      "citation": "https://www.consumerfinance.gov/owning-a-home/",
+      "reveal": "Yeast produces CO₂ during fermentation; kneading develops gluten; punching redistributes yeast for second rise.",
+      "citation": "https://www.kingarthurbaking.com/learn/guides/bread",
       "difficulty": "easy"
     },
     {
       "category": "science",
-      "rule": "Geological time scale (earliest to most recent)",
+      "rule": "The scientific method",
       "items": [
-        "Hadean Eon",
-        "Archean Eon",
-        "Proterozoic Eon",
-        "Paleozoic Era",
-        "Mesozoic Era",
-        "Cenozoic Era"
+        "ask a question",
+        "do background research",
+        "construct a hypothesis",
+        "test with an experiment",
+        "analyze data",
+        "communicate results"
       ],
-      "reveal": "Earth is 4.6 billion years old. Humans appeared in the last ~0.007% of that. If Earth's history were a 24-hour clock, humans arrive at 23:59:58.",
-      "citation": "https://www.britannica.com/science/geologic-time",
-      "difficulty": "hard"
-    },
-    {
-      "category": "grammar",
-      "rule": "Story structure (classic narrative arc)",
-      "items": [
-        "exposition",
-        "inciting incident",
-        "rising action",
-        "climax",
-        "falling action",
-        "resolution"
-      ],
-      "reveal": "Almost every story you've ever loved follows this arc. It's not a formula -- it's a description of how tension naturally builds and releases.",
-      "citation": "https://www.masterclass.com/articles/elements-of-a-story",
-      "difficulty": "easy"
+      "reveal": "Iterative -- results lead to new questions. A hypothesis must be falsifiable to be scientific.",
+      "citation": "https://www.sciencebuddies.org/science-fair-projects/science-fair/steps-of-the-scientific-method",
+      "difficulty": "medium"
     },
     {
       "category": "history",
-      "rule": "Ancient Greek philosophers (chronological)",
+      "rule": "History of the Roman Republic",
       "items": [
-        "Thales (624 BCE)",
-        "Pythagoras (570 BCE)",
-        "Socrates (470 BCE)",
-        "Plato (428 BCE)",
-        "Aristotle (384 BCE)",
-        "Epicurus (341 BCE)"
+        "Overthrow of the monarchy",
+        "Creation of the Senate",
+        "Punic Wars against Carthage",
+        "Gracchi reforms",
+        "Caesar crosses the Rubicon",
+        "Augustus becomes first emperor"
       ],
-      "reveal": "Thales asked what stuff is made of; Pythagoras found numbers in nature; Socrates questioned everything; Plato wrote it down; Aristotle systematised it all.",
-      "citation": "https://www.britannica.com/topic/Greek-philosophy",
-      "difficulty": "hard"
+      "reveal": "The Republic expanded through war, collapsed from internal inequality and ambition. The Rubicon was the point of no return.",
+      "citation": "https://www.britannica.com/place/ancient-Rome",
+      "difficulty": "medium"
     },
     {
-      "category": "cooking",
-      "rule": "Knife skills: vegetable prep order",
+      "category": "grammar",
+      "rule": "Order of adverbs: manner, place, time",
       "items": [
-        "wash all vegetables",
-        "peel what needs peeling",
-        "trim ends and bad spots",
-        "slice into planks",
-        "cut planks into strips",
-        "dice strips into cubes"
+        "manner (how)",
+        "place (where)",
+        "time (when)"
       ],
-      "reveal": "Clean -> peel -> trim -> slice -> strip -> dice. This order minimises mess and maximises control. Sharp knife = safer than dull.",
-      "citation": "https://www.seriouseats.com/knife-skills-the-basics",
+      "reveal": "When several adverbs follow the verb they fall in the order how, then where, then when -- ‘She sang beautifully (manner) in the hall (place) last night (time).’ Reordering them sounds wrong to a native ear.",
+      "citation": "https://dictionary.cambridge.org/grammar/british-grammar/adverbs-and-adverb-phrases-position",
+      "difficulty": "medium"
+    },
+    {
+      "category": "everyday",
+      "rule": "Washing laundry",
+      "items": [
+        "sort clothes by colour",
+        "load the machine",
+        "add detergent",
+        "select cycle and temperature",
+        "start the wash",
+        "transfer to dryer"
+      ],
+      "reveal": "Sorting prevents colour bleeding. Cold water saves energy and protects fabrics. Too much detergent leaves residue.",
+      "citation": "https://www.cleaninginstitute.org/cleaning-tips/clothes/laundry-basics",
+      "difficulty": "easy"
+    },
+    {
+      "category": "mixed",
+      "rule": "Units of digital storage, smallest to largest",
+      "items": [
+        "bit",
+        "byte",
+        "kilobyte",
+        "megabyte",
+        "gigabyte",
+        "terabyte"
+      ],
+      "reveal": "Eight bits to a byte. Storage is decimal (1,000) while memory is binary (1,024), which is why a '500 GB' drive shows up as roughly 465 GB in an operating system.",
+      "citation": "https://www.nist.gov/pml/owm/metric-si-prefixes",
       "difficulty": "easy"
     },
     {
@@ -911,6 +214,710 @@
     },
     {
       "category": "cooking",
+      "rule": "Making a cup of tea (British method)",
+      "items": [
+        "boil fresh water",
+        "warm the teapot",
+        "add tea leaves",
+        "pour boiling water",
+        "steep 3–5 minutes",
+        "pour through strainer"
+      ],
+      "reveal": "Freshly boiled water has more dissolved oxygen for better flavour. Warming the pot prevents temperature drop.",
+      "citation": "https://www.tea.co.uk/how-to-brew-tea",
+      "difficulty": "easy"
+    },
+    {
+      "category": "science",
+      "rule": "Path of food through the body",
+      "items": [
+        "mouth",
+        "esophagus",
+        "stomach",
+        "small intestine",
+        "large intestine",
+        "rectum"
+      ],
+      "reveal": "Mechanical breakdown -> chemical digestion -> absorption -> water reabsorption -> storage. Small intestine does ~90% of nutrient absorption.",
+      "citation": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+      "difficulty": "easy"
+    },
+    {
+      "category": "history",
+      "rule": "World War II (1939–1945)",
+      "items": [
+        "Germany invades Poland",
+        "Fall of France",
+        "Pearl Harbor attack",
+        "D-Day landings",
+        "Hiroshima bomb",
+        "Japan surrenders"
+      ],
+      "reveal": "Escalated from European to global war with Pearl Harbor. D-Day opened the Western Front; atomic bombs ended the Pacific war.",
+      "citation": "https://www.britannica.com/event/World-War-II",
+      "difficulty": "medium"
+    },
+    {
+      "category": "grammar",
+      "rule": "Clause elements in normal English word order",
+      "items": [
+        "subject",
+        "verb",
+        "object",
+        "adverbial (time or place)"
+      ],
+      "reveal": "English is a subject-verb-object language: ‘The child threw the ball in the garden.’ The order carries the meaning that case endings carry in many other languages -- move the words and you change who did what to whom.",
+      "citation": "https://dictionary.cambridge.org/grammar/british-grammar/word-order-structures",
+      "difficulty": "easy"
+    },
+    {
+      "category": "everyday",
+      "rule": "Changing a car tyre",
+      "items": [
+        "park on flat ground",
+        "loosen lug nuts slightly",
+        "jack up the car",
+        "remove lug nuts and tyre",
+        "mount the spare tyre",
+        "tighten lug nuts in star pattern"
+      ],
+      "reveal": "Loosen nuts before jacking (wheel needs ground friction). Star-pattern tightening prevents warping the brake rotor.",
+      "citation": "https://www.bridgestonetire.com/learn/maintenance/how-to-change-a-flat-tire/",
+      "difficulty": "easy"
+    },
+    {
+      "category": "mixed",
+      "rule": "Periods of the Mesozoic Era, earliest to latest",
+      "items": [
+        "Triassic",
+        "Jurassic",
+        "Cretaceous"
+      ],
+      "reveal": "Triassic, Jurassic, Cretaceous — the three periods that together make up the Mesozoic, ending 66 million years ago with the impact that ended the non-avian dinosaurs.",
+      "citation": "https://www.britannica.com/science/geologic-time",
+      "difficulty": "medium"
+    },
+    {
+      "category": "biology",
+      "rule": "Levels of a food chain, from the Sun to a decomposer",
+      "items": [
+        "the Sun (energy source)",
+        "producer (a green plant)",
+        "primary consumer (a herbivore)",
+        "secondary consumer (a carnivore)",
+        "apex predator",
+        "decomposer"
+      ],
+      "reveal": "Energy passes from the Sun to the producers and up through the consumers, losing most of itself as heat at every step -- only about a tenth reaches the next level. Decomposers finally return the nutrients to the soil.",
+      "citation": "https://www.britannica.com/science/food-chain",
+      "difficulty": "easy"
+    },
+    {
+      "category": "cooking",
+      "rule": "Making pasta from scratch",
+      "items": [
+        "make a flour well",
+        "crack eggs into the well",
+        "slowly incorporate flour",
+        "knead until smooth",
+        "rest the dough 30 min",
+        "roll and cut"
+      ],
+      "reveal": "The flour well contains eggs; slow incorporation prevents lumps. Resting relaxes gluten for easier rolling.",
+      "citation": "https://www.seriouseats.com/fresh-egg-pasta",
+      "difficulty": "easy"
+    },
+    {
+      "category": "science",
+      "rule": "Life cycle of a star (Sun-like)",
+      "items": [
+        "nebula",
+        "protostar",
+        "main sequence star",
+        "red giant",
+        "planetary nebula",
+        "white dwarf"
+      ],
+      "reveal": "Stars spend ~90% of life on main sequence fusing hydrogen. Our Sun is halfway through its 10-billion-year run.",
+      "citation": "https://imagine.gsfc.nasa.gov/science/objects/stars1.html",
+      "difficulty": "medium"
+    },
+    {
+      "category": "history",
+      "rule": "American Revolution (1765–1783)",
+      "items": [
+        "Stamp Act passed",
+        "Boston Tea Party",
+        "First Continental Congress",
+        "Declaration of Independence",
+        "Battle of Yorktown",
+        "Treaty of Paris"
+      ],
+      "reveal": "Taxation without representation -> protest -> organized resistance -> declaration -> war -> victory. Eight years from Congress to treaty.",
+      "citation": "https://www.britannica.com/event/American-Revolution",
+      "difficulty": "medium"
+    },
+    {
+      "category": "grammar",
+      "rule": "Tense timeline (past to future)",
+      "items": [
+        "past perfect",
+        "simple past",
+        "present perfect",
+        "simple present",
+        "simple future"
+      ],
+      "reveal": "Ordered by the time each tense points to, earliest first: past perfect (an event completed before another past event), simple past, present perfect (past reaching into now), simple present, simple future.",
+      "citation": "https://www.grammarly.com/blog/verb-tenses/",
+      "difficulty": "medium"
+    },
+    {
+      "category": "everyday",
+      "rule": "Washing your hands",
+      "items": [
+        "wet your hands with clean running water and apply soap",
+        "lather the backs of your hands, between the fingers and under the nails",
+        "scrub for at least 20 seconds",
+        "rinse well under clean running water",
+        "dry with a clean towel or an air dryer"
+      ],
+      "reveal": "The order is the CDC’s five steps: wet, lather, scrub, rinse, dry. The step most people skip is the twenty seconds of scrubbing -- hum ‘Happy Birthday’ twice as a timer.",
+      "citation": "https://www.cdc.gov/clean-hands/about/index.html",
+      "difficulty": "easy"
+    },
+    {
+      "category": "biology",
+      "rule": "One heartbeat through the heart's chambers",
+      "items": [
+        "deoxygenated blood enters the right atrium",
+        "it flows into the right ventricle",
+        "the right ventricle pumps it to the lungs",
+        "oxygenated blood returns to the left atrium",
+        "it flows into the left ventricle",
+        "the left ventricle pumps it out through the aorta"
+      ],
+      "reveal": "The left ventricle has a thicker wall than the right because it drives blood through the entire body rather than only to the lungs. Valves between the chambers stop any backflow.",
+      "citation": "https://www.nhlbi.nih.gov/health/heart",
+      "difficulty": "medium"
+    },
+    {
+      "category": "cooking",
+      "rule": "Making sushi rice",
+      "items": [
+        "rinse rice until water runs clear",
+        "cook rice",
+        "mix rice vinegar sugar salt",
+        "cool rice slightly",
+        "fold seasoning into rice",
+        "fan rice to glossy finish"
+      ],
+      "reveal": "Rinsing removes excess starch. Fanning while folding cools rice and gives characteristic glossy sheen.",
+      "citation": "https://www.justonecookbook.com/how-to-make-sushi-rice/",
+      "difficulty": "easy"
+    },
+    {
+      "category": "science",
+      "rule": "Photosynthesis process",
+      "items": [
+        "sunlight absorbed by chlorophyll",
+        "water split into H and O",
+        "oxygen released as a by-product",
+        "CO₂ enters through stomata",
+        "Calvin cycle fixes carbon",
+        "glucose produced"
+      ],
+      "reveal": "Light reactions split water to make ATP; the Calvin cycle uses that ATP to build glucose. Oxygen is a waste product released when water is split, not at the end of the process.",
+      "citation": "https://www.britannica.com/science/photosynthesis",
+      "difficulty": "medium"
+    },
+    {
+      "category": "history",
+      "rule": "Development of the internet",
+      "items": [
+        "ARPANET (1969)",
+        "TCP/IP protocol (1983)",
+        "World Wide Web (1991)",
+        "Google search (1998)",
+        "Facebook (2004)",
+        "iPhone (2007)"
+      ],
+      "reveal": "Each step is a layer: plumbing -> protocol -> content -> discovery -> social -> mobile. The internet is a stack.",
+      "citation": "https://www.internetsociety.org/internet/history-internet/",
+      "difficulty": "medium"
+    },
+    {
+      "category": "grammar",
+      "rule": "Sentence building (simplest to most complex)",
+      "items": [
+        "independent clause",
+        "compound sentence",
+        "complex sentence",
+        "compound-complex sentence"
+      ],
+      "reveal": "A clause has subject + verb. Compound = two independent clauses joined. Complex = independent + dependent. Compound-complex = three or more.",
+      "citation": "https://academicguides.waldenu.edu/writingcenter/grammar/sentencestructure",
+      "difficulty": "easy"
+    },
+    {
+      "category": "everyday",
+      "rule": "Sorting household recycling",
+      "items": [
+        "check what your local service accepts",
+        "rinse containers and remove the lids",
+        "keep paper and card clean and dry",
+        "separate glass, metal, plastic and paper",
+        "put each material in the correct bin",
+        "put the bins out before collection"
+      ],
+      "reveal": "Sorting works because the materials are processed separately. Rinsing stops food residue contaminating a whole load, and paper has to stay dry or it cannot be recycled.",
+      "citation": "https://www.epa.gov/recycle",
+      "difficulty": "easy"
+    },
+    {
+      "category": "cooking",
+      "rule": "Making pancakes from scratch",
+      "items": [
+        "mix dry ingredients",
+        "whisk wet ingredients",
+        "combine wet and dry",
+        "heat the griddle",
+        "pour batter",
+        "flip when bubbles form"
+      ],
+      "reveal": "Don't overmix -- lumps are fine. Bubbles forming on top = ready to flip. First pancake is always the tester.",
+      "citation": "https://www.kingarthurbaking.com/recipes/simply-perfect-pancakes-recipe",
+      "difficulty": "easy"
+    },
+    {
+      "category": "science",
+      "rule": "Rock cycle",
+      "items": [
+        "magma cools",
+        "igneous rock forms",
+        "weathering and erosion",
+        "sediment deposited",
+        "compaction and cementation",
+        "sedimentary rock"
+      ],
+      "reveal": "Igneous -> sedimentary -> metamorphic -> melt back to magma. Any rock can become any other -- a true cycle, not a line.",
+      "citation": "https://www.britannica.com/science/rock-cycle",
+      "difficulty": "medium"
+    },
+    {
+      "category": "history",
+      "rule": "Space Race (1957–1969)",
+      "items": [
+        "Sputnik launched (October 1957)",
+        "Yuri Gagarin orbits Earth (April 1961)",
+        "JFK’s Moon speech (May 1961)",
+        "Apollo 8 orbits Moon (December 1968)",
+        "Apollo 11 lands on Moon (July 1969)"
+      ],
+      "reveal": "From first satellite to first Moon landing in just 12 years. The race was driven by Cold War competition -- but the technology legacy is universal.",
+      "citation": "https://www.britannica.com/science/space-exploration",
+      "difficulty": "medium"
+    },
+    {
+      "category": "grammar",
+      "rule": "Degrees of comparison: positive, comparative, superlative",
+      "items": [
+        "positive (tall)",
+        "comparative (taller)",
+        "superlative (tallest)"
+      ],
+      "reveal": "An adjective moves through three degrees: the positive names the quality, the comparative sets one thing against another (taller than), and the superlative places one above all the rest (the tallest).",
+      "citation": "https://dictionary.cambridge.org/grammar/british-grammar/adjectives-comparative-and-superlative",
+      "difficulty": "easy"
+    },
+    {
+      "category": "everyday",
+      "rule": "Passing through airport security",
+      "items": [
+        "check in and hand over any checked bags",
+        "join the screening lane and show your boarding pass and ID",
+        "place laptops and liquids in their own trays",
+        "empty your pockets and remove belts and jackets",
+        "walk through the metal detector or body scanner",
+        "collect your belongings and put your shoes back on"
+      ],
+      "reveal": "The sequence is forced by the checkpoint: anything that must be screened separately goes in a tray, then you are screened, then you pick your things up on the far side. Liquids follow the 3-1-1 rule.",
+      "citation": "https://www.tsa.gov/travel/security-screening",
+      "difficulty": "easy"
+    },
+    {
+      "category": "cooking",
+      "rule": "Roasting a chicken",
+      "items": [
+        "preheat oven to 425°F",
+        "pat chicken dry",
+        "season inside and out",
+        "truss the legs",
+        "roast breast-side up",
+        "rest 15 min before carving"
+      ],
+      "reveal": "Dry skin = crispy. High initial heat renders fat. Resting redistributes juices -- cutting immediately loses them.",
+      "citation": "https://www.seriouseats.com/butterflied-roasted-chicken-with-quick-jus-recipe",
+      "difficulty": "easy"
+    },
+    {
+      "category": "science",
+      "rule": "Human evolution timeline",
+      "items": [
+        "Ardipithecus (4.4 mya)",
+        "Australopithecus afarensis (Lucy)",
+        "Homo habilis",
+        "Homo erectus",
+        "Homo neanderthalensis",
+        "Homo sapiens"
+      ],
+      "reveal": "Bipedalism first, then bigger brains, then tools, then fire. Neanderthals were contemporaries, not ancestors.",
+      "citation": "https://humanorigins.si.edu/evidence/human-family-tree",
+      "difficulty": "hard"
+    },
+    {
+      "category": "history",
+      "rule": "Industrial Revolution milestones",
+      "items": [
+        "Spinning jenny invented (1764)",
+        "Watt's steam engine (1776)",
+        "First steam locomotive (1804)",
+        "Telegraph invented (1837)",
+        "Bessemer steel process (1856)",
+        "First telephone call (1876)"
+      ],
+      "reveal": "Textile mechanisation -> steam power -> transport revolution -> instant communication -> mass production. Each innovation enabled the next.",
+      "citation": "https://www.britannica.com/event/Industrial-Revolution",
+      "difficulty": "medium"
+    },
+    {
+      "category": "grammar",
+      "rule": "Determiners before a noun, in order",
+      "items": [
+        "predeterminer (all, both, half)",
+        "central determiner (the, a, this, my)",
+        "postdeterminer (numbers and ordinals)",
+        "the noun"
+      ],
+      "reveal": "Determiners stack in a fixed order: ‘all (predeterminer) the (central determiner) three (postdeterminer) boys (noun)’. Swap the slots and the phrase becomes ungrammatical.",
+      "citation": "https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/determiners-quantifiers",
+      "difficulty": "medium"
+    },
+    {
+      "category": "everyday",
+      "rule": "Setting up a new phone",
+      "items": [
+        "charge it to 100%",
+        "connect to Wi-Fi",
+        "sign in to your account",
+        "restore from backup (or start fresh)",
+        "set up biometrics (face/fingerprint)",
+        "install essential apps"
+      ],
+      "reveal": "Charging first prevents setup interruptions. Restoring from backup saves hours. Biometrics before app install -- security first.",
+      "citation": "https://support.apple.com/en-us/HT202033",
+      "difficulty": "easy"
+    },
+    {
+      "category": "cooking",
+      "rule": "Making chocolate chip cookies",
+      "items": [
+        "cream butter and sugar",
+        "add eggs and vanilla",
+        "mix in dry ingredients",
+        "fold in chocolate chips",
+        "scoop onto baking sheet",
+        "bake at 350°F for 10–12 min"
+      ],
+      "reveal": "Creaming incorporates air for lift. Chilling dough before baking deepens flavour and prevents spreading.",
+      "citation": "https://www.kingarthurbaking.com/recipes/chocolate-chip-cookies-recipe",
+      "difficulty": "easy"
+    },
+    {
+      "category": "science",
+      "rule": "DNA to protein (central dogma)",
+      "items": [
+        "DNA transcription",
+        "mRNA processing",
+        "mRNA leaves nucleus",
+        "ribosome binds mRNA",
+        "tRNA brings amino acids",
+        "polypeptide chain forms"
+      ],
+      "reveal": "Transcription copies DNA to mRNA; translation reads mRNA to build protein. One gene -> one polypeptide -> folded protein.",
+      "citation": "https://www.genome.gov/genetics-glossary/Central-Dogma",
+      "difficulty": "hard"
+    },
+    {
+      "category": "history",
+      "rule": "Civil Rights Movement (US)",
+      "items": [
+        "Brown v. Board of Education (1954)",
+        "Montgomery Bus Boycott (1955)",
+        "March on Washington (1963)",
+        "Civil Rights Act (1964)",
+        "Voting Rights Act (1965)",
+        "Fair Housing Act (1968)"
+      ],
+      "reveal": "Legal challenges -> grassroots protest -> mass mobilisation -> federal legislation. Each law built on the momentum of the previous.",
+      "citation": "https://www.britannica.com/event/American-civil-rights-movement",
+      "difficulty": "medium"
+    },
+    {
+      "category": "grammar",
+      "rule": "Writing process (academic)",
+      "items": [
+        "brainstorm and research",
+        "create an outline",
+        "write the first draft",
+        "revise for structure",
+        "edit for grammar and style",
+        "proofread"
+      ],
+      "reveal": "Writing = rewriting. The first draft is for getting ideas down; revision is where the real writing happens. Never edit while drafting.",
+      "citation": "https://owl.purdue.edu/owl/general_writing/the_writing_process/index.html",
+      "difficulty": "easy"
+    },
+    {
+      "category": "everyday",
+      "rule": "Opening a bank account",
+      "items": [
+        "decide whether you need a checking or a savings account",
+        "compare the fees and features of a few banks",
+        "gather your photo ID and proof of address",
+        "apply online or at a branch",
+        "make the minimum opening deposit",
+        "set up online banking and a debit card"
+      ],
+      "reveal": "Identity and address checks come before anything is opened, which is why banks ask for documents up front. Comparing fees first is what separates a good account from an expensive one.",
+      "citation": "https://www.consumerfinance.gov/consumer-tools/bank-accounts/",
+      "difficulty": "easy"
+    },
+    {
+      "category": "cooking",
+      "rule": "Brewing pour-over coffee",
+      "items": [
+        "rinse the filter",
+        "add ground coffee",
+        "bloom with hot water (30s)",
+        "pour in slow circles",
+        "let it drain completely",
+        "serve immediately"
+      ],
+      "reveal": "Blooming releases CO₂ for even extraction. Slow circular pour prevents channeling. Drink within minutes -- coffee oxidises.",
+      "citation": "https://www.stumptowncoffee.com/pages/brew-guide-pour-over",
+      "difficulty": "easy"
+    },
+    {
+      "category": "science",
+      "rule": "Cell division (mitosis)",
+      "items": [
+        "interphase (DNA replicates)",
+        "prophase (chromosomes condense)",
+        "metaphase (align at equator)",
+        "anaphase (sister chromatids separate)",
+        "telophase (nuclear envelope reforms)",
+        "cytokinesis (cell splits)"
+      ],
+      "reveal": "Mitosis produces two identical daughter cells. Interphase is where the cell spends 90% of its life -- it's not a 'resting' phase.",
+      "citation": "https://www.britannica.com/science/mitosis",
+      "difficulty": "medium"
+    },
+    {
+      "category": "history",
+      "rule": "Renaissance timeline",
+      "items": [
+        "Gutenberg's printing press (1440)",
+        "Columbus reaches Americas (1492)",
+        "da Vinci paints Mona Lisa (1503)",
+        "Michelangelo's David (1504)",
+        "Luther's 95 Theses (1517)",
+        "Copernicus publishes heliocentric model (1543)"
+      ],
+      "reveal": "Printing press democratised knowledge -> exploration expanded worldview -> art captured humanism -> Reformation challenged authority -> science redefined the cosmos.",
+      "citation": "https://www.britannica.com/event/Renaissance",
+      "difficulty": "medium"
+    },
+    {
+      "category": "grammar",
+      "rule": "Verb phrase order: modal to main verb",
+      "items": [
+        "modal (can, might, will)",
+        "perfect (have)",
+        "progressive (be)",
+        "main verb"
+      ],
+      "reveal": "The order inside a verb phrase is fixed: ‘She might (modal) have (perfect) been (progressive) waiting (main verb).’ Cambridge sets it out left to right, and the main verb always comes last.",
+      "citation": "https://dictionary.cambridge.org/grammar/british-grammar/verb-phrases",
+      "difficulty": "medium"
+    },
+    {
+      "category": "everyday",
+      "rule": "Registering to vote in the United States",
+      "items": [
+        "check your state’s registration deadline",
+        "fill in the voter-registration form online, by post or in person",
+        "submit it before the deadline",
+        "confirm your registration was accepted",
+        "go to your polling place on election day",
+        "show any required ID and cast your ballot"
+      ],
+      "reveal": "Registration has to be done before the deadline, and it is worth confirming it was accepted. On election day the only steps left are showing ID where required and casting the ballot.",
+      "citation": "https://www.usa.gov/register-to-vote",
+      "difficulty": "easy"
+    },
+    {
+      "category": "cooking",
+      "rule": "Making homemade pizza",
+      "items": [
+        "activate yeast in warm water",
+        "mix and knead dough",
+        "let dough rise 1 hour",
+        "stretch into a round",
+        "add sauce and toppings",
+        "bake at highest oven temp"
+      ],
+      "reveal": "High heat mimics a pizza oven (900°F). Stretch by hand -- rolling pins degas the dough. Less is more with toppings.",
+      "citation": "https://www.seriouseats.com/basic-pizza-dough-recipe",
+      "difficulty": "easy"
+    },
+    {
+      "category": "science",
+      "rule": "The carbon cycle",
+      "items": [
+        "CO₂ in atmosphere",
+        "plants absorb CO₂ (photosynthesis)",
+        "animals eat plants",
+        "respiration releases CO₂",
+        "decomposition returns carbon to soil",
+        "fossil fuel burning adds CO₂"
+      ],
+      "reveal": "Carbon moves between atmosphere, biosphere, oceans, and geosphere. Human burning of fossil fuels has increased atmospheric CO₂ by ~50% since 1750.",
+      "citation": "https://www.britannica.com/science/carbon-cycle",
+      "difficulty": "medium"
+    },
+    {
+      "category": "history",
+      "rule": "Ancient Egypt timeline (Old to New Kingdom)",
+      "items": [
+        "Great Pyramid built (2560 BCE)",
+        "Middle Kingdom begins (2055 BCE)",
+        "Hyksos invasion (1650 BCE)",
+        "New Kingdom begins (1550 BCE)",
+        "Tutankhamun reigns (1332 BCE)",
+        "Ramesses II reigns (1279 BCE)"
+      ],
+      "reveal": "Old Kingdom = pyramid age. Middle Kingdom = stability. Hyksos introduced chariots. New Kingdom = empire and famous pharaohs -- three distinct eras over 1,300 years.",
+      "citation": "https://www.britannica.com/place/ancient-Egypt",
+      "difficulty": "hard"
+    },
+    {
+      "category": "grammar",
+      "rule": "Conditional sentences (most certain to least)",
+      "items": [
+        "zero conditional (facts)",
+        "first conditional (real future)",
+        "second conditional (unlikely present)",
+        "third conditional (impossible past)",
+        "mixed conditional"
+      ],
+      "reveal": "If + present, present = always true. If + present, will = possible. If + past, would = hypothetical. If + past perfect, would have = regret.",
+      "citation": "https://www.grammarly.com/blog/conditional-sentences/",
+      "difficulty": "hard"
+    },
+    {
+      "category": "everyday",
+      "rule": "Planning a dinner party",
+      "items": [
+        "choose a date and invite guests",
+        "plan the menu (account for dietary needs)",
+        "shop for ingredients (day before)",
+        "prep what you can in advance",
+        "set the table and arrange seating",
+        "cook and serve -- don't apologise"
+      ],
+      "reveal": "Prep in advance = less stress. Seating arrangement shapes conversation. Never apologise for the food -- guests don't notice what you think went wrong.",
+      "citation": "https://www.bonappetit.com/story/how-to-host-a-dinner-party",
+      "difficulty": "easy"
+    },
+    {
+      "category": "cooking",
+      "rule": "Knife skills: vegetable prep order",
+      "items": [
+        "wash all vegetables",
+        "peel what needs peeling",
+        "trim ends and bad spots",
+        "slice into planks",
+        "cut planks into strips",
+        "dice strips into cubes"
+      ],
+      "reveal": "Clean -> peel -> trim -> slice -> strip -> dice. This order minimises mess and maximises control. Sharp knife = safer than dull.",
+      "citation": "https://www.seriouseats.com/knife-skills-the-basics",
+      "difficulty": "easy"
+    },
+    {
+      "category": "science",
+      "rule": "Electromagnetic spectrum (lowest to highest energy)",
+      "items": [
+        "radio waves",
+        "microwaves",
+        "infrared",
+        "visible light",
+        "ultraviolet",
+        "X-rays",
+        "gamma rays"
+      ],
+      "reveal": "Longer wavelength = lower energy. Radio waves can be kilometres long; gamma rays are smaller than an atom. Only visible light can our eyes detect.",
+      "citation": "https://imagine.gsfc.nasa.gov/science/toolbox/emspectrum1.html",
+      "difficulty": "hard"
+    },
+    {
+      "category": "history",
+      "rule": "Seven Wonders of the Ancient World (chronological)",
+      "items": [
+        "Great Pyramid of Giza (2560 BCE)",
+        "Hanging Gardens of Babylon (c. 600 BCE)",
+        "Temple of Artemis at Ephesus (c. 550 BCE)",
+        "Statue of Zeus at Olympia (c. 435 BCE)",
+        "Mausoleum at Halicarnassus (c. 350 BCE)",
+        "Colossus of Rhodes (completed 280 BCE)",
+        "Lighthouse of Alexandria (completed 247 BCE)"
+      ],
+      "reveal": "The order runs by construction date. The Temple of Artemis was built about a century before the Statue of Zeus at Olympia -- the pair most often listed the wrong way round. Only the Great Pyramid, the oldest, still stands.",
+      "citation": "https://en.wikipedia.org/wiki/Seven_Wonders_of_the_Ancient_World",
+      "difficulty": "hard"
+    },
+    {
+      "category": "grammar",
+      "rule": "Story structure (classic narrative arc)",
+      "items": [
+        "exposition",
+        "inciting incident",
+        "rising action",
+        "climax",
+        "falling action",
+        "resolution"
+      ],
+      "reveal": "Almost every story you've ever loved follows this arc. It's not a formula -- it's a description of how tension naturally builds and releases.",
+      "citation": "https://www.masterclass.com/articles/elements-of-a-story",
+      "difficulty": "easy"
+    },
+    {
+      "category": "everyday",
+      "rule": "Steps to buy a house",
+      "items": [
+        "check credit score and get pre-approved",
+        "find a real estate agent",
+        "tour homes and make an offer",
+        "get a home inspection",
+        "secure final mortgage approval",
+        "close the deal and get the keys"
+      ],
+      "reveal": "Pre-approval shows sellers you're serious. Inspection protects you from hidden problems. Closing is signing a mountain of paperwork.",
+      "citation": "https://www.consumerfinance.gov/owning-a-home/",
+      "difficulty": "easy"
+    },
+    {
+      "category": "cooking",
       "rule": "Making a basic vinaigrette",
       "items": [
         "whisk vinegar with salt until the salt dissolves",
@@ -921,6 +928,66 @@
       ],
       "reveal": "Mustard is an emulsifier: it keeps the oil and vinegar suspended instead of separating. Salting the vinegar first seasons the whole dressing evenly.",
       "citation": "https://www.seriouseats.com/",
+      "difficulty": "easy"
+    },
+    {
+      "category": "science",
+      "rule": "Geological time scale (earliest to most recent)",
+      "items": [
+        "Hadean Eon",
+        "Archean Eon",
+        "Proterozoic Eon",
+        "Paleozoic Era",
+        "Mesozoic Era",
+        "Cenozoic Era"
+      ],
+      "reveal": "Earth is 4.6 billion years old. Humans appeared in the last ~0.007% of that. If Earth's history were a 24-hour clock, humans arrive at 23:59:58.",
+      "citation": "https://www.britannica.com/science/geologic-time",
+      "difficulty": "hard"
+    },
+    {
+      "category": "history",
+      "rule": "Ancient Greek philosophers (chronological)",
+      "items": [
+        "Thales (624 BCE)",
+        "Pythagoras (570 BCE)",
+        "Socrates (470 BCE)",
+        "Plato (428 BCE)",
+        "Aristotle (384 BCE)",
+        "Epicurus (341 BCE)"
+      ],
+      "reveal": "Thales asked what stuff is made of; Pythagoras found numbers in nature; Socrates questioned everything; Plato wrote it down; Aristotle systematised it all.",
+      "citation": "https://www.britannica.com/topic/Greek-philosophy",
+      "difficulty": "hard"
+    },
+    {
+      "category": "grammar",
+      "rule": "Ordering the parts of a formal letter",
+      "items": [
+        "sender's address",
+        "date",
+        "recipient's address",
+        "salutation",
+        "body of the letter",
+        "closing and signature"
+      ],
+      "reveal": "The block ordering is not arbitrary: the reader learns who is writing, when, and to whom before reading a word of the argument. Everything after the signature — enclosures, postscripts — sits outside the main body.",
+      "citation": "https://www.britannica.com/",
+      "difficulty": "easy"
+    },
+    {
+      "category": "everyday",
+      "rule": "Tying a shoelace with the loop method",
+      "items": [
+        "cross the two laces",
+        "pass one lace under the other and pull tight",
+        "form a loop with each lace",
+        "cross the loops over each other",
+        "push one loop through the hole",
+        "pull both loops to tighten"
+      ],
+      "reveal": "The 'bunny ears' method works for children, but the same knot has a faster one-loop variant. A knot that comes undone is usually an imbalance knot — the starting cross is backwards.",
+      "citation": "https://www.britannica.com/",
       "difficulty": "easy"
     },
     {
@@ -951,23 +1018,8 @@
       "difficulty": "easy"
     },
     {
-      "category": "science",
-      "rule": "How a hurricane forms",
-      "items": [
-        "warm ocean water evaporates",
-        "the moist air rises and cools",
-        "thunderstorms cluster and organise",
-        "a low-pressure centre forms",
-        "spiral bands wrap around the clear eye",
-        "landfall cuts off the energy source"
-      ],
-      "reveal": "The fuel is warm surface water — that is why hurricanes weaken quickly over land, and why they cannot form within about 5° of the equator, where there is no Coriolis force to spin them up.",
-      "citation": "https://www.noaa.gov/",
-      "difficulty": "hard"
-    },
-    {
       "category": "history",
-      "rule": "The first seventy years of human flight",
+      "rule": "The first seventy-three years of human flight",
       "items": [
         "the Wright brothers' first powered flight (1903)",
         "Lindbergh crosses the Atlantic alone (1927)",
@@ -975,68 +1027,23 @@
         "the Boeing 747 enters service (1970)",
         "Concorde enters passenger service (1976)"
       ],
-      "reveal": "From a 12-second hop to a scheduled supersonic service in 73 years. Two of those aircraft — the 747 and Concorde — were designed in the same decade and flew for the next half century.",
-      "citation": "https://www.britannica.com/",
-      "difficulty": "medium"
-    },
-    {
-      "category": "history",
-      "rule": "The fall of the Berlin Wall and reunification",
-      "items": [
-        "reform begins in the Soviet Union",
-        "Hungary opens its border to the West (1989)",
-        "mass protests spread across East Germany",
-        "the Wall's crossings are opened (9 November 1989)",
-        "Germany is formally reunified (3 October 1990)"
-      ],
-      "reveal": "The Wall fell because of a press conference: a spokesman misread a note about relaxed travel rules and said they took effect immediately, and tens of thousands went to the checkpoints that evening.",
+      "reveal": "From a 12-second hop to a scheduled supersonic service in 73 years. Two of those aircraft -- the 747 and Concorde -- were designed in the same decade and flew for the next half century.",
       "citation": "https://www.britannica.com/",
       "difficulty": "medium"
     },
     {
       "category": "grammar",
-      "rule": "Ordering the parts of a formal letter",
+      "rule": "Grammatical person: first, second, third",
       "items": [
-        "sender's address",
-        "date",
-        "recipient's address",
-        "salutation",
-        "body of the letter",
-        "closing and signature"
+        "first person singular (I)",
+        "first person plural (we)",
+        "second person (you)",
+        "third person singular (he, she, it)",
+        "third person plural (they)"
       ],
-      "reveal": "The block ordering is not arbitrary: the reader learns who is writing, when, and to whom before reading a word of the argument. Everything after the signature — enclosures, postscripts — sits outside the main body.",
-      "citation": "https://www.britannica.com/",
-      "difficulty": "easy"
-    },
-    {
-      "category": "grammar",
-      "rule": "Structuring a persuasive speech",
-      "items": [
-        "open by stating the purpose",
-        "establish the problem",
-        "give evidence and reasoning",
-        "present the strongest point",
-        "issue a call to action",
-        "close with a memorable line"
-      ],
-      "reveal": "Save the strongest argument for second-to-last: an audience remembers the middle of a speech least. The close has to be quotable, because that is the line they carry out of the room.",
-      "citation": "https://www.britannica.com/",
+      "reveal": "Grammatical person is numbered outwards from the speaker: first person is the speaker (I, we), second person the person addressed (you), and third person everyone else (he, she, it, they). The numbering is a convention, not a ranking.",
+      "citation": "https://en.wikipedia.org/wiki/Grammatical_person",
       "difficulty": "medium"
-    },
-    {
-      "category": "everyday",
-      "rule": "Tying a shoelace with the loop method",
-      "items": [
-        "cross the two laces",
-        "pass one lace under the other and pull tight",
-        "form a loop with each lace",
-        "cross the loops over each other",
-        "push one loop through the hole",
-        "pull both loops to tighten"
-      ],
-      "reveal": "The 'bunny ears' method works for children, but the same knot has a faster one-loop variant. A knot that comes undone is usually an imbalance knot — the starting cross is backwards.",
-      "citation": "https://www.britannica.com/",
-      "difficulty": "easy"
     },
     {
       "category": "everyday",
@@ -1054,58 +1061,32 @@
       "difficulty": "easy"
     },
     {
-      "category": "mixed",
-      "rule": "Units of digital storage, smallest to largest",
+      "category": "science",
+      "rule": "How a hurricane forms",
       "items": [
-        "bit",
-        "byte",
-        "kilobyte",
-        "megabyte",
-        "gigabyte",
-        "terabyte"
+        "warm ocean water evaporates",
+        "the moist air rises and cools",
+        "thunderstorms cluster and organise",
+        "a low-pressure centre forms",
+        "spiral bands wrap around the clear eye",
+        "landfall cuts off the energy source"
       ],
-      "reveal": "Eight bits to a byte. Storage is decimal (1,000) while memory is binary (1,024), which is why a '500 GB' drive shows up as roughly 465 GB in an operating system.",
-      "citation": "https://www.nist.gov/pml/owm/metric-si-prefixes",
-      "difficulty": "easy"
+      "reveal": "The fuel is warm surface water — that is why hurricanes weaken quickly over land, and why they cannot form within about 5° of the equator, where there is no Coriolis force to spin them up.",
+      "citation": "https://www.noaa.gov/",
+      "difficulty": "hard"
     },
     {
-      "category": "mixed",
-      "rule": "Periods of the Mesozoic Era, earliest to latest",
+      "category": "history",
+      "rule": "The fall of the Berlin Wall and reunification",
       "items": [
-        "Triassic",
-        "Jurassic",
-        "Cretaceous"
+        "reform begins in the Soviet Union",
+        "Hungary opens its border to the West (1989)",
+        "mass protests spread across East Germany",
+        "the Wall's crossings are opened (9 November 1989)",
+        "Germany is formally reunified (3 October 1990)"
       ],
-      "reveal": "Triassic, Jurassic, Cretaceous — the three periods that together make up the Mesozoic, ending 66 million years ago with the impact that ended the non-avian dinosaurs.",
-      "citation": "https://www.britannica.com/science/geologic-time",
-      "difficulty": "medium"
-    },
-    {
-      "category": "biology",
-      "rule": "Development of a honey bee",
-      "items": [
-        "egg",
-        "larva",
-        "pupa",
-        "adult bee"
-      ],
-      "reveal": "Complete metamorphosis. Whether the adult emerges as a worker or a queen is decided by diet: royal jelly throughout the larval stage produces a queen.",
+      "reveal": "The Wall fell because of a press conference: a spokesman misread a note about relaxed travel rules and said they took effect immediately, and tens of thousands went to the checkpoints that evening.",
       "citation": "https://www.britannica.com/",
-      "difficulty": "easy"
-    },
-    {
-      "category": "biology",
-      "rule": "One heartbeat through the heart's chambers",
-      "items": [
-        "deoxygenated blood enters the right atrium",
-        "it flows into the right ventricle",
-        "the right ventricle pumps it to the lungs",
-        "oxygenated blood returns to the left atrium",
-        "it flows into the left ventricle",
-        "the left ventricle pumps it out through the aorta"
-      ],
-      "reveal": "The left ventricle has a thicker wall than the right because it drives blood through the entire body rather than only to the lungs. Valves between the chambers stop any backflow.",
-      "citation": "https://www.nhlbi.nih.gov/health/heart",
       "difficulty": "medium"
     }
   ],
@@ -1445,7 +1426,7 @@
     },
     {
       "category": "geography",
-      "units": "km",
+      "units": "m",
       "prompt": "Depth of the Mariana Trench?",
       "answer": 11000,
       "reveal": "~11,000 m (11 km). If Mount Everest were placed at the bottom, its peak would still be 2 km underwater.",

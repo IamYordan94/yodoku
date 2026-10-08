@@ -95,7 +95,11 @@ export function isOrderleWin(fb: OrderleFeedback[]): boolean {
 export function initOrderleState(puzzle: OrderlePuzzle, seedIndex: number): OrderleState {
   const labels = [...puzzle.items];
   const items = puzzle.items.map((_, i) => i);
-  const answer = puzzle.reverse ? [...items].reverse() : [...items];
+  // `reverse` is retired: every ORDERLE_BANK item is authored in its correct
+  // forward order, so the accepted answer is always the list as written. The
+  // optional flag on the interface is kept only so older serialised data still
+  // type-checks -- nothing in the bank sets it, so no answer is silently inverted.
+  const answer = [...items];
   const maxAttempts = puzzle.items.length;
   const current = seededShuffle([...items], seedIndex * 7919 + 17);
   const optimal = orderleOptimalMoves(current, answer);

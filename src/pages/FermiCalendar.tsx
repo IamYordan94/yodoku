@@ -55,7 +55,7 @@ export default function FermiCalendar() {
       </div>
 
       <p className="text-sm font-bold" style={{ color: 'var(--fm-ink-soft)' }}>
-        Browse past puzzles. Puzzles cycle every 40 days with a new puzzle every day.
+        Browse past puzzles. Puzzles cycle every 62 days with a new puzzle every day.
       </p>
 
       <div className="flex flex-col gap-3">

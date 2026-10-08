@@ -59,8 +59,14 @@ export function formatNumber(x: number): string {
 }
 
 function trimNum(x: number): string {
-  const r = Math.round(x * 100) / 100;
-  return String(r);
+  // Values of 1 or more keep the existing two-decimal rounding.
+  if (Math.abs(x) >= 1) return String(Math.round(x * 100) / 100);
+  // Sub-1 values must keep significant digits instead of collapsing to "0"
+  // (e.g. the red-light wavelength 7e-7). Show up to 10 decimal places, then
+  // fall back to exponential notation for anything still smaller.
+  const fixed = Number(x.toFixed(10));
+  if (fixed !== 0) return String(fixed);
+  return x.toExponential();
 }
 
 export function fermiColor(guess: number, answer: number): 'green' | 'yellow' | 'orange' | 'red' {

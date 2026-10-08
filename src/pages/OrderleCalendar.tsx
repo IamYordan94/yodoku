@@ -57,7 +57,7 @@ export default function OrderleCalendar() {
       </div>
 
       <p className="text-sm font-bold" style={{ color: 'var(--ol-ink-soft)' }}>
-        Browse past puzzles. Puzzles cycle every 45 days with a new puzzle every day.
+        Browse past puzzles. Puzzles cycle every 74 days with a new puzzle every day.
       </p>
 
       <div className="flex flex-col gap-3">

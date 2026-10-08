@@ -315,9 +315,9 @@ export default function FermiPage() {
         <div className="mb-4" style={{ display: 'block' }}>
           <div className="flex justify-between items-center text-[10px] font-bold mb-1"
             style={{ color: 'var(--fm-ink-soft)', fontFamily: "'JetBrains Mono', monospace" }}>
-            <span>{formatNumber(Math.pow(10, lo))}</span>
+            <span>MIN · {formatNumber(Math.pow(10, lo))}{puzzle.units ? ' ' + puzzle.units : ''}</span>
             <span style={{ opacity: 0.85, letterSpacing: '0.12em' }}>GUESS RANGE · LOG SCALE</span>
-            <span>{formatNumber(Math.pow(10, hi))}</span>
+            <span>MAX · {formatNumber(Math.pow(10, hi))}{puzzle.units ? ' ' + puzzle.units : ''}</span>
           </div>
           <div style={{
             position: 'relative',
