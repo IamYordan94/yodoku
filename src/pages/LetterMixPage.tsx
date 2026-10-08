@@ -1,7 +1,6 @@
 import { useState, useEffect, useCallback, useMemo } from 'react';
 import { useParams, useNavigate, Link, useOutletContext } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { useWordDatabase } from '../hooks/useWordDatabase';
 import ShareCardModal from '../components/ShareCardModal';
 import ResumeBanner from '../components/ResumeBanner';
 import { getTodayDateStr } from '../utils/dailySeed';
@@ -171,7 +170,6 @@ export default function LetterMixPage() {
       ? (levelParam as (typeof LEVELS)[number])
       : 'easy';
 
-  const { isLoading: dbLoading, isValidWord, getWordsByLength } = useWordDatabase();
 
   const [commonLoading, setCommonLoading] = useState(true);
   useEffect(() => {
@@ -237,11 +235,11 @@ export default function LetterMixPage() {
     if (!selectedWord || selectedWord.length < 2) { setMessage({ text: 'Select at least 2 letters', type: 'error' }); return; }
     const accepted = puzzle
       ? isAcceptedGuess(selectedWord, {
-          isValidDictionaryWord: isValidWord,
+          isValidDictionaryWord: isCommonEnglishWord,
           isCommonWord: isCommonEnglishWord,
           solutionWords: puzzle.solutionWords,
         })
-      : isValidWord(selectedWord) || isCommonEnglishWord(selectedWord);
+      : isCommonEnglishWord(selectedWord);
     if (!accepted) { setMessage({ text: 'Not a word we recognize — try another.', type: 'error' }); return; }
     if (foundWords.includes(selectedWord)) { setMessage({ text: 'Already found', type: 'error' }); return; }
     setFoundWords(prev => [...prev, selectedWord]);
@@ -303,9 +301,9 @@ export default function LetterMixPage() {
       letters.join(''),
       foundWords,
       puzzle?.solutionWords ?? [],
-      (len) => [...getWordsByLength(len), ...getCommonEnglishWordsByLength(len)]
+      (len) => getCommonEnglishWordsByLength(len)
     );
-  }, [letters, puzzle, foundWords, isWon, getWordsByLength]);
+  }, [letters, puzzle, foundWords, isWon]);
 
   useEffect(() => { setResetHandler(() => handleReset); return () => setResetHandler(null); }, [setResetHandler, handleReset]);
 
@@ -359,7 +357,7 @@ export default function LetterMixPage() {
   };
 
   // ── Loading states ───────────────────────────────────────────────────────
-  if (dbLoading || !puzzleLoaded || commonLoading) {
+  if (!puzzleLoaded || commonLoading) {
     return (
       <div className="flex justify-center py-12">
         <div className="animate-pulse text-sm font-semibold" style={{ color: 'var(--lm-text-muted)' }}>Loading puzzle…</div>

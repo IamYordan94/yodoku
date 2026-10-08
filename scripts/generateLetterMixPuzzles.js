@@ -11,15 +11,18 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const LEVELS = ['easy', 'medium', 'hard'];
 
-const CONFIG = {
-  easy: { targetWords: 5, minLen: 3, maxLen: 5 },
-  medium: { targetWords: 7, minLen: 5, maxLen: 7 },
-  hard: { targetWords: 9, minLen: 7, maxLen: 8 }, // Changed maxLen from 9 to 8 (no 9-letter words available)
+// Bands eased 2026-10-08 (vocabulary audit, docs/vocab-audit/01-clear-the-string.md):
+// 5/7/9 words -> 4/5/6; the minLen 4 floor excludes the 3-letter abbreviation
+// class ('jai', 'mus', 'abc'); hard was 76.5 taps = 61s of pure typing minimum.
+export const CONFIG = {
+  easy: { targetWords: 4, minLen: 4, maxLen: 5 },
+  medium: { targetWords: 5, minLen: 5, maxLen: 6 },
+  hard: { targetWords: 6, minLen: 6, maxLen: 7 },
 };
 
-// Global word pool tracker - tracks used words across all puzzle generation
-// When exhausted, clears and starts over
-const usedWordsGlobal = new Set();
+// NOTE: the old module-level used-words set was removed 2026-10-08 - it made
+// generation order-dependent (the same date produced different words depending
+// on what had been generated before). Each generateOne call now owns a fresh set.
 
 // No longer needed - we just shuffle, don't verify formability
 
@@ -46,7 +49,7 @@ function shuffle(arr, rand) {
   return a;
 }
 
-export function pickWords(wordsByLen, config, rand) {
+export function pickWords(wordsByLen, config, rand, used = new Set()) {
   const words = [];
   const { targetWords, minLen, maxLen } = config;
 
@@ -54,28 +57,26 @@ export function pickWords(wordsByLen, config, rand) {
     const len = minLen + Math.floor(rand() * (maxLen - minLen + 1));
     const bucket = wordsByLen[String(len)];
     if (!bucket || bucket.length === 0) return null;
-    
-    // Try to find an unused word
-    let attempts = 0;
+
+    // Try to find an unused word. `used` is fresh per generateOne call, so the
+    // result for a (date, level) never depends on generation history.
     let w = null;
-    while (attempts < 100) {
+    for (let attempts = 0; attempts < 100; attempts++) {
       const candidate = bucket[Math.floor(rand() * bucket.length)];
-      if (!usedWordsGlobal.has(candidate)) {
+      if (!used.has(candidate)) {
         w = candidate;
-        usedWordsGlobal.add(candidate);
+        used.add(candidate);
         break;
       }
-      attempts++;
     }
-    
-    // If pool exhausted for this length, clear global pool and retry
+
+    // Extremely unlikely with the curated pool sizes - fall back to a repeat
+    // rather than failing the puzzle.
     if (!w) {
-      console.log(`Word pool exhausted at ${usedWordsGlobal.size} words, resetting...`);
-      usedWordsGlobal.clear();
       w = bucket[Math.floor(rand() * bucket.length)];
-      usedWordsGlobal.add(w);
+      used.add(w);
     }
-    
+
     words.push(w);
   }
 
@@ -85,8 +86,9 @@ export function pickWords(wordsByLen, config, rand) {
 export function generateOne(dateStr, level, wordsByLen) {
   const config = CONFIG[level];
   const rand = seedRandom(dateStr + '-' + level);
-  
-  const words = pickWords(wordsByLen, config, rand);
+
+  const used = new Set();
+  const words = pickWords(wordsByLen, config, rand, used);
   if (!words || words.length === 0) return null;
   
   // Concatenate and shuffle - no need to verify formability
@@ -143,10 +145,10 @@ function main() {
   //                                         generate only the dates that are missing
   //
   // Append is the ONLY safe way to extend this file. Regenerating the whole range
-  // looks deterministic but is not: word picks index into the CURRENT dictionary
-  // (public/data/words.json), and that file grows over time, so a full re-run can
-  // silently rewrite history. The generator's own puzzles are therefore treated as
-  // immutable once published.
+  // looks deterministic but is not: word picks index into the CURRENT curated pool
+  // (public/words-cbo.json), and that pool gets rebuilt (pruning, rebuilds), so a
+  // full re-run can silently rewrite history. Published puzzles are treated as
+  // immutable; quality rebalances go through scripts/rebalance-lettermix.mjs.
   const argv = process.argv.slice(2);
   const getArg = (n, dflt) => {
     const hit = argv.find((a) => a.startsWith(`--${n}=`));

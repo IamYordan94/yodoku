@@ -22,7 +22,7 @@
 import fs from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
-import { generateOne, loadPools } from './generateLetterMixPuzzles.js';
+import { generateOne, loadPools, CONFIG } from './generateLetterMixPuzzles.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const FILE = join(__dirname, '..', 'public', 'data', 'lettermix-puzzles.json');
@@ -30,7 +30,11 @@ const FROM = (process.argv.find((a) => a.startsWith('--from='))?.slice(7))
   || new Date().toISOString().slice(0, 10);
 const APPLY = process.argv.includes('--apply');
 
-const BANDS = { easy: [5, 3, 5], medium: [7, 5, 7], hard: [9, 7, 8] };
+// Single source of truth: the generator's CONFIG (the previous hand-copied
+// BANDS could silently drift from the generator - audit finding).
+const BANDS = Object.fromEntries(
+  Object.entries(CONFIG).map(([level, c]) => [level, [c.targetWords, c.minLen, c.maxLen]])
+);
 
 const puzzles = JSON.parse(fs.readFileSync(FILE, 'utf-8'));
 const pools = loadPools();
