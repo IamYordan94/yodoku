@@ -10,6 +10,7 @@ import {
   isPlusActive,
 } from '../utils/monetization';
 import { requestMagicLink, getSessionEmail } from '../utils/account';
+import { syncEntitlement } from '../utils/entitlement';
 import { isNativeApp } from '../utils/platform';
 
 const mono = "'JetBrains Mono', ui-monospace, monospace";
@@ -41,14 +42,27 @@ function Perk({ children, accent }: { children: ReactNode; accent?: boolean }) {
 }
 
 export default function PlusPage() {
-  const plusActive = isPlusActive();
+  const [plusActive, setPlusActive] = useState(isPlusActive);
   const [email, setEmail] = useState('');
   const [mode, setMode] = useState<'idle' | 'sending' | 'sent' | 'error'>('idle');
   const [errMsg, setErrMsg] = useState('');
   const [sessionEmail, setSessionEmail] = useState<string | null>(null);
 
+  // Signing in is not enough: ask the server whether this email has a live
+  // entitlement, then re-read the local answer so the page reflects it.
   useEffect(() => {
-    void getSessionEmail().then(setSessionEmail);
+    let cancelled = false;
+    void (async () => {
+      const signedIn = await getSessionEmail();
+      if (cancelled) return;
+      setSessionEmail(signedIn);
+      if (!signedIn) return;
+      await syncEntitlement(true);
+      if (!cancelled) setPlusActive(isPlusActive());
+    })();
+    return () => {
+      cancelled = true;
+    };
   }, []);
 
   async function onSubmit(e: FormEvent) {

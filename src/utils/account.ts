@@ -5,7 +5,7 @@
 import { accountConfigured, SUPABASE_URL, SUPABASE_ANON_KEY } from './monetization';
 import { isNativeApp } from './platform';
 
-type SupaSession = { user?: { email?: string | null } } | null;
+type SupaSession = { user?: { email?: string | null }; access_token?: string } | null;
 
 type SupaClient = {
   auth: {
@@ -69,6 +69,21 @@ export async function getSessionEmail(): Promise<string | null> {
   try {
     const { data } = await client.auth.getSession();
     return data.session?.user?.email ?? null;
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * The signed-in user's Supabase access token, for calling our own API routes
+ * (/api/entitlement). null when there is no account setup or no session.
+ */
+export async function getAccessToken(): Promise<string | null> {
+  const client = await getClient();
+  if (!client) return null;
+  try {
+    const { data } = await client.auth.getSession();
+    return data.session?.access_token ?? null;
   } catch {
     return null;
   }

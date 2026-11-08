@@ -13,6 +13,7 @@ import { ToastHost } from './components/Toast';
 import { isNativeApp } from './utils/platform';
 import { App as CapApp } from '@capacitor/app';
 import { handleAuthCallback } from './utils/account';
+import { syncEntitlement } from './utils/entitlement';
 
 // Lazy-loaded game pages for code splitting
 const LetterMixHome = lazy(() => import('./pages/LetterMixHome'));
@@ -125,6 +126,16 @@ function NativeDeepLinks() {
   return null;
 }
 
+// Keeps the browser's idea of "is this person a Yodoku+ subscriber" in sync with
+// the Supabase entitlements the Lemon Squeezy webhook writes. Cheap: one cached
+// call, and only for a visitor who actually has a session.
+function EntitlementSync() {
+  useEffect(() => {
+    void syncEntitlement();
+  }, []);
+  return null;
+}
+
 function App() {
   return (
     <ErrorBoundary>
@@ -133,6 +144,7 @@ function App() {
       <RouteTitle />
       <ExternalLinks />
       <NativeDeepLinks />
+      <EntitlementSync />
       <NativeShell />
       <ToastHost />
       <Suspense fallback={<LoadingSkeleton />}>

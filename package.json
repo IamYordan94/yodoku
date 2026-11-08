@@ -10,7 +10,7 @@
     "serve:dist": "node scripts/serve-dist.mjs",
     "lint": "eslint .",
     "preview": "vite preview",
-    "test": "node scripts/test-quiz-logic.mjs && node scripts/test-ad-guard.mjs && node scripts/test-lettermix-logic.mjs && node scripts/validate-cbo.mjs",
+    "test": "node scripts/test-quiz-logic.mjs && node scripts/test-ad-guard.mjs && node scripts/test-lettermix-logic.mjs && node scripts/validate-cbo.mjs && node scripts/test-entitlement.mjs",
     "test:cbo": "node scripts/validate-cbo.mjs",
     "test:lettermix": "node scripts/test-lettermix-logic.mjs",
     "cbo:words": "node scripts/build-cbo-words.mjs",
