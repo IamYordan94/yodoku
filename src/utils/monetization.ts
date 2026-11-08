@@ -30,6 +30,20 @@ export function accountConfigured(): boolean {
 
 const PLUS_KEY = 'yodoku_plus_local'; // temporary until real entitlements land
 
+/**
+ * Persist the Yodoku+ answer that /api/entitlement returned.
+ * Written by utils/entitlement.ts after a signed-in entitlement check, read by
+ * isPlusActive() and by the ad guard (utils/adFree.ts).
+ */
+export function setPlusState(active: boolean): void {
+  try {
+    localStorage.setItem(PLUS_KEY, active ? '1' : '0');
+  } catch {
+    /* storage unavailable — the check simply runs again next visit */
+  }
+}
+
+
 function urlOverride(): boolean {
   try {
     return new URL(window.location.href).searchParams.get('plus') === '1';
